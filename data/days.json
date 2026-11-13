@@ -1,0 +1,443 @@
+[
+  {
+    "date": "2027-03-13",
+    "title": "Прилетаем!",
+    "emoji": "✈️",
+    "mood": "travel",
+    "doorTeaser": "Первый в жизни перелёт Дары — и сразу океан",
+    "steps": [
+      {
+        "time": "10:00",
+        "title": "Вылет из Ташкента, Centrum Air",
+        "kind": "move"
+      },
+      {
+        "time": "16:35",
+        "title": "Прилёт в Маттала, обмен денег, ETA",
+        "kind": "move",
+        "placeId": "mattala"
+      },
+      {
+        "time": "17:15",
+        "title": "Групповой трансфер в отель",
+        "kind": "move",
+        "transport": "transfer",
+        "durationMin": 90,
+        "placeId": "hotel"
+      },
+      {
+        "time": "19:00",
+        "title": "Заселение, бассейн",
+        "kind": "rest",
+        "placeId": "hotel"
+      },
+      {
+        "time": "20:00",
+        "title": "Ужин рядом с отелем",
+        "kind": "food",
+        "placeId": "dewmini"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-14",
+    "title": "Мирисса пешком",
+    "emoji": "🌴",
+    "mood": "easy",
+    "doorTeaser": "Черепахи в 8 утра и закат на пальмовом холме",
+    "steps": [
+      {
+        "time": "07:30",
+        "title": "Черепахи у Coconut Tree Hill",
+        "kind": "activity",
+        "placeId": "turtle-beach",
+        "transport": "walk"
+      },
+      {
+        "time": "10:00",
+        "title": "Завтрак в Shady Lane",
+        "kind": "food",
+        "placeId": "shady-lane"
+      },
+      {
+        "time": "11:00",
+        "title": "Написать: лагуна, крокодилы, змеиная ферма, массаж",
+        "kind": "book"
+      },
+      {
+        "time": "12:00",
+        "title": "Отдых, бассейн",
+        "kind": "rest",
+        "placeId": "hotel"
+      },
+      {
+        "time": "16:30",
+        "title": "Бухты Мириссы, купание у вышки спасателей",
+        "kind": "activity",
+        "placeId": "mirissa-bays"
+      },
+      {
+        "time": "18:00",
+        "title": "Закат на Coconut Tree Hill",
+        "kind": "activity",
+        "placeId": "mirissa-bays"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-15",
+    "title": "Черепахи и лагуна",
+    "emoji": "🐢",
+    "mood": "active",
+    "doorTeaser": "Плаваем с черепахами, вечером — тысячи летучих лисиц",
+    "steps": [
+      {
+        "time": "08:00",
+        "title": "Таларамба с инструктором",
+        "kind": "activity",
+        "placeId": "thalaramba",
+        "transport": "tuktuk",
+        "durationMin": 150
+      },
+      {
+        "time": "12:00",
+        "title": "Обед и отдых",
+        "kind": "food"
+      },
+      {
+        "time": "16:30",
+        "title": "Катамаран по лагуне на закате",
+        "kind": "activity",
+        "placeId": "lagoon",
+        "transport": "operator_pickup",
+        "durationMin": 150
+      },
+      {
+        "time": "20:00",
+        "title": "Подтвердить Ачи выезд на завтра в 5:00",
+        "kind": "book"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-16",
+    "title": "Синхараджа — день зверей",
+    "emoji": "🦎",
+    "mood": "active",
+    "doorTeaser": "Тропический лес, змеи, лангуры и рыбный филин",
+    "backupNote": "Ливень → переносим на Пн 22.03",
+    "steps": [
+      {
+        "time": "05:00",
+        "title": "Выезд на машине с водителем",
+        "kind": "move",
+        "transport": "car_day",
+        "placeId": "sinharaja"
+      },
+      {
+        "time": "07:30",
+        "title": "Лес с гидом Ачи",
+        "kind": "activity",
+        "placeId": "sinharaja",
+        "durationMin": 360
+      },
+      {
+        "time": "17:00",
+        "title": "Возвращение, бассейн",
+        "kind": "rest",
+        "placeId": "hotel"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-17",
+    "title": "Лёгкий день: море и массаж",
+    "emoji": "💆",
+    "mood": "rest",
+    "doorTeaser": "Спокойный пляж и массаж после леса",
+    "steps": [
+      {
+        "time": "08:30",
+        "title": "Полхена — черепахи в лагуне",
+        "kind": "activity",
+        "placeId": "polhena",
+        "transport": "tuktuk"
+      },
+      {
+        "time": "13:00",
+        "title": "Обед",
+        "kind": "food"
+      },
+      {
+        "time": "15:00",
+        "title": "Массаж",
+        "kind": "activity",
+        "placeId": "massage"
+      },
+      {
+        "time": "19:00",
+        "title": "Подтвердить машину на Удавалаве (8:30)",
+        "kind": "book"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-18",
+    "title": "Удавалаве: слоны",
+    "emoji": "🐘",
+    "mood": "active",
+    "doorTeaser": "Слонята в полдень и сотни слонов на закате",
+    "steps": [
+      {
+        "time": "08:30",
+        "title": "Выезд, дорога ~3 часа",
+        "kind": "move",
+        "transport": "car_day",
+        "placeId": "udawalawe"
+      },
+      {
+        "time": "12:00",
+        "title": "Кормление слонят",
+        "kind": "activity",
+        "placeId": "elephant-transit-home"
+      },
+      {
+        "time": "13:00",
+        "title": "Обед",
+        "kind": "food"
+      },
+      {
+        "time": "14:00",
+        "title": "Джип-сафари",
+        "kind": "activity",
+        "placeId": "udawalawe",
+        "durationMin": 240
+      },
+      {
+        "time": "20:30",
+        "title": "В отеле",
+        "kind": "rest",
+        "placeId": "hotel"
+      },
+      {
+        "time": "20:45",
+        "title": "Заказать машину на завтра по югу",
+        "kind": "book"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-19",
+    "title": "Юг за один день",
+    "emoji": "🏰",
+    "mood": "active",
+    "doorTeaser": "Котики и собаки, белый чай, форт и дикобразы",
+    "steps": [
+      {
+        "time": "09:30",
+        "title": "Выезд, машина на весь день",
+        "kind": "move",
+        "transport": "car_day"
+      },
+      {
+        "time": "10:30",
+        "title": "Animal SOS — гладим собак и кошек",
+        "kind": "activity",
+        "placeId": "animal-sos",
+        "durationMin": 60
+      },
+      {
+        "time": "12:00",
+        "title": "Белый чай",
+        "kind": "activity",
+        "placeId": "handunugoda"
+      },
+      {
+        "time": "13:30",
+        "title": "Музей в Коггале",
+        "kind": "activity",
+        "placeId": "koggala-museum"
+      },
+      {
+        "time": "15:00",
+        "title": "Обед и форт Галле до заката",
+        "kind": "activity",
+        "placeId": "galle-fort"
+      },
+      {
+        "time": "20:00",
+        "title": "Ужин и дикобразы",
+        "kind": "food",
+        "placeId": "lemongrass"
+      },
+      {
+        "time": "21:30",
+        "title": "Домой",
+        "kind": "move",
+        "transport": "car_day",
+        "placeId": "hotel"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-20",
+    "title": "Крокодилы на рассвете",
+    "emoji": "🐊",
+    "mood": "active",
+    "doorTeaser": "Дикие крокодилы до 6 метров — с лодки",
+    "steps": [
+      {
+        "time": "05:45",
+        "title": "Выезд в Матару",
+        "kind": "move",
+        "transport": "car_halfday",
+        "placeId": "crocodiles"
+      },
+      {
+        "time": "06:30",
+        "title": "Лодка по реке Нилвала",
+        "kind": "activity",
+        "placeId": "crocodiles",
+        "durationMin": 150
+      },
+      {
+        "time": "09:30",
+        "title": "Маяк Дондра (по желанию)",
+        "kind": "activity",
+        "placeId": "dondra"
+      },
+      {
+        "time": "11:00",
+        "title": "Отдых, бассейн",
+        "kind": "rest",
+        "placeId": "hotel"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-21",
+    "title": "Пойя — день полнолуния",
+    "emoji": "🌕",
+    "mood": "rest",
+    "doorTeaser": "Тихий день: океан, бассейн и светлячки",
+    "backupNote": "Пойя: алкоголь и мясо не продают",
+    "steps": [
+      {
+        "time": "09:00",
+        "title": "Пляж",
+        "kind": "rest",
+        "placeId": "mirissa-bays"
+      },
+      {
+        "time": "13:00",
+        "title": "Обед",
+        "kind": "food"
+      },
+      {
+        "time": "19:00",
+        "title": "Светлячки (если есть)",
+        "kind": "activity",
+        "placeId": "fireflies",
+        "transport": "tuktuk_wait"
+      },
+      {
+        "time": "21:00",
+        "title": "Заказать машину на полдня к лисицам",
+        "kind": "book"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-22",
+    "title": "Змеи и летучие лисицы",
+    "emoji": "🐍",
+    "mood": "active",
+    "doorTeaser": "Держим питона и встречаем закат с лисицами",
+    "backupNote": "Если Синхараджа переносится — сегодня лес, а змеи на 23.03",
+    "steps": [
+      {
+        "time": "08:30",
+        "title": "Змеиная ферма Traditional Farm",
+        "kind": "activity",
+        "placeId": "snake-farm",
+        "transport": "tuktuk_wait"
+      },
+      {
+        "time": "12:00",
+        "title": "Обед, отдых",
+        "kind": "food"
+      },
+      {
+        "time": "14:30",
+        "title": "Mulkirigala и летучие лисицы",
+        "kind": "activity",
+        "placeId": "flying-foxes",
+        "transport": "car_halfday"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-23",
+    "title": "Прощальный вечер",
+    "emoji": "🌅",
+    "mood": "easy",
+    "doorTeaser": "Лодка на закате и ужин в джунглях",
+    "steps": [
+      {
+        "time": "09:00",
+        "title": "Завтрак в Shady Lane",
+        "kind": "food",
+        "placeId": "shady-lane"
+      },
+      {
+        "time": "10:30",
+        "title": "Сувениры: чай, специи",
+        "kind": "activity"
+      },
+      {
+        "time": "12:00",
+        "title": "Последнее купание",
+        "kind": "rest",
+        "placeId": "mirissa-bays"
+      },
+      {
+        "time": "17:00",
+        "title": "Лодка + ужин в Quinta",
+        "kind": "food",
+        "placeId": "quinta"
+      },
+      {
+        "time": "21:00",
+        "title": "Подтвердить трансфер на 24.03",
+        "kind": "book"
+      }
+    ]
+  },
+  {
+    "date": "2027-03-24",
+    "title": "Домой",
+    "emoji": "🏠",
+    "mood": "travel",
+    "doorTeaser": "Итоги поездки: сколько мест, сколько черепах",
+    "steps": [
+      {
+        "time": "10:00",
+        "title": "Завтрак, сборы, выселение",
+        "kind": "rest",
+        "placeId": "hotel"
+      },
+      {
+        "time": "14:00",
+        "title": "Трансфер в аэропорт",
+        "kind": "move",
+        "transport": "transfer",
+        "placeId": "mattala"
+      },
+      {
+        "time": "18:45",
+        "title": "Вылет в Ташкент (прилёт 00:30)",
+        "kind": "move"
+      }
+    ]
+  }
+]

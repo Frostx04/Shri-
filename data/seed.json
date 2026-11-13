@@ -1,0 +1,3514 @@
+{
+  "_note": "Стартовые данные. Координаты с coordsVerified=false — приблизительные, проверить скриптом geocode. Первоисточник — source/plan.txt.",
+  "info": {
+    "trip": {
+      "start": "2027-03-13",
+      "end": "2027-03-24",
+      "travelers": [
+        "Никита",
+        "Дара"
+      ],
+      "cashUsd": 2000,
+      "lkrPerUsd": 330,
+      "timezone": "Asia/Colombo",
+      "flights": [
+        "13.03 Ташкент → Маттала 10:00–16:35, Centrum Air",
+        "24.03 Маттала → Ташкент 18:45–00:30(+1)"
+      ],
+      "specialDays": [
+        {
+          "date": "2027-03-21",
+          "note": "Пойя (полнолуние): алкоголь и мясо не продают"
+        }
+      ]
+    },
+    "rules": [
+      "Заказываем всё сами через WhatsApp, не звонить",
+      "Предоплату не отправлять — платить наличными после услуги",
+      "Такси: PickMe и Uber; тук-тук ~500 ₨ за 3 км; цену договаривать до поездки",
+      "Если тукер из PickMe звонит и поднимает цену — отменять",
+      "На рассвет и ночью машину заказывать с вечера через ресепшн"
+    ],
+    "safety": [
+      "Океан — главная опасность: купаться напротив вышки спасателей, красный флаг — не заходить",
+      "Уличных собак и кошек не гладить: укус/царапина → в тот же день уколы от бешенства",
+      "Температура — не пить ибупрофен и аспирин до исключения денге",
+      "Обезьяны воруют еду с балконов",
+      "Скорпионы в обуви после дождя — вытряхивать",
+      "Не лежать на голом песке",
+      "ETA: сохранить письмо и скрин",
+      "Ввоз сигарет запрещён"
+    ],
+    "dontGo": [
+      "Киты на больших катерах",
+      "Пиннавела, Ридиягама, катание на слонах",
+      "Черепашьи фермы (Коггала и др.)",
+      "Удав и кобры в Галле-форте",
+      "Обезьянка для фото в Унаватуне",
+      "«Посмотреть слона» от тук-тукера",
+      "Слон у храма Wewurukannala",
+      "Сады специй на речных сафари",
+      "Змеиная ферма Thelijjawila",
+      "Птичий парк в Хамбантоте",
+      "Яла (пробки из джипов)",
+      "Рекава"
+    ],
+    "blacklist": [
+      {
+        "phone": "+94772044051",
+        "why": "«Гид» Суду: взял деньги и бросил"
+      },
+      {
+        "phone": "+94762686440",
+        "why": "Турфирма: автобус битком в 5 утра"
+      },
+      {
+        "phone": "+94713184733",
+        "why": "Прокат: залог через полицию"
+      },
+      {
+        "phone": "+94740256171",
+        "why": "Nuwan Dadallage: не возвращает залог $300"
+      }
+    ],
+    "emergency": [
+      {
+        "name": "Полиция",
+        "phone": "119",
+        "note": "не проверен"
+      },
+      {
+        "name": "Скорая Suwa Seriya",
+        "phone": "1990",
+        "note": "бесплатно, не проверен"
+      },
+      {
+        "name": "Туристическая полиция",
+        "phone": "+94711723008",
+        "note": "из чата 2024"
+      },
+      {
+        "name": "IMC Mirissa 24/7",
+        "phone": "+94742430000",
+        "note": "4 мин от отеля"
+      }
+    ],
+    "links": {
+      "cars": "https://t.me/Shri_Lanka_Tranfer",
+      "reviews": "https://t.me/Sri_Lanka_Otzyvy",
+      "exchange": "https://t.me/Obmen_Valut_Sri_Lanka"
+    }
+  },
+  "places": [
+    {
+      "id": "hotel",
+      "name": "Наш отель — Aura by Epic Collection",
+      "nameLocal": "Aura by Epic Collection Mirissa",
+      "category": "hotel",
+      "tier": "top",
+      "emoji": "🏨",
+      "coords": [
+        5.94839,
+        80.45868
+      ],
+      "coordsVerified": true,
+      "gmapsQuery": "Aura by Epic Collection, Yatipila Road, Mirissa",
+      "why": [
+        "База на всю поездку: бассейн, кондиционер, завтраки"
+      ],
+      "howToGet": "Yatipila Road, Мирисса. До главного пляжа ~540 м, 5 минут пешком.",
+      "transport": "walk",
+      "whatToDo": [
+        "Бассейн каждый день",
+        "Ресепшн заказывает машину на день и тук-тук на вечер"
+      ],
+      "whenToCome": "Всегда",
+      "bring": [],
+      "pitfalls": [
+        "Такси в приложениях вызывать, отойдя на 50–100 м от отеля",
+        "Балкон закрывать — обезьяны тащат еду"
+      ],
+      "contacts": [],
+      "photos": [],
+      "sources": "Бронь тура",
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "mattala",
+      "name": "Аэропорт Маттала",
+      "nameLocal": "Mattala Rajapaksa International Airport",
+      "category": "airport",
+      "tier": "good",
+      "emoji": "✈️",
+      "coords": [
+        6.2845,
+        81.124
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Mattala Rajapaksa International Airport, Sri Lanka",
+      "why": [
+        "Прилёт 13.03 в 16:35, вылет 24.03 в 18:45"
+      ],
+      "howToGet": "Групповой трансфер туроператора аэропорт ↔ отель (входит в тур).",
+      "transport": "transfer",
+      "whatToDo": [
+        "Обменник сразу справа после паспортного контроля (02.11.2026 курс 329,75)",
+        "Показать ETA — письмо и скрин"
+      ],
+      "whenToCome": "Прилёт 16:35",
+      "bring": [],
+      "pitfalls": [
+        "Перед вылетом не пить: пару не пустили на рейс из-за запаха алкоголя (09.2026)",
+        "Ввоз сигарет запрещён"
+      ],
+      "contacts": [],
+      "photos": [],
+      "sources": "Бронь тура; общий чат 2026",
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "mirissa-bays",
+      "name": "Бухты Мириссы и Coconut Tree Hill",
+      "nameLocal": "Coconut Tree Hill Mirissa",
+      "category": "beach",
+      "tier": "top",
+      "emoji": "🌴",
+      "coords": [
+        5.9407,
+        80.4699
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Coconut Tree Hill Mirissa, Sri Lanka",
+      "why": [
+        "Скала Parrot Rock, бухты между ней и Coconut Tree Hill",
+        "Закат на Coconut Tree Hill",
+        "Вараны, павлины, обезьяны прямо в посёлке",
+        "У вышки спасателей — табличка с датами выпуска черепашат (17:30–18:00)"
+      ],
+      "howToGet": "От отеля до главного пляжа ~540 м (5 мин). Лицом к океану — налево по пляжу до Coconut Tree Hill.",
+      "transport": "walk",
+      "whatToDo": [
+        "Купаться напротив вышки спасателей или в бухтах",
+        "Закат на холме с пальмами"
+      ],
+      "whenToCome": "Любой день; на закат выйти за час, вернуться до темноты",
+      "bring": [
+        "Шлёпанцы",
+        "Аквашузы",
+        "SPF 50",
+        "Вода",
+        "Водонепроницаемый чехол"
+      ],
+      "pitfalls": [
+        "Опасные течения левее Parrot Rock и напротив кафе Our World",
+        "Красный флаг — в воду не заходить",
+        "Воруют вещи на песке",
+        "Не лежать на голом песке (кожная личинка)"
+      ],
+      "contacts": [],
+      "photos": [],
+      "sources": "Общий чат и чат Мириссы 2023–2026",
+      "costLkr": [
+        0,
+        0
+      ],
+      "travelTimeMin": 5,
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "turtle-beach",
+      "name": "Turtle Beach и Secret Beach",
+      "nameLocal": "Turtle Beach Mirissa",
+      "category": "animals",
+      "tier": "top",
+      "emoji": "🐢",
+      "coords": [
+        5.9418,
+        80.4672
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Turtle Beach Mirissa, Sri Lanka",
+      "why": [
+        "Черепахи у берега утром («застали в 8 утра», 20.03.2025)",
+        "Secret Beach — природные «лягушатники» без волн, рыбки"
+      ],
+      "howToGet": "Пешком: к главному пляжу и налево вдоль берега к Coconut Tree Hill. Secret Beach — по другую сторону мыса, пешком или тук-тук.",
+      "transport": "walk",
+      "whatToDo": [
+        "Смотреть черепах в воде с маской",
+        "Поплавать в лягушатниках Secret Beach"
+      ],
+      "whenToCome": "К 8:00 утра",
+      "bring": [
+        "Маска",
+        "Аквашузы",
+        "SPF"
+      ],
+      "pitfalls": [
+        "Черепах не трогать, не кормить, не тащить для фото",
+        "На Secret Beach ежи на камнях — только в аквашузах"
+      ],
+      "contacts": [],
+      "photos": [],
+      "sources": "Общий чат 2024–2026",
+      "costLkr": [
+        0,
+        0
+      ],
+      "costNote": "Маску можно взять в прокате на пляже",
+      "travelTimeMin": 10,
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "thalaramba",
+      "name": "Таларамба: черепахи и риф",
+      "nameLocal": "Thalaramba Beach",
+      "category": "animals",
+      "tier": "top",
+      "emoji": "🤿",
+      "coords": [
+        5.953,
+        80.444
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Thalaramba Beach, Sri Lanka",
+      "why": [
+        "Морские черепахи и риф, плавать с маской с инструктором"
+      ],
+      "howToGet": "Тук-тук 5–7 минут (~400 ₨). Ориентир — Eat Out Restaurant; напротив продавец кокосов, на пляж через его двор. Обратно — тук-тук с дороги или PickMe.",
+      "transport": "tuktuk",
+      "whatToDo": [
+        "Плавание с инструктором к черепахам (маска и ласты включены)"
+      ],
+      "whenToCome": "Утром, до жары",
+      "bring": [
+        "Купальник",
+        "Шлёпанцы",
+        "SPF",
+        "Вода",
+        "Наличные"
+      ],
+      "pitfalls": [
+        "Черепах не трогать и не гнаться",
+        "Далеко не заплывать — течения"
+      ],
+      "contacts": [],
+      "photos": [],
+      "sources": "Общий чат 01.2026; чат Мириссы 02.2026",
+      "costLkr": [
+        6800,
+        7600
+      ],
+      "costNote": "Тук-тук ~400 ₨ в одну сторону, инструктор ~3000 ₨ с человека",
+      "travelTimeMin": 7,
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "lagoon",
+      "name": "Лагуна Гарандува: катамаран на закате",
+      "nameLocal": "Mirissa Eco Lagoon Safari",
+      "category": "nature",
+      "tier": "top",
+      "emoji": "🛶",
+      "coords": [
+        5.956,
+        80.48
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Mirissa Eco Lagoon Safari, Sri Lanka",
+      "why": [
+        "Мангровые протоки, птицы, закат",
+        "Около 18:20 вылет летучих лисиц — 10 минут сплошным потоком",
+        "Вараны до 2 м",
+        "Чай и блинчики на борту"
+      ],
+      "howToGet": "Оператор забирает из отеля, если подтвердил в WhatsApp («Pickup from the hotel included?»). Иначе тук-тук до точки встречи и обратно PickMe.",
+      "transport": "operator_pickup",
+      "whatToDo": [
+        "Катамаран по озеру и протокам",
+        "Смотреть вылет лисиц"
+      ],
+      "whenToCome": "Старт 16:30",
+      "bring": [
+        "Лёгкая кофта",
+        "Репеллент",
+        "Вода"
+      ],
+      "pitfalls": [
+        "Без подтверждения пикапа никто не приедет",
+        "Предоплату не отправлять"
+      ],
+      "contacts": [
+        {
+          "kind": "whatsapp",
+          "value": "+94779169058",
+          "label": "Mirissa Eco Lagoon Safari"
+        }
+      ],
+      "photos": [],
+      "sources": "Чат Мириссы 01.2025; TripAdvisor",
+      "costUsd": [
+        50,
+        50
+      ],
+      "costNote": "~$50 на двоих. Альтернатива: каноэ самим в Aaryan Eco Lagoon Safari — 3000 ₨ на двоих",
+      "bookAhead": {
+        "daysBefore": 1,
+        "note": "Написать 14.03, можно раньше из дома"
+      },
+      "messageTemplateId": "lagoon",
+      "rating": {
+        "source": "TripAdvisor",
+        "value": 4.9,
+        "count": 174
+      },
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "fireflies",
+      "name": "Светлячки в Кумбалгаме",
+      "nameLocal": "Kumbalgama Weligama",
+      "category": "nature",
+      "tier": "optional",
+      "emoji": "✨",
+      "coords": [
+        5.97,
+        80.43
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Kumbalgama Weligama, Sri Lanka",
+      "why": [
+        "«Светлячки со всех сторон, как в тоннеле из деревьев» (20.10.2023)"
+      ],
+      "howToGet": "Тук-тук с ожиданием туда-обратно (заказать на ресепшне), там пешком по дороге между деревьями.",
+      "transport": "tuktuk_wait",
+      "whatToDo": [
+        "Ночная прогулка"
+      ],
+      "whenToCome": "После заката, лучше после дождя",
+      "bring": [
+        "Фонарик",
+        "Репеллент",
+        "Закрытая обувь"
+      ],
+      "pitfalls": [
+        "Инфа одна и старая (2023) — спросить на ресепшне, есть ли сейчас светлячки",
+        "Ночью змеи и скорпионы"
+      ],
+      "contacts": [],
+      "photos": [],
+      "sources": "Общий чат 20.10.2023",
+      "costNote": "Только тук-тук, цену договорить заранее",
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "sinharaja",
+      "name": "Синхараджа: тропический лес",
+      "nameLocal": "Sinharaja Forest Reserve Pitadeniya Entrance",
+      "category": "nature",
+      "tier": "top",
+      "emoji": "🦎",
+      "coords": [
+        6.3925,
+        80.5947
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Sinharaja Forest Reserve Pitadeniya Entrance, Sri Lanka",
+      "why": [
+        "Главный день для зверей: зелёные куфии, ящерицы, рыбный филин, лангуры (вкл. белого), райская мухоловка"
+      ],
+      "howToGet": "Мирисса → вход Pitadeniya/Kurulugala (сторона Дениаи). Выезд ~5:00, в лесу с 7:30, обратно ~17:00.",
+      "transport": "car_day",
+      "whatToDo": [
+        "Частный тур с гидом Ачи",
+        "Попросить искать змей, ящериц, лягушек, хамелеонов"
+      ],
+      "whenToCome": "В лес к 7:30",
+      "bring": [
+        "Закрытая обувь",
+        "Брюки",
+        "Длинный рукав",
+        "Дождевик",
+        "Вода",
+        "Репеллент"
+      ],
+      "pitfalls": [
+        "НЕ шлёпанцы и НЕ шорты",
+        "Ливень → переносим на 22.03, спросить у Ачи заранее",
+        "Животных руками не трогать"
+      ],
+      "contacts": [
+        {
+          "kind": "whatsapp",
+          "value": "+94767908897",
+          "label": "Гид Ачи (Nature Trails)"
+        },
+        {
+          "kind": "email",
+          "value": "info@naturetrails.lk"
+        },
+        {
+          "kind": "site",
+          "value": "https://naturetrails.lk"
+        }
+      ],
+      "photos": [],
+      "sources": "TripAdvisor; общий чат 11.2025",
+      "costUsd": [
+        180,
+        220
+      ],
+      "costNote": "Гид от $50 с человека, вход ~$15 с гидом, носки от пиявок ~$3, + машина на день",
+      "bookAhead": {
+        "daysBefore": 21,
+        "note": "Написать ~20.02; нет ответа 5 дней — повторить. Вечером 15.03 подтвердить выезд"
+      },
+      "messageTemplateId": "sinharaja",
+      "travelTimeMin": 150,
+      "rating": {
+        "source": "TripAdvisor",
+        "value": 4.9,
+        "count": 30
+      },
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "polhena",
+      "name": "Пляж Полхена",
+      "nameLocal": "Polhena Beach Matara",
+      "category": "beach",
+      "tier": "optional",
+      "emoji": "🐢",
+      "coords": [
+        5.938,
+        80.525
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Polhena Beach Matara, Sri Lanka",
+      "why": [
+        "Спокойный пляж за рифом, черепахи в воде"
+      ],
+      "howToGet": "Тук-тук от отеля.",
+      "transport": "tuktuk",
+      "whatToDo": [
+        "Плавать с маской в лагуне за рифом"
+      ],
+      "whenToCome": "Утром",
+      "bring": [
+        "Маска",
+        "Аквашузы",
+        "SPF"
+      ],
+      "pitfalls": [
+        "Черепах не кормить и не трогать"
+      ],
+      "contacts": [],
+      "photos": [],
+      "sources": "Чаты 2024–2026",
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "udawalawe",
+      "name": "Удавалаве: слонята и сафари",
+      "nameLocal": "Udawalawe National Park",
+      "category": "animals",
+      "tier": "top",
+      "emoji": "🐘",
+      "coords": [
+        6.438,
+        80.888
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Udawalawe National Park, Sri Lanka",
+      "why": [
+        "12:00 кормление слонят в Elephant Transit Home (без цепей, их выпускают в дикую природу)",
+        "Джип 14:00–18:00: сотни слонов, крокодилы, павлины, мангусты, буйволы, олени",
+        "«Лучше Ялы» — 91 хороший отзыв против 12"
+      ],
+      "howToGet": "Выезд 8:30, дорога ~3 часа. Слонята 12:00 → обед → джип 14:00–18:00 → в отеле ~20:30. Джип и вход на кассе у ворот.",
+      "transport": "car_day",
+      "whatToDo": [
+        "Кормление слонят (смотреть, руками нельзя)",
+        "Частный джип на 4 часа"
+      ],
+      "whenToCome": "У слонят к 12:00",
+      "bring": [
+        "Шляпа",
+        "Вода",
+        "Очки/платок от пыли",
+        "SPF",
+        "Перекус"
+      ],
+      "pitfalls": [
+        "4 часа по бездорожью — утомляет",
+        "Трогать и кормить с рук нельзя"
+      ],
+      "contacts": [
+        {
+          "kind": "telegram",
+          "value": "https://t.me/Shri_Lanka_Tranfer",
+          "label": "Водители — заявка"
+        },
+        {
+          "kind": "phone",
+          "value": "reception",
+          "label": "Ресепшн отеля"
+        }
+      ],
+      "photos": [],
+      "sources": "Общий чат 11.2025, 01.2026; udawalawa.com",
+      "costUsd": [
+        210,
+        230
+      ],
+      "costNote": "Джип на двоих с билетами 35 800 ₨ (~$110), кормление 1830 ₨/чел, водитель на день $60–80",
+      "bookAhead": {
+        "daysBefore": 10,
+        "note": "Машину заказать ~04.03; вечером 17.03 подтвердить"
+      },
+      "messageTemplateId": "udawalawe-car",
+      "travelTimeMin": 180,
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "elephant-transit-home",
+      "name": "Elephant Transit Home",
+      "nameLocal": "Elephant Transit Home Udawalawe",
+      "category": "animals",
+      "tier": "top",
+      "emoji": "🍼",
+      "coords": [
+        6.4245,
+        80.889
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Elephant Transit Home Udawalawe, Sri Lanka",
+      "why": [
+        "Кормление слонят в 12:00"
+      ],
+      "howToGet": "Рядом с парком Удавалаве, та же машина.",
+      "transport": "car_day",
+      "whatToDo": [
+        "Смотреть кормление"
+      ],
+      "whenToCome": "12:00",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "Общий чат 01.2026",
+      "costLkr": [
+        3660,
+        3660
+      ],
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "animal-sos",
+      "name": "Animal SOS: приют собак и кошек",
+      "nameLocal": "Animal SOS Sri Lanka Ahangama",
+      "category": "animals",
+      "tier": "top",
+      "emoji": "🐶",
+      "coords": [
+        5.985,
+        80.375
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Animal SOS Sri Lanka Ahangama, Sri Lanka",
+      "why": [
+        "Спасённых собак и кошек можно гладить — единственное место, где гладим (животные привиты)"
+      ],
+      "howToGet": "В сторону Галле, Ахангама. Первая точка дня по югу, машина на день.",
+      "transport": "car_day",
+      "whatToDo": [
+        "Экскурсия ~1 час",
+        "Привезти корм или рис"
+      ],
+      "whenToCome": "Экскурсии Пн, Вт, Чт, Пт, Сб в 10:30 (сверить на сайте)",
+      "bring": [
+        "Корм или рис для собак",
+        "Закрытая обувь"
+      ],
+      "pitfalls": [
+        "Расписание может меняться — сверить на сайте"
+      ],
+      "contacts": [
+        {
+          "kind": "site",
+          "value": "https://animalsos-sl.com"
+        }
+      ],
+      "photos": [],
+      "sources": "TripAdvisor 5/5, 2025–2026",
+      "costLkr": [
+        0,
+        0
+      ],
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "handunugoda",
+      "name": "Чайное поместье Handunugoda",
+      "nameLocal": "Handunugoda Tea Estate",
+      "category": "culture",
+      "tier": "good",
+      "emoji": "🍵",
+      "coords": [
+        5.99,
+        80.356
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Handunugoda Tea Estate, Sri Lanka",
+      "why": [
+        "Плантация и фабрика белого чая Virgin White Tea, дегустация, чай в подарок"
+      ],
+      "howToGet": "В 6 км от Ахангамы, та же машина по югу.",
+      "transport": "car_day",
+      "whatToDo": [
+        "Экскурсия и дегустация"
+      ],
+      "whenToCome": "После Animal SOS, до обеда",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [
+        {
+          "kind": "phone",
+          "value": "+94777713999"
+        }
+      ],
+      "photos": [],
+      "sources": "Общий чат 26.03.2025",
+      "costNote": "Цену уточнить по телефону",
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "koggala-museum",
+      "name": "Музей Мартина Викрамасингхе",
+      "nameLocal": "Martin Wickramasinghe Folk Museum Koggala",
+      "category": "culture",
+      "tier": "optional",
+      "emoji": "🏛️",
+      "coords": [
+        5.987,
+        80.328
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Martin Wickramasinghe Folk Museum Koggala, Sri Lanka",
+      "why": [
+        "Народный музей быта и культуры"
+      ],
+      "howToGet": "Коггала, между Ахангамой и Галле. Та же машина.",
+      "transport": "car_day",
+      "whatToDo": [
+        "Посмотреть экспозицию"
+      ],
+      "whenToCome": "До обеда",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "Чат 09.2026",
+      "costNote": "Цену входа смотреть в Google Maps",
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "galle-fort",
+      "name": "Форт Галле",
+      "nameLocal": "Galle Fort",
+      "category": "culture",
+      "tier": "top",
+      "emoji": "🏰",
+      "coords": [
+        6.026,
+        80.217
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Galle Fort, Sri Lanka",
+      "why": [
+        "Прогулка по стенам, закат на бастионах",
+        "Вид с крыши отеля Prince of Galle"
+      ],
+      "howToGet": "Та же машина по югу, договориться, где ждёт водитель.",
+      "transport": "car_day",
+      "whatToDo": [
+        "Гулять по стенам",
+        "Закат на бастионе"
+      ],
+      "whenToCome": "После обеда, к закату на стены",
+      "bring": [],
+      "pitfalls": [
+        "Рыбаки на шестах — постановка, просят 2000–5000 ₨ за фото",
+        "Удав и кобры за 500 ₨ — не поддерживаем"
+      ],
+      "contacts": [],
+      "photos": [],
+      "sources": "Общий чат 2024–2026",
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "lemongrass",
+      "name": "Lemongrass Cafe, Унаватуна: дикобразы",
+      "nameLocal": "Lemongrass cafe Unawatuna",
+      "category": "food",
+      "tier": "good",
+      "emoji": "🦔",
+      "coords": [
+        6.011,
+        80.249
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Lemongrass cafe Unawatuna, Sri Lanka",
+      "why": [
+        "Около 20:00 персонал показывает диких дикобразов",
+        "Ужин"
+      ],
+      "howToGet": "Унаватуна рядом с Галле. Водитель ждёт и везёт обратно в Мириссу.",
+      "transport": "car_day",
+      "whatToDo": [
+        "Ужин",
+        "Дикобразы"
+      ],
+      "whenToCome": "20:00",
+      "bring": [],
+      "pitfalls": [
+        "Спросить, показывают ли дикобразов сегодня"
+      ],
+      "contacts": [],
+      "photos": [],
+      "sources": "Общий чат 2024–2025",
+      "costUsd": [
+        20,
+        30
+      ],
+      "rating": {
+        "source": "TripAdvisor",
+        "value": 4.2
+      },
+      "tags": [
+        "мягко для желудка — уточнить"
+      ],
+      "menu": [],
+      "stomach": "check",
+      "avoid": false,
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "crocodiles",
+      "name": "Крокодилье сафари на реке Нилвала",
+      "nameLocal": "Nilwala Crocodile Safari Matara",
+      "category": "animals",
+      "tier": "top",
+      "emoji": "🐊",
+      "coords": [
+        5.948,
+        80.544
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Nilwala Crocodile Safari Matara, Sri Lanka",
+      "why": [
+        "~15 диких крокодилов двух видов, до 5–6 м",
+        "Летучие мыши, обезьяны, вараны",
+        "Лодка 2–3 часа на рассвете"
+      ],
+      "howToGet": "Мирисса → Матара ~35 мин. Точку встречи назовёт оператор. Машина ждёт 2–3 часа (заказать с вечера).",
+      "transport": "car_halfday",
+      "whatToDo": [
+        "Лодка по реке на рассвете"
+      ],
+      "whenToCome": "Рассвет (~6:30)",
+      "bring": [
+        "Кофта",
+        "Репеллент",
+        "Вода"
+      ],
+      "pitfalls": [
+        "Проверить оператора: «Do you keep any crocodile in an enclosure?» — если загон или старт у рыбного рынка, брать другого",
+        "Обезьян с рук не кормить",
+        "Руки в воду не опускать"
+      ],
+      "contacts": [
+        {
+          "kind": "whatsapp",
+          "value": "+94719372383",
+          "label": "Nilwala Crocodile Safari"
+        },
+        {
+          "kind": "site",
+          "value": "https://nilwalacrocodilesafari.lk"
+        }
+      ],
+      "photos": [],
+      "sources": "Общий чат 03–04.2026",
+      "costLkr": [
+        10000,
+        12000
+      ],
+      "costNote": "5000–6000 ₨ с человека, без предоплаты, + машина",
+      "bookAhead": {
+        "daysBefore": 6,
+        "note": "Написать 14.03, повторить 17.03; машину 19.03 вечером"
+      },
+      "messageTemplateId": "crocs",
+      "travelTimeMin": 35,
+      "rating": {
+        "source": "TripAdvisor",
+        "value": 4.8
+      },
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "dondra",
+      "name": "Дондра: маяк и храм",
+      "nameLocal": "Dondra Head Lighthouse",
+      "category": "culture",
+      "tier": "optional",
+      "emoji": "🗼",
+      "coords": [
+        5.921,
+        80.5895
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Dondra Head Lighthouse, Sri Lanka",
+      "why": [
+        "Маяк — в субботу можно подняться (вход бесплатный, просят чаевые)",
+        "Храм со слонихой Ласэндой — серая зона (на цепи), решать самим"
+      ],
+      "howToGet": "Рядом с Матарой, по пути с крокодилов, та же машина.",
+      "transport": "car_halfday",
+      "whatToDo": [
+        "Подняться на маяк"
+      ],
+      "whenToCome": "Сб после крокодилов",
+      "bring": [],
+      "pitfalls": [
+        "В полнолуние маяк закрыт",
+        "Слониха на цепи; не кататься"
+      ],
+      "contacts": [],
+      "photos": [],
+      "sources": "Чат Мириссы 2023–2025",
+      "costUsd": [
+        10,
+        15
+      ],
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "snake-farm",
+      "name": "Змеиная ферма Weligama (Traditional Farm)",
+      "nameLocal": "Snake Farm Weligama Traditional Farm",
+      "category": "animals",
+      "tier": "good",
+      "emoji": "🐍",
+      "coords": [
+        5.99,
+        80.44
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Snake Farm Weligama Traditional Farm, Sri Lanka",
+      "why": [
+        "Хозяин рассказывает ~30 мин",
+        "Питоны, древесные змеи — неядовитых дают подержать",
+        "Семья спасает раненых змей"
+      ],
+      "howToGet": "Weligama – Telijjawila Rd, Udukawa. Тук-тук из Мириссы 15–20 мин, ~3000 ₨ туда-обратно с ожиданием.",
+      "transport": "tuktuk_wait",
+      "whatToDo": [
+        "Подержать питона"
+      ],
+      "whenToCome": "Утром (7:00–19:00)",
+      "bring": [],
+      "pitfalls": [
+        "Только неядовитые змеи",
+        "Если змей тыкают палкой — уходить",
+        "Не путать с фермой Thelijjawila (жалобы, до 5000 ₨)"
+      ],
+      "contacts": [],
+      "photos": [],
+      "sources": "TripAdvisor; Wanderlog; чат 02.2026",
+      "costLkr": [
+        8000,
+        9000
+      ],
+      "costNote": "Вход ~3000 ₨ с человека + тук-тук ~3000 ₨",
+      "bookAhead": {
+        "daysBefore": 3,
+        "note": "Написать 14–19.03"
+      },
+      "messageTemplateId": "snakes",
+      "travelTimeMin": 20,
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "flying-foxes",
+      "name": "Летучие лисицы у Тангалле + храм Mulkirigala",
+      "nameLocal": "Mulkirigala Rock Temple",
+      "category": "nature",
+      "tier": "optional",
+      "emoji": "🦇",
+      "coords": [
+        6.121,
+        80.738
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Mulkirigala Rock Temple, Sri Lanka",
+      "why": [
+        "Тысячи летучих лисиц на закате",
+        "Скальный храм Mulkirigala"
+      ],
+      "howToGet": "Машина на полдня: сначала Mulkirigala, к закату — Bat Sanctuary, затем в отель.",
+      "transport": "car_halfday",
+      "whatToDo": [
+        "Храм",
+        "Закат и вылет лисиц"
+      ],
+      "whenToCome": "После обеда до заката",
+      "bring": [
+        "Закрытая одежда для храма",
+        "Вода",
+        "Репеллент"
+      ],
+      "pitfalls": [
+        "Если не успеем — лисиц видно и на лагуне 15.03"
+      ],
+      "contacts": [],
+      "photos": [],
+      "sources": "Общий чат 01.2025, 02.2026, 10.2026",
+      "costNote": "Цену машины уточнить у водителя",
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "quinta",
+      "name": "Quinta: лодка + ужин на закате",
+      "nameLocal": "Quinta Mirissa",
+      "category": "food",
+      "tier": "top",
+      "emoji": "🍽️",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Quinta Mirissa, Sri Lanka",
+      "why": [
+        "80 минут на лодке по реке и озеру на закате, потом ужин",
+        "Европейская кухня в джунглях — мягко для желудка"
+      ],
+      "howToGet": "Тук-тук от отеля.",
+      "transport": "tuktuk",
+      "whatToDo": [
+        "Прощальный вечер"
+      ],
+      "whenToCome": "Закат",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [
+        {
+          "kind": "instagram",
+          "value": "Quinta Mirissa"
+        }
+      ],
+      "photos": [],
+      "sources": "Чат Мириссы 01.2025",
+      "costLkr": [
+        15180,
+        15180
+      ],
+      "costNote": "6900 ₨ с человека + 10% сервис (01.2025) — проверить актуальность",
+      "bookAhead": {
+        "daysBefore": 4,
+        "note": "Написать в Instagram за 3–5 дней"
+      },
+      "messageTemplateId": "quinta",
+      "hours": "12:00–21:00, Пн выходной",
+      "tags": [
+        "мягко для желудка"
+      ],
+      "menu": [],
+      "stomach": "ok",
+      "avoid": false,
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "shady-lane",
+      "name": "Shady Lane — завтраки",
+      "nameLocal": "Shady Lane Mirissa",
+      "category": "food",
+      "tier": "top",
+      "emoji": "🥞",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Shady Lane Mirissa, Sri Lanka",
+      "why": [
+        "Лучшие завтраки рядом с отелем, 1–2 мин"
+      ],
+      "howToGet": "Пешком 1–2 минуты.",
+      "transport": "walk",
+      "whatToDo": [
+        "Завтрак / поздний завтрак"
+      ],
+      "whenToCome": "8:00–16:00",
+      "bring": [],
+      "pitfalls": [
+        "По вторникам бывает закрыт"
+      ],
+      "contacts": [],
+      "photos": [],
+      "sources": "Чат Мириссы 2025–2026",
+      "costLkr": [
+        5800,
+        5800
+      ],
+      "costNote": "Завтрак на двоих ~5800 ₨",
+      "tags": [
+        "мягко для желудка"
+      ],
+      "menu": [],
+      "stomach": "ok",
+      "avoid": false,
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "dewmini",
+      "name": "No.1 Dewmini Roti Shop",
+      "nameLocal": "No.1 Dewmini Roti Shop Mirissa",
+      "category": "food",
+      "tier": "good",
+      "emoji": "🫓",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "No.1 Dewmini Roti Shop Mirissa, Sri Lanka",
+      "why": [
+        "Местная кухня, недорого, роти — самое советуемое"
+      ],
+      "howToGet": "Пешком ~5 минут.",
+      "transport": "walk",
+      "whatToDo": [
+        "Обед / ужин"
+      ],
+      "whenToCome": "Любой день",
+      "bring": [],
+      "pitfalls": [
+        "Просить «not spicy»"
+      ],
+      "contacts": [
+        {
+          "kind": "phone",
+          "value": "+94715162604"
+        }
+      ],
+      "photos": [],
+      "sources": "Чаты 2025–2026",
+      "tags": [
+        "попросить не остро"
+      ],
+      "menu": [],
+      "stomach": "check",
+      "avoid": false,
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "massage",
+      "name": "Массаж: Secret Root Spa / Бадора",
+      "nameLocal": "Secret Root Spa Mirissa",
+      "category": "spa",
+      "tier": "good",
+      "emoji": "💆",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Secret Root Spa Mirissa, Sri Lanka",
+      "why": [
+        "Отдых после активных дней"
+      ],
+      "howToGet": "Пешком/тук-тук по Мириссе.",
+      "transport": "walk",
+      "whatToDo": [
+        "Массаж 60–90 мин"
+      ],
+      "whenToCome": "После обеда",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [
+        {
+          "kind": "whatsapp",
+          "value": "+94773294332",
+          "label": "Secret Root Spa"
+        },
+        {
+          "kind": "whatsapp",
+          "value": "+94777495867",
+          "label": "Бадора"
+        }
+      ],
+      "photos": [],
+      "sources": "Чаты 2024–2026",
+      "costLkr": [
+        10000,
+        12000
+      ],
+      "costNote": "90 мин ~5000 ₨ (Бадора), The Fort Spa ~6000 ₨ — «strong, no oil»",
+      "bookAhead": {
+        "daysBefore": 4,
+        "note": "Записываться за 4–5 дней"
+      },
+      "messageTemplateId": "massage",
+      "region": "Мирисса",
+      "inPlan": true
+    },
+    {
+      "id": "imc-clinic",
+      "name": "Клиника IMC 24/7",
+      "nameLocal": "IMC Mirissa",
+      "category": "medical",
+      "tier": "good",
+      "emoji": "🏥",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "IMC Mirissa, Sri Lanka",
+      "why": [
+        "Ближайшая клиника, 4 минуты от отеля"
+      ],
+      "howToGet": "Пешком 4 минуты.",
+      "transport": "walk",
+      "whatToDo": [
+        "Укус/царапина животного → в тот же день в больницу на уколы"
+      ],
+      "whenToCome": "Круглосуточно",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [
+        {
+          "kind": "phone",
+          "value": "+94742430000"
+        }
+      ],
+      "photos": [],
+      "sources": "Google Maps",
+      "region": "Мирисса",
+      "inPlan": false
+    },
+    {
+      "id": "cafe-extreme",
+      "name": "Cafe Extreme",
+      "nameLocal": "Cafe Extreme Mirissa",
+      "category": "food",
+      "tier": "good",
+      "emoji": "☕",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Cafe Extreme Mirissa, Mirissa, Sri Lanka",
+      "why": [
+        "Завтраки, кофе"
+      ],
+      "howToGet": "Тук-тук или пешком — посмотреть в Google Maps.",
+      "transport": "tuktuk",
+      "whatToDo": [
+        "Поесть"
+      ],
+      "whenToCome": "Смотреть часы в Google Maps",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "Чаты Мириссы 2025–2026",
+      "costLkr": [
+        4000,
+        6000
+      ],
+      "costNote": "Средний чек на двоих, ориентир — уточнить по меню",
+      "cuisine": "завтраки, европейская",
+      "stomach": "ok",
+      "menu": [],
+      "avoid": false,
+      "region": "Мирисса",
+      "inPlan": false
+    },
+    {
+      "id": "bamboo-hut",
+      "name": "Bamboo Hut",
+      "nameLocal": "Bamboo Hut Mirissa",
+      "category": "food",
+      "tier": "good",
+      "emoji": "🎋",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Bamboo Hut Mirissa, Mirissa, Sri Lanka",
+      "why": [
+        "Рядом с отелем, 2 мин"
+      ],
+      "howToGet": "От отеля пешком ~2 мин.",
+      "transport": "walk",
+      "whatToDo": [
+        "Поесть"
+      ],
+      "whenToCome": "Смотреть часы в Google Maps",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "Чаты Мириссы 2025–2026",
+      "costLkr": [
+        4000,
+        7000
+      ],
+      "costNote": "Средний чек на двоих, ориентир — уточнить по меню",
+      "travelTimeMin": 2,
+      "cuisine": "местная, морепродукты",
+      "stomach": "check",
+      "menu": [],
+      "avoid": false,
+      "region": "Мирисса",
+      "inPlan": false
+    },
+    {
+      "id": "hide-place",
+      "name": "Hide Place",
+      "nameLocal": "Hide Place Mirissa",
+      "category": "food",
+      "tier": "good",
+      "emoji": "🥗",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Hide Place Mirissa, Mirissa, Sri Lanka",
+      "why": [
+        "3 мин от отеля"
+      ],
+      "howToGet": "От отеля пешком ~3 мин.",
+      "transport": "walk",
+      "whatToDo": [
+        "Поесть"
+      ],
+      "whenToCome": "Смотреть часы в Google Maps",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "Чаты Мириссы 2025–2026",
+      "costLkr": [
+        4000,
+        7000
+      ],
+      "costNote": "Средний чек на двоих, ориентир — уточнить по меню",
+      "travelTimeMin": 3,
+      "cuisine": "кафе",
+      "stomach": "check",
+      "menu": [],
+      "avoid": false,
+      "region": "Мирисса",
+      "inPlan": false
+    },
+    {
+      "id": "mila",
+      "name": "Mila",
+      "nameLocal": "Mila Mirissa",
+      "category": "food",
+      "tier": "good",
+      "emoji": "🍝",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Mila Mirissa, Mirissa, Sri Lanka",
+      "why": [
+        "3 мин от отеля"
+      ],
+      "howToGet": "От отеля пешком ~3 мин.",
+      "transport": "walk",
+      "whatToDo": [
+        "Поесть"
+      ],
+      "whenToCome": "Смотреть часы в Google Maps",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "Чаты Мириссы 2025–2026",
+      "costLkr": [
+        4000,
+        8000
+      ],
+      "costNote": "Средний чек на двоих, ориентир — уточнить по меню",
+      "travelTimeMin": 3,
+      "cuisine": "кафе",
+      "stomach": "check",
+      "menu": [],
+      "avoid": false,
+      "region": "Мирисса",
+      "inPlan": false
+    },
+    {
+      "id": "fujisan",
+      "name": "Fujisan",
+      "nameLocal": "Fujisan Mirissa",
+      "category": "food",
+      "tier": "good",
+      "emoji": "🍜",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Fujisan Mirissa, Mirissa, Sri Lanka",
+      "why": [
+        "Огромные порции, дёшево — том ям и тунец"
+      ],
+      "howToGet": "Тук-тук или пешком — посмотреть в Google Maps.",
+      "transport": "tuktuk",
+      "whatToDo": [
+        "Поесть"
+      ],
+      "whenToCome": "Смотреть часы в Google Maps",
+      "bring": [],
+      "pitfalls": [
+        "Том ям острый — Даре просить без чили"
+      ],
+      "contacts": [],
+      "photos": [],
+      "sources": "Чаты Мириссы 2025–2026",
+      "costLkr": [
+        3000,
+        5000
+      ],
+      "costNote": "Средний чек на двоих, ориентир — уточнить по меню",
+      "cuisine": "азиатская",
+      "stomach": "spicy",
+      "menu": [],
+      "avoid": false,
+      "region": "Мирисса",
+      "inPlan": false
+    },
+    {
+      "id": "capybara",
+      "name": "Capybara Cafe",
+      "nameLocal": "Capybara Cafe Mirissa",
+      "category": "food",
+      "tier": "good",
+      "emoji": "🍔",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Capybara Cafe Mirissa, Mirissa, Sri Lanka",
+      "why": [
+        "Бургеры, паста, живая музыка Вт/Чт/Пт/Сб (капибар там нет)"
+      ],
+      "howToGet": "Тук-тук или пешком — посмотреть в Google Maps.",
+      "transport": "tuktuk",
+      "whatToDo": [
+        "Поесть"
+      ],
+      "whenToCome": "Смотреть часы в Google Maps",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [
+        {
+          "kind": "phone",
+          "value": "+94701965530"
+        }
+      ],
+      "photos": [],
+      "sources": "Чаты Мириссы 2025–2026",
+      "costLkr": [
+        6000,
+        10000
+      ],
+      "costNote": "Средний чек на двоих, ориентир — уточнить по меню",
+      "cuisine": "европейская",
+      "stomach": "ok",
+      "menu": [],
+      "avoid": false,
+      "region": "Мирисса",
+      "inPlan": false
+    },
+    {
+      "id": "mirissa-inn",
+      "name": "Mirissa Inn — рыба с прилавка",
+      "nameLocal": "Mirissa Inn",
+      "category": "food",
+      "tier": "good",
+      "emoji": "🐟",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Mirissa Inn, Mirissa, Sri Lanka",
+      "why": [
+        "Свежая рыба с прилавка, ~4000 ₨ за большую рыбу"
+      ],
+      "howToGet": "Тук-тук или пешком — посмотреть в Google Maps.",
+      "transport": "tuktuk",
+      "whatToDo": [
+        "Поесть"
+      ],
+      "whenToCome": "Смотреть часы в Google Maps",
+      "bring": [],
+      "pitfalls": [
+        "Взвешивать при вас, цену за кг спросить заранее"
+      ],
+      "contacts": [],
+      "photos": [],
+      "sources": "Чаты Мириссы 2025–2026",
+      "costLkr": [
+        5000,
+        9000
+      ],
+      "costNote": "Средний чек на двоих, ориентир — уточнить по меню",
+      "cuisine": "морепродукты",
+      "stomach": "ok",
+      "menu": [],
+      "avoid": false,
+      "region": "Мирисса",
+      "inPlan": false
+    },
+    {
+      "id": "concept-la-mer",
+      "name": "Concept La Mer",
+      "nameLocal": "Concept La Mer Mirissa",
+      "category": "food",
+      "tier": "top",
+      "emoji": "🥂",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Concept La Mer Mirissa, Mirissa, Sri Lanka",
+      "why": [
+        "«Лучший ресторан на острове» — для особого ужина"
+      ],
+      "howToGet": "Тук-тук или пешком — посмотреть в Google Maps.",
+      "transport": "tuktuk",
+      "whatToDo": [
+        "Поесть"
+      ],
+      "whenToCome": "Смотреть часы в Google Maps",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "Чаты Мириссы 2025–2026",
+      "costLkr": [
+        15000,
+        25000
+      ],
+      "costNote": "Средний чек на двоих, ориентир — уточнить по меню",
+      "cuisine": "европейская, морепродукты",
+      "stomach": "ok",
+      "menu": [],
+      "avoid": false,
+      "region": "Мирисса",
+      "inPlan": false
+    },
+    {
+      "id": "giragala",
+      "name": "Giragala Village",
+      "nameLocal": "Giragala Village Mirissa",
+      "category": "food",
+      "tier": "good",
+      "emoji": "🍛",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Giragala Village Mirissa, Mirissa, Sri Lanka",
+      "why": [
+        "У Parrot Rock, вкусно, недорого, порции большие"
+      ],
+      "howToGet": "Тук-тук или пешком — посмотреть в Google Maps.",
+      "transport": "tuktuk",
+      "whatToDo": [
+        "Поесть"
+      ],
+      "whenToCome": "Смотреть часы в Google Maps",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "Чаты Мириссы 2025–2026",
+      "costLkr": [
+        4000,
+        7000
+      ],
+      "costNote": "Средний чек на двоих, ориентир — уточнить по меню",
+      "cuisine": "местная",
+      "stomach": "check",
+      "menu": [],
+      "avoid": false,
+      "region": "Мирисса",
+      "inPlan": false
+    },
+    {
+      "id": "duck-lake",
+      "name": "Duck Lake Restaurant",
+      "nameLocal": "Duck Lake Restaurant Mirissa",
+      "category": "food",
+      "tier": "good",
+      "emoji": "🦆",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Duck Lake Restaurant Mirissa, Mirissa, Sri Lanka",
+      "why": [
+        "Вкусно и недорого"
+      ],
+      "howToGet": "Тук-тук или пешком — посмотреть в Google Maps.",
+      "transport": "tuktuk",
+      "whatToDo": [
+        "Поесть"
+      ],
+      "whenToCome": "Смотреть часы в Google Maps",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [
+        {
+          "kind": "phone",
+          "value": "+94772123821"
+        }
+      ],
+      "photos": [],
+      "sources": "Чаты Мириссы 2025–2026",
+      "costLkr": [
+        3000,
+        6000
+      ],
+      "costNote": "Средний чек на двоих, ориентир — уточнить по меню",
+      "cuisine": "местная",
+      "stomach": "check",
+      "menu": [],
+      "avoid": false,
+      "region": "Мирисса",
+      "inPlan": false
+    },
+    {
+      "id": "fish-point",
+      "name": "Fish Point, Велигама",
+      "nameLocal": "Fish Point Weligama",
+      "category": "food",
+      "tier": "optional",
+      "emoji": "🦐",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Fish Point Weligama, Mirissa, Sri Lanka",
+      "why": [
+        "Морепродукты"
+      ],
+      "howToGet": "Тук-тук или пешком — посмотреть в Google Maps.",
+      "transport": "tuktuk",
+      "whatToDo": [
+        "Поесть"
+      ],
+      "whenToCome": "Смотреть часы в Google Maps",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [
+        {
+          "kind": "phone",
+          "value": "+94773703838"
+        }
+      ],
+      "photos": [],
+      "sources": "Чаты Мириссы 2025–2026",
+      "costLkr": [
+        6000,
+        12000
+      ],
+      "costNote": "Средний чек на двоих, ориентир — уточнить по меню",
+      "cuisine": "морепродукты",
+      "stomach": "check",
+      "menu": [],
+      "avoid": false,
+      "region": "Мирисса",
+      "inPlan": false
+    },
+    {
+      "id": "food-city",
+      "name": "Супермаркет Food City / Cargills",
+      "nameLocal": "Cargills Food City Mirissa",
+      "category": "food",
+      "tier": "good",
+      "emoji": "🛒",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Cargills Food City Mirissa, Mirissa, Sri Lanka",
+      "why": [
+        "Вода, фрукты, снеки, сувенирный чай"
+      ],
+      "howToGet": "От отеля пешком ~2 мин.",
+      "transport": "walk",
+      "whatToDo": [
+        "Поесть"
+      ],
+      "whenToCome": "Смотреть часы в Google Maps",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "Чаты Мириссы 2025–2026",
+      "costLkr": [
+        0,
+        0
+      ],
+      "costNote": "Средний чек на двоих, ориентир — уточнить по меню",
+      "travelTimeMin": 2,
+      "cuisine": "супермаркет",
+      "stomach": "ok",
+      "menu": [],
+      "avoid": false,
+      "region": "Мирисса",
+      "inPlan": false
+    },
+    {
+      "id": "garlic",
+      "name": "Garlic — НЕ идём",
+      "nameLocal": "Garlic Mirissa",
+      "category": "food",
+      "tier": "optional",
+      "emoji": "🚫",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Garlic Mirissa, Mirissa, Sri Lanka",
+      "why": [
+        "В свежих отзывах мухи и сырой тартар"
+      ],
+      "howToGet": "Тук-тук или пешком — посмотреть в Google Maps.",
+      "transport": "tuktuk",
+      "whatToDo": [
+        "Поесть"
+      ],
+      "whenToCome": "Смотреть часы в Google Maps",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "Чаты Мириссы 2025–2026",
+      "costLkr": [
+        0,
+        0
+      ],
+      "costNote": "Средний чек на двоих, ориентир — уточнить по меню",
+      "cuisine": "—",
+      "stomach": "avoid",
+      "menu": [],
+      "avoid": true,
+      "region": "Мирисса",
+      "inPlan": false
+    },
+    {
+      "id": "solt",
+      "name": "Solt — НЕ идём",
+      "nameLocal": "Solt Mirissa",
+      "category": "food",
+      "tier": "optional",
+      "emoji": "🚫",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Solt Mirissa, Mirissa, Sri Lanka",
+      "why": [
+        "Плохие свежие отзывы"
+      ],
+      "howToGet": "Тук-тук или пешком — посмотреть в Google Maps.",
+      "transport": "tuktuk",
+      "whatToDo": [
+        "Поесть"
+      ],
+      "whenToCome": "Смотреть часы в Google Maps",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "Чаты Мириссы 2025–2026",
+      "costLkr": [
+        0,
+        0
+      ],
+      "costNote": "Средний чек на двоих, ориентир — уточнить по меню",
+      "cuisine": "—",
+      "stomach": "avoid",
+      "menu": [],
+      "avoid": true,
+      "region": "Мирисса",
+      "inPlan": false
+    },
+    {
+      "id": "curry-gedara",
+      "name": "Curry Gedara — НЕ идём",
+      "nameLocal": "Curry Gedara Mirissa",
+      "category": "food",
+      "tier": "optional",
+      "emoji": "🚫",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Curry Gedara Mirissa, Mirissa, Sri Lanka",
+      "why": [
+        "Плохие свежие отзывы, остро"
+      ],
+      "howToGet": "Тук-тук или пешком — посмотреть в Google Maps.",
+      "transport": "tuktuk",
+      "whatToDo": [
+        "Поесть"
+      ],
+      "whenToCome": "Смотреть часы в Google Maps",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "Чаты Мириссы 2025–2026",
+      "costLkr": [
+        0,
+        0
+      ],
+      "costNote": "Средний чек на двоих, ориентир — уточнить по меню",
+      "cuisine": "—",
+      "stomach": "avoid",
+      "menu": [],
+      "avoid": true,
+      "region": "Мирисса",
+      "inPlan": false
+    },
+    {
+      "id": "tuana",
+      "name": "Tuana Lounge — НЕ идём",
+      "nameLocal": "Tuana Lounge Mirissa",
+      "category": "food",
+      "tier": "optional",
+      "emoji": "🚫",
+      "coords": null,
+      "coordsVerified": false,
+      "gmapsQuery": "Tuana Lounge Mirissa, Mirissa, Sri Lanka",
+      "why": [
+        "В свежих отзывах жалобы на желудок"
+      ],
+      "howToGet": "Тук-тук или пешком — посмотреть в Google Maps.",
+      "transport": "tuktuk",
+      "whatToDo": [
+        "Поесть"
+      ],
+      "whenToCome": "Смотреть часы в Google Maps",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "Чаты Мириссы 2025–2026",
+      "costLkr": [
+        0,
+        0
+      ],
+      "costNote": "Средний чек на двоих, ориентир — уточнить по меню",
+      "cuisine": "—",
+      "stomach": "avoid",
+      "menu": [],
+      "avoid": true,
+      "region": "Мирисса",
+      "inPlan": false
+    },
+    {
+      "id": "weligama",
+      "name": "Велигама: залив и сёрфинг",
+      "nameLocal": "Weligama Beach",
+      "category": "beach",
+      "tier": "good",
+      "emoji": "🏄",
+      "coords": [
+        5.972,
+        80.429
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Weligama Beach, Sri Lanka",
+      "why": [
+        "Урок сёрфинга для новичков на мягкой волне"
+      ],
+      "howToGet": "От Мириссы ~8 км, ~0.25 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Юг",
+      "distanceKm": 8,
+      "driveHours": 0.25,
+      "tripType": "halfday",
+      "inPlan": false
+    },
+    {
+      "id": "hiriketiya",
+      "name": "Хирикетия: бухта-подкова",
+      "nameLocal": "Hiriketiya Beach",
+      "category": "beach",
+      "tier": "top",
+      "emoji": "🏝️",
+      "coords": [
+        5.964,
+        80.708
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Hiriketiya Beach, Sri Lanka",
+      "why": [
+        "Красивейшая бухта юга, кафе, спокойная вода с краю"
+      ],
+      "howToGet": "От Мириссы ~40 км, ~1 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Юг",
+      "distanceKm": 40,
+      "driveHours": 1,
+      "tripType": "halfday",
+      "inPlan": false
+    },
+    {
+      "id": "tangalle",
+      "name": "Тангалле: пляжи",
+      "nameLocal": "Tangalle Beach",
+      "category": "beach",
+      "tier": "good",
+      "emoji": "🌊",
+      "coords": [
+        6.024,
+        80.794
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Tangalle Beach, Sri Lanka",
+      "why": [
+        "Пустые длинные пляжи"
+      ],
+      "howToGet": "От Мириссы ~50 км, ~1.2 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Юг",
+      "distanceKm": 50,
+      "driveHours": 1.2,
+      "tripType": "day",
+      "inPlan": false
+    },
+    {
+      "id": "wewurukannala",
+      "name": "Храм Wewurukannala (большой Будда)",
+      "nameLocal": "Wewurukannala Vihara",
+      "category": "culture",
+      "tier": "optional",
+      "emoji": "🛕",
+      "coords": [
+        5.955,
+        80.695
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Wewurukannala Vihara, Sri Lanka",
+      "why": [
+        "Большой Будда, «туннель ада»"
+      ],
+      "howToGet": "От Мириссы ~35 км, ~0.8 ч на машине в одну сторону. Слон на цепи — не поддерживаем",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Юг",
+      "distanceKm": 35,
+      "driveHours": 0.8,
+      "tripType": "halfday",
+      "inPlan": false
+    },
+    {
+      "id": "hummanaya",
+      "name": "Гейзер Хумманая",
+      "nameLocal": "Hummanaya Blow Hole",
+      "category": "nature",
+      "tier": "optional",
+      "emoji": "💨",
+      "coords": [
+        5.993,
+        80.723
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Hummanaya Blow Hole, Sri Lanka",
+      "why": [
+        "Морской гейзер"
+      ],
+      "howToGet": "От Мириссы ~45 км, ~1 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Юг",
+      "distanceKm": 45,
+      "driveHours": 1,
+      "tripType": "halfday",
+      "inPlan": false
+    },
+    {
+      "id": "unawatuna",
+      "name": "Унаватуна и Jungle Beach",
+      "nameLocal": "Jungle Beach Unawatuna",
+      "category": "beach",
+      "tier": "good",
+      "emoji": "🏖️",
+      "coords": [
+        6.017,
+        80.243
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Jungle Beach Unawatuna, Sri Lanka",
+      "why": [
+        "Пляж в бухте, снорклинг"
+      ],
+      "howToGet": "От Мириссы ~38 км, ~1 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Юг",
+      "distanceKm": 38,
+      "driveHours": 1,
+      "tripType": "halfday",
+      "inPlan": false
+    },
+    {
+      "id": "hikkaduwa",
+      "name": "Хиккадува: черепахи и риф",
+      "nameLocal": "Hikkaduwa Beach",
+      "category": "beach",
+      "tier": "good",
+      "emoji": "🐢",
+      "coords": [
+        6.139,
+        80.1
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Hikkaduwa Beach, Sri Lanka",
+      "why": [
+        "Черепахи у берега, коралловый парк"
+      ],
+      "howToGet": "От Мириссы ~55 км, ~1.3 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Юг",
+      "distanceKm": 55,
+      "driveHours": 1.3,
+      "tripType": "day",
+      "inPlan": false
+    },
+    {
+      "id": "madu-river",
+      "name": "Река Мадху (Балапития)",
+      "nameLocal": "Madu River Balapitiya",
+      "category": "nature",
+      "tier": "optional",
+      "emoji": "🛥️",
+      "coords": [
+        6.296,
+        80.045
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Madu River Balapitiya, Sri Lanka",
+      "why": [
+        "Мангры, острова"
+      ],
+      "howToGet": "От Мириссы ~75 км, ~1.5 ч на машине в одну сторону. Сады специй и «рыбный педикюр» — навязанные продажи",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Юго-запад",
+      "distanceKm": 75,
+      "driveHours": 1.5,
+      "tripType": "day",
+      "inPlan": false
+    },
+    {
+      "id": "bentota",
+      "name": "Бентота",
+      "nameLocal": "Bentota Beach",
+      "category": "beach",
+      "tier": "optional",
+      "emoji": "🏖️",
+      "coords": [
+        6.421,
+        79.996
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Bentota Beach, Sri Lanka",
+      "why": [
+        "Курорт, река"
+      ],
+      "howToGet": "От Мириссы ~95 км, ~2 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Юго-запад",
+      "distanceKm": 95,
+      "driveHours": 2,
+      "tripType": "day",
+      "inPlan": false
+    },
+    {
+      "id": "bundala",
+      "name": "Нацпарк Бундала (птицы)",
+      "nameLocal": "Bundala National Park",
+      "category": "animals",
+      "tier": "good",
+      "emoji": "🦩",
+      "coords": [
+        6.183,
+        81.233
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Bundala National Park, Sri Lanka",
+      "why": [
+        "Фламинго и водоплавающие птицы, крокодилы",
+        "Альтернатива Яле без толп"
+      ],
+      "howToGet": "От Мириссы ~110 км, ~2.3 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Юго-восток",
+      "distanceKm": 110,
+      "driveHours": 2.3,
+      "tripType": "day",
+      "inPlan": false
+    },
+    {
+      "id": "yala",
+      "name": "Нацпарк Яла (леопарды)",
+      "nameLocal": "Yala National Park",
+      "category": "animals",
+      "tier": "optional",
+      "emoji": "🐆",
+      "coords": [
+        6.37,
+        81.52
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Yala National Park, Sri Lanka",
+      "why": [
+        "Шанс увидеть леопарда"
+      ],
+      "howToGet": "От Мириссы ~150 км, ~3 ч на машине в одну сторону. В чатах: сотни джипов, пробки, пыль",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Юго-восток",
+      "distanceKm": 150,
+      "driveHours": 3,
+      "tripType": "overnight",
+      "inPlan": false
+    },
+    {
+      "id": "kataragama",
+      "name": "Катарагама",
+      "nameLocal": "Kataragama Temple",
+      "category": "culture",
+      "tier": "optional",
+      "emoji": "🛕",
+      "coords": [
+        6.417,
+        81.333
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Kataragama Temple, Sri Lanka",
+      "why": [
+        "Священный город трёх религий, вечерняя пуджа"
+      ],
+      "howToGet": "От Мириссы ~140 км, ~3 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Юго-восток",
+      "distanceKm": 140,
+      "driveHours": 3,
+      "tripType": "overnight",
+      "inPlan": false
+    },
+    {
+      "id": "ella",
+      "name": "Элла: Nine Arch Bridge и Little Adam's Peak",
+      "nameLocal": "Nine Arch Bridge Ella",
+      "category": "nature",
+      "tier": "top",
+      "emoji": "🚂",
+      "coords": [
+        6.8768,
+        81.0608
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Nine Arch Bridge Ella, Sri Lanka",
+      "why": [
+        "Мост в джунглях с поездом",
+        "Лёгкий подъём на Little Adam's Peak",
+        "Водопад Равана"
+      ],
+      "howToGet": "От Мириссы ~160 км, ~4 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Горы",
+      "distanceKm": 160,
+      "driveHours": 4,
+      "tripType": "overnight",
+      "inPlan": false
+    },
+    {
+      "id": "ella-train",
+      "name": "Поезд Канди → Элла",
+      "nameLocal": "Kandy to Ella train",
+      "category": "nature",
+      "tier": "top",
+      "emoji": "🚞",
+      "coords": [
+        6.9271,
+        80.8
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Kandy to Ella train, Sri Lanka",
+      "why": [
+        "Самая красивая железная дорога: чайные холмы"
+      ],
+      "howToGet": "От Мириссы ~0 км, ~7 ч на машине в одну сторону. Билеты бронировать заранее",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Горы",
+      "distanceKm": 0,
+      "driveHours": 7,
+      "tripType": "far",
+      "inPlan": false
+    },
+    {
+      "id": "nuwara-eliya",
+      "name": "Нувара-Элия: чайные плантации",
+      "nameLocal": "Nuwara Eliya",
+      "category": "nature",
+      "tier": "good",
+      "emoji": "🍃",
+      "coords": [
+        6.9497,
+        80.7891
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Nuwara Eliya, Sri Lanka",
+      "why": [
+        "«Маленькая Англия», чайные фабрики, прохладно"
+      ],
+      "howToGet": "От Мириссы ~230 км, ~5 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Горы",
+      "distanceKm": 230,
+      "driveHours": 5,
+      "tripType": "overnight",
+      "inPlan": false
+    },
+    {
+      "id": "horton-plains",
+      "name": "Хортон-Плейнс и Край света",
+      "nameLocal": "Horton Plains National Park",
+      "category": "nature",
+      "tier": "good",
+      "emoji": "⛰️",
+      "coords": [
+        6.802,
+        80.806
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Horton Plains National Park, Sri Lanka",
+      "why": [
+        "Обрыв World's End, самбары"
+      ],
+      "howToGet": "От Мириссы ~220 км, ~5 ч на машине в одну сторону. Ехать к рассвету, туман после 10:00",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Горы",
+      "distanceKm": 220,
+      "driveHours": 5,
+      "tripType": "overnight",
+      "inPlan": false
+    },
+    {
+      "id": "liptons-seat",
+      "name": "Lipton's Seat",
+      "nameLocal": "Lipton's Seat Haputale",
+      "category": "nature",
+      "tier": "optional",
+      "emoji": "🫖",
+      "coords": [
+        6.79,
+        80.964
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Lipton's Seat Haputale, Sri Lanka",
+      "why": [
+        "Вид на чайные холмы на рассвете"
+      ],
+      "howToGet": "От Мириссы ~190 км, ~4.5 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Горы",
+      "distanceKm": 190,
+      "driveHours": 4.5,
+      "tripType": "overnight",
+      "inPlan": false
+    },
+    {
+      "id": "adams-peak",
+      "name": "Пик Адама (Шри Пада)",
+      "nameLocal": "Adam's Peak",
+      "category": "nature",
+      "tier": "optional",
+      "emoji": "🏔️",
+      "coords": [
+        6.8096,
+        80.4994
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Adam's Peak, Sri Lanka",
+      "why": [
+        "Ночной подъём к рассвету, 5500 ступеней"
+      ],
+      "howToGet": "От Мириссы ~200 км, ~5 ч на машине в одну сторону. Сезон паломничества — декабрь–май",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Горы",
+      "distanceKm": 200,
+      "driveHours": 5,
+      "tripType": "overnight",
+      "inPlan": false
+    },
+    {
+      "id": "kandy",
+      "name": "Канди: Храм Зуба Будды",
+      "nameLocal": "Temple of the Sacred Tooth Relic Kandy",
+      "category": "culture",
+      "tier": "top",
+      "emoji": "🛕",
+      "coords": [
+        7.2936,
+        80.6413
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Temple of the Sacred Tooth Relic Kandy, Sri Lanka",
+      "why": [
+        "Главная святыня страны, озеро",
+        "Шоу кандийских танцев"
+      ],
+      "howToGet": "От Мириссы ~230 км, ~5 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Центр",
+      "distanceKm": 230,
+      "driveHours": 5,
+      "tripType": "overnight",
+      "inPlan": false
+    },
+    {
+      "id": "peradeniya",
+      "name": "Ботанический сад Перадения",
+      "nameLocal": "Royal Botanical Gardens Peradeniya",
+      "category": "nature",
+      "tier": "good",
+      "emoji": "🌺",
+      "coords": [
+        7.269,
+        80.596
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Royal Botanical Gardens Peradeniya, Sri Lanka",
+      "why": [
+        "Огромный сад, летучие лисицы, орхидеи"
+      ],
+      "howToGet": "От Мириссы ~225 км, ~5 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Центр",
+      "distanceKm": 225,
+      "driveHours": 5,
+      "tripType": "overnight",
+      "inPlan": false
+    },
+    {
+      "id": "sigiriya",
+      "name": "Сигирия: Львиная скала",
+      "nameLocal": "Sigiriya Rock Fortress",
+      "category": "culture",
+      "tier": "top",
+      "emoji": "🦁",
+      "coords": [
+        7.957,
+        80.7603
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Sigiriya Rock Fortress, Sri Lanka",
+      "why": [
+        "Крепость на скале, фрески, вид"
+      ],
+      "howToGet": "От Мириссы ~330 км, ~6.5 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Культурный треугольник",
+      "distanceKm": 330,
+      "driveHours": 6.5,
+      "tripType": "far",
+      "inPlan": false
+    },
+    {
+      "id": "pidurangala",
+      "name": "Пидурангала (вид на Сигирию)",
+      "nameLocal": "Pidurangala Rock",
+      "category": "nature",
+      "tier": "good",
+      "emoji": "🌄",
+      "coords": [
+        7.966,
+        80.76
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Pidurangala Rock, Sri Lanka",
+      "why": [
+        "Рассвет с видом на Сигирию, дешевле"
+      ],
+      "howToGet": "От Мириссы ~330 км, ~6.5 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Культурный треугольник",
+      "distanceKm": 330,
+      "driveHours": 6.5,
+      "tripType": "far",
+      "inPlan": false
+    },
+    {
+      "id": "dambulla",
+      "name": "Пещерный храм Дамбулла",
+      "nameLocal": "Dambulla Cave Temple",
+      "category": "culture",
+      "tier": "good",
+      "emoji": "🕯️",
+      "coords": [
+        7.8567,
+        80.649
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Dambulla Cave Temple, Sri Lanka",
+      "why": [
+        "Пять пещер со статуями и росписями"
+      ],
+      "howToGet": "От Мириссы ~310 км, ~6 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Культурный треугольник",
+      "distanceKm": 310,
+      "driveHours": 6,
+      "tripType": "far",
+      "inPlan": false
+    },
+    {
+      "id": "minneriya",
+      "name": "Миннерия: слоны у озера",
+      "nameLocal": "Minneriya National Park",
+      "category": "animals",
+      "tier": "good",
+      "emoji": "🐘",
+      "coords": [
+        8.035,
+        80.884
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Minneriya National Park, Sri Lanka",
+      "why": [
+        "Большие стада слонов"
+      ],
+      "howToGet": "От Мириссы ~350 км, ~7 ч на машине в одну сторону. Пик «Собрания слонов» — июль–сентябрь",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Культурный треугольник",
+      "distanceKm": 350,
+      "driveHours": 7,
+      "tripType": "far",
+      "inPlan": false
+    },
+    {
+      "id": "polonnaruwa",
+      "name": "Полоннарува",
+      "nameLocal": "Polonnaruwa Ancient City",
+      "category": "culture",
+      "tier": "good",
+      "emoji": "🏛️",
+      "coords": [
+        7.9403,
+        81.0188
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Polonnaruwa Ancient City, Sri Lanka",
+      "why": [
+        "Древняя столица, каменные Будды, на велосипеде"
+      ],
+      "howToGet": "От Мириссы ~360 км, ~7 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Культурный треугольник",
+      "distanceKm": 360,
+      "driveHours": 7,
+      "tripType": "far",
+      "inPlan": false
+    },
+    {
+      "id": "anuradhapura",
+      "name": "Анурадхапура",
+      "nameLocal": "Anuradhapura Sacred City",
+      "category": "culture",
+      "tier": "optional",
+      "emoji": "☸️",
+      "coords": [
+        8.3114,
+        80.4037
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Anuradhapura Sacred City, Sri Lanka",
+      "why": [
+        "Древнейшая столица, священное дерево Бодхи"
+      ],
+      "howToGet": "От Мириссы ~400 км, ~8 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Север",
+      "distanceKm": 400,
+      "driveHours": 8,
+      "tripType": "far",
+      "inPlan": false
+    },
+    {
+      "id": "colombo",
+      "name": "Коломбо",
+      "nameLocal": "Galle Face Green Colombo",
+      "category": "culture",
+      "tier": "optional",
+      "emoji": "🏙️",
+      "coords": [
+        6.9271,
+        79.8612
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Galle Face Green Colombo, Sri Lanka",
+      "why": [
+        "Galle Face на закате, рынок Петта, храм Гангарамая"
+      ],
+      "howToGet": "От Мириссы ~150 км, ~2.2 ч на машине в одну сторону. По скоростной трассе",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Запад",
+      "distanceKm": 150,
+      "driveHours": 2.2,
+      "tripType": "day",
+      "inPlan": false
+    },
+    {
+      "id": "kitulgala",
+      "name": "Китулгала: рафтинг",
+      "nameLocal": "Kitulgala",
+      "category": "nature",
+      "tier": "optional",
+      "emoji": "🚣",
+      "coords": [
+        6.99,
+        80.417
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Kitulgala, Sri Lanka",
+      "why": [
+        "Рафтинг, джунгли"
+      ],
+      "howToGet": "От Мириссы ~220 км, ~4.5 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Запад",
+      "distanceKm": 220,
+      "driveHours": 4.5,
+      "tripType": "overnight",
+      "inPlan": false
+    },
+    {
+      "id": "trincomalee",
+      "name": "Тринкомали и Pigeon Island",
+      "nameLocal": "Pigeon Island National Park",
+      "category": "beach",
+      "tier": "optional",
+      "emoji": "🐠",
+      "coords": [
+        8.721,
+        81.205
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Pigeon Island National Park, Sri Lanka",
+      "why": [
+        "Рифовые акулы и черепахи"
+      ],
+      "howToGet": "От Мириссы ~460 км, ~9 ч на машине в одну сторону. Восток в марте — сезон, но очень далеко",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Восток",
+      "distanceKm": 460,
+      "driveHours": 9,
+      "tripType": "far",
+      "inPlan": false
+    },
+    {
+      "id": "arugam-bay",
+      "name": "Аругам-Бей",
+      "nameLocal": "Arugam Bay",
+      "category": "beach",
+      "tier": "optional",
+      "emoji": "🏄",
+      "coords": [
+        6.84,
+        81.836
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Arugam Bay, Sri Lanka",
+      "why": [
+        "Сёрф-столица"
+      ],
+      "howToGet": "От Мириссы ~280 км, ~6 ч на машине в одну сторону. Сезон с апреля",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Восток",
+      "distanceKm": 280,
+      "driveHours": 6,
+      "tripType": "far",
+      "inPlan": false
+    },
+    {
+      "id": "wilpattu",
+      "name": "Вилпатту (леопарды без толп)",
+      "nameLocal": "Wilpattu National Park",
+      "category": "animals",
+      "tier": "optional",
+      "emoji": "🐆",
+      "coords": [
+        8.456,
+        80.013
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Wilpattu National Park, Sri Lanka",
+      "why": [
+        "Озёра-виллу, леопарды, медведи-губачи"
+      ],
+      "howToGet": "От Мириссы ~420 км, ~8 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Северо-запад",
+      "distanceKm": 420,
+      "driveHours": 8,
+      "tripType": "far",
+      "inPlan": false
+    },
+    {
+      "id": "kalpitiya",
+      "name": "Калпития: дельфины",
+      "nameLocal": "Kalpitiya",
+      "category": "animals",
+      "tier": "optional",
+      "emoji": "🐬",
+      "coords": [
+        8.233,
+        79.759
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Kalpitiya, Sri Lanka",
+      "why": [
+        "Стаи дельфинов-вертунов"
+      ],
+      "howToGet": "От Мириссы ~300 км, ~6 ч на машине в одну сторону. Сезон ноябрь–апрель",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Северо-запад",
+      "distanceKm": 300,
+      "driveHours": 6,
+      "tripType": "far",
+      "inPlan": false
+    },
+    {
+      "id": "jaffna",
+      "name": "Джафна",
+      "nameLocal": "Jaffna",
+      "category": "culture",
+      "tier": "optional",
+      "emoji": "🌶️",
+      "coords": [
+        9.6615,
+        80.0255
+      ],
+      "coordsVerified": false,
+      "gmapsQuery": "Jaffna, Sri Lanka",
+      "why": [
+        "Тамильская культура, кухня"
+      ],
+      "howToGet": "От Мириссы ~560 км, ~10 ч на машине в одну сторону.",
+      "transport": "car_day",
+      "whatToDo": [
+        "TODO: заполнить по исследованию"
+      ],
+      "whenToCome": "TODO",
+      "bring": [],
+      "pitfalls": [],
+      "contacts": [],
+      "photos": [],
+      "sources": "TODO: найти свежие отзывы 2025–2026",
+      "region": "Север",
+      "distanceKm": 560,
+      "driveHours": 10,
+      "tripType": "far",
+      "inPlan": false
+    }
+  ],
+  "days": [
+    {
+      "date": "2027-03-13",
+      "title": "Прилетаем!",
+      "emoji": "✈️",
+      "mood": "travel",
+      "doorTeaser": "Первый в жизни перелёт Дары — и сразу океан",
+      "steps": [
+        {
+          "time": "10:00",
+          "title": "Вылет из Ташкента, Centrum Air",
+          "kind": "move"
+        },
+        {
+          "time": "16:35",
+          "title": "Прилёт в Маттала, обмен денег, ETA",
+          "kind": "move",
+          "placeId": "mattala"
+        },
+        {
+          "time": "17:15",
+          "title": "Групповой трансфер в отель",
+          "kind": "move",
+          "transport": "transfer",
+          "durationMin": 90,
+          "placeId": "hotel"
+        },
+        {
+          "time": "19:00",
+          "title": "Заселение, бассейн",
+          "kind": "rest",
+          "placeId": "hotel"
+        },
+        {
+          "time": "20:00",
+          "title": "Ужин рядом с отелем",
+          "kind": "food",
+          "placeId": "dewmini"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-14",
+      "title": "Мирисса пешком",
+      "emoji": "🌴",
+      "mood": "easy",
+      "doorTeaser": "Черепахи в 8 утра и закат на пальмовом холме",
+      "steps": [
+        {
+          "time": "07:30",
+          "title": "Черепахи у Coconut Tree Hill",
+          "kind": "activity",
+          "placeId": "turtle-beach",
+          "transport": "walk"
+        },
+        {
+          "time": "10:00",
+          "title": "Завтрак в Shady Lane",
+          "kind": "food",
+          "placeId": "shady-lane"
+        },
+        {
+          "time": "11:00",
+          "title": "Написать: лагуна, крокодилы, змеиная ферма, массаж",
+          "kind": "book"
+        },
+        {
+          "time": "12:00",
+          "title": "Отдых, бассейн",
+          "kind": "rest",
+          "placeId": "hotel"
+        },
+        {
+          "time": "16:30",
+          "title": "Бухты Мириссы, купание у вышки спасателей",
+          "kind": "activity",
+          "placeId": "mirissa-bays"
+        },
+        {
+          "time": "18:00",
+          "title": "Закат на Coconut Tree Hill",
+          "kind": "activity",
+          "placeId": "mirissa-bays"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-15",
+      "title": "Черепахи и лагуна",
+      "emoji": "🐢",
+      "mood": "active",
+      "doorTeaser": "Плаваем с черепахами, вечером — тысячи летучих лисиц",
+      "steps": [
+        {
+          "time": "08:00",
+          "title": "Таларамба с инструктором",
+          "kind": "activity",
+          "placeId": "thalaramba",
+          "transport": "tuktuk",
+          "durationMin": 150
+        },
+        {
+          "time": "12:00",
+          "title": "Обед и отдых",
+          "kind": "food"
+        },
+        {
+          "time": "16:30",
+          "title": "Катамаран по лагуне на закате",
+          "kind": "activity",
+          "placeId": "lagoon",
+          "transport": "operator_pickup",
+          "durationMin": 150
+        },
+        {
+          "time": "20:00",
+          "title": "Подтвердить Ачи выезд на завтра в 5:00",
+          "kind": "book"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-16",
+      "title": "Синхараджа — день зверей",
+      "emoji": "🦎",
+      "mood": "active",
+      "doorTeaser": "Тропический лес, змеи, лангуры и рыбный филин",
+      "backupNote": "Ливень → переносим на Пн 22.03",
+      "steps": [
+        {
+          "time": "05:00",
+          "title": "Выезд на машине с водителем",
+          "kind": "move",
+          "transport": "car_day",
+          "placeId": "sinharaja"
+        },
+        {
+          "time": "07:30",
+          "title": "Лес с гидом Ачи",
+          "kind": "activity",
+          "placeId": "sinharaja",
+          "durationMin": 360
+        },
+        {
+          "time": "17:00",
+          "title": "Возвращение, бассейн",
+          "kind": "rest",
+          "placeId": "hotel"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-17",
+      "title": "Лёгкий день: море и массаж",
+      "emoji": "💆",
+      "mood": "rest",
+      "doorTeaser": "Спокойный пляж и массаж после леса",
+      "steps": [
+        {
+          "time": "08:30",
+          "title": "Полхена — черепахи в лагуне",
+          "kind": "activity",
+          "placeId": "polhena",
+          "transport": "tuktuk"
+        },
+        {
+          "time": "13:00",
+          "title": "Обед",
+          "kind": "food"
+        },
+        {
+          "time": "15:00",
+          "title": "Массаж",
+          "kind": "activity",
+          "placeId": "massage"
+        },
+        {
+          "time": "19:00",
+          "title": "Подтвердить машину на Удавалаве (8:30)",
+          "kind": "book"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-18",
+      "title": "Удавалаве: слоны",
+      "emoji": "🐘",
+      "mood": "active",
+      "doorTeaser": "Слонята в полдень и сотни слонов на закате",
+      "steps": [
+        {
+          "time": "08:30",
+          "title": "Выезд, дорога ~3 часа",
+          "kind": "move",
+          "transport": "car_day",
+          "placeId": "udawalawe"
+        },
+        {
+          "time": "12:00",
+          "title": "Кормление слонят",
+          "kind": "activity",
+          "placeId": "elephant-transit-home"
+        },
+        {
+          "time": "13:00",
+          "title": "Обед",
+          "kind": "food"
+        },
+        {
+          "time": "14:00",
+          "title": "Джип-сафари",
+          "kind": "activity",
+          "placeId": "udawalawe",
+          "durationMin": 240
+        },
+        {
+          "time": "20:30",
+          "title": "В отеле",
+          "kind": "rest",
+          "placeId": "hotel"
+        },
+        {
+          "time": "20:45",
+          "title": "Заказать машину на завтра по югу",
+          "kind": "book"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-19",
+      "title": "Юг за один день",
+      "emoji": "🏰",
+      "mood": "active",
+      "doorTeaser": "Котики и собаки, белый чай, форт и дикобразы",
+      "steps": [
+        {
+          "time": "09:30",
+          "title": "Выезд, машина на весь день",
+          "kind": "move",
+          "transport": "car_day"
+        },
+        {
+          "time": "10:30",
+          "title": "Animal SOS — гладим собак и кошек",
+          "kind": "activity",
+          "placeId": "animal-sos",
+          "durationMin": 60
+        },
+        {
+          "time": "12:00",
+          "title": "Белый чай",
+          "kind": "activity",
+          "placeId": "handunugoda"
+        },
+        {
+          "time": "13:30",
+          "title": "Музей в Коггале",
+          "kind": "activity",
+          "placeId": "koggala-museum"
+        },
+        {
+          "time": "15:00",
+          "title": "Обед и форт Галле до заката",
+          "kind": "activity",
+          "placeId": "galle-fort"
+        },
+        {
+          "time": "20:00",
+          "title": "Ужин и дикобразы",
+          "kind": "food",
+          "placeId": "lemongrass"
+        },
+        {
+          "time": "21:30",
+          "title": "Домой",
+          "kind": "move",
+          "transport": "car_day",
+          "placeId": "hotel"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-20",
+      "title": "Крокодилы на рассвете",
+      "emoji": "🐊",
+      "mood": "active",
+      "doorTeaser": "Дикие крокодилы до 6 метров — с лодки",
+      "steps": [
+        {
+          "time": "05:45",
+          "title": "Выезд в Матару",
+          "kind": "move",
+          "transport": "car_halfday",
+          "placeId": "crocodiles"
+        },
+        {
+          "time": "06:30",
+          "title": "Лодка по реке Нилвала",
+          "kind": "activity",
+          "placeId": "crocodiles",
+          "durationMin": 150
+        },
+        {
+          "time": "09:30",
+          "title": "Маяк Дондра (по желанию)",
+          "kind": "activity",
+          "placeId": "dondra"
+        },
+        {
+          "time": "11:00",
+          "title": "Отдых, бассейн",
+          "kind": "rest",
+          "placeId": "hotel"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-21",
+      "title": "Пойя — день полнолуния",
+      "emoji": "🌕",
+      "mood": "rest",
+      "doorTeaser": "Тихий день: океан, бассейн и светлячки",
+      "backupNote": "Пойя: алкоголь и мясо не продают",
+      "steps": [
+        {
+          "time": "09:00",
+          "title": "Пляж",
+          "kind": "rest",
+          "placeId": "mirissa-bays"
+        },
+        {
+          "time": "13:00",
+          "title": "Обед",
+          "kind": "food"
+        },
+        {
+          "time": "19:00",
+          "title": "Светлячки (если есть)",
+          "kind": "activity",
+          "placeId": "fireflies",
+          "transport": "tuktuk_wait"
+        },
+        {
+          "time": "21:00",
+          "title": "Заказать машину на полдня к лисицам",
+          "kind": "book"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-22",
+      "title": "Змеи и летучие лисицы",
+      "emoji": "🐍",
+      "mood": "active",
+      "doorTeaser": "Держим питона и встречаем закат с лисицами",
+      "backupNote": "Если Синхараджа переносится — сегодня лес, а змеи на 23.03",
+      "steps": [
+        {
+          "time": "08:30",
+          "title": "Змеиная ферма Traditional Farm",
+          "kind": "activity",
+          "placeId": "snake-farm",
+          "transport": "tuktuk_wait"
+        },
+        {
+          "time": "12:00",
+          "title": "Обед, отдых",
+          "kind": "food"
+        },
+        {
+          "time": "14:30",
+          "title": "Mulkirigala и летучие лисицы",
+          "kind": "activity",
+          "placeId": "flying-foxes",
+          "transport": "car_halfday"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-23",
+      "title": "Прощальный вечер",
+      "emoji": "🌅",
+      "mood": "easy",
+      "doorTeaser": "Лодка на закате и ужин в джунглях",
+      "steps": [
+        {
+          "time": "09:00",
+          "title": "Завтрак в Shady Lane",
+          "kind": "food",
+          "placeId": "shady-lane"
+        },
+        {
+          "time": "10:30",
+          "title": "Сувениры: чай, специи",
+          "kind": "activity"
+        },
+        {
+          "time": "12:00",
+          "title": "Последнее купание",
+          "kind": "rest",
+          "placeId": "mirissa-bays"
+        },
+        {
+          "time": "17:00",
+          "title": "Лодка + ужин в Quinta",
+          "kind": "food",
+          "placeId": "quinta"
+        },
+        {
+          "time": "21:00",
+          "title": "Подтвердить трансфер на 24.03",
+          "kind": "book"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-24",
+      "title": "Домой",
+      "emoji": "🏠",
+      "mood": "travel",
+      "doorTeaser": "Итоги поездки: сколько мест, сколько черепах",
+      "steps": [
+        {
+          "time": "10:00",
+          "title": "Завтрак, сборы, выселение",
+          "kind": "rest",
+          "placeId": "hotel"
+        },
+        {
+          "time": "14:00",
+          "title": "Трансфер в аэропорт",
+          "kind": "move",
+          "transport": "transfer",
+          "placeId": "mattala"
+        },
+        {
+          "time": "18:45",
+          "title": "Вылет в Ташкент (прилёт 00:30)",
+          "kind": "move"
+        }
+      ]
+    }
+  ],
+  "templates": [
+    {
+      "id": "sinharaja",
+      "to": "Ачи",
+      "lang": "en",
+      "text": "Hi Achi! We are 2 adults staying in Mirissa (Aura by Epic Collection, Yatipila Road). We would like a private full-day Sinharaja wildlife tour (snakes, lizards, frogs, monkeys, birds) on 16 March 2027, with pickup from our hotel around 5:00. What is the total price including entrance, guide and transport from Mirissa? We pay in cash on the day. If it rains, can we move to 22 March? Thank you!"
+    },
+    {
+      "id": "lagoon",
+      "to": "Mirissa Eco Lagoon Safari",
+      "lang": "en",
+      "text": "Hello! We are 2 adults staying at Aura by Epic Collection, Mirissa (Yatipila Road). We would like the sunset lagoon catamaran safari on 15 March. Is pickup from our hotel included? What is the price for 2 people? We pay on the day. Thank you!"
+    },
+    {
+      "id": "crocs",
+      "to": "Nilwala Crocodile Safari",
+      "lang": "en",
+      "text": "Hello! 2 adults from Mirissa. We would like the sunrise crocodile river safari on 20 March. What is the price for 2, what time and where is the meeting point? Do you offer transport from Mirissa? Do you keep any crocodile in an enclosure? We only want to see wild animals. Thank you!"
+    },
+    {
+      "id": "udawalawe-car",
+      "to": "Ресепшн / t.me/Shri_Lanka_Tranfer",
+      "lang": "ru",
+      "text": "Нужна машина с водителем на весь день: Мирисса (Aura by Epic Collection) → Удавалаве → Мирисса, Чт 18 марта, 2 взрослых, выезд 8:30, ожидание до ~18:30 (сафари + Elephant Transit Home). Предложите цену. Оплата наличными по факту."
+    },
+    {
+      "id": "massage",
+      "to": "Спа",
+      "lang": "en",
+      "text": "Hello! Can we book 2 massages (strong, deep tissue, no oil) on 17 March in the afternoon? What times are available and what is the price? Thank you!"
+    },
+    {
+      "id": "snakes",
+      "to": "Snake Farm Weligama",
+      "lang": "en",
+      "text": "Hello! We are 2 adults from Mirissa. We would like to visit Snake Farm Weligama (Traditional Farm) on 22 March 2027, in the morning. Is it open then? What is the price per person and how long is the visit? We would like to hold non-venomous snakes only. Thank you!"
+    },
+    {
+      "id": "south-car",
+      "to": "Ресепшн",
+      "lang": "ru",
+      "text": "Нужна машина с водителем на весь день, Пт 19 марта: Мирисса → Ахангама (Animal SOS, 10:30) → Коггала → Галле → Унаватуна (ужин до 21:30) → Мирисса. 2 взрослых. Выезд ~9:30. Сколько стоит? Водитель ждёт на каждой остановке. Оплата наличными в конце."
+    },
+    {
+      "id": "quinta",
+      "to": "Quinta (Instagram)",
+      "lang": "en",
+      "text": "Hello! We are 2 adults staying in Mirissa. Do you still offer the sunset boat trip with dinner? We would like it on 23 March 2027. What time does it start and what is the price per person? Thank you!"
+    },
+    {
+      "id": "crocs-car",
+      "to": "Ресепшн",
+      "lang": "ru",
+      "text": "Нужна машина с водителем в Сб 20 марта: выезд из отеля в (время уточню после ответа оператора) в Матару (Nilwala crocodile safari), ожидание 2–3 часа, обратно в отель. 2 взрослых. Сколько стоит? Оплата по факту."
+    }
+  ],
+  "budget": [
+    {
+      "id": "food",
+      "title": "Еда (обеды и ужины)",
+      "planUsd": [
+        500,
+        500
+      ]
+    },
+    {
+      "id": "sinharaja",
+      "title": "Синхараджа",
+      "planUsd": [
+        180,
+        220
+      ]
+    },
+    {
+      "id": "udawalawe",
+      "title": "Удавалаве",
+      "planUsd": [
+        210,
+        230
+      ]
+    },
+    {
+      "id": "south",
+      "title": "Юг за день",
+      "planUsd": [
+        80,
+        100
+      ]
+    },
+    {
+      "id": "crocs",
+      "title": "Крокодилы",
+      "planUsd": [
+        35,
+        40
+      ]
+    },
+    {
+      "id": "lagoon",
+      "title": "Катамаран",
+      "planUsd": [
+        50,
+        50
+      ]
+    },
+    {
+      "id": "thalaramba",
+      "title": "Таларамба",
+      "planUsd": [
+        20,
+        30
+      ]
+    },
+    {
+      "id": "snakes",
+      "title": "Змеиная ферма",
+      "planUsd": [
+        30,
+        30
+      ]
+    },
+    {
+      "id": "massage",
+      "title": "Массаж",
+      "planUsd": [
+        40,
+        60
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "Тук-туки и сим-карта",
+      "planUsd": [
+        90,
+        90
+      ]
+    },
+    {
+      "id": "souvenirs",
+      "title": "Сувениры",
+      "planUsd": [
+        100,
+        100
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Прочее",
+      "planUsd": [
+        100,
+        180
+      ]
+    }
+  ],
+  "regions": [
+    "Мирисса",
+    "Юг",
+    "Юго-запад",
+    "Юго-восток",
+    "Горы",
+    "Центр",
+    "Культурный треугольник",
+    "Запад",
+    "Восток",
+    "Северо-запад",
+    "Север"
+  ]
+}
