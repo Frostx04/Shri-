@@ -5,6 +5,7 @@ import Messages from './more/Messages';
 import Settings from './more/Settings';
 import Budget from './more/Budget';
 import Bookings from './more/Bookings';
+import Credits from './more/Credits';
 
 const items = [
   { to: 'budget', label: 'Бюджет', icon: Wallet, hint: 'план и факт, $2000 наличными' },
@@ -23,6 +24,7 @@ export const moreRoutes: { path: string; element: React.ReactNode }[] = [
   { path: 'settings', element: <Settings /> },
   { path: 'budget', element: <Budget /> },
   { path: 'bookings', element: <Bookings /> },
+  { path: 'credits', element: <Credits /> },
 ];
 
 function Menu() {
