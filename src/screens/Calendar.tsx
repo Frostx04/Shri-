@@ -13,6 +13,8 @@ import { fmtLkr, fmtUsd } from '../lib/money';
 import { Sheet } from '../components/Sheet';
 import { Confetti } from '../components/Confetti';
 import { ProgressRing } from '../components/ProgressRing';
+import { AnimalScale } from '../components/AnimalScale';
+import { tripAnimals, seenCount } from '../lib/animals';
 
 const { start, end } = info.trip;
 const ARRIVAL = lkDateTime(start, '16:35');
@@ -90,6 +92,7 @@ function BonusSummary({ upTo }: { upTo: string }) {
     ['🛣️', `~${s.km}`, 'км по острову'],
     ['💸', fmtLkr(s.spentLkr), `~${fmtUsd(s.spentLkr / settings.rate)}`],
     ['⭐', s.best ? `${s.best.rating}★` : '—', s.best?.place?.name ?? 'лучшая оценка'],
+    ['🐾', `${seenCount()}`, plural(seenCount(), 'зверушка', 'зверушки', 'зверушек')],
   ];
   return (
     <div className="grid grid-cols-2 gap-2">
@@ -148,6 +151,11 @@ export default function Calendar() {
           </div>
         </div>
       )}
+
+      <Link to="/animals" className="card mt-3 block p-4" aria-label="Зверушки: шкала">
+        <p className="mb-1 flex items-center justify-between font-bold"><span>🐾 Зверушки</span><span className="text-sm text-accent">отметить →</span></p>
+        <AnimalScale seen={seenCount(tripAnimals())} total={tripAnimals().length} compact />
+      </Link>
 
       <div className="mt-4 grid grid-cols-3 gap-2.5">
         {days.map((d) => <Door key={d.date} day={d} state={stateOf(d)} onTap={(el) => openDay(d, el)} />)}

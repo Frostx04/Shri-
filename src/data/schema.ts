@@ -68,6 +68,7 @@ export const Place = z.object({
   driveHours: z.number().optional(),
   tripType: z.enum(['walk', 'halfday', 'day', 'overnight', 'far']).optional(),
   inPlan: z.boolean(),
+  photoQuery: z.string().optional(),       // свой запрос для поиска фото на Commons
   area: z.string().optional(),            // район для еды: «Мирисса», «Велигама», «Галле и Унаватуна»…
   cuisine: z.string().optional(),
   stomach: z.enum(['ok', 'check', 'spicy', 'avoid']).optional(),
@@ -108,6 +109,19 @@ export const Itinerary = z.object({
   region: z.string(),
   summary: z.string(),
   days: z.array(DayPlan.omit({ date: true }).extend({ date: z.string().optional(), fromHotel: z.boolean().optional() })),
+});
+
+export const Animal = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  name: z.string(),
+  latin: z.string(),
+  emoji: z.string(),
+  group: z.enum(['mammals', 'reptiles', 'birds', 'sea', 'other']),
+  where: z.array(z.string()),                 // id мест, где можно встретить
+  chance: z.enum(['high', 'medium', 'low']),  // шанс увидеть в нашей поездке
+  note: z.string(),
+  photoQuery: z.string().optional(),
+  photos: z.array(Photo),
 });
 
 export const MessageTemplate = z.object({
@@ -152,3 +166,4 @@ export type Itinerary = z.infer<typeof Itinerary>;
 export type MessageTemplate = z.infer<typeof MessageTemplate>;
 export type BudgetLine = z.infer<typeof BudgetLine>;
 export type Info = z.infer<typeof Info>;
+export type Animal = z.infer<typeof Animal>;

@@ -125,8 +125,10 @@ export const K = {
   addTo: (placeId: string) => `addto:${placeId}`,               // date
   opened: (date: string) => `opened:${date}`,                   // true — дверка открыта, конфетти уже было
   photos: (placeId: string) => `photos:${placeId}`,             // string[] id фото (локально)
+  animal: (id: string) => `animal:${id}`,                       // AnimalSeen
 };
 
 export interface Visit { at: string }
+export interface AnimalSeen { at: string; placeId?: string; note?: string }
 export type BookingStatus = 'none' | 'written' | 'confirmed' | 'paid';
 export interface Expense { title: string; lkr: number; date: string; budgetId: string }

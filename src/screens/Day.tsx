@@ -15,6 +15,7 @@ import { Cost } from '../components/Badges';
 import { VisitToggle } from '../components/VisitToggle';
 import { Empty } from '../components/ui';
 import { PhotoGrid } from '../components/OwnPhotos';
+import { AnimalChips } from '../components/AnimalChips';
 import { useOwnPhotos } from '../lib/photos';
 import { dayPlaceIds } from '../lib/data';
 import { DayMapSlot } from './daySlots';
@@ -160,6 +161,8 @@ export function DayView({ day, back = true }: { day: DayPlan; back?: boolean }) 
           );
         })}
       </ol>
+
+      <div className="mt-3"><AnimalChips placeIds={dayPlaceIds(day)} title="Зверушки дня" /></div>
 
       <AddedPlaces date={day.date} />
 

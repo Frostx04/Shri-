@@ -65,7 +65,8 @@
     "photos": [],
     "sources": "Бронь тура; общий чат 2026",
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "photoQuery": "Mattala Rajapaksa International Airport"
   },
   {
     "id": "mirissa-bays",
@@ -115,7 +116,8 @@
     ],
     "travelTimeMin": 5,
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "photoQuery": "Mirissa beach|Coconut Tree Hill Mirissa"
   },
   {
     "id": "turtle-beach",
@@ -160,7 +162,8 @@
     "costNote": "Маску можно взять в прокате на пляже",
     "travelTimeMin": 10,
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "photoQuery": "Coconut Tree Hill Mirissa|Mirissa beach turtle"
   },
   {
     "id": "thalaramba",
@@ -205,7 +208,8 @@
     "costNote": "Тук-тук ~400 ₨ в одну сторону, инструктор ~3000 ₨ с человека",
     "travelTimeMin": 7,
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "photoQuery": "Thalaramba|Chelonia mydas Sri Lanka"
   },
   {
     "id": "lagoon",
@@ -267,7 +271,8 @@
       "count": 174
     },
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "photoQuery": "Garanduwa|Mirissa lagoon|Mangroves Sri Lanka"
   },
   {
     "id": "fireflies",
@@ -305,7 +310,8 @@
     "sources": "Общий чат 20.10.2023",
     "costNote": "Только тук-тук, цену договорить заранее",
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "photoQuery": "Firefly Sri Lanka|Lampyridae night"
   },
   {
     "id": "sinharaja",
@@ -377,7 +383,8 @@
       "count": 30
     },
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "photoQuery": "Sinharaja Forest Reserve"
   },
   {
     "id": "polhena",
@@ -413,7 +420,8 @@
     "photos": [],
     "sources": "Чаты 2024–2026",
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "photoQuery": "Polhena beach|Polhena"
   },
   {
     "id": "udawalawe",
@@ -477,7 +485,8 @@
     "messageTemplateId": "udawalawe-car",
     "travelTimeMin": 180,
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "photoQuery": "Udawalawe National Park"
   },
   {
     "id": "elephant-transit-home",
@@ -511,7 +520,8 @@
       3660
     ],
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "photoQuery": "Elephant Transit Home Udawalawe|Elephant Transit Home"
   },
   {
     "id": "animal-sos",
@@ -561,7 +571,8 @@
     "bookAhead": {
       "daysBefore": 1,
       "note": "Машину на день заказать вечером 18.03 на ресепшне, цену договорить заранее. Сам приют без брони — экскурсия в 10:30"
-    }
+    },
+    "photoQuery": "Animal SOS Sri Lanka"
   },
   {
     "id": "handunugoda",
@@ -597,7 +608,8 @@
     "sources": "Общий чат 26.03.2025",
     "costNote": "Цену уточнить по телефону",
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "photoQuery": "Handunugoda|Tea plantation Galle district"
   },
   {
     "id": "koggala-museum",
@@ -628,7 +640,8 @@
     "sources": "Чат 09.2026",
     "costNote": "Цену входа смотреть в Google Maps",
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "photoQuery": "Martin Wickramasinghe museum|Koggala"
   },
   {
     "id": "galle-fort",
@@ -663,7 +676,8 @@
     "photos": [],
     "sources": "Общий чат 2024–2026",
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "photoQuery": "Galle Fort"
   },
   {
     "id": "lemongrass",
@@ -777,7 +791,8 @@
       "value": 4.8
     },
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "photoQuery": "Nilwala river|Crocodylus porosus Sri Lanka"
   },
   {
     "id": "dondra",
@@ -815,7 +830,8 @@
       15
     ],
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "photoQuery": "Dondra Head Lighthouse|Dondra lighthouse"
   },
   {
     "id": "snake-farm",
@@ -901,7 +917,8 @@
     "sources": "Общий чат 01.2025, 02.2026, 10.2026",
     "costNote": "Цену машины уточнить у водителя",
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "photoQuery": "Mulkirigala|Pteropus medius Sri Lanka"
   },
   {
     "id": "quinta",
@@ -1768,7 +1785,8 @@
     "tripType": "halfday",
     "inPlan": false,
     "costNote": "Цена урока сёрфинга — уточнить на месте (TODO)",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Weligama beach|Weligama"
   },
   {
     "id": "hiriketiya",
@@ -1811,7 +1829,8 @@
       0,
       0
     ],
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Hiriketiya"
   },
   {
     "id": "tangalle",
@@ -1852,7 +1871,8 @@
       0,
       0
     ],
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Tangalle beach|Tangalle"
   },
   {
     "id": "wewurukannala",
@@ -1895,7 +1915,8 @@
       600
     ],
     "costNote": "Источники: «100 ₨» (без даты) и «небольшой сбор для иностранцев» — уточнить на месте",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Wewurukannala"
   },
   {
     "id": "hummanaya",
@@ -1933,7 +1954,8 @@
     "tripType": "halfday",
     "inPlan": false,
     "costNote": "Цена билета — не нашли в 2026, уточнить на месте (TODO)",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Hummanaya"
   },
   {
     "id": "unawatuna",
@@ -1975,7 +1997,8 @@
       0,
       0
     ],
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Jungle Beach Unawatuna|Unawatuna beach"
   },
   {
     "id": "hikkaduwa",
@@ -2017,7 +2040,8 @@
       0,
       0
     ],
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Hikkaduwa beach|Hikkaduwa"
   },
   {
     "id": "madu-river",
@@ -2055,7 +2079,8 @@
     "tripType": "day",
     "inPlan": false,
     "costNote": "Цена лодки — уточнить (TODO)",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Madu Ganga|Madu river Balapitiya"
   },
   {
     "id": "bentota",
@@ -2096,7 +2121,8 @@
       0,
       0
     ],
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Bentota beach|Bentota"
   },
   {
     "id": "bundala",
@@ -2140,7 +2166,8 @@
       60,
       120
     ],
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Bundala National Park"
   },
   {
     "id": "yala",
@@ -2182,7 +2209,8 @@
       80,
       160
     ],
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Yala National Park"
   },
   {
     "id": "kataragama",
@@ -2225,7 +2253,8 @@
       0
     ],
     "costNote": "Вход свободный (уточнить)",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Kataragama temple|Kataragama"
   },
   {
     "id": "ella",
@@ -2271,7 +2300,8 @@
       0
     ],
     "costNote": "Мост и Little Adam’s Peak — бесплатно; в 2025 объявляли ночной доступ к мосту с платным входом — проверить",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Nine Arch Bridge|Ella Sri Lanka"
   },
   {
     "id": "ella-train",
@@ -2313,7 +2343,8 @@
       2500
     ],
     "costNote": "Официальные тарифы с резервом: 3 кл. ~1200, 2 кл. ~1700, 1 кл. ~2500 ₨ (источник 2026); резерв открывается за ~30 дней",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Demodara|Ella train Sri Lanka|Badulla line train"
   },
   {
     "id": "nuwara-eliya",
@@ -2352,7 +2383,8 @@
     "tripType": "overnight",
     "inPlan": false,
     "costNote": "Экскурсия на чайную фабрику — цену не нашли (TODO)",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Nuwara Eliya"
   },
   {
     "id": "horton-plains",
@@ -2396,7 +2428,8 @@
       60
     ],
     "costNote": "Источники расходятся: $15 + сервисный сбор $8 + НДС, или ~$30 с человека — проверить на месте",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Horton Plains|World's End Horton Plains"
   },
   {
     "id": "liptons-seat",
@@ -2433,7 +2466,8 @@
     "tripType": "overnight",
     "inPlan": false,
     "costNote": "Небольшой входной сбор — сумму не нашли (TODO)",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Lipton's Seat|Dambatenne"
   },
   {
     "id": "adams-peak",
@@ -2475,7 +2509,8 @@
       0,
       0
     ],
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Adam's Peak|Sri Pada"
   },
   {
     "id": "kandy",
@@ -2520,7 +2555,8 @@
       2000
     ],
     "costNote": "~2000 ₨ с иностранца (2026), наличными; раньше бывали 1500–3000 ₨ — уточнить",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Temple of the Tooth Kandy|Sri Dalada Maligawa"
   },
   {
     "id": "peradeniya",
@@ -2562,7 +2598,8 @@
       3000
     ],
     "costNote": "3000 ₨ взрослый иностранец (по газете 07.2023, подтверждено гидом 03.2026)",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Royal Botanical Gardens Peradeniya"
   },
   {
     "id": "sigiriya",
@@ -2605,7 +2642,8 @@
       36
     ],
     "costNote": "$30 с иностранца по гидам 2026 (старые данные — $35–36); можно платить в $ или ₨",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Sigiriya"
   },
   {
     "id": "pidurangala",
@@ -2648,7 +2686,8 @@
       1000
     ],
     "costNote": "~1000 ₨ с иностранца (данные без даты — уточнить)",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Pidurangala"
   },
   {
     "id": "dambulla",
@@ -2690,7 +2729,8 @@
       3300
     ],
     "costNote": "Источники расходятся: 2000 ₨ или ~$10 — уточнить на месте",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Dambulla cave temple"
   },
   {
     "id": "minneriya",
@@ -2727,7 +2767,8 @@
     "tripType": "far",
     "inPlan": false,
     "costNote": "Вход ~$25–30 + джип — тариф 2026 не найден (TODO)",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Minneriya National Park"
   },
   {
     "id": "polonnaruwa",
@@ -2770,7 +2811,8 @@
       30
     ],
     "costNote": "~$25–30 с иностранца (данные блогов 2025–2026, не официальные)",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Polonnaruwa Gal Vihara|Polonnaruwa"
   },
   {
     "id": "anuradhapura",
@@ -2813,7 +2855,8 @@
       30
     ],
     "costNote": "~$25–30 с иностранца (данные блогов, расходятся)",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Ruwanwelisaya|Anuradhapura"
   },
   {
     "id": "colombo",
@@ -2852,7 +2895,8 @@
     "tripType": "day",
     "inPlan": false,
     "costNote": "Гангарамая — входной билет, сумму уточнить (TODO)",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Galle Face Green|Gangaramaya"
   },
   {
     "id": "kitulgala",
@@ -2895,7 +2939,8 @@
       80
     ],
     "costNote": "Перекупщики: ~$36–40 с человека (с обедом дороже); цену у операторов уточнить",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Kitulgala"
   },
   {
     "id": "trincomalee",
@@ -2937,7 +2982,8 @@
       70
     ],
     "costNote": "Вход в нацпарк ~$42–43 с иностранца по двум источникам; тур с лодкой ~$70",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Pigeon Island National Park|Pigeon Island Trincomalee"
   },
   {
     "id": "arugam-bay",
@@ -2977,7 +3023,8 @@
       0,
       0
     ],
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Arugam Bay"
   },
   {
     "id": "wilpattu",
@@ -3014,7 +3061,8 @@
     "tripType": "far",
     "inPlan": false,
     "costNote": "Вход + джип — тариф 2026 не найден (TODO)",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Wilpattu National Park"
   },
   {
     "id": "kalpitiya",
@@ -3056,7 +3104,8 @@
       120
     ],
     "costNote": "Ориентир: от ~$64 до $120 за двоих по операторам — уточнять",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Kalpitiya"
   },
   {
     "id": "jaffna",
@@ -3094,6 +3143,7 @@
     "tripType": "far",
     "inPlan": false,
     "costNote": "TODO",
-    "checkedAt": "2026-11-13"
+    "checkedAt": "2026-11-13",
+    "photoQuery": "Nallur Kandaswamy|Jaffna"
   }
 ]

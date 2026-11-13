@@ -27,6 +27,10 @@ const itineraries = existsSync(resolve(root, 'data/itineraries.json'))
   ? check('itineraries.json', z.array(S.Itinerary), read('itineraries.json'))
   : [];
 
+const animals = existsSync(resolve(root, 'data/animals.json'))
+  ? check('animals.json', z.array(S.Animal), read('animals.json'))
+  : [];
+
 const ids = new Set<string>();
 for (const p of places) {
   if (ids.has(p.id)) errors.push(`places: дубликат id ${p.id}`);
@@ -60,8 +64,15 @@ for (const it of itineraries)
     if (s.placeId && !ids.has(s.placeId)) errors.push(`itineraries.${it.id}[${di}].steps[${i}]: нет места ${s.placeId}`);
   }));
 
+const aIds = new Set<string>();
+for (const a of animals) {
+  if (aIds.has(a.id)) errors.push(`animals: дубликат id ${a.id}`);
+  aIds.add(a.id);
+  for (const w of a.where) if (!ids.has(w)) errors.push(`animals.${a.id}: нет места ${w}`);
+}
+
 const todo = places.filter((p) => JSON.stringify(p).includes('TODO')).length;
-console.log(`places: ${places.length}, days: ${days.length}, templates: ${templates.length}, itineraries: ${itineraries.length}`);
+console.log(`places: ${places.length}, days: ${days.length}, templates: ${templates.length}, itineraries: ${itineraries.length}, animals: ${animals.length}`);
 console.log(`мест с TODO: ${todo}; предупреждений: ${warnings.length}`);
 if (process.argv.includes('--verbose')) warnings.forEach((w) => console.log('  warn ' + w));
 if (errors.length) {

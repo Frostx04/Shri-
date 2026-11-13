@@ -5,7 +5,7 @@
  * Тайлы OSM: правила tile.openstreetmap.org запрещают массовое скачивание, поэтому качаем
  * умеренно: обзор района (z9–13) + детальные зумы (14–16) только вокруг отеля и мест из плана.
  */
-import { places, plannedPlaceIds, getPlace, hotel } from './data';
+import { places, plannedPlaceIds, getPlace, hotel, animals } from './data';
 import { routeFileName } from './routes';
 
 export const TILE_URL = (z: number, x: number, y: number) => `https://tile.openstreetmap.org/${z}/${x}/${y}.png`;
@@ -49,7 +49,7 @@ export const AVG_TILE_KB = 18;
 export function photoList(): string[] {
   const base = import.meta.env.BASE_URL;
   const urls = new Set<string>();
-  for (const p of places) for (const ph of p.photos) { urls.add(base + ph.src); if (ph.thumb) urls.add(base + ph.thumb); }
+  for (const p of [...places, ...animals]) for (const ph of p.photos) { urls.add(base + ph.src); if (ph.thumb) urls.add(base + ph.thumb); }
   return [...urls];
 }
 

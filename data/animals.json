@@ -1,0 +1,724 @@
+[
+  {
+    "id": "elephant",
+    "name": "Азиатский слон",
+    "latin": "Elephas maximus maximus",
+    "emoji": "🐘",
+    "group": "mammals",
+    "where": [
+      "udawalawe",
+      "elephant-transit-home",
+      "minneriya"
+    ],
+    "chance": "high",
+    "note": "В Удавалаве — сотни; слонята в Elephant Transit Home в полдень",
+    "photoQuery": "Elephas maximus maximus Udawalawe",
+    "photos": []
+  },
+  {
+    "id": "baby-elephant",
+    "name": "Слонёнок-сирота",
+    "latin": "Elephas maximus",
+    "emoji": "🍼",
+    "group": "mammals",
+    "where": [
+      "elephant-transit-home"
+    ],
+    "chance": "high",
+    "note": "Кормление в Elephant Transit Home — их потом выпускают в дикую природу",
+    "photoQuery": "Elephant Transit Home Udawalawe",
+    "photos": []
+  },
+  {
+    "id": "toque-macaque",
+    "name": "Макак-токо",
+    "latin": "Macaca sinica",
+    "emoji": "🐒",
+    "group": "mammals",
+    "where": [
+      "hotel",
+      "mirissa-bays",
+      "sinharaja",
+      "dambulla"
+    ],
+    "chance": "high",
+    "note": "Эндемик. Воруют еду с балконов — закрывать двери",
+    "photoQuery": "Macaca sinica",
+    "photos": []
+  },
+  {
+    "id": "purple-faced-langur",
+    "name": "Пурпурнолицый лангур",
+    "latin": "Trachypithecus vetulus",
+    "emoji": "🐵",
+    "group": "mammals",
+    "where": [
+      "sinharaja"
+    ],
+    "chance": "medium",
+    "note": "Эндемик; гид Ачи показывает и редкого белого лангура",
+    "photoQuery": "Trachypithecus vetulus",
+    "photos": []
+  },
+  {
+    "id": "gray-langur",
+    "name": "Серый лангур",
+    "latin": "Semnopithecus priam",
+    "emoji": "🙈",
+    "group": "mammals",
+    "where": [
+      "udawalawe",
+      "polonnaruwa"
+    ],
+    "chance": "medium",
+    "note": "Длиннохвостые, спокойные",
+    "photoQuery": "Semnopithecus priam",
+    "photos": []
+  },
+  {
+    "id": "flying-fox",
+    "name": "Летучая лисица",
+    "latin": "Pteropus medius",
+    "emoji": "🦇",
+    "group": "mammals",
+    "where": [
+      "lagoon",
+      "flying-foxes",
+      "peradeniya"
+    ],
+    "chance": "high",
+    "note": "Около 18:20 — вылет тысячами над лагуной",
+    "photoQuery": "Pteropus medius",
+    "photos": []
+  },
+  {
+    "id": "porcupine",
+    "name": "Индийский дикобраз",
+    "latin": "Hystrix indica",
+    "emoji": "🦔",
+    "group": "mammals",
+    "where": [
+      "lemongrass"
+    ],
+    "chance": "medium",
+    "note": "Около 20:00 в Lemongrass Cafe, если сегодня приходят",
+    "photoQuery": "Hystrix indica",
+    "photos": []
+  },
+  {
+    "id": "mongoose",
+    "name": "Мангуст",
+    "latin": "Urva edwardsii",
+    "emoji": "🦡",
+    "group": "mammals",
+    "where": [
+      "udawalawe"
+    ],
+    "chance": "medium",
+    "note": "Шныряют у дорог в парке",
+    "photoQuery": "Herpestes edwardsii",
+    "photos": []
+  },
+  {
+    "id": "buffalo",
+    "name": "Дикий буйвол",
+    "latin": "Bubalus arnee",
+    "emoji": "🐃",
+    "group": "mammals",
+    "where": [
+      "udawalawe",
+      "bundala"
+    ],
+    "chance": "high",
+    "note": "Лежат в воде у водохранилищ",
+    "photoQuery": "Water buffalo Udawalawe",
+    "photos": []
+  },
+  {
+    "id": "spotted-deer",
+    "name": "Пятнистый олень (аксис)",
+    "latin": "Axis axis ceylonensis",
+    "emoji": "🦌",
+    "group": "mammals",
+    "where": [
+      "udawalawe",
+      "yala"
+    ],
+    "chance": "high",
+    "note": "«Олени-бэмби» из чатов",
+    "photoQuery": "Axis axis Sri Lanka",
+    "photos": []
+  },
+  {
+    "id": "wild-boar",
+    "name": "Кабан",
+    "latin": "Sus scrofa",
+    "emoji": "🐗",
+    "group": "mammals",
+    "where": [
+      "udawalawe"
+    ],
+    "chance": "medium",
+    "note": "",
+    "photoQuery": "Sus scrofa",
+    "photos": []
+  },
+  {
+    "id": "palm-squirrel",
+    "name": "Пальмовая белка",
+    "latin": "Funambulus palmarum",
+    "emoji": "🐿️",
+    "group": "mammals",
+    "where": [
+      "hotel",
+      "mirissa-bays"
+    ],
+    "chance": "high",
+    "note": "Полосатые, бегают по пальмам прямо у отеля",
+    "photoQuery": "Funambulus palmarum",
+    "photos": []
+  },
+  {
+    "id": "giant-squirrel",
+    "name": "Гигантская белка",
+    "latin": "Ratufa macroura",
+    "emoji": "🌰",
+    "group": "mammals",
+    "where": [
+      "sinharaja",
+      "kandy"
+    ],
+    "chance": "low",
+    "note": "Размером с кошку, рыжая с чёрным",
+    "photoQuery": "Ratufa macroura",
+    "photos": []
+  },
+  {
+    "id": "sambar",
+    "name": "Индийский замбар",
+    "latin": "Rusa unicolor",
+    "emoji": "🫎",
+    "group": "mammals",
+    "where": [
+      "horton-plains"
+    ],
+    "chance": "low",
+    "note": "Ходят по равнинам Хортона — на будущую поездку",
+    "photoQuery": "Rusa unicolor",
+    "photos": []
+  },
+  {
+    "id": "leopard",
+    "name": "Цейлонский леопард",
+    "latin": "Panthera pardus kotiya",
+    "emoji": "🐆",
+    "group": "mammals",
+    "where": [
+      "yala",
+      "wilpattu"
+    ],
+    "chance": "low",
+    "note": "Мечта на будущее — Вилпатту спокойнее Ялы",
+    "photoQuery": "Panthera pardus kotiya",
+    "photos": []
+  },
+  {
+    "id": "sos-dogs",
+    "name": "Собаки и кошки Animal SOS",
+    "latin": "Canis familiaris",
+    "emoji": "🐶",
+    "group": "mammals",
+    "where": [
+      "animal-sos"
+    ],
+    "chance": "high",
+    "note": "Гладим спасённых — тут можно!",
+    "photoQuery": "Dog Sri Lanka beach",
+    "photos": []
+  },
+  {
+    "id": "green-turtle",
+    "name": "Зелёная черепаха",
+    "latin": "Chelonia mydas",
+    "emoji": "🐢",
+    "group": "reptiles",
+    "where": [
+      "turtle-beach",
+      "thalaramba",
+      "polhena",
+      "hikkaduwa"
+    ],
+    "chance": "high",
+    "note": "Утром у Coconut Tree Hill и с инструктором на Таларамбе. Не трогать!",
+    "photoQuery": "Chelonia mydas",
+    "photos": []
+  },
+  {
+    "id": "hawksbill",
+    "name": "Бисса",
+    "latin": "Eretmochelys imbricata",
+    "emoji": "🐚",
+    "group": "reptiles",
+    "where": [
+      "thalaramba",
+      "polhena"
+    ],
+    "chance": "low",
+    "note": "Реже зелёной, клюв как у попугая",
+    "photoQuery": "Eretmochelys imbricata",
+    "photos": []
+  },
+  {
+    "id": "turtle-hatchlings",
+    "name": "Выпуск черепашат",
+    "latin": "Chelonia mydas hatchling",
+    "emoji": "🥚",
+    "group": "reptiles",
+    "where": [
+      "mirissa-bays"
+    ],
+    "chance": "low",
+    "note": "Даты на табличке у вышки спасателей, 17:30–18:00",
+    "photoQuery": "Chelonia mydas hatchling",
+    "photos": []
+  },
+  {
+    "id": "water-monitor",
+    "name": "Полосатый варан",
+    "latin": "Varanus salvator",
+    "emoji": "🦎",
+    "group": "reptiles",
+    "where": [
+      "mirissa-bays",
+      "lagoon",
+      "crocodiles",
+      "galle-fort"
+    ],
+    "chance": "high",
+    "note": "До 2 м — в лагуне и прямо в посёлке",
+    "photoQuery": "Varanus salvator",
+    "photos": []
+  },
+  {
+    "id": "land-monitor",
+    "name": "Бенгальский варан",
+    "latin": "Varanus bengalensis",
+    "emoji": "🐊",
+    "group": "reptiles",
+    "where": [
+      "udawalawe",
+      "mirissa-bays"
+    ],
+    "chance": "medium",
+    "note": "Сухопутный, поменьше",
+    "photoQuery": "Varanus bengalensis",
+    "photos": []
+  },
+  {
+    "id": "saltwater-croc",
+    "name": "Гребнистый крокодил",
+    "latin": "Crocodylus porosus",
+    "emoji": "🐊",
+    "group": "reptiles",
+    "where": [
+      "crocodiles"
+    ],
+    "chance": "high",
+    "note": "До 6 м — на рассвете на реке Нилвала",
+    "photoQuery": "Crocodylus porosus",
+    "photos": []
+  },
+  {
+    "id": "mugger",
+    "name": "Болотный крокодил",
+    "latin": "Crocodylus palustris",
+    "emoji": "🐲",
+    "group": "reptiles",
+    "where": [
+      "udawalawe",
+      "bundala"
+    ],
+    "chance": "medium",
+    "note": "В водоёмах нацпарков",
+    "photoQuery": "Crocodylus palustris",
+    "photos": []
+  },
+  {
+    "id": "green-pit-viper",
+    "name": "Зелёная куфия",
+    "latin": "Craspedocephalus trigonocephalus",
+    "emoji": "🐍",
+    "group": "reptiles",
+    "where": [
+      "sinharaja"
+    ],
+    "chance": "medium",
+    "note": "Ядовитая, сидит неподвижно — смотреть только с гидом",
+    "photoQuery": "Trimeresurus trigonocephalus",
+    "photos": []
+  },
+  {
+    "id": "hump-nosed-lizard",
+    "name": "Горбоносая ящерица",
+    "latin": "Lyriocephalus scutatus",
+    "emoji": "🦕",
+    "group": "reptiles",
+    "where": [
+      "sinharaja"
+    ],
+    "chance": "medium",
+    "note": "Эндемик с «рогом» на носу",
+    "photoQuery": "Lyriocephalus scutatus",
+    "photos": []
+  },
+  {
+    "id": "chameleon",
+    "name": "Индийский хамелеон",
+    "latin": "Chamaeleo zeylanicus",
+    "emoji": "🦎",
+    "group": "reptiles",
+    "where": [
+      "sinharaja",
+      "snake-farm"
+    ],
+    "chance": "low",
+    "note": "Попросить Ачи поискать",
+    "photoQuery": "Chamaeleo zeylanicus",
+    "photos": []
+  },
+  {
+    "id": "calotes",
+    "name": "Садовая агама",
+    "latin": "Calotes versicolor",
+    "emoji": "🦖",
+    "group": "reptiles",
+    "where": [
+      "hotel",
+      "mirissa-bays"
+    ],
+    "chance": "high",
+    "note": "Краснеет головой в брачный сезон — везде",
+    "photoQuery": "Calotes versicolor",
+    "photos": []
+  },
+  {
+    "id": "python",
+    "name": "Тигровый питон",
+    "latin": "Python molurus",
+    "emoji": "🐍",
+    "group": "reptiles",
+    "where": [
+      "snake-farm"
+    ],
+    "chance": "high",
+    "note": "На змеиной ферме дают подержать",
+    "photoQuery": "Python molurus",
+    "photos": []
+  },
+  {
+    "id": "cobra",
+    "name": "Индийская кобра",
+    "latin": "Naja naja",
+    "emoji": "🐍",
+    "group": "reptiles",
+    "where": [
+      "snake-farm"
+    ],
+    "chance": "high",
+    "note": "Смотрим на расстоянии — не лезем!",
+    "photoQuery": "Naja naja",
+    "photos": []
+  },
+  {
+    "id": "vine-snake",
+    "name": "Зелёная плетевидная змея",
+    "latin": "Ahaetulla nasuta",
+    "emoji": "🌿",
+    "group": "reptiles",
+    "where": [
+      "snake-farm",
+      "sinharaja"
+    ],
+    "chance": "medium",
+    "note": "Тонкая как лиана",
+    "photoQuery": "Ahaetulla nasuta",
+    "photos": []
+  },
+  {
+    "id": "peacock",
+    "name": "Павлин",
+    "latin": "Pavo cristatus",
+    "emoji": "🦚",
+    "group": "birds",
+    "where": [
+      "udawalawe",
+      "mirissa-bays",
+      "bundala"
+    ],
+    "chance": "high",
+    "note": "В Удавалаве — десятками, иногда и в Мириссе",
+    "photoQuery": "Pavo cristatus",
+    "photos": []
+  },
+  {
+    "id": "junglefowl",
+    "name": "Цейлонская курица",
+    "latin": "Gallus lafayettii",
+    "emoji": "🐓",
+    "group": "birds",
+    "where": [
+      "sinharaja"
+    ],
+    "chance": "medium",
+    "note": "Национальная птица Шри-Ланки",
+    "photoQuery": "Gallus lafayettii",
+    "photos": []
+  },
+  {
+    "id": "fish-owl",
+    "name": "Рыбный филин",
+    "latin": "Ketupa zeylonensis",
+    "emoji": "🦉",
+    "group": "birds",
+    "where": [
+      "sinharaja"
+    ],
+    "chance": "low",
+    "note": "Гид знает, где он сидит днём",
+    "photoQuery": "Ketupa zeylonensis",
+    "photos": []
+  },
+  {
+    "id": "paradise-flycatcher",
+    "name": "Райская мухоловка",
+    "latin": "Terpsiphone paradisi",
+    "emoji": "🕊️",
+    "group": "birds",
+    "where": [
+      "sinharaja"
+    ],
+    "chance": "medium",
+    "note": "Белый самец с длиннющим хвостом",
+    "photoQuery": "Terpsiphone paradisi",
+    "photos": []
+  },
+  {
+    "id": "blue-magpie",
+    "name": "Цейлонская голубая сорока",
+    "latin": "Urocissa ornata",
+    "emoji": "💙",
+    "group": "birds",
+    "where": [
+      "sinharaja"
+    ],
+    "chance": "low",
+    "note": "Эндемик, очень яркая",
+    "photoQuery": "Urocissa ornata",
+    "photos": []
+  },
+  {
+    "id": "hornbill",
+    "name": "Цейлонский птица-носорог",
+    "latin": "Ocyceros gingalensis",
+    "emoji": "🦤",
+    "group": "birds",
+    "where": [
+      "sinharaja",
+      "udawalawe"
+    ],
+    "chance": "medium",
+    "note": "",
+    "photoQuery": "Ocyceros gingalensis",
+    "photos": []
+  },
+  {
+    "id": "kingfisher",
+    "name": "Белогрудый зимородок",
+    "latin": "Halcyon smyrnensis",
+    "emoji": "🐦",
+    "group": "birds",
+    "where": [
+      "lagoon",
+      "crocodiles"
+    ],
+    "chance": "high",
+    "note": "Синий-синий, сидит на проводах",
+    "photoQuery": "Halcyon smyrnensis",
+    "photos": []
+  },
+  {
+    "id": "pelican",
+    "name": "Серый пеликан",
+    "latin": "Pelecanus philippensis",
+    "emoji": "🦢",
+    "group": "birds",
+    "where": [
+      "udawalawe",
+      "bundala"
+    ],
+    "chance": "medium",
+    "note": "",
+    "photoQuery": "Pelecanus philippensis",
+    "photos": []
+  },
+  {
+    "id": "painted-stork",
+    "name": "Расписной аист",
+    "latin": "Mycteria leucocephala",
+    "emoji": "🦩",
+    "group": "birds",
+    "where": [
+      "udawalawe",
+      "bundala"
+    ],
+    "chance": "medium",
+    "note": "Розовые перья на спине",
+    "photoQuery": "Mycteria leucocephala",
+    "photos": []
+  },
+  {
+    "id": "flamingo",
+    "name": "Фламинго",
+    "latin": "Phoenicopterus roseus",
+    "emoji": "🦩",
+    "group": "birds",
+    "where": [
+      "bundala"
+    ],
+    "chance": "low",
+    "note": "Зимой в Бундале — на будущее",
+    "photoQuery": "Phoenicopterus roseus",
+    "photos": []
+  },
+  {
+    "id": "parakeet",
+    "name": "Ожереловый попугай",
+    "latin": "Psittacula krameri",
+    "emoji": "🦜",
+    "group": "birds",
+    "where": [
+      "hotel",
+      "galle-fort"
+    ],
+    "chance": "high",
+    "note": "Стаями, кричат на закате",
+    "photoQuery": "Psittacula krameri",
+    "photos": []
+  },
+  {
+    "id": "eagle",
+    "name": "Хохлатый змееяд",
+    "latin": "Spilornis cheela",
+    "emoji": "🦅",
+    "group": "birds",
+    "where": [
+      "udawalawe",
+      "sinharaja"
+    ],
+    "chance": "medium",
+    "note": "",
+    "photoQuery": "Spilornis cheela",
+    "photos": []
+  },
+  {
+    "id": "reef-fish",
+    "name": "Рифовые рыбки",
+    "latin": "Pomacentridae",
+    "emoji": "🐠",
+    "group": "sea",
+    "where": [
+      "turtle-beach",
+      "thalaramba",
+      "unawatuna"
+    ],
+    "chance": "high",
+    "note": "В «лягушатниках» Secret Beach — с маской",
+    "photoQuery": "Coral reef fish Sri Lanka",
+    "photos": []
+  },
+  {
+    "id": "sea-urchin",
+    "name": "Морской ёж",
+    "latin": "Diadema setosum",
+    "emoji": "🦔",
+    "group": "sea",
+    "where": [
+      "turtle-beach"
+    ],
+    "chance": "high",
+    "note": "Смотреть — да, наступать — нет (аквашузы!)",
+    "photoQuery": "Diadema setosum",
+    "photos": []
+  },
+  {
+    "id": "dolphin",
+    "name": "Дельфин-вертун",
+    "latin": "Stenella longirostris",
+    "emoji": "🐬",
+    "group": "sea",
+    "where": [
+      "kalpitiya"
+    ],
+    "chance": "low",
+    "note": "Будущая поездка в Калпитию",
+    "photoQuery": "Stenella longirostris",
+    "photos": []
+  },
+  {
+    "id": "reef-shark",
+    "name": "Черноперая рифовая акула",
+    "latin": "Carcharhinus melanopterus",
+    "emoji": "🦈",
+    "group": "sea",
+    "where": [
+      "trincomalee"
+    ],
+    "chance": "low",
+    "note": "У Pigeon Island — с апреля",
+    "photoQuery": "Carcharhinus melanopterus",
+    "photos": []
+  },
+  {
+    "id": "fireflies",
+    "name": "Светлячки",
+    "latin": "Lampyridae",
+    "emoji": "✨",
+    "group": "other",
+    "where": [
+      "fireflies"
+    ],
+    "chance": "medium",
+    "note": "Вечером в тёмных местах у воды",
+    "photoQuery": "Lampyridae",
+    "photos": []
+  },
+  {
+    "id": "birdwing",
+    "name": "Цейлонский птицекрыл",
+    "latin": "Troides darsius",
+    "emoji": "🦋",
+    "group": "other",
+    "where": [
+      "sinharaja",
+      "peradeniya"
+    ],
+    "chance": "medium",
+    "note": "Самая большая бабочка острова, эндемик",
+    "photoQuery": "Troides darsius",
+    "photos": []
+  },
+  {
+    "id": "frog",
+    "name": "Кустарниковая лягушка",
+    "latin": "Pseudophilautus",
+    "emoji": "🐸",
+    "group": "other",
+    "where": [
+      "sinharaja"
+    ],
+    "chance": "medium",
+    "note": "Синхараджа — рай для лягушек, искать с гидом",
+    "photoQuery": "Pseudophilautus",
+    "photos": []
+  }
+]

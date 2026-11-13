@@ -11,3 +11,14 @@ export const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 export const UA = process.env.SCRIPT_USER_AGENT ?? 'sri-lanka-2027-trip-pwa/1.0 (personal travel app; build scripts)';
 export const arg = (name: string) => process.argv.includes(`--${name}`);
 export const argValue = (name: string) => process.argv.find((a) => a.startsWith(`--${name}=`))?.split('=')[1];
+
+/** fetch с повтором при 429/503: ждём Retry-After (или 20/40/80 с). */
+export async function politeFetch(url: string, init: RequestInit = {}, tries = 8): Promise<Response> {
+  for (let i = 0; ; i++) {
+    const res = await fetch(url, { ...init, headers: { 'User-Agent': UA, ...(init.headers ?? {}) }, signal: AbortSignal.timeout(60000) });
+    if ((res.status !== 429 && res.status !== 503) || i >= tries - 1) return res;
+    const wait = Math.min(900, Number(res.headers.get('retry-after')) || 30 * 2 ** i);
+    console.log(`  … ${res.status}, ждём ${wait} с`);
+    await sleep(wait * 1000);
+  }
+}

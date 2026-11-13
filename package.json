@@ -10,9 +10,9 @@
     "typecheck": "tsc --noEmit",
     "validate": "tsx scripts/validate-data.ts",
     "split-seed": "tsx scripts/split-seed.ts",
-    "routes": "tsx scripts/build-routes.ts",
-    "geocode": "tsx scripts/geocode.ts",
-    "photos": "tsx scripts/fetch-photos.ts",
+    "routes": "NODE_USE_ENV_PROXY=1 tsx scripts/build-routes.ts",
+    "geocode": "NODE_USE_ENV_PROXY=1 tsx scripts/geocode.ts",
+    "photos": "NODE_USE_ENV_PROXY=1 tsx scripts/fetch-photos.ts",
     "places:google": "tsx scripts/fetch-places.ts",
     "test": "vitest run",
     "e2e": "playwright test --trace off"

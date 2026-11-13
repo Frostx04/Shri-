@@ -17,6 +17,7 @@ import { MessageBox } from '../components/MessageBox';
 import { Empty } from '../components/ui';
 import { VisitedBlock, BringList } from '../components/VisitedBlock';
 import { PlanButtons } from '../components/PlanButtons';
+import { AnimalChips } from '../components/AnimalChips';
 import { PlaceMenuExtra } from '../components/MenuEditor';
 
 const contactIcon: Record<Contact['kind'], ReactNode> = {
@@ -102,6 +103,8 @@ export default function PlaceCard() {
           ⛔ Не идём: {why.join('; ')}
         </div>
       )}
+
+      <AnimalChips placeIds={[p.id]} title="Кого здесь можно встретить" />
 
       {!p.avoid && <Block icon={<Sparkles size={20} />} title="Зачем едем">{why.length ? <Bullets items={why} /> : <Todo />}</Block>}
 

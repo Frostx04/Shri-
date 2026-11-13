@@ -3,7 +3,8 @@ import daysJson from '../../data/days.json';
 import templatesJson from '../../data/templates.json';
 import budgetJson from '../../data/budget.json';
 import infoJson from '../../data/info.json';
-import type { Place, DayPlan, MessageTemplate, BudgetLine, Info, Itinerary } from '../data/schema';
+import animalsJson from '../../data/animals.json';
+import type { Place, DayPlan, MessageTemplate, BudgetLine, Info, Itinerary, Animal } from '../data/schema';
 
 const itineraryModules = import.meta.glob<{ default: Itinerary[] }>('../../data/itineraries.json', { eager: true });
 
@@ -12,6 +13,10 @@ export const days = daysJson as unknown as DayPlan[];
 export const templates = templatesJson as unknown as MessageTemplate[];
 export const budget = budgetJson as unknown as BudgetLine[];
 export const info = infoJson as unknown as Info;
+export const animals = animalsJson as unknown as Animal[];
+export const animalById = new Map(animals.map((a) => [a.id, a]));
+/** Звери, которых можно встретить в месте. */
+export const animalsAt = (placeId: string) => animals.filter((a) => a.where.includes(placeId));
 export const itineraries: Itinerary[] = Object.values(itineraryModules)[0]?.default ?? [];
 
 export const placeById = new Map(places.map((p) => [p.id, p]));

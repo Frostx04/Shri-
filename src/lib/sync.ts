@@ -8,8 +8,8 @@ const URL_ = import.meta.env.VITE_SUPABASE_URL as string | undefined;
 const KEY = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined;
 export const syncAvailable = !!(URL_ && KEY);
 
-/** Что синкаем: галочки, оценки, заметки, траты, брони, меню, вишлист. */
-const SYNC_PREFIXES = ['visited:', 'rating:', 'note:', 'spent:', 'expense:', 'booking:', 'bring:', 'menu:', 'wish:', 'addto:'];
+/** Что синкаем: галочки, оценки, заметки, траты, брони, меню, вишлист, увиденные звери. */
+const SYNC_PREFIXES = ['visited:', 'rating:', 'note:', 'spent:', 'expense:', 'booking:', 'bring:', 'menu:', 'wish:', 'addto:', 'animal:'];
 export const isSynced = (key: string) => SYNC_PREFIXES.some((p) => key.startsWith(p));
 
 interface Row { key: string; value: unknown; updated_at: number; device: string }

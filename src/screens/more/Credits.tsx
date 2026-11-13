@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ExternalLink } from 'lucide-react';
 import { PageHeader, Section } from '../../components/ui';
-import { places } from '../../lib/data';
+import { places, animals } from '../../lib/data';
 import { photoUrl } from '../../components/PlaceVisual';
 
 export default function Credits() {
@@ -40,6 +40,19 @@ export default function Credits() {
           </ul>
         )}
       </Section>
+      {animals.some((a) => a.photos.length) && (
+        <Section title={`Фото зверушек (${animals.reduce((s, a) => s + a.photos.length, 0)})`}>
+          <ul className="card divide-y divide-[var(--line)]">
+            {animals.filter((a) => a.photos.length).flatMap((a) => a.photos.map((ph, i) => (
+              <li key={a.id + i} className="flex items-center gap-3 p-2.5 text-sm">
+                <img src={photoUrl(ph.thumb ?? ph.src)} alt="" loading="lazy" className="h-12 w-16 shrink-0 rounded-lg object-cover" />
+                <span className="min-w-0 flex-1"><b>{a.name}</b><br /><span className="text-soft">{ph.author} · {ph.license}</span></span>
+                <a href={ph.sourceUrl} target="_blank" rel="noreferrer" aria-label="Источник фото" className="grid h-10 w-10 place-items-center text-accent"><ExternalLink size={18} /></a>
+              </li>
+            )))}
+          </ul>
+        </Section>
+      )}
       <Section title="Иконки и шрифты">
         <p className="card p-4 text-sm">Иконки — Lucide (ISC). Шрифты — Manrope и Yeseva One (SIL Open Font License).</p>
       </Section>
