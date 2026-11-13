@@ -62,3 +62,11 @@ export function legBefore(steps: Step[], i: number, getPlace: (id: string) => Pl
   const t: Transport = transport === 'walk' && raw > 3 ? guessTransport(raw) : transport;
   return { fromId: from, toId: to, transport: t, ...estimateLeg(a, b, t) };
 }
+
+/** Уточнить отрезок по реальной дороге из OSRM (км и время на машине; тук-тук медленнее, пешком — 4,5 км/ч). */
+export function refineLeg(leg: Leg, road?: { km: number; min: number }): Leg & { real?: boolean } {
+  if (!road) return leg;
+  const factor = leg.transport === 'tuktuk' || leg.transport === 'tuktuk_wait' ? 1.3 : 1;
+  const min = leg.transport === 'walk' ? Math.round((road.km / 4.5) * 60) : Math.round(road.min * factor);
+  return { ...leg, km: road.km, min: Math.max(3, Math.round(min / 5) * 5), real: true };
+}

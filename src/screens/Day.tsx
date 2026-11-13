@@ -5,7 +5,8 @@ import { dayByDate, days, getPlace, specialDay, templateById, placeById } from '
 import { formatDayRu, formatDuration, addMinutes } from '../lib/time';
 import { transportMeta, moodMeta, categoryMeta } from '../lib/meta';
 import { gmapsLink, waLink } from '../lib/links';
-import { dayStops, legBefore, type Leg } from '../lib/travel';
+import { dayStops, legBefore, refineLeg, type Leg } from '../lib/travel';
+import { useRoute, dayRouteKey } from '../lib/routes';
 import { stripPrices } from '../lib/noPrices';
 import { useValue, K, keys, get } from '../lib/store';
 import { PlaceRow } from './Places';
@@ -22,12 +23,12 @@ const DEFAULT_WEATHER = 'Март в Мириссе: +29…31°, жарко и �
 
 const kindIcon: Record<Step['kind'], string> = { move: '🚗', activity: '✨', food: '🍽️', rest: '🌴', book: '✍️' };
 
-function LegRow({ leg }: { leg: Leg }) {
+function LegRow({ leg }: { leg: Leg & { real?: boolean } }) {
   const t = transportMeta[leg.transport];
   return (
     <div className="ml-[3.1rem] flex items-center gap-2 border-l-2 border-dashed border-[var(--line)] py-2 pl-4 text-sm text-soft">
       <span className="text-base">{t.emoji}</span>
-      <span>{t.label} ~{formatDuration(leg.min)}{leg.km >= 1 ? `, ~${Math.round(leg.km)} км` : ''}</span>
+      <span>{t.label} ~{formatDuration(leg.min)}{leg.km >= 1 ? `, ${leg.real ? '' : '~'}${Math.round(leg.km)} км${leg.real ? ' по дороге' : ''}` : ''}</span>
     </div>
   );
 }
@@ -56,7 +57,7 @@ function StepCard({ day, i, n, id }: { day: DayPlan; i: number; n?: number; id: 
               {s.transport && s.kind === 'move' && <span>{transportMeta[s.transport].emoji} {transportMeta[s.transport].label}</span>}
             </div>
             {s.note && stripPrices(s.note) && <p className="mt-1 text-sm">{stripPrices(s.note)}</p>}
-            {s.kind === 'food' && !p && <p className="mt-1 text-sm text-soft">Проверенные места: Shady Lane, Dewmini (попросить не остро), Quinta.</p>}
+            {s.kind === 'food' && !p && !day.steps.some((x) => x.transport === 'car_day') && <p className="mt-1 text-sm text-soft">Проверенные места: Shady Lane, Dewmini (попросить не остро), Quinta.</p>}
           </div>
         </div>
         {showPlaceActions && (
@@ -82,6 +83,8 @@ export function DayView({ day, back = true }: { day: DayPlan; back?: boolean }) 
   const prev = days[idx - 1], next = days[idx + 1];
   const special = specialDay(day.date);
   const { numbers } = dayStops(day, getPlace);
+  const route = useRoute(dayRouteKey(day.date));
+  const roadOf = (from: string, to: string) => route?.features.find((f) => f.properties.from === from && f.properties.to === to)?.properties;
   const startId = day.steps.find((s) => s.placeId)?.placeId === 'mattala' ? 'mattala' : 'hotel';
   const prog = dayProgress(day);
   const hasBeach = day.steps.some((s) => s.placeId && ['beach'].includes(placeById.get(s.placeId)?.category ?? '') || ['turtle-beach', 'thalaramba', 'polhena'].includes(s.placeId ?? ''));
@@ -123,7 +126,8 @@ export function DayView({ day, back = true }: { day: DayPlan; back?: boolean }) 
 
       <ol className="mt-3 px-4">
         {day.steps.map((s, i) => {
-          const leg = legBefore(day.steps, i, getPlace, startId);
+          const est = legBefore(day.steps, i, getPlace, startId);
+          const leg = est && refineLeg(est, roadOf(est.fromId, est.toId));
           const n = s.placeId ? numbers.get(s.placeId) : undefined;
           return (
             <div key={i}>
