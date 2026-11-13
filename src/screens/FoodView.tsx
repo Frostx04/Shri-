@@ -1,6 +1,8 @@
-import { useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Map as MapIcon } from 'lucide-react';
+import { lazy, Suspense, useMemo, useState } from 'react';
+import { Map as MapIcon, List, ExternalLink } from 'lucide-react';
+import { gmapsSearch } from '../lib/links';
+
+const FoodMap = lazy(() => import('../components/map/FoodMap'));
 import { places } from '../lib/data';
 import { openNow } from '../lib/hours';
 import { useToday } from '../lib/settings';
@@ -16,6 +18,8 @@ export default function FoodView({ q }: { q: string }) {
   const [cuisine, setCuisine] = useState('');
   const [soft, setSoft] = useState(false);
   const [open, setOpen] = useState(false);
+  const [mode, setMode] = useState<'map' | 'list'>(() => { try { return (localStorage.getItem('sl-foodmode') as 'map' | 'list') || 'map'; } catch { return 'map'; } });
+  const setModeSaved = (m: 'map' | 'list') => { setMode(m); try { localStorage.setItem('sl-foodmode', m); } catch { /* */ } };
   const { weekday, minutes } = useToday();
 
   const list = useMemo(() => {
@@ -49,10 +53,29 @@ export default function FoodView({ q }: { q: string }) {
             <option value="">Любая кухня</option>
             {cuisines.map((c) => <option key={c} value={c}>{c}</option>)}
           </select>
-          <Link to="/map?cat=food" className="btn min-h-10 px-3 text-sm"><MapIcon size={16} /> На карте</Link>
+          <div className="grid shrink-0 grid-cols-2 rounded-xl bg-surface-2 p-1 text-sm font-bold" role="tablist" aria-label="Вид">
+            <button role="tab" aria-selected={mode === 'map'} onClick={() => setModeSaved('map')} className={`flex min-h-9 items-center gap-1 rounded-lg px-2.5 ${mode === 'map' ? 'bg-surface shadow-sm' : 'text-soft'}`}><MapIcon size={16} /> Карта</button>
+            <button role="tab" aria-selected={mode === 'list'} onClick={() => setModeSaved('list')} className={`flex min-h-9 items-center gap-1 rounded-lg px-2.5 ${mode === 'list' ? 'bg-surface shadow-sm' : 'text-soft'}`}><List size={16} /> Список</button>
+          </div>
         </div>
         {open && <p className="text-xs text-soft">Показаны только кафе с известными часами работы — у многих часы ещё не заполнены.</p>}
       </div>
+      {mode === 'map' && (
+        <div className="mt-3 border-y border-line">
+          <Suspense fallback={<div className="h-[52dvh] animate-pulse bg-surface-2" />}><FoodMap list={list} /></Suspense>
+        </div>
+      )}
+      {mode === 'map' && list.some((p) => !p.coords && !p.avoid) && (
+        <section className="px-4 pt-3">
+          <h3 className="mb-1.5 font-sans text-sm font-bold text-soft">Пока без точки на карте — открыть в Google Maps:</h3>
+          <div className="flex flex-wrap gap-1.5">
+            {list.filter((p) => !p.coords && !p.avoid).map((p) => (
+              <a key={p.id} href={gmapsSearch(p.gmapsQuery)} target="_blank" rel="noreferrer" className="chip min-h-9"><ExternalLink size={13} /> {p.name.split(/[:—]/)[0].trim()}</a>
+            ))}
+          </div>
+        </section>
+      )}
+      {mode === 'map' && <h2 className="px-4 pt-4 text-lg">Все места</h2>}
       <ul className="space-y-2.5 px-4 pt-3">
         {good.map((p) => (
           <li key={p.id}>

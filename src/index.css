@@ -173,3 +173,14 @@
   border: 2.5px solid currentColor; border-radius: 10px; padding: 1px 7px; letter-spacing: .02em;
 }
 .paw-btn { box-shadow: 0 6px 18px rgb(232 104 74 / .45), 0 0 0 5px var(--bg); }
+
+/* ——— Метки еды: капля ——— */
+.food-pin {
+  display: grid; place-items: center; border-radius: 50% 50% 50% 0; transform: rotate(-45deg);
+  border: 3px solid #fff; box-shadow: 0 3px 8px rgb(0 0 0 / .35);
+}
+.food-pin > span { transform: rotate(45deg); line-height: 1; }
+.food-pin.is-avoid { opacity: .75; }
+.food-star {
+  position: absolute; left: -6px; top: -8px; color: #f2b544; font-size: 18px; text-shadow: 0 0 3px #fff, 0 0 3px #fff;
+}

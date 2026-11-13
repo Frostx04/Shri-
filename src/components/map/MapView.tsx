@@ -63,6 +63,7 @@ export default function MapView() {
     if (p.id === 'hotel') return true;
     if (dayIds && !dayIds.has(p.id)) return false;
     if (cat.size && !cat.has(p.category)) return false;
+    if (!cat.has('food') && p.category === 'food' && !(dayIds && dayIds.has(p.id))) return false; // еда — во вкладке «Еда»
     if (tier && p.tier !== tier) return false;
     if (seen !== 'all' && isVisited(p.id) !== (seen === 'yes')) return false;
     return true;

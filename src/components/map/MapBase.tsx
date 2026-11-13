@@ -27,7 +27,7 @@ export function FitBounds({ bounds, pad = 36 }: { bounds: [number, number][]; pa
   const key = JSON.stringify(bounds);
   useEffect(() => {
     if (bounds.length === 1) map.setView(bounds[0], 14);
-    else if (bounds.length > 1) map.fitBounds(L.latLngBounds(bounds), { padding: [pad, pad], maxZoom: 15 });
+    else if (bounds.length > 1) map.fitBounds(L.latLngBounds(bounds), { padding: [pad, pad], maxZoom: 17 });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [key, map]);
   return null;

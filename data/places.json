@@ -931,8 +931,8 @@
     "tier": "good",
     "emoji": "🦔",
     "coords": [
-      6.011,
-      80.249
+      6.00707,
+      80.24279
     ],
     "coordsVerified": false,
     "gmapsQuery": "Lemongrass cafe Unawatuna, Sri Lanka",
@@ -1283,7 +1283,10 @@
     "category": "food",
     "tier": "top",
     "emoji": "🥞",
-    "coords": null,
+    "coords": [
+      5.94791,
+      80.45827
+    ],
     "coordsVerified": false,
     "gmapsQuery": "Shady Lane Mirissa, Sri Lanka",
     "why": [
@@ -1324,7 +1327,10 @@
     "category": "food",
     "tier": "good",
     "emoji": "🫓",
-    "coords": null,
+    "coords": [
+      5.9472,
+      80.46178
+    ],
     "coordsVerified": false,
     "gmapsQuery": "No.1 Dewmini Roti Shop Mirissa, Sri Lanka",
     "why": [
@@ -1365,7 +1371,10 @@
     "category": "spa",
     "tier": "good",
     "emoji": "💆",
-    "coords": null,
+    "coords": [
+      5.94484,
+      80.4639
+    ],
     "coordsVerified": false,
     "gmapsQuery": "Secret Root Spa Mirissa, Sri Lanka",
     "why": [
@@ -1520,7 +1529,10 @@
     "category": "food",
     "tier": "good",
     "emoji": "🥗",
-    "coords": null,
+    "coords": [
+      5.95021,
+      80.45831
+    ],
     "coordsVerified": false,
     "gmapsQuery": "Hide Place Mirissa, Mirissa, Sri Lanka",
     "why": [
@@ -1558,7 +1570,10 @@
     "category": "food",
     "tier": "good",
     "emoji": "🍝",
-    "coords": null,
+    "coords": [
+      5.94692,
+      80.45828
+    ],
     "coordsVerified": false,
     "gmapsQuery": "Mila Mirissa, Mirissa, Sri Lanka",
     "why": [
@@ -1596,7 +1611,10 @@
     "category": "food",
     "tier": "good",
     "emoji": "🍜",
-    "coords": null,
+    "coords": [
+      5.96699,
+      80.4509
+    ],
     "coordsVerified": false,
     "gmapsQuery": "Fujisan Mirissa, Mirissa, Sri Lanka",
     "why": [
@@ -1635,7 +1653,10 @@
     "category": "food",
     "tier": "good",
     "emoji": "🍔",
-    "coords": null,
+    "coords": [
+      5.94576,
+      80.45738
+    ],
     "coordsVerified": false,
     "gmapsQuery": "Capybara Cafe Mirissa, Mirissa, Sri Lanka",
     "why": [
@@ -1832,7 +1853,10 @@
     "category": "food",
     "tier": "optional",
     "emoji": "🦐",
-    "coords": null,
+    "coords": [
+      5.9717,
+      80.42799
+    ],
     "coordsVerified": false,
     "gmapsQuery": "Fish Point Weligama, Mirissa, Sri Lanka",
     "why": [
@@ -1874,7 +1898,10 @@
     "category": "food",
     "tier": "good",
     "emoji": "🛒",
-    "coords": null,
+    "coords": [
+      5.94744,
+      80.45825
+    ],
     "coordsVerified": false,
     "gmapsQuery": "Cargills Food City Mirissa, Mirissa, Sri Lanka",
     "why": [
@@ -1912,7 +1939,10 @@
     "category": "food",
     "tier": "optional",
     "emoji": "🚫",
-    "coords": null,
+    "coords": [
+      5.94762,
+      80.4612
+    ],
     "coordsVerified": false,
     "gmapsQuery": "Garlic Mirissa, Mirissa, Sri Lanka",
     "why": [
