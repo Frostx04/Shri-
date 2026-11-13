@@ -13,6 +13,7 @@
     "routes": "NODE_USE_ENV_PROXY=1 tsx scripts/build-routes.ts",
     "geocode": "NODE_USE_ENV_PROXY=1 tsx scripts/geocode.ts",
     "photos": "NODE_USE_ENV_PROXY=1 tsx scripts/fetch-photos.ts",
+    "drop-photos": "tsx scripts/drop-photos.ts",
     "places:google": "tsx scripts/fetch-places.ts",
     "test": "vitest run",
     "e2e": "playwright test --trace off"

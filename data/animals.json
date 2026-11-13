@@ -21,14 +21,6 @@
         "license": "CC BY 4.0",
         "sourceUrl": "https://www.inaturalist.org/observations/229033743",
         "provider": "inaturalist"
-      },
-      {
-        "src": "photos/animals/elephant/2.webp",
-        "thumb": "photos/animals/elephant/2-thumb.webp",
-        "author": "Noah Kirkland",
-        "license": "CC BY 4.0",
-        "sourceUrl": "https://www.inaturalist.org/observations/248573278",
-        "provider": "inaturalist"
       }
     ]
   },
@@ -144,14 +136,6 @@
     "photoQuery": "Semnopithecus priam",
     "photos": [
       {
-        "src": "photos/animals/gray-langur/1.webp",
-        "thumb": "photos/animals/gray-langur/1-thumb.webp",
-        "author": "Suhel Quader",
-        "license": "CC BY 4.0",
-        "sourceUrl": "https://www.inaturalist.org/observations/33755176",
-        "provider": "inaturalist"
-      },
-      {
         "src": "photos/animals/gray-langur/2.webp",
         "thumb": "photos/animals/gray-langur/2-thumb.webp",
         "author": "Ahirbudhnyan M",
@@ -183,14 +167,6 @@
         "license": "CC BY 4.0",
         "sourceUrl": "https://www.inaturalist.org/observations/178523651",
         "provider": "inaturalist"
-      },
-      {
-        "src": "photos/animals/flying-fox/2.webp",
-        "thumb": "photos/animals/flying-fox/2-thumb.webp",
-        "author": "Ashwin Viswanathan",
-        "license": "CC BY 4.0",
-        "sourceUrl": "https://www.inaturalist.org/observations/409908081",
-        "provider": "inaturalist"
       }
     ]
   },
@@ -205,25 +181,18 @@
     ],
     "chance": "medium",
     "note": "Около 20:00 в Lemongrass Cafe, если сегодня приходят",
-    "photoQuery": "Hystrix indica",
+    "photoQuery": "Indian crested porcupine|Hystrix indica|porcupine",
     "photos": [
-      {
-        "src": "photos/animals/porcupine/1.webp",
-        "thumb": "photos/animals/porcupine/1-thumb.webp",
-        "author": "T R Shankar Raman",
-        "license": "CC BY 4.0",
-        "sourceUrl": "https://www.inaturalist.org/observations/63897701",
-        "provider": "inaturalist"
-      },
       {
         "src": "photos/animals/porcupine/2.webp",
         "thumb": "photos/animals/porcupine/2-thumb.webp",
-        "author": "Ravuri Krishna Chaitanya",
-        "license": "CC BY 4.0",
-        "sourceUrl": "https://www.inaturalist.org/observations/267461692",
-        "provider": "inaturalist"
+        "author": "Just chaos",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/7326810@N08/3572346504",
+        "provider": "openverse"
       }
-    ]
+    ],
+    "photoSource": "openverse"
   },
   {
     "id": "mongoose",
@@ -277,14 +246,6 @@
         "license": "CC BY 4.0",
         "sourceUrl": "https://www.inaturalist.org/observations/148966296",
         "provider": "inaturalist"
-      },
-      {
-        "src": "photos/animals/buffalo/2.webp",
-        "thumb": "photos/animals/buffalo/2-thumb.webp",
-        "author": "no rights reserved",
-        "license": "CC0",
-        "sourceUrl": "https://www.inaturalist.org/observations/148523142",
-        "provider": "inaturalist"
       }
     ]
   },
@@ -334,14 +295,6 @@
     "photoQuery": "Sus scrofa",
     "photos": [
       {
-        "src": "photos/animals/wild-boar/1.webp",
-        "thumb": "photos/animals/wild-boar/1-thumb.webp",
-        "author": "luluchouette",
-        "license": "CC BY 4.0",
-        "sourceUrl": "https://www.inaturalist.org/observations/108769387",
-        "provider": "inaturalist"
-      },
-      {
         "src": "photos/animals/wild-boar/2.webp",
         "thumb": "photos/animals/wild-boar/2-thumb.webp",
         "author": "Shane Austin",
@@ -365,14 +318,6 @@
     "note": "Полосатые, бегают по пальмам прямо у отеля",
     "photoQuery": "Funambulus palmarum",
     "photos": [
-      {
-        "src": "photos/animals/palm-squirrel/1.webp",
-        "thumb": "photos/animals/palm-squirrel/1-thumb.webp",
-        "author": "no rights reserved",
-        "license": "CC0",
-        "sourceUrl": "https://www.inaturalist.org/observations/128264387",
-        "provider": "inaturalist"
-      },
       {
         "src": "photos/animals/palm-squirrel/2.webp",
         "thumb": "photos/animals/palm-squirrel/2-thumb.webp",
@@ -489,22 +434,22 @@
     ],
     "chance": "high",
     "note": "Гладим спасённых — тут можно!",
-    "photoQuery": "Sri Lanka beach dog|stray dog Sri Lanka",
+    "photoQuery": "happy dog shelter|dog puppy portrait",
     "photos": [
       {
         "src": "photos/animals/sos-dogs/1.webp",
         "thumb": "photos/animals/sos-dogs/1-thumb.webp",
-        "author": ".shyam.",
+        "author": "Steve @ the alligator farm",
         "license": "CC BY-SA 2.0",
-        "sourceUrl": "https://www.flickr.com/photos/56971893@N00/2190659711",
+        "sourceUrl": "https://www.flickr.com/photos/28171941@N04/2930489477",
         "provider": "openverse"
       },
       {
         "src": "photos/animals/sos-dogs/2.webp",
         "thumb": "photos/animals/sos-dogs/2-thumb.webp",
-        "author": "paaddor",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://www.flickr.com/photos/109715245@N06/49690298623",
+        "author": "Steve @ the alligator farm",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/28171941@N04/2841061494",
         "provider": "openverse"
       }
     ],
@@ -663,14 +608,6 @@
         "license": "CC BY 4.0",
         "sourceUrl": "https://www.inaturalist.org/observations/38089754",
         "provider": "inaturalist"
-      },
-      {
-        "src": "photos/animals/land-monitor/2.webp",
-        "thumb": "photos/animals/land-monitor/2-thumb.webp",
-        "author": "Navapol Komanasin",
-        "license": "CC BY 4.0",
-        "sourceUrl": "https://www.inaturalist.org/observations/162307563",
-        "provider": "inaturalist"
       }
     ]
   },
@@ -687,14 +624,6 @@
     "note": "До 6 м — на рассвете на реке Нилвала",
     "photoQuery": "Crocodylus porosus",
     "photos": [
-      {
-        "src": "photos/animals/saltwater-croc/1.webp",
-        "thumb": "photos/animals/saltwater-croc/1-thumb.webp",
-        "author": "Dragonette",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://www.inaturalist.org/observations/32869037",
-        "provider": "inaturalist"
-      },
       {
         "src": "photos/animals/saltwater-croc/2.webp",
         "thumb": "photos/animals/saltwater-croc/2-thumb.webp",
@@ -1035,14 +964,6 @@
     "photoQuery": "Ketupa zeylonensis",
     "photos": [
       {
-        "src": "photos/animals/fish-owl/1.webp",
-        "thumb": "photos/animals/fish-owl/1-thumb.webp",
-        "author": "Павлик Лисицын",
-        "license": "CC BY 4.0",
-        "sourceUrl": "https://www.inaturalist.org/observations/152593663",
-        "provider": "inaturalist"
-      },
-      {
         "src": "photos/animals/fish-owl/2.webp",
         "thumb": "photos/animals/fish-owl/2-thumb.webp",
         "author": "Ian Dugdale",
@@ -1199,14 +1120,6 @@
         "license": "CC BY 4.0",
         "sourceUrl": "https://www.inaturalist.org/observations/193356519",
         "provider": "inaturalist"
-      },
-      {
-        "src": "photos/animals/pelican/2.webp",
-        "thumb": "photos/animals/pelican/2-thumb.webp",
-        "author": "James M. Maley",
-        "license": "CC BY 4.0",
-        "sourceUrl": "https://www.inaturalist.org/observations/326937941",
-        "provider": "inaturalist"
       }
     ]
   },
@@ -1359,14 +1272,6 @@
         "license": "CC BY 2.0",
         "sourceUrl": "https://www.flickr.com/photos/125265709@N08/46091585414",
         "provider": "openverse"
-      },
-      {
-        "src": "photos/animals/reef-fish/2.webp",
-        "thumb": "photos/animals/reef-fish/2-thumb.webp",
-        "author": "papilioshih",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://www.flickr.com/photos/37180297@N08/52965026497",
-        "provider": "openverse"
       }
     ]
   },
@@ -1452,14 +1357,6 @@
         "license": "CC BY 4.0",
         "sourceUrl": "https://www.inaturalist.org/observations/145018504",
         "provider": "inaturalist"
-      },
-      {
-        "src": "photos/animals/reef-shark/2.webp",
-        "thumb": "photos/animals/reef-shark/2-thumb.webp",
-        "author": "no rights reserved",
-        "license": "CC0",
-        "sourceUrl": "https://www.inaturalist.org/observations/202420125",
-        "provider": "inaturalist"
       }
     ]
   },
@@ -1475,7 +1372,24 @@
     "chance": "medium",
     "note": "Вечером в тёмных местах у воды",
     "photoQuery": "Lampyridae",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/fireflies/1.webp",
+        "thumb": "photos/animals/fireflies/1-thumb.webp",
+        "author": "insectsunlocked",
+        "license": "CC0",
+        "sourceUrl": "https://www.flickr.com/photos/131104726@N02/20056712852",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/animals/fireflies/2.webp",
+        "thumb": "photos/animals/fireflies/2-thumb.webp",
+        "author": "insectsunlocked",
+        "license": "CC0",
+        "sourceUrl": "https://www.flickr.com/photos/131104726@N02/29964887062",
+        "provider": "openverse"
+      }
+    ]
   },
   {
     "id": "birdwing",
@@ -1490,7 +1404,24 @@
     "chance": "medium",
     "note": "Самая большая бабочка острова, эндемик",
     "photoQuery": "Troides darsius",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/birdwing/1.webp",
+        "thumb": "photos/animals/birdwing/1-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/252127923",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/birdwing/2.webp",
+        "thumb": "photos/animals/birdwing/2-thumb.webp",
+        "author": "William Stephens",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/39776558",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "frog",
@@ -1504,6 +1435,23 @@
     "chance": "medium",
     "note": "Синхараджа — рай для лягушек, искать с гидом",
     "photoQuery": "Pseudophilautus",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/frog/1.webp",
+        "thumb": "photos/animals/frog/1-thumb.webp",
+        "author": "Cheryl Stinchcomb",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/251666287",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/frog/2.webp",
+        "thumb": "photos/animals/frog/2-thumb.webp",
+        "author": "Cheryl Stinchcomb",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/196675145",
+        "provider": "inaturalist"
+      }
+    ]
   }
 ]

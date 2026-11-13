@@ -26,6 +26,7 @@ npm run dev          # http://localhost:5173/Shri-/
 | `npm run routes` | маршруты дней через OSRM → `public/routes/*.json` |
 | `npm run geocode` | проверка координат через Nominatim → `data/geocode-report.md` |
 | `npm run photos` | реальные фото мест и зверей (iNaturalist, Openverse/Flickr, Wikimedia Commons) → `public/photos/` |
+| `npm run drop-photos -- sinharaja:3 animal:porcupine:1` | убрать неудачное фото (номер по порядку) |
 | `npm run places:google` | (по ключу) фото, рейтинг и часы кафе из Google Places |
 
 ## Как устроено

@@ -62,7 +62,32 @@
       "Ввоз сигарет запрещён"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/mattala/1.webp",
+        "thumb": "photos/mattala/1-thumb.webp",
+        "author": "Lakpura LLC",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/60210556@N03/15632441649",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/mattala/2.webp",
+        "thumb": "photos/mattala/2-thumb.webp",
+        "author": "Lakpura LLC",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/60210556@N03/15633162557",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/mattala/3.webp",
+        "thumb": "photos/mattala/3-thumb.webp",
+        "author": "Lakpura LLC",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/60210556@N03/15794673286",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Бронь тура; общий чат 2026",
     "region": "Мирисса",
     "inPlan": true,
@@ -108,7 +133,32 @@
       "Не лежать на голом песке (кожная личинка)"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/mirissa-bays/1.webp",
+        "thumb": "photos/mirissa-bays/1-thumb.webp",
+        "author": "Arian Zwegers",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/67769030@N07/6517708167",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/mirissa-bays/2.webp",
+        "thumb": "photos/mirissa-bays/2-thumb.webp",
+        "author": "Arian Zwegers",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/67769030@N07/6927919511",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/mirissa-bays/3.webp",
+        "thumb": "photos/mirissa-bays/3-thumb.webp",
+        "author": "sergei.gussev",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/133200397@N03/46415124895",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Общий чат и чат Мириссы 2023–2026",
     "costLkr": [
       0,
@@ -153,7 +203,32 @@
       "На Secret Beach ежи на камнях — только в аквашузах"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/turtle-beach/1.webp",
+        "thumb": "photos/turtle-beach/1-thumb.webp",
+        "author": "sergei.gussev",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/133200397@N03/46415124895",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/turtle-beach/2.webp",
+        "thumb": "photos/turtle-beach/2-thumb.webp",
+        "author": "sergei.gussev",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/133200397@N03/47330011521",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/turtle-beach/3.webp",
+        "thumb": "photos/turtle-beach/3-thumb.webp",
+        "author": "sergei.gussev",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/133200397@N03/33454233518",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Общий чат 2024–2026",
     "costLkr": [
       0,
@@ -199,7 +274,16 @@
       "Далеко не заплывать — течения"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/thalaramba/1.webp",
+        "thumb": "photos/thalaramba/1-thumb.webp",
+        "author": "Rod Waddington",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/64607715@N05/54331627717",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Общий чат 01.2026; чат Мириссы 02.2026",
     "costLkr": [
       6800,
@@ -253,7 +337,16 @@
         "label": "Mirissa Eco Lagoon Safari"
       }
     ],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/lagoon/2.webp",
+        "thumb": "photos/lagoon/2-thumb.webp",
+        "author": "bikashdas",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/13508369@N07/10871302726",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Чат Мириссы 01.2025; TripAdvisor",
     "costUsd": [
       50,
@@ -311,7 +404,7 @@
     "costNote": "Только тук-тук, цену договорить заранее",
     "region": "Мирисса",
     "inPlan": true,
-    "photoQuery": "fireflies night|firefly long exposure"
+    "photoQuery": "fireflies forest night|firefly"
   },
   {
     "id": "sinharaja",
@@ -364,7 +457,24 @@
         "value": "https://naturetrails.lk"
       }
     ],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/sinharaja/1.webp",
+        "thumb": "photos/sinharaja/1-thumb.webp",
+        "author": "Rainbirder",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/50079771@N08/4712453888",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/sinharaja/2.webp",
+        "thumb": "photos/sinharaja/2-thumb.webp",
+        "author": "rapidtravelchai",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/65638600@N05/6087134710",
+        "provider": "openverse"
+      }
+    ],
     "sources": "TripAdvisor; общий чат 11.2025",
     "costUsd": [
       180,
@@ -417,7 +527,16 @@
       "Черепах не кормить и не трогать"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/polhena/1.webp",
+        "thumb": "photos/polhena/1-thumb.webp",
+        "author": "travelmag.com",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/113306963@N05/37474636774",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Чаты 2024–2026",
     "region": "Мирисса",
     "inPlan": true,
@@ -471,7 +590,32 @@
         "label": "Ресепшн отеля"
       }
     ],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/udawalawe/1.webp",
+        "thumb": "photos/udawalawe/1-thumb.webp",
+        "author": "CharlieOnTravel",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/143738113@N06/41002800985",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/udawalawe/2.webp",
+        "thumb": "photos/udawalawe/2-thumb.webp",
+        "author": "CharlieOnTravel",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/143738113@N06/41902204421",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/udawalawe/3.webp",
+        "thumb": "photos/udawalawe/3-thumb.webp",
+        "author": "CharlieOnTravel",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/143738113@N06/41902197311",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Общий чат 11.2025, 01.2026; udawalawa.com",
     "costUsd": [
       210,
@@ -513,7 +657,32 @@
     "bring": [],
     "pitfalls": [],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/elephant-transit-home/1.webp",
+        "thumb": "photos/elephant-transit-home/1-thumb.webp",
+        "author": "British Veterinary Association (BVA)",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/135540427@N04/23572454281",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/elephant-transit-home/2.webp",
+        "thumb": "photos/elephant-transit-home/2-thumb.webp",
+        "author": "amanderson2",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/49399018@N00/48515252992",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/elephant-transit-home/3.webp",
+        "thumb": "photos/elephant-transit-home/3-thumb.webp",
+        "author": "amanderson2",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/49399018@N00/48515253457",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Общий чат 01.2026",
     "costLkr": [
       3660,
@@ -572,7 +741,7 @@
       "daysBefore": 1,
       "note": "Машину на день заказать вечером 18.03 на ресепшне, цену договорить заранее. Сам приют без брони — экскурсия в 10:30"
     },
-    "photoQuery": "Animal SOS Sri Lanka"
+    "photoQuery": "rescued dogs shelter|happy dog shelter"
   },
   {
     "id": "handunugoda",
@@ -604,12 +773,37 @@
         "value": "+94777713999"
       }
     ],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/handunugoda/1.webp",
+        "thumb": "photos/handunugoda/1-thumb.webp",
+        "author": "simon***",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/59135416@N03/5619610911",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/handunugoda/2.webp",
+        "thumb": "photos/handunugoda/2-thumb.webp",
+        "author": "cattan2011",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/68166820@N08/48698048293",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/handunugoda/3.webp",
+        "thumb": "photos/handunugoda/3-thumb.webp",
+        "author": "motumboe",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/8419224@N08/2888355334",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Общий чат 26.03.2025",
     "costNote": "Цену уточнить по телефону",
     "region": "Мирисса",
     "inPlan": true,
-    "photoQuery": "Handunugoda|Tea plantation Galle district"
+    "photoQuery": "tea plantation Sri Lanka|white tea leaves"
   },
   {
     "id": "koggala-museum",
@@ -636,12 +830,37 @@
     "bring": [],
     "pitfalls": [],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/koggala-museum/1.webp",
+        "thumb": "photos/koggala-museum/1-thumb.webp",
+        "author": "Gethmaperera",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Martin_Wickramasinghe_House.jpg",
+        "provider": "wikimedia"
+      },
+      {
+        "src": "photos/koggala-museum/2.webp",
+        "thumb": "photos/koggala-museum/2-thumb.webp",
+        "author": "Kosala Migara",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Author%27s_Place.jpg",
+        "provider": "wikimedia"
+      },
+      {
+        "src": "photos/koggala-museum/3.webp",
+        "thumb": "photos/koggala-museum/3-thumb.webp",
+        "author": "Meusays",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monkey%27s_view_From_Madolduwa,_Koggala.jpg",
+        "provider": "wikimedia"
+      }
+    ],
     "sources": "Чат 09.2026",
     "costNote": "Цену входа смотреть в Google Maps",
     "region": "Мирисса",
     "inPlan": true,
-    "photoQuery": "Martin Wickramasinghe museum|Koggala"
+    "photoQuery": "Martin Wickramasinghe|Koggala lake"
   },
   {
     "id": "galle-fort",
@@ -673,7 +892,32 @@
       "Удав и кобры за 500 ₨ — не поддерживаем"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/galle-fort/1.webp",
+        "thumb": "photos/galle-fort/1-thumb.webp",
+        "author": "Koshyk",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/97235261@N00/14595058077",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/galle-fort/2.webp",
+        "thumb": "photos/galle-fort/2-thumb.webp",
+        "author": "Lakpura LLC",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/60210556@N03/15687958599",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/galle-fort/3.webp",
+        "thumb": "photos/galle-fort/3-thumb.webp",
+        "author": "Chetiya Sahabandu",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/97408942@N04/9433026844",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Общий чат 2024–2026",
     "region": "Мирисса",
     "inPlan": true,
@@ -773,7 +1017,32 @@
         "value": "https://nilwalacrocodilesafari.lk"
       }
     ],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/crocodiles/1.webp",
+        "thumb": "photos/crocodiles/1-thumb.webp",
+        "author": "aska fathima",
+        "license": "CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nilwala_River_in_Matara_Sri_Lanka_-_panoramio.jpg",
+        "provider": "wikimedia"
+      },
+      {
+        "src": "photos/crocodiles/2.webp",
+        "thumb": "photos/crocodiles/2-thumb.webp",
+        "author": "Auston Rotheram",
+        "license": "CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nilwala_River_Matara_Sri_Lanka.jpg",
+        "provider": "wikimedia"
+      },
+      {
+        "src": "photos/crocodiles/3.webp",
+        "thumb": "photos/crocodiles/3-thumb.webp",
+        "author": "aska fathima",
+        "license": "CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nilwala_River_in_Matara_Sri_Lanka_2011_-_panoramio.jpg",
+        "provider": "wikimedia"
+      }
+    ],
     "sources": "Общий чат 03–04.2026",
     "costLkr": [
       10000,
@@ -823,7 +1092,16 @@
       "Слониха на цепи; не кататься"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/dondra/1.webp",
+        "thumb": "photos/dondra/1-thumb.webp",
+        "author": "Paul Keller",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/18259771@N00/14249896344",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Чат Мириссы 2023–2025",
     "costUsd": [
       10,
@@ -864,7 +1142,16 @@
       "Не путать с фермой Thelijjawila (жалобы, до 5000 ₨)"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/snake-farm/2.webp",
+        "thumb": "photos/snake-farm/2-thumb.webp",
+        "author": "Alina Sofia",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/43529122@N08/5817772460",
+        "provider": "openverse"
+      }
+    ],
     "sources": "TripAdvisor; Wanderlog; чат 02.2026",
     "costLkr": [
       8000,
@@ -914,12 +1201,29 @@
       "Если не успеем — лисиц видно и на лагуне 15.03"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/flying-foxes/1.webp",
+        "thumb": "photos/flying-foxes/1-thumb.webp",
+        "author": "paaddor",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/109715245@N06/49119992383",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/flying-foxes/2.webp",
+        "thumb": "photos/flying-foxes/2-thumb.webp",
+        "author": "paaddor",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/109715245@N06/49647675892",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Общий чат 01.2025, 02.2026, 10.2026",
     "costNote": "Цену машины уточнить у водителя",
     "region": "Мирисса",
     "inPlan": true,
-    "photoQuery": "Mulkirigala|Pteropus medius Sri Lanka"
+    "photoQuery": "flying foxes Sri Lanka|fruit bats colony|Mulkirigala"
   },
   {
     "id": "quinta",
@@ -1778,7 +2082,24 @@
       "Купаться у сёрф-школ и спасателей, не у устья реки"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/weligama/1.webp",
+        "thumb": "photos/weligama/1-thumb.webp",
+        "author": "Arian Zwegers",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/67769030@N07/6517548593",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/weligama/3.webp",
+        "thumb": "photos/weligama/3-thumb.webp",
+        "author": "sergei.gussev",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/133200397@N03/46415124895",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Общие путеводители; цены не проверены",
     "region": "Юг",
     "distanceKm": 8,
@@ -1819,7 +2140,16 @@
       "У мыса волна сильнее"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/hiriketiya/1.webp",
+        "thumb": "photos/hiriketiya/1-thumb.webp",
+        "author": "Marco Zanferrari",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/13808203@N02/4866101519",
+        "provider": "openverse"
+      }
+    ],
     "sources": "thecommonwanderer.com (обновл. 2024); lakpura.com; yamu.lk — проверено 13.11.2026",
     "region": "Юг",
     "distanceKm": 40,
@@ -1831,7 +2161,7 @@
       0
     ],
     "checkedAt": "2026-11-13",
-    "photoQuery": "Hiriketiya"
+    "photoQuery": "Hiriketiya beach|Dikwella beach"
   },
   {
     "id": "tangalle",
@@ -1861,7 +2191,24 @@
       "На открытых пляжах Тангалле сильный прибой и течения — купаться только в защищённых бухтах"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/tangalle/1.webp",
+        "thumb": "photos/tangalle/1-thumb.webp",
+        "author": "paaddor",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/109715245@N06/39695821345",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/tangalle/2.webp",
+        "thumb": "photos/tangalle/2-thumb.webp",
+        "author": "paaddor",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/109715245@N06/40081697721",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Общие путеводители; проверить на месте",
     "region": "Юг",
     "distanceKm": 50,
@@ -1904,7 +2251,24 @@
       "Обувь снимать, одежда — закрытая"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/wewurukannala/1.webp",
+        "thumb": "photos/wewurukannala/1-thumb.webp",
+        "author": "pixel.fabian",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/52245360@N07/25787824492",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/wewurukannala/2.webp",
+        "thumb": "photos/wewurukannala/2-thumb.webp",
+        "author": "pixel.fabian",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/52245360@N07/25275876344",
+        "provider": "openverse"
+      }
+    ],
     "sources": "srilankatravelpages.com; lakpura.com; amazinglanka.com — проверено 13.11.2026",
     "region": "Юг",
     "distanceKm": 35,
@@ -1947,7 +2311,16 @@
       "Близко к краю не подходить — мокрые камни"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/hummanaya/1.webp",
+        "thumb": "photos/hummanaya/1-thumb.webp",
+        "author": "musixcom.mp",
+        "license": "CC0",
+        "sourceUrl": "https://www.flickr.com/photos/202768939@N06/55126741096",
+        "provider": "openverse"
+      }
+    ],
     "sources": "en.wikipedia.org/wiki/Hummanaya — проверено 13.11.2026",
     "region": "Юг",
     "distanceKm": 45,
@@ -1987,7 +2360,32 @@
       "Кораллы не трогать, ежи — в аквашузах"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/unawatuna/1.webp",
+        "thumb": "photos/unawatuna/1-thumb.webp",
+        "author": "sergei.gussev",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/133200397@N03/47501809961",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/unawatuna/2.webp",
+        "thumb": "photos/unawatuna/2-thumb.webp",
+        "author": "sergei.gussev",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/133200397@N03/40535772873",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/unawatuna/3.webp",
+        "thumb": "photos/unawatuna/3-thumb.webp",
+        "author": "sergei.gussev",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/133200397@N03/33533703768",
+        "provider": "openverse"
+      }
+    ],
     "sources": "План поездки; общие путеводители",
     "region": "Юг",
     "distanceKm": 38,
@@ -2030,7 +2428,32 @@
       "Черепашьи «фермы-хэтчери» по дороге — в списке «не едем»"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/hikkaduwa/1.webp",
+        "thumb": "photos/hikkaduwa/1-thumb.webp",
+        "author": "S Baker",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/57373363@N00/213174125",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/hikkaduwa/2.webp",
+        "thumb": "photos/hikkaduwa/2-thumb.webp",
+        "author": "Mkularatne",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/97992150@N07/9320079835",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/hikkaduwa/3.webp",
+        "thumb": "photos/hikkaduwa/3-thumb.webp",
+        "author": "Lakpura LLC",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/60210556@N03/15079398553",
+        "provider": "openverse"
+      }
+    ],
     "sources": "План поездки; общие путеводители",
     "region": "Юг",
     "distanceKm": 55,
@@ -2072,7 +2495,16 @@
       "«Сады специй» и «рыбный массаж» по дороге — навязанные остановки, отказываться заранее"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/madu-river/1.webp",
+        "thumb": "photos/madu-river/1-thumb.webp",
+        "author": "mbiebusch",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/25854964@N05/7806585566",
+        "provider": "openverse"
+      }
+    ],
     "sources": "План поездки (чаты)",
     "region": "Юго-запад",
     "distanceKm": 75,
@@ -2111,7 +2543,32 @@
       "На черепашьи фермы в Косгоде не едем — см. «Куда не ехать»"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/bentota/1.webp",
+        "thumb": "photos/bentota/1-thumb.webp",
+        "author": "Hafiz Issadeen",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/25902645@N08/3187922048",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/bentota/2.webp",
+        "thumb": "photos/bentota/2-thumb.webp",
+        "author": "Asela",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/34727235@N00/6422897637",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/bentota/3.webp",
+        "thumb": "photos/bentota/3-thumb.webp",
+        "author": "Tjeerd",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/76396789@N00/20393158058",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Общие путеводители",
     "region": "Юго-запад",
     "distanceKm": 95,
@@ -2155,7 +2612,32 @@
       "Джип договаривать с водителем: время, цена за машину, без «подгона» к животным"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/bundala/1.webp",
+        "thumb": "photos/bundala/1-thumb.webp",
+        "author": "H.A.S PhotoDesigns~Heart+Soul~",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/14711897@N08/8222920619",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/bundala/2.webp",
+        "thumb": "photos/bundala/2-thumb.webp",
+        "author": "Thimindu",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/51327488@N00/8557668017",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/bundala/3.webp",
+        "thumb": "photos/bundala/3-thumb.webp",
+        "author": "Thimindu",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/51327488@N00/8558777452",
+        "provider": "openverse"
+      }
+    ],
     "sources": "sltda.gov.lk (онлайн-пермиты), 4stogo.com, yamu.lk — проверено 13.11.2026; цена-ориентир, не официальная",
     "region": "Юго-восток",
     "distanceKm": 110,
@@ -2198,7 +2680,32 @@
       "Если всё же ехать — брать Блок 5 или Бундалу"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/yala/1.webp",
+        "thumb": "photos/yala/1-thumb.webp",
+        "author": "A.Davey",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/40595948@N00/398229559",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/yala/2.webp",
+        "thumb": "photos/yala/2-thumb.webp",
+        "author": "A.Davey",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/40595948@N00/398230944",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/yala/3.webp",
+        "thumb": "photos/yala/3-thumb.webp",
+        "author": "flashpacker-travelguide.de",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/149324445@N08/35113222572",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Чаты 2025–2026; 4stogo.com; srilankatourhelp.org — проверено 13.11.2026",
     "region": "Юго-восток",
     "distanceKm": 150,
@@ -2242,7 +2749,24 @@
       "Поздно вечером обратно далеко — лучше с ночёвкой"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/kataragama/1.webp",
+        "thumb": "photos/kataragama/1-thumb.webp",
+        "author": "Adam Jones, Ph.D. - Global Photo Archive",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/41000732@N04/14136172925",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/kataragama/2.webp",
+        "thumb": "photos/kataragama/2-thumb.webp",
+        "author": "Adam Jones, Ph.D. - Global Photo Archive",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/41000732@N04/14113014876",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Общие путеводители",
     "region": "Юго-восток",
     "distanceKm": 140,
@@ -2289,7 +2813,24 @@
       "По рельсам ходить только когда поезда нет"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/ella/1.webp",
+        "thumb": "photos/ella/1-thumb.webp",
+        "author": "binzend",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/133603744@N04/36972092396",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/ella/3.webp",
+        "thumb": "photos/ella/3-thumb.webp",
+        "author": "Shalika999",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/10414946@N02/49732454641",
+        "provider": "openverse"
+      }
+    ],
     "sources": "saltinourhair.com; departly; themanduls.com (2026); themorning.lk (07.2025) — проверено 13.11.2026",
     "region": "Горы",
     "distanceKm": 160,
@@ -2332,7 +2873,32 @@
       "Билеты в обзорный вагон разбирают сразу после открытия продаж"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/ella-train/1.webp",
+        "thumb": "photos/ella-train/1-thumb.webp",
+        "author": "Shalika999",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/10414946@N02/49732454641",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/ella-train/2.webp",
+        "thumb": "photos/ella-train/2-thumb.webp",
+        "author": "World of Travolution360",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/168569883@N04/51900095175",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/ella-train/3.webp",
+        "thumb": "photos/ella-train/3-thumb.webp",
+        "author": "World of Travolution360",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/168569883@N04/51872263055",
+        "provider": "openverse"
+      }
+    ],
     "sources": "pickyourtrail.com (2026), thecommonwanderer.com, geckoroutes.com — проверено 13.11.2026",
     "region": "Горы",
     "distanceKm": 0,
@@ -2376,7 +2942,32 @@
       "Ночью +10…15° — взять тёплое"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/nuwara-eliya/1.webp",
+        "thumb": "photos/nuwara-eliya/1-thumb.webp",
+        "author": "Huslab.com",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/37490480@N02/3450843873",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/nuwara-eliya/2.webp",
+        "thumb": "photos/nuwara-eliya/2-thumb.webp",
+        "author": "Romain Pontida",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/105106606@N05/10226479486",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/nuwara-eliya/3.webp",
+        "thumb": "photos/nuwara-eliya/3-thumb.webp",
+        "author": "comicpie",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/90678392@N00/8512600369",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Общие путеводители",
     "region": "Горы",
     "distanceKm": 230,
@@ -2417,7 +3008,32 @@
       "Тропа длинная, нужна обувь для хайкинга"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/horton-plains/1.webp",
+        "thumb": "photos/horton-plains/1-thumb.webp",
+        "author": "Romain Pontida",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/105106606@N05/10226463745",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/horton-plains/2.webp",
+        "thumb": "photos/horton-plains/2-thumb.webp",
+        "author": "Lakpura LLC",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/60210556@N03/15873325122",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/horton-plains/3.webp",
+        "thumb": "photos/horton-plains/3-thumb.webp",
+        "author": "Lakpura LLC",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/60210556@N03/15871980291",
+        "provider": "openverse"
+      }
+    ],
     "sources": "traveltriangle.com; lonelyplanet.com; lankawebsites.com; amazinglanka.com — проверено 13.11.2026",
     "region": "Горы",
     "distanceKm": 220,
@@ -2459,7 +3075,32 @@
       "Утром туман бывает плотным — смотреть прогноз"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/liptons-seat/1.webp",
+        "thumb": "photos/liptons-seat/1-thumb.webp",
+        "author": "flashpacker-travelguide.de",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/149324445@N08/34892281340",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/liptons-seat/2.webp",
+        "thumb": "photos/liptons-seat/2-thumb.webp",
+        "author": "Tjeerd",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/76396789@N00/20660531051",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/liptons-seat/3.webp",
+        "thumb": "photos/liptons-seat/3-thumb.webp",
+        "author": "Tjeerd",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/76396789@N00/20465414938",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Общие путеводители",
     "region": "Горы",
     "distanceKm": 190,
@@ -2499,7 +3140,32 @@
       "Сверху холодно — тёплая одежда"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/adams-peak/1.webp",
+        "thumb": "photos/adams-peak/1-thumb.webp",
+        "author": "Lakpura LLC",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/60210556@N03/6945752353",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/adams-peak/2.webp",
+        "thumb": "photos/adams-peak/2-thumb.webp",
+        "author": "Lakpura LLC",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/60210556@N03/6945753283",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/adams-peak/3.webp",
+        "thumb": "photos/adams-peak/3-thumb.webp",
+        "author": "Lakpura LLC",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/60210556@N03/6945757063",
+        "provider": "openverse"
+      }
+    ],
     "sources": "adaderana.lk (старт сезона 04.12.2025), themorning.lk, rove.me — проверено 13.11.2026",
     "region": "Горы",
     "distanceKm": 200,
@@ -2544,7 +3210,32 @@
       "Поезд Канди → Элла в 2026 не ходит напрямую (см. «Поезд в Эллу»)"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/kandy/1.webp",
+        "thumb": "photos/kandy/1-thumb.webp",
+        "author": "midnight_frock",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/137650623@N04/25276845615",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/kandy/2.webp",
+        "thumb": "photos/kandy/2-thumb.webp",
+        "author": "MaxIFaleel",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/124898936@N05/16042930945",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/kandy/3.webp",
+        "thumb": "photos/kandy/3-thumb.webp",
+        "author": "mckaysavage",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/56796376@N00/1631070399",
+        "provider": "openverse"
+      }
+    ],
     "sources": "traveltriangle.com (2026), goasia.cc, jetwinghotels.com — проверено 13.11.2026",
     "region": "Центр",
     "distanceKm": 230,
@@ -2587,7 +3278,24 @@
       "Днём жарко — вода и шляпа"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/peradeniya/1.webp",
+        "thumb": "photos/peradeniya/1-thumb.webp",
+        "author": "kamsky",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/38872730@N00/9491946145",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/peradeniya/2.webp",
+        "thumb": "photos/peradeniya/2-thumb.webp",
+        "author": "wallygrom",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/33037982@N04/32857714316",
+        "provider": "openverse"
+      }
+    ],
     "sources": "themorning.lk (газета 2023), goasia.cc (03.2026), adaderana.lk — проверено 13.11.2026",
     "region": "Центр",
     "distanceKm": 225,
@@ -2631,7 +3339,32 @@
       "Осы у скалы: не шуметь"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/sigiriya/1.webp",
+        "thumb": "photos/sigiriya/1-thumb.webp",
+        "author": "Paul Mannix",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/19511776@N00/314067233",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/sigiriya/2.webp",
+        "thumb": "photos/sigiriya/2-thumb.webp",
+        "author": "Paul Mannix",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/19511776@N00/314067850",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/sigiriya/3.webp",
+        "thumb": "photos/sigiriya/3-thumb.webp",
+        "author": "mckaysavage",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/56796376@N00/2243329605",
+        "provider": "openverse"
+      }
+    ],
     "sources": "goasia.cc (03.2026), dreambigtravelfarblog.com (2026), saltinourhair.com — проверено 13.11.2026",
     "region": "Культурный треугольник",
     "distanceKm": 330,
@@ -2675,7 +3408,32 @@
       "Нужен фонарик для подъёма в темноте"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/pidurangala/1.webp",
+        "thumb": "photos/pidurangala/1-thumb.webp",
+        "author": "CharithMania",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/11465494@N02/39123053472",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/pidurangala/2.webp",
+        "thumb": "photos/pidurangala/2-thumb.webp",
+        "author": "CharithMania",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/11465494@N02/39153254061",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/pidurangala/3.webp",
+        "thumb": "photos/pidurangala/3-thumb.webp",
+        "author": "CharithMania",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/11465494@N02/24481254857",
+        "provider": "openverse"
+      }
+    ],
     "sources": "srilankatravelpages.com; wheretarawent.com — проверено 13.11.2026",
     "region": "Культурный треугольник",
     "distanceKm": 330,
@@ -2718,7 +3476,32 @@
       "Обезьяны на лестнице — еду не доставать"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/dambulla/1.webp",
+        "thumb": "photos/dambulla/1-thumb.webp",
+        "author": "Paul Mannix",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/19511776@N00/314067662",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/dambulla/2.webp",
+        "thumb": "photos/dambulla/2-thumb.webp",
+        "author": "Tim Moffatt",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/23510510@N03/26051299564",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/dambulla/3.webp",
+        "thumb": "photos/dambulla/3-thumb.webp",
+        "author": "amanderson2",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/49399018@N00/48158265782",
+        "provider": "openverse"
+      }
+    ],
     "sources": "srilankatravelpages.com; maroon-bagpipe… (2025) — проверено 13.11.2026",
     "region": "Культурный треугольник",
     "distanceKm": 310,
@@ -2760,7 +3543,24 @@
       "В марте «Собрание» ещё не началось — слоны есть, но меньше"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/minneriya/1.webp",
+        "thumb": "photos/minneriya/1-thumb.webp",
+        "author": "dkolitha",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/22213338@N06/20302254778",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/minneriya/2.webp",
+        "thumb": "photos/minneriya/2-thumb.webp",
+        "author": "Indyblue",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/74807516@N00/17155904393",
+        "provider": "openverse"
+      }
+    ],
     "sources": "timeout.com, jetwinghotels.com, nationalgeographic.com, goasia.cc (2026) — проверено 13.11.2026",
     "region": "Культурный треугольник",
     "distanceKm": 350,
@@ -2800,7 +3600,32 @@
       "В храмах — закрытая одежда, босиком по горячим камням"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/polonnaruwa/1.webp",
+        "thumb": "photos/polonnaruwa/1-thumb.webp",
+        "author": "lkmal",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/25638914@N06/3905522231",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/polonnaruwa/2.webp",
+        "thumb": "photos/polonnaruwa/2-thumb.webp",
+        "author": "D-Stanley",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/79721788@N00/30128523187",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/polonnaruwa/3.webp",
+        "thumb": "photos/polonnaruwa/3-thumb.webp",
+        "author": "rahuldlucca",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/8213176@N03/2249192953",
+        "provider": "openverse"
+      }
+    ],
     "sources": "light-trip-notes (2026), srilankatravelpages.com — проверено 13.11.2026",
     "region": "Культурный треугольник",
     "distanceKm": 360,
@@ -2844,7 +3669,32 @@
       "Далеко: 8 ч — только с ночёвкой"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/anuradhapura/1.webp",
+        "thumb": "photos/anuradhapura/1-thumb.webp",
+        "author": "Kesara Rathnayake (kesara.lk)",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/67322444@N00/17595498912",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/anuradhapura/2.webp",
+        "thumb": "photos/anuradhapura/2-thumb.webp",
+        "author": "Kesara Rathnayake (kesara.lk)",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/67322444@N00/18480599079",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/anuradhapura/3.webp",
+        "thumb": "photos/anuradhapura/3-thumb.webp",
+        "author": "Kesara Rathnayake (kesara.lk)",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/67322444@N00/17884490019",
+        "provider": "openverse"
+      }
+    ],
     "sources": "travelcostcalculator.org, srilankatravelpages.com — проверено 13.11.2026",
     "region": "Север",
     "distanceKm": 400,
@@ -2888,7 +3738,32 @@
       "В Петте следить за кошельком"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/colombo/1.webp",
+        "thumb": "photos/colombo/1-thumb.webp",
+        "author": "Aries Tottle",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/26053600@N03/6629543515",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/colombo/2.webp",
+        "thumb": "photos/colombo/2-thumb.webp",
+        "author": "D-Stanley",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/79721788@N00/44285486142",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/colombo/3.webp",
+        "thumb": "photos/colombo/3-thumb.webp",
+        "author": "Jorge Lascar",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/8721758@N06/5439939147",
+        "provider": "openverse"
+      }
+    ],
     "sources": "План поездки; общие путеводители",
     "region": "Запад",
     "distanceKm": 150,
@@ -2928,7 +3803,24 @@
       "Далеко от Мириссы — с ночёвкой"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/kitulgala/1.webp",
+        "thumb": "photos/kitulgala/1-thumb.webp",
+        "author": "simon***",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/59135416@N03/5619611375",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/kitulgala/3.webp",
+        "thumb": "photos/kitulgala/3-thumb.webp",
+        "author": "ipin-by-the-sea",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/133373339@N04/19100700601",
+        "provider": "openverse"
+      }
+    ],
     "sources": "expedia (листинги 2026) — проверено 13.11.2026",
     "region": "Запад",
     "distanceKm": 220,
@@ -2971,7 +3863,32 @@
       "Далеко (9 ч) — на будущую поездку"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/trincomalee/1.webp",
+        "thumb": "photos/trincomalee/1-thumb.webp",
+        "author": "AntanO",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pigeon_Island_National_Park,_Trincomalee.jpg",
+        "provider": "wikimedia"
+      },
+      {
+        "src": "photos/trincomalee/2.webp",
+        "thumb": "photos/trincomalee/2-thumb.webp",
+        "author": "Anton 17",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pigeon_Island_National_Park.JPG",
+        "provider": "wikimedia"
+      },
+      {
+        "src": "photos/trincomalee/3.webp",
+        "thumb": "photos/trincomalee/3-thumb.webp",
+        "author": "AntanO",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pigeon_Island_National_Park,_Sri_Lanka.jpg",
+        "provider": "wikimedia"
+      }
+    ],
     "sources": "beyondwildplaces.com, amazinglanka.com, sundayobserver.lk — проверено 13.11.2026",
     "region": "Восток",
     "distanceKm": 460,
@@ -3013,7 +3930,32 @@
       "В марте не сезон на востоке"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/arugam-bay/1.webp",
+        "thumb": "photos/arugam-bay/1-thumb.webp",
+        "author": "Steffen Schmitz (more photos)",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arugam_Bay,_Heda_Oya,_2025-07_CN-01.jpg",
+        "provider": "wikimedia"
+      },
+      {
+        "src": "photos/arugam-bay/2.webp",
+        "thumb": "photos/arugam-bay/2-thumb.webp",
+        "author": "Kondephy",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arugam_bay_beach.jpg",
+        "provider": "wikimedia"
+      },
+      {
+        "src": "photos/arugam-bay/3.webp",
+        "thumb": "photos/arugam-bay/3-thumb.webp",
+        "author": "Dennis Sylvester Hurd",
+        "license": "CC0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beach_of_Arugam_Bay.jpg",
+        "provider": "wikimedia"
+      }
+    ],
     "sources": "Общие путеводители",
     "region": "Восток",
     "distanceKm": 280,
@@ -3054,7 +3996,32 @@
       "8 ч дороги — только с ночёвкой"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/wilpattu/1.webp",
+        "thumb": "photos/wilpattu/1-thumb.webp",
+        "author": "British Veterinary Association (BVA)",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/135540427@N04/36624949070",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/wilpattu/2.webp",
+        "thumb": "photos/wilpattu/2-thumb.webp",
+        "author": "Arian Zwegers",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/67769030@N07/6780584772",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/wilpattu/3.webp",
+        "thumb": "photos/wilpattu/3-thumb.webp",
+        "author": "H.A.S PhotoDesigns~Heart+Soul~",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/14711897@N08/8074440365",
+        "provider": "openverse"
+      }
+    ],
     "sources": "sltda.gov.lk (онлайн-пермиты) — проверено 13.11.2026",
     "region": "Северо-запад",
     "distanceKm": 420,
@@ -3093,7 +4060,32 @@
       "Утром качает — таблетки от укачивания"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/kalpitiya/1.webp",
+        "thumb": "photos/kalpitiya/1-thumb.webp",
+        "author": "Californian Em",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/55642337@N00/6189481128",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/kalpitiya/2.webp",
+        "thumb": "photos/kalpitiya/2-thumb.webp",
+        "author": "Californian Em",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/55642337@N00/6189509774",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/kalpitiya/3.webp",
+        "thumb": "photos/kalpitiya/3-thumb.webp",
+        "author": "Californian Em",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/55642337@N00/6189485840",
+        "provider": "openverse"
+      }
+    ],
     "sources": "dunetowers.com, yamu.lk, lakpura.ee — проверено 13.11.2026",
     "region": "Северо-запад",
     "distanceKm": 300,
@@ -3136,7 +4128,24 @@
       "10 ч дороги — на отдельную поездку"
     ],
     "contacts": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "photos/jaffna/1.webp",
+        "thumb": "photos/jaffna/1-thumb.webp",
+        "author": "D-Stanley",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/79721788@N00/44292459955",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/jaffna/2.webp",
+        "thumb": "photos/jaffna/2-thumb.webp",
+        "author": "pixel.fabian",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/52245360@N07/25467481736",
+        "provider": "openverse"
+      }
+    ],
     "sources": "Общие путеводители",
     "region": "Север",
     "distanceKm": 560,
