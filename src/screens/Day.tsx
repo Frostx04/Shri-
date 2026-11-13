@@ -133,7 +133,7 @@ export function DayView({ day, back = true }: { day: DayPlan; back?: boolean }) 
 
       <DayMapSlot day={day} />
 
-      <div className="space-y-2 px-4 pt-3">
+      <div className="space-y-2 px-4 pt-6">
         <p className="flex gap-2 text-sm text-soft"><CloudSun size={18} className="shrink-0" /> {day.weather ?? DEFAULT_WEATHER}</p>
         {special && <div className="rounded-2xl bg-[#fff3c4] p-3 font-semibold text-[#6b4d00] dark:bg-[#3e3510] dark:text-[#ffe08a]">🌕 {special.note}</div>}
         {day.backupNote && (
