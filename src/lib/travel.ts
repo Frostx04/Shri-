@@ -34,10 +34,10 @@ export interface DayStop { placeId: string; n: number }
  * Последовательность точек маршрута дня. Номер у места = порядок первого появления.
  * День начинается в отеле (кроме дня прилёта — из аэропорта).
  */
-export function dayStops(day: Pick<DayPlan, 'steps'>, getPlace: (id: string) => Place | undefined): { order: string[]; numbers: Map<string, number> } {
+export function dayStops(day: Pick<DayPlan, 'steps'> & { fromHotel?: boolean }, getPlace: (id: string) => Place | undefined): { order: string[]; numbers: Map<string, number> } {
   const order: string[] = [];
   const first = day.steps.find((s) => s.placeId)?.placeId;
-  if (first !== 'mattala' && first !== 'hotel') order.push('hotel');
+  if (day.fromHotel !== false && first !== 'mattala' && first !== 'hotel') order.push('hotel');
   for (const s of day.steps) {
     if (!s.placeId || !getPlace(s.placeId)?.coords) continue;
     if (order[order.length - 1] !== s.placeId) order.push(s.placeId);

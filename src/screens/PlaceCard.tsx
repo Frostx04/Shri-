@@ -16,6 +16,7 @@ import { TierBadge, CategoryBadge, StomachBadge, Cost } from '../components/Badg
 import { MessageBox } from '../components/MessageBox';
 import { Empty } from '../components/ui';
 import { VisitedBlock, BringList } from '../components/VisitedBlock';
+import { PlanButtons } from '../components/PlanButtons';
 import { PlaceMenuExtra } from '../components/MenuEditor';
 
 const contactIcon: Record<Contact['kind'], ReactNode> = {
@@ -90,6 +91,7 @@ export default function PlaceCard() {
           <a className="btn btn-primary" href={gmapsLink(p)} target="_blank" rel="noreferrer"><Navigation size={18} /> Маршрут</a>
           <a className="btn" href={gmapsSearch(p.gmapsQuery)} target="_blank" rel="noreferrer"><MapPin size={18} /> В Google Maps</a>
         </div>
+        {!p.inPlan && !p.avoid && p.category !== 'food' && <div className="mt-2"><PlanButtons place={p} /></div>}
         {!p.coordsVerified && p.coords && <p className="mt-1.5 text-xs text-soft">Координаты приблизительные — проверяем.</p>}
       </header>
 

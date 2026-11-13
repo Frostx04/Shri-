@@ -11,7 +11,7 @@ const items = [
   { to: 'budget', label: 'Бюджет', icon: Wallet, hint: 'план и факт, $2000 наличными' },
   { to: 'bookings', label: 'Брони', icon: CalendarCheck, hint: 'кому и когда писать' },
   { to: '/places?view=food', label: 'Еда', icon: UtensilsCrossed, hint: 'кафе, меню и цены' },
-  { to: '/country', label: 'Вся Шри-Ланка', icon: Globe2, hint: 'карта страны и мини-маршруты' },
+  { to: '/places?view=country', label: 'Вся Шри-Ланка', icon: Globe2, hint: 'карта страны и мини-маршруты' },
   { to: 'safety', label: 'Правила и безопасность', icon: ShieldAlert, hint: 'океан, бешенство, куда не ехать' },
   { to: 'emergency', label: 'Экстренное', icon: Siren, hint: 'номера и больницы' },
   { to: 'messages', label: 'Сообщения', icon: MessageSquareText, hint: 'все шаблоны' },

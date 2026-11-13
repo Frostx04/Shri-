@@ -8,7 +8,8 @@ import { gmapsLink, waLink } from '../lib/links';
 import { dayStops, legBefore, type Leg } from '../lib/travel';
 import { midLkr, rangeLkr, fmtLkr, fmtUsd } from '../lib/money';
 import { useSettings } from '../lib/settings';
-import { useValue, K } from '../lib/store';
+import { useValue, K, keys, get } from '../lib/store';
+import { PlaceRow } from './Places';
 import { dayProgress } from '../lib/progress';
 import { Cost } from '../components/Badges';
 import { VisitToggle } from '../components/VisitToggle';
@@ -160,6 +161,8 @@ export function DayView({ day, back = true }: { day: DayPlan; back?: boolean }) 
         })}
       </ol>
 
+      <AddedPlaces date={day.date} />
+
       <section className="card mx-4 mt-5 space-y-3 p-4">
         <h2 className="flex items-center gap-2 text-lg"><Wallet size={20} className="text-accent" /> Деньги дня</h2>
         <p>План: <b>{total[1] ? (total[0] === total[1] ? fmtLkr(total[0]) : `${fmtLkr(total[0])} – ${fmtLkr(total[1])}`) : '—'}</b>
@@ -182,6 +185,17 @@ export function DayView({ day, back = true }: { day: DayPlan; back?: boolean }) 
         <Link to={`/map?day=${day.date}`} className="btn"><MapPin size={18} /> Этот день на большой карте</Link>
       </div>
     </div>
+  );
+}
+
+function AddedPlaces({ date }: { date: string }) {
+  const ids = keys('addto:').filter((k) => get<string>(k) === date).map((k) => k.slice(6));
+  if (!ids.length) return null;
+  return (
+    <section className="mx-4 mt-5">
+      <h2 className="mb-2 text-lg">➕ Добавили сами</h2>
+      <ul className="space-y-2">{ids.map((id) => getPlace(id)).filter((p) => !!p).map((p) => <li key={p!.id}><PlaceRow p={p!} /></li>)}</ul>
+    </section>
   );
 }
 

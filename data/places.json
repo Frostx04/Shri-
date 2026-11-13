@@ -711,7 +711,8 @@
     "stomach": "check",
     "avoid": false,
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "area": "Галле и Унаватуна"
   },
   {
     "id": "crocodiles",
@@ -950,7 +951,8 @@
     "stomach": "ok",
     "avoid": false,
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "area": "Мирисса"
   },
   {
     "id": "shady-lane",
@@ -990,7 +992,8 @@
     "stomach": "ok",
     "avoid": false,
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "area": "Мирисса"
   },
   {
     "id": "dewmini",
@@ -1030,7 +1033,8 @@
     "stomach": "check",
     "avoid": false,
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "area": "Мирисса"
   },
   {
     "id": "massage",
@@ -1146,7 +1150,8 @@
     "menu": [],
     "avoid": false,
     "region": "Мирисса",
-    "inPlan": false
+    "inPlan": false,
+    "area": "Мирисса"
   },
   {
     "id": "bamboo-hut",
@@ -1183,7 +1188,8 @@
     "menu": [],
     "avoid": false,
     "region": "Мирисса",
-    "inPlan": false
+    "inPlan": false,
+    "area": "Мирисса"
   },
   {
     "id": "hide-place",
@@ -1220,7 +1226,8 @@
     "menu": [],
     "avoid": false,
     "region": "Мирисса",
-    "inPlan": false
+    "inPlan": false,
+    "area": "Мирисса"
   },
   {
     "id": "mila",
@@ -1257,7 +1264,8 @@
     "menu": [],
     "avoid": false,
     "region": "Мирисса",
-    "inPlan": false
+    "inPlan": false,
+    "area": "Мирисса"
   },
   {
     "id": "fujisan",
@@ -1295,7 +1303,8 @@
     "menu": [],
     "avoid": false,
     "region": "Мирисса",
-    "inPlan": false
+    "inPlan": false,
+    "area": "Мирисса"
   },
   {
     "id": "capybara",
@@ -1336,7 +1345,8 @@
     "menu": [],
     "avoid": false,
     "region": "Мирисса",
-    "inPlan": false
+    "inPlan": false,
+    "area": "Мирисса"
   },
   {
     "id": "mirissa-inn",
@@ -1374,7 +1384,8 @@
     "menu": [],
     "avoid": false,
     "region": "Мирисса",
-    "inPlan": false
+    "inPlan": false,
+    "area": "Мирисса"
   },
   {
     "id": "concept-la-mer",
@@ -1410,7 +1421,8 @@
     "menu": [],
     "avoid": false,
     "region": "Мирисса",
-    "inPlan": false
+    "inPlan": false,
+    "area": "Мирисса"
   },
   {
     "id": "giragala",
@@ -1446,7 +1458,8 @@
     "menu": [],
     "avoid": false,
     "region": "Мирисса",
-    "inPlan": false
+    "inPlan": false,
+    "area": "Мирисса"
   },
   {
     "id": "duck-lake",
@@ -1487,7 +1500,8 @@
     "menu": [],
     "avoid": false,
     "region": "Мирисса",
-    "inPlan": false
+    "inPlan": false,
+    "area": "Мирисса"
   },
   {
     "id": "fish-point",
@@ -1528,7 +1542,8 @@
     "menu": [],
     "avoid": false,
     "region": "Мирисса",
-    "inPlan": false
+    "inPlan": false,
+    "area": "Велигама"
   },
   {
     "id": "food-city",
@@ -1565,7 +1580,8 @@
     "menu": [],
     "avoid": false,
     "region": "Мирисса",
-    "inPlan": false
+    "inPlan": false,
+    "area": "Мирисса"
   },
   {
     "id": "garlic",
@@ -1601,7 +1617,8 @@
     "menu": [],
     "avoid": true,
     "region": "Мирисса",
-    "inPlan": false
+    "inPlan": false,
+    "area": "Мирисса"
   },
   {
     "id": "solt",
@@ -1637,7 +1654,8 @@
     "menu": [],
     "avoid": true,
     "region": "Мирисса",
-    "inPlan": false
+    "inPlan": false,
+    "area": "Мирисса"
   },
   {
     "id": "curry-gedara",
@@ -1673,7 +1691,8 @@
     "menu": [],
     "avoid": true,
     "region": "Мирисса",
-    "inPlan": false
+    "inPlan": false,
+    "area": "Мирисса"
   },
   {
     "id": "tuana",
@@ -1709,7 +1728,8 @@
     "menu": [],
     "avoid": true,
     "region": "Мирисса",
-    "inPlan": false
+    "inPlan": false,
+    "area": "Мирисса"
   },
   {
     "id": "weligama",
@@ -1730,19 +1750,25 @@
     "howToGet": "От Мириссы ~8 км, ~0.25 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Урок сёрфинга для новичков: широкий песчаный пляж и мягкая волна",
+      "Прокат доски и обед в кафе на набережной"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Утром до жары; март — сухой сезон на юго-западе",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Цену урока договаривать заранее, предоплату не отправлять",
+      "Купаться у сёрф-школ и спасателей, не у устья реки"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "Общие путеводители; цены не проверены",
     "region": "Юг",
     "distanceKm": 8,
     "driveHours": 0.25,
     "tripType": "halfday",
-    "inPlan": false
+    "inPlan": false,
+    "costNote": "Цена урока сёрфинга — уточнить на месте (TODO)",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "hiriketiya",
@@ -1763,19 +1789,29 @@
     "howToGet": "От Мириссы ~40 км, ~1 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Купаться во внутренней части бухты — там спокойнее",
+      "Кафе и смузи-боулы у пляжа",
+      "Сёрфинг у мыса — для опытных"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Утро или ближе к закату; декабрь–март — высокий сезон",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Спасатели есть не всегда — смотреть на волну перед входом",
+      "У мыса волна сильнее"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "thecommonwanderer.com (обновл. 2024); lakpura.com; yamu.lk — проверено 13.11.2026",
     "region": "Юг",
     "distanceKm": 40,
     "driveHours": 1,
     "tripType": "halfday",
-    "inPlan": false
+    "inPlan": false,
+    "costLkr": [
+      0,
+      0
+    ],
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "tangalle",
@@ -1796,19 +1832,27 @@
     "howToGet": "От Мириссы ~50 км, ~1.2 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Прогулка по длинным пустым пляжам",
+      "Ужин с рыбой в Тангалле"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Утро/вечер",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "На открытых пляжах Тангалле сильный прибой и течения — купаться только в защищённых бухтах"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "Общие путеводители; проверить на месте",
     "region": "Юг",
     "distanceKm": 50,
     "driveHours": 1.2,
     "tripType": "day",
-    "inPlan": false
+    "inPlan": false,
+    "costLkr": [
+      0,
+      0
+    ],
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "wewurukannala",
@@ -1829,19 +1873,29 @@
     "howToGet": "От Мириссы ~35 км, ~0.8 ч на машине в одну сторону. Слон на цепи — не поддерживаем",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Большой сидящий Будда (около 50 м)",
+      "Галерея с изображениями «ада» — на любителя"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Днём; закрытые плечи и колени",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Слон на цепи у храма — мы это не поддерживаем, не фотографируемся и не платим за фото",
+      "Обувь снимать, одежда — закрытая"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "srilankatravelpages.com; lakpura.com; amazinglanka.com — проверено 13.11.2026",
     "region": "Юг",
     "distanceKm": 35,
     "driveHours": 0.8,
     "tripType": "halfday",
-    "inPlan": false
+    "inPlan": false,
+    "costLkr": [
+      100,
+      600
+    ],
+    "costNote": "Источники: «100 ₨» (без даты) и «небольшой сбор для иностранцев» — уточнить на месте",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "hummanaya",
@@ -1862,19 +1916,24 @@
     "howToGet": "От Мириссы ~45 км, ~1 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Смотреть морской гейзер с площадки над скалами"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Лучше в сильный прибой; в спокойный день фонтан слабый",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "К площадке — ступеньки по скалам, нужна удобная обувь",
+      "Близко к краю не подходить — мокрые камни"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "en.wikipedia.org/wiki/Hummanaya — проверено 13.11.2026",
     "region": "Юг",
     "distanceKm": 45,
     "driveHours": 1,
     "tripType": "halfday",
-    "inPlan": false
+    "inPlan": false,
+    "costNote": "Цена билета — не нашли в 2026, уточнить на месте (TODO)",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "unawatuna",
@@ -1895,19 +1954,28 @@
     "howToGet": "От Мириссы ~38 км, ~1 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Jungle Beach: маленькая бухта в джунглях, снорклинг у рифа",
+      "Смотровая с Японской пагодой мира рядом"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Утром, пока мало людей",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "«Обезьянка для фото» в Унаватуне — не участвуем",
+      "Кораллы не трогать, ежи — в аквашузах"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "План поездки; общие путеводители",
     "region": "Юг",
     "distanceKm": 38,
     "driveHours": 1,
     "tripType": "halfday",
-    "inPlan": false
+    "inPlan": false,
+    "costLkr": [
+      0,
+      0
+    ],
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "hikkaduwa",
@@ -1928,19 +1996,28 @@
     "howToGet": "От Мириссы ~55 км, ~1.3 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Черепахи у берега на главном пляже",
+      "Коралловый риф с маской"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Утром",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Черепах не кормить водорослями «за деньги», не трогать",
+      "Черепашьи «фермы-хэтчери» по дороге — в списке «не едем»"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "План поездки; общие путеводители",
     "region": "Юг",
     "distanceKm": 55,
     "driveHours": 1.3,
     "tripType": "day",
-    "inPlan": false
+    "inPlan": false,
+    "costLkr": [
+      0,
+      0
+    ],
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "madu-river",
@@ -1961,19 +2038,24 @@
     "howToGet": "От Мириссы ~75 км, ~1.5 ч на машине в одну сторону. Сады специй и «рыбный педикюр» — навязанные продажи",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Лодка по мангровым протокам",
+      "Острова на реке"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Утро",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "«Сады специй» и «рыбный массаж» по дороге — навязанные остановки, отказываться заранее"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "План поездки (чаты)",
     "region": "Юго-запад",
     "distanceKm": 75,
     "driveHours": 1.5,
     "tripType": "day",
-    "inPlan": false
+    "inPlan": false,
+    "costNote": "Цена лодки — уточнить (TODO)",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "bentota",
@@ -1994,19 +2076,27 @@
     "howToGet": "От Мириссы ~95 км, ~2 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Река Бентота, водные виды спорта",
+      "Широкий пляж"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Любое время, сухой сезон",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "На черепашьи фермы в Косгоде не едем — см. «Куда не ехать»"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "Общие путеводители",
     "region": "Юго-запад",
     "distanceKm": 95,
     "driveHours": 2,
     "tripType": "day",
-    "inPlan": false
+    "inPlan": false,
+    "costLkr": [
+      0,
+      0
+    ],
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "bundala",
@@ -2028,19 +2118,29 @@
     "howToGet": "От Мириссы ~110 км, ~2.3 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Джип-сафари: фламинго (зимой), водоплавающие птицы, крокодилы, слоны",
+      "Альтернатива Яле без пробки из джипов"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Утреннее сафари с ~6:00 или вечернее",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Тарифы DWC меняются — проверить на сайте/портале Department of Wildlife Conservation",
+      "Джип договаривать с водителем: время, цена за машину, без «подгона» к животным"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "sltda.gov.lk (онлайн-пермиты), 4stogo.com, yamu.lk — проверено 13.11.2026; цена-ориентир, не официальная",
     "region": "Юго-восток",
     "distanceKm": 110,
     "driveHours": 2.3,
     "tripType": "day",
-    "inPlan": false
+    "inPlan": false,
+    "costNote": "Вход в нацпарки для иностранцев — ориентир $25–30 с человека + джип; точный тариф 2026 не нашли (TODO)",
+    "costUsd": [
+      60,
+      120
+    ],
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "yala",
@@ -2061,19 +2161,28 @@
     "howToGet": "От Мириссы ~150 км, ~3 ч на машине в одну сторону. В чатах: сотни джипов, пробки, пыль",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Шанс увидеть леопарда"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Утреннее сафари",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "В чатах: сотни джипов, давка у леопарда — поэтому Яла у нас в «не едем»",
+      "Если всё же ехать — брать Блок 5 или Бундалу"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "Чаты 2025–2026; 4stogo.com; srilankatourhelp.org — проверено 13.11.2026",
     "region": "Юго-восток",
     "distanceKm": 150,
     "driveHours": 3,
     "tripType": "overnight",
-    "inPlan": false
+    "inPlan": false,
+    "costNote": "Ориентир $25–30 вход с человека + джип; официальный тариф 2026 не найден",
+    "costUsd": [
+      80,
+      160
+    ],
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "kataragama",
@@ -2094,19 +2203,29 @@
     "howToGet": "От Мириссы ~140 км, ~3 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Вечерняя пуджа в храмовом комплексе",
+      "Комплекс общий для буддистов, индуистов и мусульман"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Вечер, к пудже (время уточнить — TODO)",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Белая/закрытая одежда, обувь снимать",
+      "Поздно вечером обратно далеко — лучше с ночёвкой"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "Общие путеводители",
     "region": "Юго-восток",
     "distanceKm": 140,
     "driveHours": 3,
     "tripType": "overnight",
-    "inPlan": false
+    "inPlan": false,
+    "costLkr": [
+      0,
+      0
+    ],
+    "costNote": "Вход свободный (уточнить)",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "ella",
@@ -2129,19 +2248,30 @@
     "howToGet": "От Мириссы ~160 км, ~4 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Nine Arch Bridge — прийти к проходу поезда",
+      "Little Adam's Peak — лёгкий подъём с видом на чайные холмы",
+      "Водопад Равана по дороге"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Утром — на мосту меньше людей; поезда по расписанию на месте",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "После циклона Дитва (ноябрь–декабрь 2025) — проверить состояние дорог и ж/д в горах",
+      "По рельсам ходить только когда поезда нет"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "saltinourhair.com; departly; themanduls.com (2026); themorning.lk (07.2025) — проверено 13.11.2026",
     "region": "Горы",
     "distanceKm": 160,
     "driveHours": 4,
     "tripType": "overnight",
-    "inPlan": false
+    "inPlan": false,
+    "costLkr": [
+      0,
+      0
+    ],
+    "costNote": "Мост и Little Adam’s Peak — бесплатно; в 2025 объявляли ночной доступ к мосту с платным входом — проверить",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "ella-train",
@@ -2162,19 +2292,28 @@
     "howToGet": "От Мириссы ~0 км, ~7 ч на машине в одну сторону. Билеты бронировать заранее",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Поезд через чайные холмы (Канди — Нувара-Элия — Элла)"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Утренний поезд",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "ВАЖНО: по данным на окт. 2026 прямой поезд Канди → Элла НЕ ходит после циклона конца 2025; часть маршрута — с Амбевелы. Проверить у Sri Lanka Railways перед планированием",
+      "Билеты в обзорный вагон разбирают сразу после открытия продаж"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "pickyourtrail.com (2026), thecommonwanderer.com, geckoroutes.com — проверено 13.11.2026",
     "region": "Горы",
     "distanceKm": 0,
     "driveHours": 7,
     "tripType": "far",
-    "inPlan": false
+    "inPlan": false,
+    "costLkr": [
+      1200,
+      2500
+    ],
+    "costNote": "Официальные тарифы с резервом: 3 кл. ~1200, 2 кл. ~1700, 1 кл. ~2500 ₨ (источник 2026); резерв открывается за ~30 дней",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "nuwara-eliya",
@@ -2195,19 +2334,25 @@
     "howToGet": "От Мириссы ~230 км, ~5 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Чайная фабрика с дегустацией",
+      "Прогулка у озера Грегори",
+      "Прохладный климат — нужна кофта"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Днём; вечером холодно",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Ночью +10…15° — взять тёплое"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "Общие путеводители",
     "region": "Горы",
     "distanceKm": 230,
     "driveHours": 5,
     "tripType": "overnight",
-    "inPlan": false
+    "inPlan": false,
+    "costNote": "Экскурсия на чайную фабрику — цену не нашли (TODO)",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "horton-plains",
@@ -2228,19 +2373,30 @@
     "howToGet": "От Мириссы ~220 км, ~5 ч на машине в одну сторону. Ехать к рассвету, туман после 10:00",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Кольцевая тропа ~9 км: World's End, Baker's Falls",
+      "Самбары на равнине"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Старт к 6:00 — после ~10:00 туман закрывает обрыв",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Холодно утром — кофта и ветровка",
+      "Пластик на тропе запрещён — досмотр сумок",
+      "Тропа длинная, нужна обувь для хайкинга"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "traveltriangle.com; lonelyplanet.com; lankawebsites.com; amazinglanka.com — проверено 13.11.2026",
     "region": "Горы",
     "distanceKm": 220,
     "driveHours": 5,
     "tripType": "overnight",
-    "inPlan": false
+    "inPlan": false,
+    "costUsd": [
+      30,
+      60
+    ],
+    "costNote": "Источники расходятся: $15 + сервисный сбор $8 + НДС, или ~$30 с человека — проверить на месте",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "liptons-seat",
@@ -2261,19 +2417,23 @@
     "howToGet": "От Мириссы ~190 км, ~4.5 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Рассвет на смотровой над чайными плантациями Дамбатенне"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "К рассвету",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Утром туман бывает плотным — смотреть прогноз"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "Общие путеводители",
     "region": "Горы",
     "distanceKm": 190,
     "driveHours": 4.5,
     "tripType": "overnight",
-    "inPlan": false
+    "inPlan": false,
+    "costNote": "Небольшой входной сбор — сумму не нашли (TODO)",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "adams-peak",
@@ -2294,19 +2454,28 @@
     "howToGet": "От Мириссы ~200 км, ~5 ч на машине в одну сторону. Сезон паломничества — декабрь–май",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Ночной подъём (5000+ ступеней) к рассвету на вершине"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Сезон паломничества — с декабрьской пойи (Unduwap) до майской (Vesak); подъём ночью, ~2:00",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "В выходные и пойи — огромные очереди на лестнице",
+      "Вне сезона нужен пропуск лесного департамента и свой фонарь",
+      "Сверху холодно — тёплая одежда"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "adaderana.lk (старт сезона 04.12.2025), themorning.lk, rove.me — проверено 13.11.2026",
     "region": "Горы",
     "distanceKm": 200,
     "driveHours": 5,
     "tripType": "overnight",
-    "inPlan": false
+    "inPlan": false,
+    "costLkr": [
+      0,
+      0
+    ],
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "kandy",
@@ -2328,19 +2497,30 @@
     "howToGet": "От Мириссы ~230 км, ~5 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Храм Зуба Будды (Шри Далада Малигава), пуджа",
+      "Прогулка вокруг Кандийского озера",
+      "Шоу кандийских танцев вечером"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "К пудже: 5:30, 9:30 или 18:30 (по одному источнику — проверить); храм 5:30–20:00",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Закрытые плечи и колени, обувь снимать",
+      "Поезд Канди → Элла в 2026 не ходит напрямую (см. «Поезд в Эллу»)"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "traveltriangle.com (2026), goasia.cc, jetwinghotels.com — проверено 13.11.2026",
     "region": "Центр",
     "distanceKm": 230,
     "driveHours": 5,
     "tripType": "overnight",
-    "inPlan": false
+    "inPlan": false,
+    "costLkr": [
+      2000,
+      2000
+    ],
+    "costNote": "~2000 ₨ с иностранца (2026), наличными; раньше бывали 1500–3000 ₨ — уточнить",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "peradeniya",
@@ -2361,19 +2541,28 @@
     "howToGet": "От Мириссы ~225 км, ~5 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Королевский ботанический сад: пальмовые аллеи, орхидеи",
+      "Летучие лисицы на деревьях"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "С утра; 7:30–17:00, последний вход 16:30",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Днём жарко — вода и шляпа"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "themorning.lk (газета 2023), goasia.cc (03.2026), adaderana.lk — проверено 13.11.2026",
     "region": "Центр",
     "distanceKm": 225,
     "driveHours": 5,
     "tripType": "overnight",
-    "inPlan": false
+    "inPlan": false,
+    "costLkr": [
+      3000,
+      3000
+    ],
+    "costNote": "3000 ₨ взрослый иностранец (по газете 07.2023, подтверждено гидом 03.2026)",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "sigiriya",
@@ -2394,19 +2583,29 @@
     "howToGet": "От Мириссы ~330 км, ~6.5 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Подъём на Львиную скалу: фрески, «Зеркальная стена», руины дворца наверху",
+      "Музей у входа (в билете)"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "К открытию (7:00) — до жары и толп; последний вход ~17:00",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Около 1200 ступеней, на жаре тяжело — вода, ранний старт",
+      "Осы у скалы: не шуметь"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "goasia.cc (03.2026), dreambigtravelfarblog.com (2026), saltinourhair.com — проверено 13.11.2026",
     "region": "Культурный треугольник",
     "distanceKm": 330,
     "driveHours": 6.5,
     "tripType": "far",
-    "inPlan": false
+    "inPlan": false,
+    "costUsd": [
+      30,
+      36
+    ],
+    "costNote": "$30 с иностранца по гидам 2026 (старые данные — $35–36); можно платить в $ или ₨",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "pidurangala",
@@ -2427,19 +2626,29 @@
     "howToGet": "От Мириссы ~330 км, ~6.5 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Рассвет с видом на Сигирию",
+      "Последний участок — карабкаться по камням"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "К рассвету, старт ~5:15",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Наверху — лазание по валунам, в шлёпанцах нельзя",
+      "Нужен фонарик для подъёма в темноте"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "srilankatravelpages.com; wheretarawent.com — проверено 13.11.2026",
     "region": "Культурный треугольник",
     "distanceKm": 330,
     "driveHours": 6.5,
     "tripType": "far",
-    "inPlan": false
+    "inPlan": false,
+    "costLkr": [
+      1000,
+      1000
+    ],
+    "costNote": "~1000 ₨ с иностранца (данные без даты — уточнить)",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "dambulla",
@@ -2460,19 +2669,28 @@
     "howToGet": "От Мириссы ~310 км, ~6 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Пять пещер со статуями Будды и росписями"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Утром",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Закрытые плечи и колени, обувь снимать на входе",
+      "Обезьяны на лестнице — еду не доставать"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "srilankatravelpages.com; maroon-bagpipe… (2025) — проверено 13.11.2026",
     "region": "Культурный треугольник",
     "distanceKm": 310,
     "driveHours": 6,
     "tripType": "far",
-    "inPlan": false
+    "inPlan": false,
+    "costLkr": [
+      2000,
+      3300
+    ],
+    "costNote": "Источники расходятся: 2000 ₨ или ~$10 — уточнить на месте",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "minneriya",
@@ -2493,19 +2711,23 @@
     "howToGet": "От Мириссы ~350 км, ~7 ч на машине в одну сторону. Пик «Собрания слонов» — июль–сентябрь",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Джип-сафари: большие стада слонов у водохранилища"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Вечернее сафари; пик «Собрания слонов» — июль–октябрь, в марте стада меньше (Kaudulla — окт.–дек.)",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "В марте «Собрание» ещё не началось — слоны есть, но меньше"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "timeout.com, jetwinghotels.com, nationalgeographic.com, goasia.cc (2026) — проверено 13.11.2026",
     "region": "Культурный треугольник",
     "distanceKm": 350,
     "driveHours": 7,
     "tripType": "far",
-    "inPlan": false
+    "inPlan": false,
+    "costNote": "Вход ~$25–30 + джип — тариф 2026 не найден (TODO)",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "polonnaruwa",
@@ -2526,19 +2748,29 @@
     "howToGet": "От Мириссы ~360 км, ~7 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Древняя столица на велосипеде",
+      "Гал Вихара — каменные Будды"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "С утра, до жары",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Огромная территория — велосипед или тук-тук",
+      "В храмах — закрытая одежда, босиком по горячим камням"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "light-trip-notes (2026), srilankatravelpages.com — проверено 13.11.2026",
     "region": "Культурный треугольник",
     "distanceKm": 360,
     "driveHours": 7,
     "tripType": "far",
-    "inPlan": false
+    "inPlan": false,
+    "costUsd": [
+      25,
+      30
+    ],
+    "costNote": "~$25–30 с иностранца (данные блогов 2025–2026, не официальные)",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "anuradhapura",
@@ -2559,19 +2791,29 @@
     "howToGet": "От Мириссы ~400 км, ~8 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Священное дерево Шри Маха Бодхи",
+      "Ступы Руванвели и Джетавана"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "С утра или ближе к вечеру",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Белая/закрытая одежда у святынь",
+      "Далеко: 8 ч — только с ночёвкой"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "travelcostcalculator.org, srilankatravelpages.com — проверено 13.11.2026",
     "region": "Север",
     "distanceKm": 400,
     "driveHours": 8,
     "tripType": "far",
-    "inPlan": false
+    "inPlan": false,
+    "costUsd": [
+      25,
+      30
+    ],
+    "costNote": "~$25–30 с иностранца (данные блогов, расходятся)",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "colombo",
@@ -2592,19 +2834,25 @@
     "howToGet": "От Мириссы ~150 км, ~2.2 ч на машине в одну сторону. По скоростной трассе",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Galle Face Green на закате, уличная еда",
+      "Рынок Петта",
+      "Храм Гангарамая"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Galle Face — к закату",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "В Петте следить за кошельком"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "План поездки; общие путеводители",
     "region": "Запад",
     "distanceKm": 150,
     "driveHours": 2.2,
     "tripType": "day",
-    "inPlan": false
+    "inPlan": false,
+    "costNote": "Гангарамая — входной билет, сумму уточнить (TODO)",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "kitulgala",
@@ -2625,19 +2873,29 @@
     "howToGet": "От Мириссы ~220 км, ~4.5 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Рафтинг по реке Келани (~1–2 ч)",
+      "Джунгли, птицы"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Утром; уровень воды зависит от дождей",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Выбирать оператора со спасжилетами и шлемами",
+      "Далеко от Мириссы — с ночёвкой"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "expedia (листинги 2026) — проверено 13.11.2026",
     "region": "Запад",
     "distanceKm": 220,
     "driveHours": 4.5,
     "tripType": "overnight",
-    "inPlan": false
+    "inPlan": false,
+    "costUsd": [
+      36,
+      80
+    ],
+    "costNote": "Перекупщики: ~$36–40 с человека (с обедом дороже); цену у операторов уточнить",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "trincomalee",
@@ -2658,19 +2916,28 @@
     "howToGet": "От Мириссы ~460 км, ~9 ч на машине в одну сторону. Восток в марте — сезон, но очень далеко",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Снорклинг у Pigeon Island: рифовые акулы, черепахи"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Сезон на востоке — апрель–октябрь; в марте только начинается",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Акул и кораллы не трогать",
+      "Далеко (9 ч) — на будущую поездку"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "beyondwildplaces.com, amazinglanka.com, sundayobserver.lk — проверено 13.11.2026",
     "region": "Восток",
     "distanceKm": 460,
     "driveHours": 9,
     "tripType": "far",
-    "inPlan": false
+    "inPlan": false,
+    "costUsd": [
+      42,
+      70
+    ],
+    "costNote": "Вход в нацпарк ~$42–43 с иностранца по двум источникам; тур с лодкой ~$70",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "arugam-bay",
@@ -2691,19 +2958,26 @@
     "howToGet": "От Мириссы ~280 км, ~6 ч на машине в одну сторону. Сезон с апреля",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Сёрфинг"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Сезон с апреля по октябрь",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "В марте не сезон на востоке"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "Общие путеводители",
     "region": "Восток",
     "distanceKm": 280,
     "driveHours": 6,
     "tripType": "far",
-    "inPlan": false
+    "inPlan": false,
+    "costLkr": [
+      0,
+      0
+    ],
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "wilpattu",
@@ -2724,19 +2998,23 @@
     "howToGet": "От Мириссы ~420 км, ~8 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Сафари среди озёр-«виллу»: леопарды, медведи-губачи"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Утреннее сафари",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "8 ч дороги — только с ночёвкой"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "sltda.gov.lk (онлайн-пермиты) — проверено 13.11.2026",
     "region": "Северо-запад",
     "distanceKm": 420,
     "driveHours": 8,
     "tripType": "far",
-    "inPlan": false
+    "inPlan": false,
+    "costNote": "Вход + джип — тариф 2026 не найден (TODO)",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "kalpitiya",
@@ -2757,19 +3035,28 @@
     "howToGet": "От Мириссы ~300 км, ~6 ч на машине в одну сторону. Сезон ноябрь–апрель",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Лодка к стаям дельфинов-вертунов утром"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Ноябрь–март (по другим данным — до середины апреля); выход рано утром",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "Дельфинов не преследовать — выбирать оператора, который держит дистанцию",
+      "Утром качает — таблетки от укачивания"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "dunetowers.com, yamu.lk, lakpura.ee — проверено 13.11.2026",
     "region": "Северо-запад",
     "distanceKm": 300,
     "driveHours": 6,
     "tripType": "far",
-    "inPlan": false
+    "inPlan": false,
+    "costUsd": [
+      64,
+      120
+    ],
+    "costNote": "Ориентир: от ~$64 до $120 за двоих по операторам — уточнять",
+    "checkedAt": "2026-11-13"
   },
   {
     "id": "jaffna",
@@ -2790,18 +3077,23 @@
     "howToGet": "От Мириссы ~560 км, ~10 ч на машине в одну сторону.",
     "transport": "car_day",
     "whatToDo": [
-      "TODO: заполнить по исследованию"
+      "Храм Наллур Кандасвами",
+      "Тамильская кухня: крабовое карри"
     ],
-    "whenToCome": "TODO",
+    "whenToCome": "Утром и вечером",
     "bring": [],
-    "pitfalls": [],
+    "pitfalls": [
+      "10 ч дороги — на отдельную поездку"
+    ],
     "contacts": [],
     "photos": [],
-    "sources": "TODO: найти свежие отзывы 2025–2026",
+    "sources": "Общие путеводители",
     "region": "Север",
     "distanceKm": 560,
     "driveHours": 10,
     "tripType": "far",
-    "inPlan": false
+    "inPlan": false,
+    "costNote": "TODO",
+    "checkedAt": "2026-11-13"
   }
 ]

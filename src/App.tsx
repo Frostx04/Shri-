@@ -7,6 +7,7 @@ import MapScreen from './screens/MapScreen';
 import Places from './screens/Places';
 import PlaceCard from './screens/PlaceCard';
 import More from './screens/More';
+import Itinerary from './screens/Itinerary';
 
 export default function App() {
   return (
@@ -19,6 +20,9 @@ export default function App() {
         <Route path="places" element={<Places />} />
         <Route path="place/:id" element={<PlaceCard />} />
         <Route path="more/*" element={<More />} />
+        <Route path="country" element={<Navigate to="/places?view=country" replace />} />
+        <Route path="food" element={<Navigate to="/places?view=food" replace />} />
+        <Route path="itinerary/:id" element={<Itinerary />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>

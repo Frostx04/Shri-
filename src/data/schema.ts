@@ -68,6 +68,7 @@ export const Place = z.object({
   driveHours: z.number().optional(),
   tripType: z.enum(['walk', 'halfday', 'day', 'overnight', 'far']).optional(),
   inPlan: z.boolean(),
+  area: z.string().optional(),            // район для еды: «Мирисса», «Велигама», «Галле и Унаватуна»…
   cuisine: z.string().optional(),
   stomach: z.enum(['ok', 'check', 'spicy', 'avoid']).optional(),
   avoid: z.boolean().optional(),
@@ -106,7 +107,7 @@ export const Itinerary = z.object({
   emoji: z.string(),
   region: z.string(),
   summary: z.string(),
-  days: z.array(DayPlan.omit({ date: true }).extend({ date: z.string().optional() })),
+  days: z.array(DayPlan.omit({ date: true }).extend({ date: z.string().optional(), fromHotel: z.boolean().optional() })),
 });
 
 export const MessageTemplate = z.object({

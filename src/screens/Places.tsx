@@ -9,6 +9,8 @@ import { formatShort } from '../lib/time';
 import { PageHeader } from '../components/ui';
 import { PlaceThumb } from '../components/PlaceVisual';
 import { TierBadge, Cost, StomachBadge } from '../components/Badges';
+import FoodView from './FoodView';
+import CountryView from './CountryView';
 
 type Sort = 'day' | 'tier' | 'distance';
 
@@ -51,7 +53,7 @@ const cats = Object.keys(categoryMeta) as Category[];
 
 export default function Places() {
   const [sp, setSp] = useSearchParams();
-  const view = (sp.get('view') ?? 'trip') as 'trip' | 'all';
+  const view = (sp.get('view') ?? 'trip') as 'trip' | 'food' | 'country';
   const [q, setQ] = useState('');
   const [cat, setCat] = useState<Category | null>(null);
   const [tier, setTier] = useState<Tier | null>(null);
@@ -59,7 +61,7 @@ export default function Places() {
 
   const list = useMemo(() => {
     const ql = q.trim().toLowerCase();
-    let l = places.filter((p) => (view === 'trip' ? p.region === 'Мирисса' : true));
+    let l = places.filter((p) => p.region === 'Мирисса' && p.category !== 'food' || p.inPlan);
     if (cat) l = l.filter((p) => p.category === cat);
     if (tier) l = l.filter((p) => p.tier === tier);
     if (ql) l = l.filter((p) => [p.name, p.nameLocal, p.region, p.cuisine, ...p.why].join(' ').toLowerCase().includes(ql));
@@ -69,17 +71,17 @@ export default function Places() {
       distance: (a, b) => distanceFromHotel(a) - distanceFromHotel(b),
     };
     return [...l].sort(cmp[sort]);
-  }, [q, cat, tier, sort, view]);
+  }, [q, cat, tier, sort]);
 
   const avoid = list.filter((p) => p.avoid);
   const normal = list.filter((p) => !p.avoid);
 
   return (
     <div>
-      <PageHeader title="Места" subtitle={`${list.length} мест`} />
+      <PageHeader title={view === 'food' ? 'Еда' : view === 'country' ? 'Вся Шри-Ланка' : 'Места'} />
       <div className="sticky top-0 z-10 space-y-2 bg-[var(--bg)]/95 px-4 pb-2 pt-1 backdrop-blur">
-        <div className="grid grid-cols-2 gap-1 rounded-2xl bg-surface-2 p-1 text-sm font-bold">
-          {([['trip', 'Мирисса и поездка'], ['all', 'Вся Шри-Ланка']] as const).map(([v, l]) => (
+        <div className="grid grid-cols-3 gap-1 rounded-2xl bg-surface-2 p-1 text-sm font-bold">
+          {([['trip', '🌴 Поездка'], ['food', '🍽️ Еда'], ['country', '🇱🇰 Страна']] as const).map(([v, l]) => (
             <button key={v} onClick={() => setSp(v === 'trip' ? {} : { view: v }, { replace: true })}
               className={`min-h-10 rounded-xl ${view === v ? 'bg-surface shadow-sm' : 'text-soft'}`}>{l}</button>
           ))}
@@ -90,6 +92,7 @@ export default function Places() {
             className="min-h-11 w-full bg-transparent outline-none" aria-label="Поиск мест" />
           {q && <button onClick={() => setQ('')} aria-label="Очистить"><X size={18} /></button>}
         </label>
+        {view === 'trip' && <>
         <div className="-mx-4 flex gap-1.5 overflow-x-auto px-4 pb-1 [scrollbar-width:none]">
           {cats.filter((c) => places.some((p) => p.category === c)).map((c) => (
             <button key={c} onClick={() => setCat(cat === c ? null : c)}
@@ -113,7 +116,11 @@ export default function Places() {
             <option value="distance">Ближе</option>
           </select>
         </div>
+        </>}
       </div>
+      {view === 'food' && <FoodView q={q} />}
+      {view === 'country' && <CountryView q={q} />}
+      {view === 'trip' && <>
       <ul className="space-y-2.5 px-4 pt-2">
         {normal.map((p) => <li key={p.id}><PlaceRow p={p} /></li>)}
       </ul>
@@ -128,6 +135,7 @@ export default function Places() {
         </section>
       )}
       {list.length === 0 && <p className="p-8 text-center text-soft">Ничего не нашлось</p>}
+      </>}
     </div>
   );
 }

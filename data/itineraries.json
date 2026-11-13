@@ -1,0 +1,242 @@
+[
+  {
+    "id": "south-day",
+    "title": "Юг за один день",
+    "emoji": "🌊",
+    "region": "Юг",
+    "summary": "Морской гейзер и бухта Хирикетия — машина на день, ~2,5 ч дороги всего",
+    "days": [
+      {
+        "title": "Хуммания и Хирикетия",
+        "emoji": "🌊",
+        "mood": "active",
+        "doorTeaser": "Гейзер из скал и самая красивая бухта юга",
+        "steps": [
+          {
+            "time": "08:00",
+            "title": "Выезд, машина на день",
+            "kind": "move",
+            "transport": "car_day"
+          },
+          {
+            "time": "09:15",
+            "title": "Морской гейзер Хуммания",
+            "kind": "activity",
+            "placeId": "hummanaya",
+            "durationMin": 60,
+            "note": "Сильнее всего бьёт в прибой"
+          },
+          {
+            "time": "10:45",
+            "title": "Купание и обед в Хирикетии",
+            "kind": "activity",
+            "placeId": "hiriketiya",
+            "durationMin": 240,
+            "note": "Купаться во внутренней части бухты"
+          },
+          {
+            "time": "15:30",
+            "title": "Пустой пляж Тангалле (по желанию)",
+            "kind": "activity",
+            "placeId": "tangalle",
+            "durationMin": 90,
+            "note": "В открытом океане не купаемся — течения"
+          },
+          {
+            "time": "18:00",
+            "title": "Обратно в отель",
+            "kind": "move",
+            "transport": "car_day",
+            "placeId": "hotel"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ella-2d",
+    "title": "Элла за 2 дня",
+    "emoji": "🚂",
+    "region": "Горы",
+    "summary": "Мост Девяти арок, Little Adam’s Peak и рассвет на Lipton’s Seat — с ночёвкой в Элле",
+    "days": [
+      {
+        "title": "Дорога в горы и Nine Arch",
+        "emoji": "🌉",
+        "mood": "travel",
+        "doorTeaser": "Чайные холмы и поезд на мосту",
+        "backupNote": "Перед поездкой проверить дороги и ж/д после циклона конца 2025",
+        "steps": [
+          {
+            "time": "06:30",
+            "title": "Выезд из Мириссы, машина с водителем",
+            "kind": "move",
+            "transport": "car_day",
+            "durationMin": 240
+          },
+          {
+            "time": "11:00",
+            "title": "Заселение в Элле, обед",
+            "kind": "food",
+            "placeId": "ella"
+          },
+          {
+            "time": "14:30",
+            "title": "Little Adam’s Peak — лёгкий подъём",
+            "kind": "activity",
+            "placeId": "ella",
+            "durationMin": 120
+          },
+          {
+            "time": "16:30",
+            "title": "Nine Arch Bridge — к проходу поезда",
+            "kind": "activity",
+            "placeId": "ella",
+            "note": "Расписание поездов уточнить на месте"
+          }
+        ]
+      },
+      {
+        "title": "Рассвет над чаем и домой",
+        "emoji": "🍵",
+        "mood": "active",
+        "doorTeaser": "Рассвет над плантациями",
+        "fromHotel": false,
+        "steps": [
+          {
+            "time": "04:30",
+            "title": "Выезд из Эллы к Lipton’s Seat (~1 ч)",
+            "kind": "move",
+            "transport": "car_day",
+            "placeId": "ella"
+          },
+          {
+            "time": "05:45",
+            "title": "Рассвет на Lipton’s Seat",
+            "kind": "activity",
+            "placeId": "liptons-seat",
+            "durationMin": 90
+          },
+          {
+            "time": "09:00",
+            "title": "Завтрак и обратная дорога в Мириссу",
+            "kind": "move",
+            "transport": "car_day",
+            "placeId": "hotel",
+            "durationMin": 270
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "triangle-3d",
+    "title": "Культурный треугольник за 3 дня",
+    "emoji": "🦁",
+    "region": "Культурный треугольник",
+    "summary": "Дамбулла, Пидурангала и Сигирия, слоны Миннерии, Полоннарува. Далеко: 6–7 ч в одну сторону",
+    "days": [
+      {
+        "title": "Дорога и пещеры Дамбуллы",
+        "emoji": "🛕",
+        "mood": "travel",
+        "doorTeaser": "Пещерный храм",
+        "steps": [
+          {
+            "time": "05:30",
+            "title": "Выезд из Мириссы по скоростной дороге",
+            "kind": "move",
+            "transport": "car_day",
+            "durationMin": 360
+          },
+          {
+            "time": "12:30",
+            "title": "Обед в Дамбулле",
+            "kind": "food"
+          },
+          {
+            "time": "14:00",
+            "title": "Пещерный храм Дамбулла",
+            "kind": "activity",
+            "placeId": "dambulla",
+            "durationMin": 90
+          },
+          {
+            "time": "16:30",
+            "title": "Заселение у Сигирии",
+            "kind": "rest",
+            "placeId": "sigiriya"
+          }
+        ]
+      },
+      {
+        "title": "Две скалы и слоны",
+        "emoji": "🐘",
+        "mood": "active",
+        "doorTeaser": "Рассвет на Пидурангале и сафари",
+        "fromHotel": false,
+        "steps": [
+          {
+            "time": "05:15",
+            "title": "Рассвет на Пидурангале",
+            "kind": "activity",
+            "placeId": "pidurangala",
+            "durationMin": 120
+          },
+          {
+            "time": "08:30",
+            "title": "Сигирия (жарко — вода и шляпа)",
+            "kind": "activity",
+            "placeId": "sigiriya",
+            "durationMin": 180,
+            "note": "Выбрать одну скалу на утро, вторую — по силам"
+          },
+          {
+            "time": "12:00",
+            "title": "Обед и отдых",
+            "kind": "food"
+          },
+          {
+            "time": "14:30",
+            "title": "Вечернее джип-сафари в Миннерии",
+            "kind": "activity",
+            "placeId": "minneriya",
+            "durationMin": 210,
+            "note": "В марте стада меньше, чем в июле–октябре"
+          }
+        ]
+      },
+      {
+        "title": "Полоннарува и домой",
+        "emoji": "🚲",
+        "mood": "active",
+        "doorTeaser": "Древняя столица на велосипеде",
+        "fromHotel": false,
+        "steps": [
+          {
+            "time": "06:30",
+            "title": "Переезд в Полоннаруву (~1 ч)",
+            "kind": "move",
+            "transport": "car_day",
+            "placeId": "sigiriya"
+          },
+          {
+            "time": "07:30",
+            "title": "Полоннарува на велосипеде",
+            "kind": "activity",
+            "placeId": "polonnaruwa",
+            "durationMin": 210
+          },
+          {
+            "time": "11:30",
+            "title": "Обратно в Мириссу",
+            "kind": "move",
+            "transport": "car_day",
+            "placeId": "hotel",
+            "durationMin": 420
+          }
+        ]
+      }
+    ]
+  }
+]
