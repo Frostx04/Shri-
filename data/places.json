@@ -209,7 +209,7 @@
     "travelTimeMin": 7,
     "region": "Мирисса",
     "inPlan": true,
-    "photoQuery": "Thalaramba|Chelonia mydas Sri Lanka"
+    "photoQuery": "green sea turtle Sri Lanka|sea turtle snorkeling|Thalaramba"
   },
   {
     "id": "lagoon",
@@ -311,7 +311,7 @@
     "costNote": "Только тук-тук, цену договорить заранее",
     "region": "Мирисса",
     "inPlan": true,
-    "photoQuery": "Firefly Sri Lanka|Lampyridae night"
+    "photoQuery": "fireflies night|firefly long exposure"
   },
   {
     "id": "sinharaja",
@@ -878,7 +878,8 @@
     "messageTemplateId": "snakes",
     "travelTimeMin": 20,
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "photoQuery": "python snake handling Sri Lanka|Indian python"
   },
   {
     "id": "flying-foxes",

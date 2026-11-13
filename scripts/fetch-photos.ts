@@ -1,18 +1,17 @@
 /**
- * Фото мест и зверей с Wikimedia Commons (только CC0 / CC BY / CC BY-SA / Public Domain).
- * Качает в public/photos/<id>/ (места) и public/photos/animals/<id>/ (звери):
- * N.webp (1280px — стандартный размер превью Wikimedia, не нагружает их сервер) и N-thumb.webp (400px), пишет автора, лицензию и ссылку в data/*.json.
+ * Реальные фото мест и зверей со свободными лицензиями (CC0 / CC BY / CC BY-SA / Public Domain).
  *
- * Запрос: photoQuery (варианты через «|», пробуются по очереди) или nameLocal.
+ * Источники:
+ *  - звери  → iNaturalist (наблюдения со Шри-Ланки, research grade), запасной — Openverse;
+ *  - места  → Openverse (Flickr и др.), запасной — Wikimedia Commons.
+ * Commons сильно ограничивает частоту запросов с общих IP, поэтому он последний в очереди.
  *
- *   npm run photos                     — места и звери без фото
- *   npm run photos -- --only=sigiriya  — одно место/зверь
- *   npm run photos -- --animals        — только звери;  --places — только места
- *   npm run photos -- --force          — перекачать;    --dry — только показать находки
- *   --plan — только места из плана; --trip — звери кроме редких; --max=N — фото на объект
+ * Пишет public/photos/<id>/N.webp (1280px) + N-thumb.webp (400px) и автора/лицензию/ссылку в data/*.json.
+ * Запрос — photoQuery (варианты через «|») или nameLocal / латинское название.
  *
- * Wikimedia ограничивает частоту запросов (429 + Retry-After). Скрипт ждёт и сохраняет прогресс
- * после каждого объекта — его можно прервать и запустить снова, готовое пропустится.
+ *   npm run photos                       — всё, где ещё нет фото
+ *   npm run photos -- --only=sigiriya    — один объект;  --animals / --places — только одно
+ *   npm run photos -- --force --max=3    — перекачать, по 3 фото;  --dry — только показать находки
  */
 import { mkdirSync, rmSync, readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
@@ -20,22 +19,64 @@ import sharp from 'sharp';
 import type { Photo, Place, Animal } from '../src/data/schema.ts';
 import { readPlaces, writePlaces, root, sleep, arg, argValue, politeFetch, dataPath } from './lib.ts';
 
-const API = 'https://commons.wikimedia.org/w/api.php';
-const SKIP_CATEGORIES = new Set<Place['category']>(['hotel', 'food', 'medical', 'spa']);
-const OK_LICENSE = /^(cc0|cc[- ]by(-sa)?([- ]\d(\.\d)?)?([- ]\w+)?|public domain|pd\b.*)$/i;
+type Provider = NonNullable<Photo['provider']>;
+interface Candidate { url: string; descUrl: string; author: string; license: string; provider: Provider; title: string }
+
+const OK_LICENSE = /^(cc0|cc[- ]by(-sa)?([- ]\d(\.\d)?)?([- ]\w+)?|public domain|pd\b.*|pdm)$/i;
 const BAD_LICENSE = /\b(nc|nd)\b/i;
-const BAD_TITLE = /\b(map|karte|logo|flag|coat of arms|diagram|stamp|svg|drawing|illustration|skull|museum specimen|taxidermy)\b/i;
-
+const BAD_TITLE = /\b(map|karte|logo|flag|coat of arms|diagram|stamp|drawing|illustration|skull|specimen|taxidermy|poster|menu)\b/i;
 const strip = (html = '') => html.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+const SRI_LANKA_INAT = 6967;
 
-interface Candidate { title: string; url: string; descUrl: string; author: string; license: string }
+/* ——— iNaturalist ——— */
+const INAT_LIC: Record<string, string> = { cc0: 'CC0', 'cc-by': 'CC BY 4.0', 'cc-by-sa': 'CC BY-SA 4.0' };
+async function inaturalist(q: string, max: number): Promise<Candidate[]> {
+  const out: Candidate[] = [];
+  for (const place of [SRI_LANKA_INAT, null]) {
+    const params = new URLSearchParams({ taxon_name: q, photo_license: 'cc0,cc-by,cc-by-sa', quality_grade: 'research', order_by: 'votes', per_page: '20', photos: 'true' });
+    if (place) params.set('place_id', String(place));
+    const res = await politeFetch(`https://api.inaturalist.org/v1/observations?${params}`);
+    if (!res.ok) throw new Error(`iNaturalist ${res.status}`);
+    const j = await res.json();
+    for (const o of j.results ?? []) {
+      const p = o.photos?.[0];
+      if (!p || !INAT_LIC[p.license_code]) continue;
+      const d = p.original_dimensions;
+      if (d && (d.width < 800 || d.width < d.height * 0.75)) continue;
+      out.push({ url: p.url.replace('/square.', '/large.'), descUrl: o.uri, author: strip(p.attribution).replace(/^\(c\)\s*/i, '').replace(/,? some rights reserved.*$/i, '').replace(/, no rights reserved.*$/i, ''), license: INAT_LIC[p.license_code], provider: 'inaturalist', title: o.taxon?.name ?? q });
+      if (out.length >= max) return out;
+    }
+    await sleep(1100);
+    if (out.length) return out;
+  }
+  return out;
+}
 
-async function search(q: string, minRatio: number): Promise<Candidate[]> {
+/* ——— Openverse ——— */
+const OV_LIC: Record<string, string> = { by: 'CC BY', 'by-sa': 'CC BY-SA', cc0: 'CC0', pdm: 'Public Domain' };
+async function openverse(q: string, max: number): Promise<Candidate[]> {
+  const params = new URLSearchParams({ q, license: 'by,by-sa,cc0,pdm', page_size: '20', mature: 'false', excluded_source: 'wikimedia' });
+  const res = await politeFetch(`https://api.openverse.org/v1/images/?${params}`);
+  if (!res.ok) throw new Error(`Openverse ${res.status}`);
+  const j = await res.json();
+  const out: Candidate[] = [];
+  for (const r of j.results ?? []) {
+    if (!OV_LIC[r.license] || BAD_TITLE.test(r.title ?? '')) continue;
+    if (r.width && (r.width < 800 || r.width < r.height * 0.9)) continue;
+    if (!/^https:\/\/live\.staticflickr\.com\//.test(r.url)) continue; // скачиваем только с разрешённого хоста
+    out.push({ url: r.url, descUrl: r.foreign_landing_url, author: r.creator || 'неизвестен', license: `${OV_LIC[r.license]}${r.license_version && r.license !== 'pdm' && r.license !== 'cc0' ? ' ' + r.license_version : ''}`, provider: 'openverse', title: r.title ?? q });
+    if (out.length >= max) break;
+  }
+  return out;
+}
+
+/* ——— Wikimedia Commons ——— */
+async function commons(q: string, max: number): Promise<Candidate[]> {
   const params = new URLSearchParams({
     action: 'query', format: 'json', origin: '*', generator: 'search', gsrsearch: `${q} filetype:bitmap`,
     gsrnamespace: '6', gsrlimit: '24', prop: 'imageinfo', iiprop: 'url|extmetadata|size|mime', iiurlwidth: '1280',
   });
-  const res = await politeFetch(`${API}?${params}`);
+  const res = await politeFetch(`https://commons.wikimedia.org/w/api.php?${params}`, {}, 2);
   if (!res.ok) throw new Error(`Commons ${res.status}`);
   const j = await res.json();
   const pages = Object.values<any>(j.query?.pages ?? {}).sort((a, b) => (a.index ?? 0) - (b.index ?? 0));
@@ -45,77 +86,62 @@ async function search(q: string, minRatio: number): Promise<Candidate[]> {
     if (!ii || !/^image\/(jpeg|png|webp)$/.test(ii.mime) || BAD_TITLE.test(pg.title)) continue;
     const m = ii.extmetadata ?? {};
     const license = strip(m.LicenseShortName?.value);
-    if (!OK_LICENSE.test(license) || BAD_LICENSE.test(license)) continue;
-    if (ii.width < 900 || ii.width < ii.height * minRatio) continue;
-    out.push({ title: pg.title, url: ii.thumburl ?? ii.url, descUrl: ii.descriptionurl, author: strip(m.Artist?.value).slice(0, 120) || 'неизвестен', license });
+    if (!OK_LICENSE.test(license) || BAD_LICENSE.test(license) || ii.width < 900 || ii.width < ii.height * 0.9) continue;
+    out.push({ url: (ii.thumburl ?? ii.url).replace(/\?utm_[^#]*$/, ''), descUrl: ii.descriptionurl, author: strip(m.Artist?.value).slice(0, 120) || 'неизвестен', license, provider: 'wikimedia', title: pg.title });
+    if (out.length >= max) break;
   }
   return out;
 }
 
-/** Превью отдаются и с upload.wikimedia.org по тому же пути; utm-метки не нужны. */
-const normalizeThumb = (u: string) => u.replace('://thumb.wikimedia.org/', '://upload.wikimedia.org/').replace(/\?utm_[^#]*$/, '');
+const SEARCH: Record<'inaturalist' | 'openverse' | 'wikimedia', (q: string, max: number) => Promise<Candidate[]>> = { inaturalist, openverse, wikimedia: commons };
 
 async function download(url: string): Promise<Buffer> {
-  const res = await politeFetch(normalizeThumb(url));
+  const res = await politeFetch(url, {}, 3);
   if (!res.ok) throw new Error(`download ${res.status}`);
   return Buffer.from(await res.arrayBuffer());
 }
 
-interface Item { id: string; queries: string[]; dir: string; max: number; minRatio: number; photos: Photo[]; set: (p: Photo[]) => void }
+interface Item { id: string; queries: string[]; sources: (keyof typeof SEARCH)[]; dir: string; max: number; photos: Photo[]; set: (p: Photo[]) => void }
 
 async function processItem(it: Item, dry: boolean): Promise<boolean> {
   let cands: Candidate[] = [];
-  for (const q of it.queries) {
-    cands = (await search(q, it.minRatio)).slice(0, it.max);
-    await sleep(2000);
-    if (cands.length) break;
-  }
-  if (!cands.length) { console.log(`– ${it.id}: ничего подходящего по «${it.queries.join(' | ')}»`); return false; }
-  console.log(`${it.id}: ${cands.map((c) => `${c.title.replace('File:', '')} [${c.license}]`).join(' | ')}`);
+  outer: for (const src of it.sources)
+    for (const q of it.queries) {
+      try { cands = await SEARCH[src](q, it.max); } catch (e) { console.warn(`  ${src}: ${(e as Error).message}`); }
+      await sleep(1200);
+      if (cands.length) break outer;
+    }
+  if (!cands.length) { console.log(`– ${it.id}: ничего подходящего`); return false; }
+  console.log(`${it.id}: ${cands.map((c) => `[${c.provider} ${c.license}] ${c.title.replace('File:', '').slice(0, 50)}`).join(' | ')}`);
   if (dry) return false;
   const abs = resolve(root, 'public', it.dir);
   rmSync(abs, { recursive: true, force: true });
   mkdirSync(abs, { recursive: true });
   const photos: Photo[] = [];
-  for (const [i, c] of cands.entries()) {
+  for (const c of cands) {
+    const n = photos.length + 1;
     try {
       const buf = await download(c.url);
-      await sharp(buf).rotate().resize({ width: 1280, withoutEnlargement: true }).webp({ quality: 78 }).toFile(resolve(abs, `${i + 1}.webp`));
-      await sharp(buf).rotate().resize({ width: 400, height: 300, fit: 'cover', position: 'attention' }).webp({ quality: 68 }).toFile(resolve(abs, `${i + 1}-thumb.webp`));
-      photos.push({ src: `${it.dir}/${i + 1}.webp`, thumb: `${it.dir}/${i + 1}-thumb.webp`, author: c.author, license: c.license, sourceUrl: c.descUrl, provider: 'wikimedia' });
+      await sharp(buf).rotate().resize({ width: 1280, withoutEnlargement: true }).webp({ quality: 78 }).toFile(resolve(abs, `${n}.webp`));
+      await sharp(buf).rotate().resize({ width: 400, height: 300, fit: 'cover', position: 'attention' }).webp({ quality: 68 }).toFile(resolve(abs, `${n}-thumb.webp`));
+      photos.push({ src: `${it.dir}/${n}.webp`, thumb: `${it.dir}/${n}-thumb.webp`, author: c.author, license: c.license, sourceUrl: c.descUrl, provider: c.provider });
     } catch (e) {
-      console.warn(`  ✗ ${c.title}: ${(e as Error).message}`);
+      console.warn(`  ✗ ${c.url}: ${(e as Error).message}`);
     }
-    await sleep(1500);
+    await sleep(400);
   }
-  it.set([...photos, ...it.photos.filter((ph) => ph.provider === 'google')]);
-  return photos.length > 0;
+  if (!photos.length) return false;
+  it.set([...photos, ...it.photos.filter((ph) => ph.provider === 'google' || ph.provider === 'own')]);
+  return true;
 }
 
 const only = argValue('only');
 const force = arg('force'), dry = arg('dry');
 const doPlaces = !arg('animals'), doAnimals = !arg('places');
-const planOnly = arg('plan'), tripOnly = arg('trip');
-const queriesOf = (q: string | undefined, fallback: string) => (q ?? fallback).split('|').map((s) => s.trim()).filter(Boolean);
-const hasOwn = (ph: Photo[]) => ph.some((x) => x.provider !== 'google');
-
-if (doPlaces) {
-  const places = readPlaces();
-  let changed = 0;
-  for (const p of places) {
-    if (only && p.id !== only) continue;
-    if (!only && SKIP_CATEGORIES.has(p.category)) continue;
-    if (planOnly && !p.inPlan) continue;
-    if (hasOwn(p.photos) && !force) continue;
-    try {
-      if (await processItem({ id: p.id, queries: queriesOf(p.photoQuery, p.nameLocal ?? p.name), dir: `photos/${p.id}`, max: Number(argValue('max') ?? 2), minRatio: 0.9, photos: p.photos, set: (ph) => (p.photos = ph) }, dry)) {
-        changed++;
-        writePlaces(places); // сохраняем по ходу — можно прервать и продолжить
-      }
-    } catch (e) { console.warn(`✗ ${p.id}: ${(e as Error).message}`); }
-  }
-  console.log(`\nмест обновлено: ${changed}`);
-}
+const SKIP_CATEGORIES = new Set<Place['category']>(['hotel', 'food', 'medical', 'spa']);
+const split = (q: string) => q.split('|').map((s) => s.trim()).filter(Boolean);
+const hasFree = (ph: Photo[]) => ph.some((x) => x.provider && x.provider !== 'google' && x.provider !== 'own');
+const withCountry = (q: string) => (/sri lanka/i.test(q) ? q : `${q} Sri Lanka`);
 
 if (doAnimals) {
   const file = dataPath('animals.json');
@@ -123,14 +149,31 @@ if (doAnimals) {
   let changed = 0;
   for (const a of animals) {
     if (only && a.id !== only) continue;
-    if (hasOwn(a.photos) && !force) continue;
-    if (tripOnly && a.chance === 'low') continue;
-    try {
-      if (await processItem({ id: a.id, queries: queriesOf(a.photoQuery, a.latin), dir: `photos/animals/${a.id}`, max: Number(argValue('max') ?? 2), minRatio: 0.75, photos: a.photos, set: (ph) => (a.photos = ph) }, dry)) {
-        changed++;
-        writeFileSync(file, JSON.stringify(animals, null, 2) + '\n');
-      }
-    } catch (e) { console.warn(`✗ ${a.id}: ${(e as Error).message}`); }
+    if (hasFree(a.photos) && !force) continue;
+    const ov = a.photoSource === 'openverse';
+    const item: Item = {
+      id: a.id, dir: `photos/animals/${a.id}`, max: Number(argValue('max') ?? 2), photos: a.photos, set: (ph) => (a.photos = ph),
+      queries: ov ? split(a.photoQuery ?? a.latin) : [a.latin, ...split(a.photoQuery ?? '')],
+      sources: ov ? ['openverse', 'inaturalist'] : ['inaturalist', 'openverse'],
+    };
+    if (await processItem(item, dry)) { changed++; writeFileSync(file, JSON.stringify(animals, null, 2) + '\n'); }
   }
   console.log(`зверей обновлено: ${changed}`);
+}
+
+if (doPlaces) {
+  const places = readPlaces();
+  let changed = 0;
+  for (const p of places) {
+    if (only && p.id !== only) continue;
+    if (!only && SKIP_CATEGORIES.has(p.category)) continue;
+    if (hasFree(p.photos) && !force) continue;
+    const qs = split(p.photoQuery ?? p.nameLocal ?? p.name);
+    const item: Item = {
+      id: p.id, dir: `photos/${p.id}`, max: Number(argValue('max') ?? 3), photos: p.photos, set: (ph) => (p.photos = ph),
+      queries: qs.map(withCountry), sources: ['openverse', 'wikimedia'],
+    };
+    if (await processItem(item, dry)) { changed++; writePlaces(places); }
+  }
+  console.log(`мест обновлено: ${changed}`);
 }

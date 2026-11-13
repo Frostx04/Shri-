@@ -12,8 +12,25 @@
     ],
     "chance": "high",
     "note": "В Удавалаве — сотни; слонята в Elephant Transit Home в полдень",
-    "photoQuery": "Elephas maximus maximus Udawalawe",
-    "photos": []
+    "photoQuery": "Elephas maximus maximus",
+    "photos": [
+      {
+        "src": "photos/animals/elephant/1.webp",
+        "thumb": "photos/animals/elephant/1-thumb.webp",
+        "author": "Focus Saranpat Ouilapan",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/229033743",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/elephant/2.webp",
+        "thumb": "photos/animals/elephant/2-thumb.webp",
+        "author": "Noah Kirkland",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/248573278",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "baby-elephant",
@@ -26,8 +43,26 @@
     ],
     "chance": "high",
     "note": "Кормление в Elephant Transit Home — их потом выпускают в дикую природу",
-    "photoQuery": "Elephant Transit Home Udawalawe",
-    "photos": []
+    "photoQuery": "Elephant Transit Home|baby elephant Sri Lanka",
+    "photos": [
+      {
+        "src": "photos/animals/baby-elephant/1.webp",
+        "thumb": "photos/animals/baby-elephant/1-thumb.webp",
+        "author": "amanderson2",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/49399018@N00/48515252992",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/animals/baby-elephant/2.webp",
+        "thumb": "photos/animals/baby-elephant/2-thumb.webp",
+        "author": "amanderson2",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/49399018@N00/48515253457",
+        "provider": "openverse"
+      }
+    ],
+    "photoSource": "openverse"
   },
   {
     "id": "toque-macaque",
@@ -44,7 +79,24 @@
     "chance": "high",
     "note": "Эндемик. Воруют еду с балконов — закрывать двери",
     "photoQuery": "Macaca sinica",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/toque-macaque/1.webp",
+        "thumb": "photos/animals/toque-macaque/1-thumb.webp",
+        "author": "Kristof Zyskowski",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/104608271",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/toque-macaque/2.webp",
+        "thumb": "photos/animals/toque-macaque/2-thumb.webp",
+        "author": "Wolfgang Ahlmer",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/402784307",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "purple-faced-langur",
@@ -58,7 +110,24 @@
     "chance": "medium",
     "note": "Эндемик; гид Ачи показывает и редкого белого лангура",
     "photoQuery": "Trachypithecus vetulus",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/purple-faced-langur/1.webp",
+        "thumb": "photos/animals/purple-faced-langur/1-thumb.webp",
+        "author": "Shaan Aroeste",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/106115821",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/purple-faced-langur/2.webp",
+        "thumb": "photos/animals/purple-faced-langur/2-thumb.webp",
+        "author": "Dilrukshan Priyantha Wijesinghe",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/5623425",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "gray-langur",
@@ -73,7 +142,24 @@
     "chance": "medium",
     "note": "Длиннохвостые, спокойные",
     "photoQuery": "Semnopithecus priam",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/gray-langur/1.webp",
+        "thumb": "photos/animals/gray-langur/1-thumb.webp",
+        "author": "Suhel Quader",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/33755176",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/gray-langur/2.webp",
+        "thumb": "photos/animals/gray-langur/2-thumb.webp",
+        "author": "Ahirbudhnyan M",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/168637900",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "flying-fox",
@@ -89,7 +175,24 @@
     "chance": "high",
     "note": "Около 18:20 — вылет тысячами над лагуной",
     "photoQuery": "Pteropus medius",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/flying-fox/1.webp",
+        "thumb": "photos/animals/flying-fox/1-thumb.webp",
+        "author": "Tejas M",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/178523651",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/flying-fox/2.webp",
+        "thumb": "photos/animals/flying-fox/2-thumb.webp",
+        "author": "Ashwin Viswanathan",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/409908081",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "porcupine",
@@ -103,7 +206,24 @@
     "chance": "medium",
     "note": "Около 20:00 в Lemongrass Cafe, если сегодня приходят",
     "photoQuery": "Hystrix indica",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/porcupine/1.webp",
+        "thumb": "photos/animals/porcupine/1-thumb.webp",
+        "author": "T R Shankar Raman",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/63897701",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/porcupine/2.webp",
+        "thumb": "photos/animals/porcupine/2-thumb.webp",
+        "author": "Ravuri Krishna Chaitanya",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/267461692",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "mongoose",
@@ -117,7 +237,24 @@
     "chance": "medium",
     "note": "Шныряют у дорог в парке",
     "photoQuery": "Herpestes edwardsii",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/mongoose/1.webp",
+        "thumb": "photos/animals/mongoose/1-thumb.webp",
+        "author": "Srivatsan Ramkumar",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/397233662",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/mongoose/2.webp",
+        "thumb": "photos/animals/mongoose/2-thumb.webp",
+        "author": "Sunny Joseph",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/101075664",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "buffalo",
@@ -132,7 +269,24 @@
     "chance": "high",
     "note": "Лежат в воде у водохранилищ",
     "photoQuery": "Water buffalo Udawalawe",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/buffalo/1.webp",
+        "thumb": "photos/animals/buffalo/1-thumb.webp",
+        "author": "portioid",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/148966296",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/buffalo/2.webp",
+        "thumb": "photos/animals/buffalo/2-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/148523142",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "spotted-deer",
@@ -147,7 +301,24 @@
     "chance": "high",
     "note": "«Олени-бэмби» из чатов",
     "photoQuery": "Axis axis Sri Lanka",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/spotted-deer/1.webp",
+        "thumb": "photos/animals/spotted-deer/1-thumb.webp",
+        "author": "Tim",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/379901810",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/spotted-deer/2.webp",
+        "thumb": "photos/animals/spotted-deer/2-thumb.webp",
+        "author": "Tim",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/379700390",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "wild-boar",
@@ -161,7 +332,24 @@
     "chance": "medium",
     "note": "",
     "photoQuery": "Sus scrofa",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/wild-boar/1.webp",
+        "thumb": "photos/animals/wild-boar/1-thumb.webp",
+        "author": "luluchouette",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/108769387",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/wild-boar/2.webp",
+        "thumb": "photos/animals/wild-boar/2-thumb.webp",
+        "author": "Shane Austin",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/363598216",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "palm-squirrel",
@@ -176,7 +364,24 @@
     "chance": "high",
     "note": "Полосатые, бегают по пальмам прямо у отеля",
     "photoQuery": "Funambulus palmarum",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/palm-squirrel/1.webp",
+        "thumb": "photos/animals/palm-squirrel/1-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/128264387",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/palm-squirrel/2.webp",
+        "thumb": "photos/animals/palm-squirrel/2-thumb.webp",
+        "author": "Daniel S. Katz",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/162870623",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "giant-squirrel",
@@ -191,7 +396,24 @@
     "chance": "low",
     "note": "Размером с кошку, рыжая с чёрным",
     "photoQuery": "Ratufa macroura",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/giant-squirrel/1.webp",
+        "thumb": "photos/animals/giant-squirrel/1-thumb.webp",
+        "author": "Paulmathi Vinod",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/85980416",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/giant-squirrel/2.webp",
+        "thumb": "photos/animals/giant-squirrel/2-thumb.webp",
+        "author": "Shaan Aroeste",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/106671891",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "sambar",
@@ -205,7 +427,24 @@
     "chance": "low",
     "note": "Ходят по равнинам Хортона — на будущую поездку",
     "photoQuery": "Rusa unicolor",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/sambar/1.webp",
+        "thumb": "photos/animals/sambar/1-thumb.webp",
+        "author": "Sevin Dee",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/181173616",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/sambar/2.webp",
+        "thumb": "photos/animals/sambar/2-thumb.webp",
+        "author": "Artem Abdukakharov",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/283073634",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "leopard",
@@ -220,7 +459,24 @@
     "chance": "low",
     "note": "Мечта на будущее — Вилпатту спокойнее Ялы",
     "photoQuery": "Panthera pardus kotiya",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/leopard/1.webp",
+        "thumb": "photos/animals/leopard/1-thumb.webp",
+        "author": "Tim",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/379905721",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/leopard/2.webp",
+        "thumb": "photos/animals/leopard/2-thumb.webp",
+        "author": "Marco Chan",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/229424475",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "sos-dogs",
@@ -233,8 +489,26 @@
     ],
     "chance": "high",
     "note": "Гладим спасённых — тут можно!",
-    "photoQuery": "Dog Sri Lanka beach",
-    "photos": []
+    "photoQuery": "Sri Lanka beach dog|stray dog Sri Lanka",
+    "photos": [
+      {
+        "src": "photos/animals/sos-dogs/1.webp",
+        "thumb": "photos/animals/sos-dogs/1-thumb.webp",
+        "author": ".shyam.",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/56971893@N00/2190659711",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/animals/sos-dogs/2.webp",
+        "thumb": "photos/animals/sos-dogs/2-thumb.webp",
+        "author": "paaddor",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/109715245@N06/49690298623",
+        "provider": "openverse"
+      }
+    ],
+    "photoSource": "openverse"
   },
   {
     "id": "green-turtle",
@@ -251,7 +525,24 @@
     "chance": "high",
     "note": "Утром у Coconut Tree Hill и с инструктором на Таларамбе. Не трогать!",
     "photoQuery": "Chelonia mydas",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/green-turtle/1.webp",
+        "thumb": "photos/animals/green-turtle/1-thumb.webp",
+        "author": "portioid",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/186287204",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/green-turtle/2.webp",
+        "thumb": "photos/animals/green-turtle/2-thumb.webp",
+        "author": "Noeleen du Toit",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/160897185",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "hawksbill",
@@ -266,7 +557,24 @@
     "chance": "low",
     "note": "Реже зелёной, клюв как у попугая",
     "photoQuery": "Eretmochelys imbricata",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/hawksbill/1.webp",
+        "thumb": "photos/animals/hawksbill/1-thumb.webp",
+        "author": "Donald Davesne",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/146217127",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/hawksbill/2.webp",
+        "thumb": "photos/animals/hawksbill/2-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/215156735",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "turtle-hatchlings",
@@ -279,8 +587,26 @@
     ],
     "chance": "low",
     "note": "Даты на табличке у вышки спасателей, 17:30–18:00",
-    "photoQuery": "Chelonia mydas hatchling",
-    "photos": []
+    "photoQuery": "sea turtle hatchling|turtle hatchlings beach",
+    "photos": [
+      {
+        "src": "photos/animals/turtle-hatchlings/1.webp",
+        "thumb": "photos/animals/turtle-hatchlings/1-thumb.webp",
+        "author": "U. S. Fish and Wildlife Service - Northeast Region",
+        "license": "Public Domain",
+        "sourceUrl": "https://www.flickr.com/photos/43322816@N08/5343669276",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/animals/turtle-hatchlings/2.webp",
+        "thumb": "photos/animals/turtle-hatchlings/2-thumb.webp",
+        "author": "CapeHatterasNPS",
+        "license": "Public Domain",
+        "sourceUrl": "https://www.flickr.com/photos/106602675@N05/51759873805",
+        "provider": "openverse"
+      }
+    ],
+    "photoSource": "openverse"
   },
   {
     "id": "water-monitor",
@@ -297,7 +623,24 @@
     "chance": "high",
     "note": "До 2 м — в лагуне и прямо в посёлке",
     "photoQuery": "Varanus salvator",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/water-monitor/1.webp",
+        "thumb": "photos/animals/water-monitor/1-thumb.webp",
+        "author": "Luca Napelo",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/11310297",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/water-monitor/2.webp",
+        "thumb": "photos/animals/water-monitor/2-thumb.webp",
+        "author": "Gonzalo Ganda Álvarez",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/245481982",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "land-monitor",
@@ -312,7 +655,24 @@
     "chance": "medium",
     "note": "Сухопутный, поменьше",
     "photoQuery": "Varanus bengalensis",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/land-monitor/1.webp",
+        "thumb": "photos/animals/land-monitor/1-thumb.webp",
+        "author": "Ian Dugdale",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/38089754",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/land-monitor/2.webp",
+        "thumb": "photos/animals/land-monitor/2-thumb.webp",
+        "author": "Navapol Komanasin",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/162307563",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "saltwater-croc",
@@ -326,7 +686,24 @@
     "chance": "high",
     "note": "До 6 м — на рассвете на реке Нилвала",
     "photoQuery": "Crocodylus porosus",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/saltwater-croc/1.webp",
+        "thumb": "photos/animals/saltwater-croc/1-thumb.webp",
+        "author": "Dragonette",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/32869037",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/saltwater-croc/2.webp",
+        "thumb": "photos/animals/saltwater-croc/2-thumb.webp",
+        "author": "khalebyordan",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/345324703",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "mugger",
@@ -341,7 +718,24 @@
     "chance": "medium",
     "note": "В водоёмах нацпарков",
     "photoQuery": "Crocodylus palustris",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/mugger/1.webp",
+        "thumb": "photos/animals/mugger/1-thumb.webp",
+        "author": "Thomas Galewski",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/66195541",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/mugger/2.webp",
+        "thumb": "photos/animals/mugger/2-thumb.webp",
+        "author": "Paul Asman and Jill Lenoble",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/101979691",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "green-pit-viper",
@@ -355,7 +749,24 @@
     "chance": "medium",
     "note": "Ядовитая, сидит неподвижно — смотреть только с гидом",
     "photoQuery": "Trimeresurus trigonocephalus",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/green-pit-viper/1.webp",
+        "thumb": "photos/animals/green-pit-viper/1-thumb.webp",
+        "author": "Kristof Zyskowski",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/104615745",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/green-pit-viper/2.webp",
+        "thumb": "photos/animals/green-pit-viper/2-thumb.webp",
+        "author": "klukoff",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/84206139",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "hump-nosed-lizard",
@@ -369,7 +780,24 @@
     "chance": "medium",
     "note": "Эндемик с «рогом» на носу",
     "photoQuery": "Lyriocephalus scutatus",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/hump-nosed-lizard/1.webp",
+        "thumb": "photos/animals/hump-nosed-lizard/1-thumb.webp",
+        "author": "Shaan Aroeste",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/106112285",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/hump-nosed-lizard/2.webp",
+        "thumb": "photos/animals/hump-nosed-lizard/2-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/78251668",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "chameleon",
@@ -384,7 +812,24 @@
     "chance": "low",
     "note": "Попросить Ачи поискать",
     "photoQuery": "Chamaeleo zeylanicus",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/chameleon/1.webp",
+        "thumb": "photos/animals/chameleon/1-thumb.webp",
+        "author": "Chayant Gonsalves",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/98812944",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/chameleon/2.webp",
+        "thumb": "photos/animals/chameleon/2-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/95874708",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "calotes",
@@ -399,7 +844,24 @@
     "chance": "high",
     "note": "Краснеет головой в брачный сезон — везде",
     "photoQuery": "Calotes versicolor",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/calotes/1.webp",
+        "thumb": "photos/animals/calotes/1-thumb.webp",
+        "author": "Devika M B",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/98591359",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/calotes/2.webp",
+        "thumb": "photos/animals/calotes/2-thumb.webp",
+        "author": "Kseniia Marianna Prondzynska",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/199990953",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "python",
@@ -413,7 +875,24 @@
     "chance": "high",
     "note": "На змеиной ферме дают подержать",
     "photoQuery": "Python molurus",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/python/1.webp",
+        "thumb": "photos/animals/python/1-thumb.webp",
+        "author": "Michael Green",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/299368530",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/python/2.webp",
+        "thumb": "photos/animals/python/2-thumb.webp",
+        "author": "Ioannis Magouras",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/238117376",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "cobra",
@@ -427,7 +906,24 @@
     "chance": "high",
     "note": "Смотрим на расстоянии — не лезем!",
     "photoQuery": "Naja naja",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/cobra/1.webp",
+        "thumb": "photos/animals/cobra/1-thumb.webp",
+        "author": "Chris Oldnall",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/154855383",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/cobra/2.webp",
+        "thumb": "photos/animals/cobra/2-thumb.webp",
+        "author": "Ian Dugdale",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/54611049",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "vine-snake",
@@ -442,7 +938,24 @@
     "chance": "medium",
     "note": "Тонкая как лиана",
     "photoQuery": "Ahaetulla nasuta",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/vine-snake/1.webp",
+        "thumb": "photos/animals/vine-snake/1-thumb.webp",
+        "author": "Nils",
+        "license": "CC BY 4.0",
+        "sourceUrl": "http://www.inaturalist.org/observations/4274275",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/vine-snake/2.webp",
+        "thumb": "photos/animals/vine-snake/2-thumb.webp",
+        "author": "Pieter Prins",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/34983483",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "peacock",
@@ -458,7 +971,24 @@
     "chance": "high",
     "note": "В Удавалаве — десятками, иногда и в Мириссе",
     "photoQuery": "Pavo cristatus",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/peacock/1.webp",
+        "thumb": "photos/animals/peacock/1-thumb.webp",
+        "author": "許慶棠Ray",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/248761691",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/peacock/2.webp",
+        "thumb": "photos/animals/peacock/2-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/412602083",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "junglefowl",
@@ -472,7 +1002,24 @@
     "chance": "medium",
     "note": "Национальная птица Шри-Ланки",
     "photoQuery": "Gallus lafayettii",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/junglefowl/1.webp",
+        "thumb": "photos/animals/junglefowl/1-thumb.webp",
+        "author": "Christoph Moning",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/57920866",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/junglefowl/2.webp",
+        "thumb": "photos/animals/junglefowl/2-thumb.webp",
+        "author": "Eamon Corbett",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/69707373",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "fish-owl",
@@ -486,7 +1033,24 @@
     "chance": "low",
     "note": "Гид знает, где он сидит днём",
     "photoQuery": "Ketupa zeylonensis",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/fish-owl/1.webp",
+        "thumb": "photos/animals/fish-owl/1-thumb.webp",
+        "author": "Павлик Лисицын",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/152593663",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/fish-owl/2.webp",
+        "thumb": "photos/animals/fish-owl/2-thumb.webp",
+        "author": "Ian Dugdale",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/303354757",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "paradise-flycatcher",
@@ -500,7 +1064,24 @@
     "chance": "medium",
     "note": "Белый самец с длиннющим хвостом",
     "photoQuery": "Terpsiphone paradisi",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/paradise-flycatcher/1.webp",
+        "thumb": "photos/animals/paradise-flycatcher/1-thumb.webp",
+        "author": "Rajesh Balakrishnan",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/63403289",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/paradise-flycatcher/2.webp",
+        "thumb": "photos/animals/paradise-flycatcher/2-thumb.webp",
+        "author": "Vijay Vanaparthy",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/26429257",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "blue-magpie",
@@ -514,7 +1095,24 @@
     "chance": "low",
     "note": "Эндемик, очень яркая",
     "photoQuery": "Urocissa ornata",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/blue-magpie/1.webp",
+        "thumb": "photos/animals/blue-magpie/1-thumb.webp",
+        "author": "William Stephens",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/39776531",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/blue-magpie/2.webp",
+        "thumb": "photos/animals/blue-magpie/2-thumb.webp",
+        "author": "Mickey Wu",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/342432714",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "hornbill",
@@ -529,7 +1127,24 @@
     "chance": "medium",
     "note": "",
     "photoQuery": "Ocyceros gingalensis",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/hornbill/1.webp",
+        "thumb": "photos/animals/hornbill/1-thumb.webp",
+        "author": "Pieter Prins",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/38132181",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/hornbill/2.webp",
+        "thumb": "photos/animals/hornbill/2-thumb.webp",
+        "author": "Shaan Aroeste",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/106671833",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "kingfisher",
@@ -544,7 +1159,24 @@
     "chance": "high",
     "note": "Синий-синий, сидит на проводах",
     "photoQuery": "Halcyon smyrnensis",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/kingfisher/1.webp",
+        "thumb": "photos/animals/kingfisher/1-thumb.webp",
+        "author": "Ian Dugdale",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/303344567",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/kingfisher/2.webp",
+        "thumb": "photos/animals/kingfisher/2-thumb.webp",
+        "author": "Toby Y",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/127475395",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "pelican",
@@ -559,7 +1191,24 @@
     "chance": "medium",
     "note": "",
     "photoQuery": "Pelecanus philippensis",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/pelican/1.webp",
+        "thumb": "photos/animals/pelican/1-thumb.webp",
+        "author": "Seth Wollney",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/193356519",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/pelican/2.webp",
+        "thumb": "photos/animals/pelican/2-thumb.webp",
+        "author": "James M. Maley",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/326937941",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "painted-stork",
@@ -574,7 +1223,24 @@
     "chance": "medium",
     "note": "Розовые перья на спине",
     "photoQuery": "Mycteria leucocephala",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/painted-stork/1.webp",
+        "thumb": "photos/animals/painted-stork/1-thumb.webp",
+        "author": "Donald Davesne",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/142526539",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/painted-stork/2.webp",
+        "thumb": "photos/animals/painted-stork/2-thumb.webp",
+        "author": "dhfischer",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/266031943",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "flamingo",
@@ -588,7 +1254,24 @@
     "chance": "low",
     "note": "Зимой в Бундале — на будущее",
     "photoQuery": "Phoenicopterus roseus",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/flamingo/1.webp",
+        "thumb": "photos/animals/flamingo/1-thumb.webp",
+        "author": "SteveM4560",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/313297928",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/flamingo/2.webp",
+        "thumb": "photos/animals/flamingo/2-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/198991178",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "parakeet",
@@ -603,7 +1286,24 @@
     "chance": "high",
     "note": "Стаями, кричат на закате",
     "photoQuery": "Psittacula krameri",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/parakeet/1.webp",
+        "thumb": "photos/animals/parakeet/1-thumb.webp",
+        "author": "Ian Dugdale",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/303344511",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/parakeet/2.webp",
+        "thumb": "photos/animals/parakeet/2-thumb.webp",
+        "author": "John Witton",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/150182689",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "eagle",
@@ -618,7 +1318,24 @@
     "chance": "medium",
     "note": "",
     "photoQuery": "Spilornis cheela",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/eagle/1.webp",
+        "thumb": "photos/animals/eagle/1-thumb.webp",
+        "author": "lunarjade",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/201665249",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/eagle/2.webp",
+        "thumb": "photos/animals/eagle/2-thumb.webp",
+        "author": "Ian Dugdale",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/303326339",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "reef-fish",
@@ -634,7 +1351,24 @@
     "chance": "high",
     "note": "В «лягушатниках» Secret Beach — с маской",
     "photoQuery": "Coral reef fish Sri Lanka",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/reef-fish/1.webp",
+        "thumb": "photos/animals/reef-fish/1-thumb.webp",
+        "author": "krokodiver",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/125265709@N08/46091585414",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/animals/reef-fish/2.webp",
+        "thumb": "photos/animals/reef-fish/2-thumb.webp",
+        "author": "papilioshih",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/37180297@N08/52965026497",
+        "provider": "openverse"
+      }
+    ]
   },
   {
     "id": "sea-urchin",
@@ -648,7 +1382,24 @@
     "chance": "high",
     "note": "Смотреть — да, наступать — нет (аквашузы!)",
     "photoQuery": "Diadema setosum",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/sea-urchin/1.webp",
+        "thumb": "photos/animals/sea-urchin/1-thumb.webp",
+        "author": "luluchouette",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/101259264",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/sea-urchin/2.webp",
+        "thumb": "photos/animals/sea-urchin/2-thumb.webp",
+        "author": "portioid",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/189471362",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "dolphin",
@@ -662,7 +1413,24 @@
     "chance": "low",
     "note": "Будущая поездка в Калпитию",
     "photoQuery": "Stenella longirostris",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/dolphin/1.webp",
+        "thumb": "photos/animals/dolphin/1-thumb.webp",
+        "author": "Robert Webster",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/39199340",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/dolphin/2.webp",
+        "thumb": "photos/animals/dolphin/2-thumb.webp",
+        "author": "nmoorhatch",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/261503759",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "reef-shark",
@@ -676,7 +1444,24 @@
     "chance": "low",
     "note": "У Pigeon Island — с апреля",
     "photoQuery": "Carcharhinus melanopterus",
-    "photos": []
+    "photos": [
+      {
+        "src": "photos/animals/reef-shark/1.webp",
+        "thumb": "photos/animals/reef-shark/1-thumb.webp",
+        "author": "Donald Davesne",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/145018504",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/reef-shark/2.webp",
+        "thumb": "photos/animals/reef-shark/2-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/202420125",
+        "provider": "inaturalist"
+      }
+    ]
   },
   {
     "id": "fireflies",
