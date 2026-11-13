@@ -4,8 +4,10 @@ import { HashRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import { SettingsProvider } from './lib/settings';
+import { loadStore } from './lib/store';
 
-createRoot(document.getElementById('root')!).render(
+loadStore().then(() =>
+  createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <HashRouter>
       <SettingsProvider>
@@ -13,4 +15,5 @@ createRoot(document.getElementById('root')!).render(
       </SettingsProvider>
     </HashRouter>
   </StrictMode>,
+  ),
 );

@@ -2,6 +2,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import { Wallet, CalendarCheck, ShieldAlert, Siren, MessageSquareText, Settings as SettingsIcon, Camera, ChevronRight, UtensilsCrossed, Globe2 } from 'lucide-react';
 import { PageHeader } from '../components/ui';
 import Messages from './more/Messages';
+import Settings from './more/Settings';
 
 const items = [
   { to: 'budget', label: 'Бюджет', icon: Wallet, hint: 'план и факт, $2000 наличными' },
@@ -15,7 +16,10 @@ const items = [
   { to: 'credits', label: 'Авторы фото', icon: Camera, hint: 'лицензии' },
 ];
 
-export const moreRoutes: { path: string; element: React.ReactNode }[] = [{ path: 'messages', element: <Messages /> }];
+export const moreRoutes: { path: string; element: React.ReactNode }[] = [
+  { path: 'messages', element: <Messages /> },
+  { path: 'settings', element: <Settings /> },
+];
 
 function Menu() {
   return (

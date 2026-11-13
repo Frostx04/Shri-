@@ -96,3 +96,26 @@
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
+
+/* ——— Адвент-дверки ——— */
+.door-wrap { perspective: 900px; }
+.door-panel {
+  transform-origin: left center;
+  transition: transform 0.9s cubic-bezier(.2,.8,.2,1);
+  backface-visibility: hidden;
+}
+.door-wrap.is-peek .door-panel { transform: rotateY(-38deg); }
+.door-wrap.is-open .door-panel { transform: rotateY(-105deg); }
+.door-today {
+  animation: door-glow 2.2s ease-in-out infinite;
+}
+@keyframes door-glow {
+  0%, 100% { box-shadow: 0 0 0 3px #f2b544, 0 0 18px 2px #f2b54488; }
+  50% { box-shadow: 0 0 0 3px #f2b544, 0 0 30px 8px #f2b544aa; }
+}
+@keyframes sheet-up { from { transform: translateY(100%); } to { transform: none; } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+.sheet { animation: sheet-up .32s cubic-bezier(.2,.8,.2,1); }
+.backdrop { animation: fade-in .2s ease; }
+@keyframes pop { 0% { transform: scale(.6); } 60% { transform: scale(1.18); } 100% { transform: scale(1); } }
+.pop { animation: pop .35s ease; }
