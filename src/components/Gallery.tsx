@@ -17,7 +17,7 @@ export function Gallery({ place, extra = [] }: { place: Place; extra?: Photo[] }
           <figure key={k} className="relative h-full w-full shrink-0 snap-center">
             <img src={photoUrl(ph.src)} alt={place.name} className="h-full w-full object-cover" loading={k ? 'lazy' : 'eager'} />
             <figcaption className="absolute bottom-0 right-0 max-w-[80%] truncate rounded-tl-lg bg-black/45 px-2 py-0.5 text-[0.65rem] text-white">
-              {ph.provider === 'own' ? 'наше фото' : `© ${ph.author} · ${ph.license}`}
+              {ph.provider === 'own' ? 'наше фото' : `© ${ph.author} · ${ph.license}${ph.provider === 'inaturalist' ? ' · iNaturalist' : ph.provider === 'openverse' ? ' · Flickr' : ph.provider === 'wikimedia' ? ' · Wikimedia' : ''}`}
             </figcaption>
           </figure>
         ))}

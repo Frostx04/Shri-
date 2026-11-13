@@ -8,6 +8,8 @@ import { useToday } from '../lib/settings';
 import { photoUrl } from './PlaceVisual';
 import { Sheet } from './Sheet';
 
+const PROVIDER: Record<string, string> = { wikimedia: 'Wikimedia Commons', inaturalist: 'iNaturalist', openverse: 'Flickr / Openverse', google: 'Google Maps', own: 'наше фото' };
+
 export function AnimalPhoto({ a, className = '' }: { a: Animal; className?: string }) {
   const ph = a.photos[0];
   return (
@@ -41,7 +43,7 @@ function AnimalDetails({ a, placeHint }: { a: Animal; placeHint?: string }) {
       <div className="-mx-4 -mt-2 aspect-[4/3] overflow-hidden">
         {ph ? <img src={photoUrl(ph.src)} alt={a.name} className="h-full w-full object-cover" /> : <AnimalPhoto a={a} className="h-full w-full" />}
       </div>
-      {ph && <p className="-mt-2 truncate text-[0.7rem] text-soft">© {ph.author} · {ph.license} · Wikimedia Commons</p>}
+      {ph && <p className="-mt-2 truncate text-[0.7rem] text-soft">© {ph.author} · {ph.license} · {PROVIDER[ph.provider ?? 'wikimedia'] ?? ''}</p>}
       <div>
         <h2 className="text-2xl">{a.emoji} {a.name}</h2>
         <p className="text-sm italic text-soft">{a.latin}</p>
