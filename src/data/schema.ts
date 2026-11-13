@@ -21,7 +21,7 @@ export const Photo = z.object({
   author: z.string(),
   license: z.string(),
   sourceUrl: z.string(),
-  provider: z.enum(['wikimedia', 'google', 'own']).optional(),
+  provider: z.enum(['wikimedia', 'google', 'own', 'inaturalist', 'openverse']).optional(),
 });
 
 export const MenuItem = z.object({
@@ -121,6 +121,7 @@ export const Animal = z.object({
   chance: z.enum(['high', 'medium', 'low']),  // шанс увидеть в нашей поездке
   note: z.string(),
   photoQuery: z.string().optional(),
+  photoSource: z.enum(['inaturalist', 'openverse', 'wikimedia']).optional(),
   photos: z.array(Photo),
 });
 

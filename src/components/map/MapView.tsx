@@ -13,7 +13,7 @@ import { useStoreVersion } from '../../lib/store';
 import { dayRouteKey } from '../../lib/routes';
 import { MapBase, placeIcon, tierZ } from './MapBase';
 import { RouteLayer } from './DayMap';
-import { Cost, TierBadge } from '../Badges';
+import { TierBadge } from '../Badges';
 
 function LocateButton() {
   const map = useMap();
@@ -82,7 +82,6 @@ export default function MapView() {
               <div className="w-56">
                 <div className="mb-1 flex gap-1"><TierBadge tier={p.tier} /></div>
                 <b className="text-base">{p.emoji} {p.name}</b>
-                <div className="mt-1 text-sm"><Cost lkr={p.costLkr} usd={p.costUsd} /></div>
                 <div className="mt-2 flex gap-1.5">
                   <Link to={`/place/${p.id}`} className="btn min-h-9 flex-1 px-2 text-sm">Карточка</Link>
                   <a href={gmapsLink(p)} target="_blank" rel="noreferrer" className="btn btn-primary min-h-9 flex-1 px-2 text-sm !text-white"><Navigation size={14} /> Доехать</a>

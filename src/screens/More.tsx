@@ -1,9 +1,8 @@
 import { Link, Route, Routes } from 'react-router-dom';
-import { PawPrint, Wallet, CalendarCheck, ShieldAlert, Siren, MessageSquareText, Settings as SettingsIcon, Camera, ChevronRight, UtensilsCrossed, Globe2 } from 'lucide-react';
+import { PawPrint, CalendarCheck, ShieldAlert, Siren, MessageSquareText, Settings as SettingsIcon, Camera, ChevronRight, UtensilsCrossed, Globe2 } from 'lucide-react';
 import { PageHeader } from '../components/ui';
 import Messages from './more/Messages';
 import Settings from './more/Settings';
-import Budget from './more/Budget';
 import Bookings from './more/Bookings';
 import Credits from './more/Credits';
 import Safety from './more/Safety';
@@ -11,7 +10,6 @@ import Emergency from './more/Emergency';
 
 const items = [
   { to: '/animals', label: 'Зверушки', icon: PawPrint, hint: 'шкала: кого мы уже встретили' },
-  { to: 'budget', label: 'Бюджет', icon: Wallet, hint: 'план и факт, $2000 наличными' },
   { to: 'bookings', label: 'Брони', icon: CalendarCheck, hint: 'кому и когда писать' },
   { to: '/places?view=food', label: 'Еда', icon: UtensilsCrossed, hint: 'кафе, меню и цены' },
   { to: '/places?view=country', label: 'Вся Шри-Ланка', icon: Globe2, hint: 'карта страны и мини-маршруты' },
@@ -25,7 +23,6 @@ const items = [
 export const moreRoutes: { path: string; element: React.ReactNode }[] = [
   { path: 'messages', element: <Messages /> },
   { path: 'settings', element: <Settings /> },
-  { path: 'budget', element: <Budget /> },
   { path: 'bookings', element: <Bookings /> },
   { path: 'credits', element: <Credits /> },
   { path: 'safety', element: <Safety /> },

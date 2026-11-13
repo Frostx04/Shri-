@@ -8,7 +8,7 @@ import { haversineKm } from '../lib/geo';
 import { formatShort } from '../lib/time';
 import { PageHeader } from '../components/ui';
 import { PlaceThumb } from '../components/PlaceVisual';
-import { TierBadge, Cost, StomachBadge } from '../components/Badges';
+import { TierBadge, StomachBadge } from '../components/Badges';
 import FoodView from './FoodView';
 import CountryView from './CountryView';
 
@@ -42,7 +42,6 @@ export function PlaceRow({ p, right }: { p: Place; right?: React.ReactNode }) {
         </div>
         <div className="mt-1 flex flex-wrap gap-x-3 text-[0.82rem] text-soft">
           {isFinite(dist) && p.id !== 'hotel' && <span>{dist < 10 ? dist.toFixed(1) : Math.round(dist)} км</span>}
-          <Cost lkr={p.costLkr} usd={p.costUsd} />
         </div>
       </div>
     </Link>

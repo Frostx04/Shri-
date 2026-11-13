@@ -4,10 +4,9 @@ import { itineraries, getPlace } from '../lib/data';
 import { transportMeta, categoryMeta } from '../lib/meta';
 import { formatDuration } from '../lib/time';
 import { legBefore, dayStops } from '../lib/travel';
-import { fmtLkr } from '../lib/money';
 import { PageHeader, Empty } from '../components/ui';
-import { Cost } from '../components/Badges';
 import { PlanButtons } from '../components/PlanButtons';
+import { stripPrices } from '../lib/noPrices';
 
 const DayMap = lazy(() => import('../components/map/DayMap').then((m) => ({ default: m.DayMap })));
 
@@ -35,7 +34,7 @@ export default function Itinerary() {
                 const n = s.placeId ? numbers.get(s.placeId) : undefined;
                 return (
                   <li key={i}>
-                    {leg && <p className="mb-1 ml-14 text-sm text-soft">{transportMeta[leg.transport].emoji} ~{formatDuration(leg.min)}, ~{Math.round(leg.km)} км{leg.priceLkr ? `, ~${fmtLkr(leg.priceLkr)}` : ''}</p>}
+                    {leg && <p className="mb-1 ml-14 text-sm text-soft">{transportMeta[leg.transport].emoji} ~{formatDuration(leg.min)}, ~{Math.round(leg.km)} км</p>}
                     <div className="flex gap-3">
                       <span className="w-11 shrink-0 pt-2.5 text-right font-extrabold tabular-nums">{s.time}</span>
                       <div className="card min-w-0 flex-1 p-3">
@@ -44,8 +43,8 @@ export default function Itinerary() {
                           <div className="min-w-0">
                             <p className="font-bold leading-snug">{s.title}</p>
                             {p && <Link to={`/place/${p.id}`} className="text-sm text-accent">{p.emoji} {p.name}</Link>}
-                            <p className="text-sm text-soft">{s.durationMin ? `⏱ ${formatDuration(s.durationMin)} ` : ''}{s.transport ? `${transportMeta[s.transport].emoji} ${transportMeta[s.transport].label} ` : ''}<Cost lkr={s.costLkr} usd={s.costUsd} /></p>
-                            {s.note && <p className="mt-1 text-sm">{s.note}</p>}
+                            <p className="text-sm text-soft">{s.durationMin ? `⏱ ${formatDuration(s.durationMin)} ` : ''}{s.transport ? `${transportMeta[s.transport].emoji} ${transportMeta[s.transport].label} ` : ''}</p>
+                            {s.note && stripPrices(s.note) && <p className="mt-1 text-sm">{stripPrices(s.note)}</p>}
                           </div>
                         </div>
                         {p && p.id !== 'hotel' && d.steps.findIndex((x) => x.placeId === p.id) === i && <div className="mt-2"><PlanButtons place={p} compact /></div>}

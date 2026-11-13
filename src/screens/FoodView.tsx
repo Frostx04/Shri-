@@ -1,20 +1,12 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Map as MapIcon } from 'lucide-react';
-import type { Place } from '../data/schema';
 import { places } from '../lib/data';
 import { openNow } from '../lib/hours';
 import { useToday } from '../lib/settings';
 import { PlaceRow } from './Places';
 import { StomachBadge } from '../components/Badges';
 
-export const priceLevel = (p: Place): 1 | 2 | 3 | null => {
-  if (p.priceLevel) return p.priceLevel;
-  if (!p.costLkr || p.costLkr[1] === 0) return null;
-  const mid = (p.costLkr[0] + p.costLkr[1]) / 2;
-  return mid < 4500 ? 1 : mid < 10000 ? 2 : 3;
-};
-const lvl = (n: number) => '₨'.repeat(n);
 
 export default function FoodView({ q }: { q: string }) {
   const food = places.filter((p) => p.category === 'food');
@@ -23,7 +15,6 @@ export default function FoodView({ q }: { q: string }) {
   const [area, setArea] = useState<string | null>(null);
   const [cuisine, setCuisine] = useState('');
   const [soft, setSoft] = useState(false);
-  const [price, setPrice] = useState<number | null>(null);
   const [open, setOpen] = useState(false);
   const { weekday, minutes } = useToday();
 
@@ -33,12 +24,11 @@ export default function FoodView({ q }: { q: string }) {
       if (area && (p.area ?? p.region) !== area) return false;
       if (cuisine && !(p.cuisine ?? '').includes(cuisine)) return false;
       if (soft && p.stomach !== 'ok') return false;
-      if (price && priceLevel(p) !== price) return false;
       if (open && openNow(p.hours, weekday, minutes) !== true) return false;
       if (ql && ![p.name, p.cuisine, p.area, ...(p.menu ?? []).map((m) => m.name + ' ' + (m.nameRu ?? ''))].join(' ').toLowerCase().includes(ql)) return false;
       return true;
     }).sort((a, b) => Number(!!a.avoid) - Number(!!b.avoid) || Number(b.inPlan) - Number(a.inPlan) || a.tier.localeCompare(b.tier) * -1);
-  }, [food, area, cuisine, soft, price, open, q, weekday, minutes]);
+  }, [food, area, cuisine, soft, open, q, weekday, minutes]);
 
   const good = list.filter((p) => !p.avoid), bad = list.filter((p) => p.avoid);
   return (
@@ -53,9 +43,6 @@ export default function FoodView({ q }: { q: string }) {
         <div className="-mx-4 flex gap-1.5 overflow-x-auto px-4 [scrollbar-width:none]">
           <button onClick={() => setSoft(!soft)} aria-pressed={soft} className={`chip min-h-9 ${soft ? 'bg-[var(--color-jungle)] text-white' : ''}`}>🟢 Мягко для желудка</button>
           <button onClick={() => setOpen(!open)} aria-pressed={open} className={`chip min-h-9 ${open ? 'bg-[var(--accent)] text-white' : ''}`}>🕐 Открыто сейчас</button>
-          {[1, 2, 3].map((n) => (
-            <button key={n} onClick={() => setPrice(price === n ? null : n)} aria-pressed={price === n} className={`chip min-h-9 ${price === n ? 'bg-[var(--fg)] text-[var(--bg)]' : ''}`}>{lvl(n)}</button>
-          ))}
         </div>
         <div className="flex gap-2">
           <select value={cuisine} onChange={(e) => setCuisine(e.target.value)} aria-label="Кухня" className="min-h-10 min-w-0 flex-1 rounded-xl border border-line bg-surface px-2 font-semibold">
@@ -69,7 +56,7 @@ export default function FoodView({ q }: { q: string }) {
       <ul className="space-y-2.5 px-4 pt-3">
         {good.map((p) => (
           <li key={p.id}>
-            <PlaceRow p={p} right={priceLevel(p) ? <span className="shrink-0 font-bold text-soft">{lvl(priceLevel(p)!)}</span> : undefined} />
+            <PlaceRow p={p} />
           </li>
         ))}
       </ul>

@@ -1,17 +1,15 @@
 import { Link, useParams } from 'react-router-dom';
-import { Navigation, MessageCircle, Info, ChevronLeft, ChevronRight, CloudSun, Moon, Waves, StickyNote, Wallet, MapPin } from 'lucide-react';
+import { Navigation, MessageCircle, Info, ChevronLeft, ChevronRight, CloudSun, Moon, Waves, StickyNote, MapPin } from 'lucide-react';
 import type { DayPlan, Step } from '../data/schema';
 import { dayByDate, days, getPlace, specialDay, templateById, placeById } from '../lib/data';
 import { formatDayRu, formatDuration, addMinutes } from '../lib/time';
 import { transportMeta, moodMeta, categoryMeta } from '../lib/meta';
 import { gmapsLink, waLink } from '../lib/links';
 import { dayStops, legBefore, type Leg } from '../lib/travel';
-import { midLkr, rangeLkr, fmtLkr, fmtUsd } from '../lib/money';
-import { useSettings } from '../lib/settings';
+import { stripPrices } from '../lib/noPrices';
 import { useValue, K, keys, get } from '../lib/store';
 import { PlaceRow } from './Places';
 import { dayProgress } from '../lib/progress';
-import { Cost } from '../components/Badges';
 import { VisitToggle } from '../components/VisitToggle';
 import { Empty } from '../components/ui';
 import { PhotoGrid } from '../components/OwnPhotos';
@@ -24,33 +22,12 @@ const DEFAULT_WEATHER = 'Март в Мириссе: +29…31°, жарко и �
 
 const kindIcon: Record<Step['kind'], string> = { move: '🚗', activity: '✨', food: '🍽️', rest: '🌴', book: '✍️' };
 
-/** Цена шага: своя, иначе цена места (только на первом шаге этого места в дне). */
-export function stepCost(day: Pick<DayPlan, 'steps'>, i: number): { lkr?: [number, number]; usd?: [number, number] } {
-  const s = day.steps[i];
-  if (s.costLkr || s.costUsd) return { lkr: s.costLkr, usd: s.costUsd };
-  if (!s.placeId || s.placeId === 'hotel') return {};
-  if (day.steps.findIndex((x) => x.placeId === s.placeId) !== i) return {};
-  const p = getPlace(s.placeId)!;
-  if (p.category === 'food' && !p.inPlan) return {};
-  return { lkr: p.costLkr, usd: p.costUsd };
-}
-
-export function dayPlanTotal(day: Pick<DayPlan, 'steps'>, rate: number): [number, number] {
-  let lo = 0, hi = 0;
-  day.steps.forEach((_, i) => {
-    const c = stepCost(day, i);
-    const [a, b] = rangeLkr(c.lkr, c.usd, rate);
-    lo += a; hi += b;
-  });
-  return [lo, hi];
-}
-
 function LegRow({ leg }: { leg: Leg }) {
   const t = transportMeta[leg.transport];
   return (
     <div className="ml-[3.1rem] flex items-center gap-2 border-l-2 border-dashed border-[var(--line)] py-2 pl-4 text-sm text-soft">
       <span className="text-base">{t.emoji}</span>
-      <span>{t.label} ~{formatDuration(leg.min)}{leg.km >= 1 ? `, ~${Math.round(leg.km)} км` : ''}{leg.priceLkr ? `, ~${fmtLkr(leg.priceLkr)}` : ''}</span>
+      <span>{t.label} ~{formatDuration(leg.min)}{leg.km >= 1 ? `, ~${Math.round(leg.km)} км` : ''}</span>
     </div>
   );
 }
@@ -60,7 +37,6 @@ function StepCard({ day, i, n, id }: { day: DayPlan; i: number; n?: number; id: 
   const p = getPlace(s.placeId);
   const tpl = p?.messageTemplateId ? templateById.get(p.messageTemplateId) : undefined;
   const wa = p?.contacts.find((c) => c.kind === 'whatsapp');
-  const cost = stepCost(day, i);
   const showPlaceActions = p && p.id !== 'hotel' && day.steps.findIndex((x) => x.placeId === p.id) === i;
   return (
     <li id={id} className="flex gap-3 scroll-mt-24">
@@ -78,9 +54,8 @@ function StepCard({ day, i, n, id }: { day: DayPlan; i: number; n?: number; id: 
             <div className="mt-1 flex flex-wrap gap-x-3 gap-y-0.5 text-sm text-soft">
               {s.durationMin && <span>⏱ {formatDuration(s.durationMin)} (до {addMinutes(s.time, s.durationMin)})</span>}
               {s.transport && s.kind === 'move' && <span>{transportMeta[s.transport].emoji} {transportMeta[s.transport].label}</span>}
-              {(cost.lkr || cost.usd) && <Cost lkr={cost.lkr} usd={cost.usd} />}
             </div>
-            {s.note && <p className="mt-1 text-sm">{s.note}</p>}
+            {s.note && stripPrices(s.note) && <p className="mt-1 text-sm">{stripPrices(s.note)}</p>}
             {s.kind === 'food' && !p && <p className="mt-1 text-sm text-soft">Проверенные места: Shady Lane, Dewmini (попросить не остро), Quinta.</p>}
           </div>
         </div>
@@ -102,15 +77,12 @@ function StepCard({ day, i, n, id }: { day: DayPlan; i: number; n?: number; id: 
 }
 
 export function DayView({ day, back = true }: { day: DayPlan; back?: boolean }) {
-  const { settings } = useSettings();
-  const [spent, setSpent] = useValue<number>(K.daySpent(day.date));
   const [note, setNote] = useValue<string>(K.dayNote(day.date));
   const idx = days.findIndex((d) => d.date === day.date);
   const prev = days[idx - 1], next = days[idx + 1];
   const special = specialDay(day.date);
   const { numbers } = dayStops(day, getPlace);
   const startId = day.steps.find((s) => s.placeId)?.placeId === 'mattala' ? 'mattala' : 'hotel';
-  const total = dayPlanTotal(day, settings.rate);
   const prog = dayProgress(day);
   const hasBeach = day.steps.some((s) => s.placeId && ['beach'].includes(placeById.get(s.placeId)?.category ?? '') || ['turtle-beach', 'thalaramba', 'polhena'].includes(s.placeId ?? ''));
   const mood = moodMeta[day.mood];
@@ -143,7 +115,7 @@ export function DayView({ day, back = true }: { day: DayPlan; back?: boolean }) 
         {special && <div className="rounded-2xl bg-[#fff3c4] p-3 font-semibold text-[#6b4d00] dark:bg-[#3e3510] dark:text-[#ffe08a]">🌕 {special.note}</div>}
         {day.backupNote && (
           <div className="rounded-2xl border border-[#e9c46a] bg-[#fff4d1] p-3 text-[#5c4300] dark:border-[#7a6420] dark:bg-[#3a3015] dark:text-[#f7e2a6]">
-            <b>Запасной план:</b> {day.backupNote}
+            <b>Запасной план:</b> {stripPrices(day.backupNote)}
           </div>
         )}
         {!hasBeach && <p className="flex gap-2 rounded-2xl bg-[var(--accent)]/12 p-3 text-sm"><Waves size={18} className="shrink-0 text-accent" /> Сегодня без пляжа — вечером бассейн в отеле.</p>}
@@ -167,18 +139,8 @@ export function DayView({ day, back = true }: { day: DayPlan; back?: boolean }) 
       <AddedPlaces date={day.date} />
 
       <section className="card mx-4 mt-5 space-y-3 p-4">
-        <h2 className="flex items-center gap-2 text-lg"><Wallet size={20} className="text-accent" /> Деньги дня</h2>
-        <p>План: <b>{total[1] ? (total[0] === total[1] ? fmtLkr(total[0]) : `${fmtLkr(total[0])} – ${fmtLkr(total[1])}`) : '—'}</b>
-          {total[1] > 0 && <span className="text-soft"> (~{fmtUsd(midLkr(total, undefined) / settings.rate)})</span>}</p>
         <label className="block">
-          <span className="text-sm font-semibold text-soft">Сколько потратили, ₨</span>
-          <input type="number" inputMode="numeric" min={0} value={spent ?? ''} placeholder="0"
-            onChange={(e) => setSpent(e.target.value === '' ? null : Math.max(0, Number(e.target.value)))}
-            className="mt-1 min-h-12 w-full rounded-xl border border-line bg-surface-2 px-3 text-lg font-bold" />
-          {spent ? <span className="text-sm text-soft">≈ {fmtUsd(spent / settings.rate)}</span> : null}
-        </label>
-        <label className="block">
-          <span className="flex items-center gap-1.5 text-sm font-semibold text-soft"><StickyNote size={16} /> Заметка дня</span>
+          <span className="flex items-center gap-2 font-display text-lg"><StickyNote size={20} className="text-accent" /> Заметка дня</span>
           <textarea value={note ?? ''} onChange={(e) => setNote(e.target.value || null)} rows={3} placeholder="Что запомнилось…"
             className="mt-1 w-full rounded-xl border border-line bg-surface-2 p-3" />
         </label>

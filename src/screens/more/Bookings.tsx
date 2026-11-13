@@ -7,6 +7,7 @@ import { allBookings, bookingStatusMeta, urgency, type Booking } from '../../lib
 import { useValue, K, type BookingStatus, useStoreVersion, get } from '../../lib/store';
 import { useToday } from '../../lib/settings';
 import { formatDayRu, diffDays, plural } from '../../lib/time';
+import { stripPrices } from '../../lib/noPrices';
 
 function Row({ b, today }: { b: Booking; today: string }) {
   const [status = 'none', setStatus] = useValue<BookingStatus>(K.booking(b.place.id));
@@ -31,7 +32,7 @@ function Row({ b, today }: { b: Booking; today: string }) {
           Написать до {formatDayRu(b.deadline)}
           {u !== 'done' && <span className="font-normal text-soft"> · {left < 0 ? `просрочено на ${-left} ${plural(-left, 'день', 'дня', 'дней')}` : left === 0 ? 'сегодня!' : `через ${left} ${plural(left, 'день', 'дня', 'дней')}`}</span>}
         </p>
-        <p className="mt-1 text-sm">{b.note}</p>
+        <p className="mt-1 text-sm">{stripPrices(b.note)}</p>
         {b.templates.length > 0 && (
           <button onClick={() => setOpen(!open)} className="mt-2 flex items-center gap-1 text-sm font-bold text-accent" aria-expanded={open}>
             Сообщение <ChevronDown size={16} className={open ? 'rotate-180' : ''} />

@@ -5,11 +5,10 @@ import type { DayPlan } from '../data/schema';
 import { days, info, specialDay } from '../lib/data';
 import { moodMeta } from '../lib/meta';
 import { countdown, lkDateTime, plural, weekdayShort, dayOfMonth, formatDayRu, diffDays } from '../lib/time';
-import { useNow, useToday, useSettings } from '../lib/settings';
+import { useNow, useToday } from '../lib/settings';
 import { dayProgress, tripProgress } from '../lib/progress';
 import { tripSummary } from '../lib/summary';
 import { get, set, K, useStoreVersion } from '../lib/store';
-import { fmtLkr, fmtUsd } from '../lib/money';
 import { Sheet } from '../components/Sheet';
 import { Confetti } from '../components/Confetti';
 import { ProgressRing } from '../components/ProgressRing';
@@ -85,12 +84,10 @@ function Door({ day, state, onTap }: { day: DayPlan; state: DoorState; onTap: (e
 
 function BonusSummary({ upTo }: { upTo: string }) {
   useStoreVersion();
-  const { settings } = useSettings();
   const s = tripSummary(upTo);
   const items = [
     ['📍', `${s.places}`, plural(s.places, 'место', 'места', 'мест')],
     ['🛣️', `~${s.km}`, 'км по острову'],
-    ['💸', fmtLkr(s.spentLkr), `~${fmtUsd(s.spentLkr / settings.rate)}`],
     ['⭐', s.best ? `${s.best.rating}★` : '—', s.best?.place?.name ?? 'лучшая оценка'],
     ['🐾', `${seenCount()}`, plural(seenCount(), 'зверушка', 'зверушки', 'зверушек')],
   ];

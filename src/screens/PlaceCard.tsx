@@ -1,6 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
 import {
-  Navigation, Phone, MessageCircle, Send, Globe, Mail, Camera, MapPin, AlertTriangle, Clock, Wallet,
+  Navigation, Phone, MessageCircle, Send, Globe, Mail, Camera, MapPin, AlertTriangle, Clock,
   Backpack, Sparkles, Route, BookOpen, CalendarDays, Star, ListChecks, Utensils, ChevronLeft,
 } from 'lucide-react';
 import type { ReactNode } from 'react';
@@ -9,10 +9,9 @@ import { getPlace, daysForPlace, templateById } from '../lib/data';
 import { gmapsLink, contactHref, gmapsSearch } from '../lib/links';
 import { transportMeta, tripTypeMeta } from '../lib/meta';
 import { formatDayRu, formatDuration } from '../lib/time';
-import { fmtLkr, fmtUsd } from '../lib/money';
-import { useSettings } from '../lib/settings';
+import { stripPrices, stripPriceList } from '../lib/noPrices';
 import { Gallery } from '../components/Gallery';
-import { TierBadge, CategoryBadge, StomachBadge, Cost } from '../components/Badges';
+import { TierBadge, CategoryBadge, StomachBadge } from '../components/Badges';
 import { MessageBox } from '../components/MessageBox';
 import { Empty } from '../components/ui';
 import { VisitedBlock, BringList } from '../components/VisitedBlock';
@@ -29,7 +28,7 @@ const contactLabel: Record<Contact['kind'], string> = {
 };
 
 const isTodo = (s?: string) => !s || /^TODO/.test(s.trim());
-const clean = (arr: string[]) => arr.filter((s) => !isTodo(s));
+const clean = (arr: string[]) => stripPriceList(arr.filter((s) => !isTodo(s)));
 
 function Block({ icon, title, children }: { icon: ReactNode; title: string; children: ReactNode }) {
   return (
@@ -53,7 +52,6 @@ const Todo = () => <p className="rounded-xl bg-surface-2 px-3 py-2 text-sm text-
 export default function PlaceCard() {
   const { id } = useParams();
   const p = getPlace(id);
-  const { settings } = useSettings();
   if (!p) return <Empty>Место не найдено. <Link to="/places" className="text-accent underline">К списку</Link></Empty>;
   const tpl = p.messageTemplateId ? templateById.get(p.messageTemplateId) : undefined;
   const planned = daysForPlace.get(p.id) ?? [];
@@ -109,7 +107,7 @@ export default function PlaceCard() {
       {!p.avoid && <Block icon={<Sparkles size={20} />} title="Зачем едем">{why.length ? <Bullets items={why} /> : <Todo />}</Block>}
 
       <Block icon={<Route size={20} />} title="Как добраться">
-        <p className="leading-relaxed">{p.howToGet}</p>
+        <p className="leading-relaxed">{stripPrices(p.howToGet)}</p>
         <div className="mt-2 flex flex-wrap gap-1.5 text-sm">
           <span className="chip">{transportMeta[p.transport].emoji} {transportMeta[p.transport].label}</span>
           {p.travelTimeMin != null && <span className="chip"><Clock size={14} /> ~{formatDuration(p.travelTimeMin)} в одну сторону</span>}
@@ -120,16 +118,10 @@ export default function PlaceCard() {
       {p.category !== 'hotel' && <Block icon={<ListChecks size={20} />} title="Чем заняться">{what.length ? <Bullets items={what} /> : <Todo />}</Block>}
 
       <Block icon={<Clock size={20} />} title="Когда приезжать">
-        {isTodo(p.whenToCome) ? <Todo /> : <p>{p.whenToCome}</p>}
+        {isTodo(p.whenToCome) ? <Todo /> : <p>{stripPrices(p.whenToCome)}</p>}
         {p.hours && <p className="mt-1 text-soft">Часы: {p.hours}</p>}
       </Block>
 
-      {(p.costLkr || p.costUsd || p.costNote) && (
-        <Block icon={<Wallet size={20} />} title="Сколько стоит">
-          <p className="text-lg"><Cost lkr={p.costLkr} usd={p.costUsd} /></p>
-          {p.costNote && <p className="mt-1 text-soft">{p.costNote}</p>}
-        </Block>
-      )}
 
       {p.menu && p.menu.length > 0 && (
         <Block icon={<Utensils size={20} />} title="Меню">
@@ -137,7 +129,7 @@ export default function PlaceCard() {
             {p.menu.map((m, i) => (
               <li key={i} className="flex items-baseline justify-between gap-3 px-3 py-2">
                 <span>{m.nameRu ?? m.name}{m.stomach === 'spicy' && ' 🌶️'}{m.nameRu && <span className="block text-xs text-soft">{m.name}</span>}</span>
-                <span className="shrink-0 text-right font-bold">{fmtLkr(m.priceLkr)}<span className="block text-xs font-normal text-soft">~{fmtUsd(m.priceLkr / settings.rate)}{m.checkedAt ? ` · ${m.checkedAt}` : ''}</span></span>
+                
               </li>
             ))}
           </ul>
@@ -154,13 +146,13 @@ export default function PlaceCard() {
       {p.pitfalls.length > 0 && (
         <section className="mx-4 my-3 rounded-[18px] border border-[#e9c46a] bg-[#fff4d1] p-4 text-[#5c4300] dark:border-[#7a6420] dark:bg-[#3a3015] dark:text-[#f7e2a6]">
           <h2 className="mb-2 flex items-center gap-2 text-[1.15rem]"><AlertTriangle size={20} /> Подводные камни</h2>
-          <Bullets items={p.pitfalls} />
+          <Bullets items={stripPriceList(p.pitfalls)} />
         </section>
       )}
 
       {p.bookAhead && (
         <Block icon={<CalendarDays size={20} />} title="Бронировать заранее">
-          <p>За {p.bookAhead.daysBefore} дн.: {p.bookAhead.note}</p>
+          <p>За {p.bookAhead.daysBefore} дн.: {stripPrices(p.bookAhead.note)}</p>
         </Block>
       )}
 
