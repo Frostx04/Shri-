@@ -22,7 +22,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/229033743",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "elephants"
   },
   {
     "id": "baby-elephant",
@@ -54,7 +55,8 @@
         "provider": "openverse"
       }
     ],
-    "photoSource": "openverse"
+    "photoSource": "openverse",
+    "family": "elephants"
   },
   {
     "id": "toque-macaque",
@@ -88,7 +90,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/402784307",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "primates"
   },
   {
     "id": "purple-faced-langur",
@@ -119,7 +122,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/5623425",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "primates"
   },
   {
     "id": "gray-langur",
@@ -143,7 +147,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/168637900",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "primates"
   },
   {
     "id": "flying-fox",
@@ -168,7 +173,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/178523651",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "bats"
   },
   {
     "id": "porcupine",
@@ -192,7 +198,8 @@
         "provider": "openverse"
       }
     ],
-    "photoSource": "openverse"
+    "photoSource": "openverse",
+    "family": "nocturnal"
   },
   {
     "id": "mongoose",
@@ -223,7 +230,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/101075664",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "predators"
   },
   {
     "id": "buffalo",
@@ -247,7 +255,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/148966296",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "hoofed"
   },
   {
     "id": "spotted-deer",
@@ -279,7 +288,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/379700390",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "hoofed"
   },
   {
     "id": "wild-boar",
@@ -302,7 +312,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/363598216",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "hoofed"
   },
   {
     "id": "palm-squirrel",
@@ -326,7 +337,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/162870623",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "squirrels"
   },
   {
     "id": "giant-squirrel",
@@ -358,7 +370,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/106671891",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "squirrels"
   },
   {
     "id": "sambar",
@@ -389,7 +402,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/283073634",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "hoofed"
   },
   {
     "id": "leopard",
@@ -421,7 +435,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/229424475",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "predators"
   },
   {
     "id": "sos-dogs",
@@ -453,7 +468,8 @@
         "provider": "openverse"
       }
     ],
-    "photoSource": "openverse"
+    "photoSource": "openverse",
+    "family": "friends"
   },
   {
     "id": "green-turtle",
@@ -487,7 +503,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/160897185",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "turtles"
   },
   {
     "id": "hawksbill",
@@ -519,7 +536,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/215156735",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "turtles"
   },
   {
     "id": "turtle-hatchlings",
@@ -551,7 +569,8 @@
         "provider": "openverse"
       }
     ],
-    "photoSource": "openverse"
+    "photoSource": "openverse",
+    "family": "turtles"
   },
   {
     "id": "water-monitor",
@@ -585,7 +604,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/245481982",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "lizards"
   },
   {
     "id": "land-monitor",
@@ -609,7 +629,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/38089754",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "lizards"
   },
   {
     "id": "saltwater-croc",
@@ -632,7 +653,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/345324703",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "crocs"
   },
   {
     "id": "mugger",
@@ -664,7 +686,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/101979691",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "crocs"
   },
   {
     "id": "green-pit-viper",
@@ -695,7 +718,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/84206139",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "snakes"
   },
   {
     "id": "hump-nosed-lizard",
@@ -726,7 +750,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/78251668",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "lizards"
   },
   {
     "id": "chameleon",
@@ -758,7 +783,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/95874708",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "lizards"
   },
   {
     "id": "calotes",
@@ -790,7 +816,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/199990953",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "lizards"
   },
   {
     "id": "python",
@@ -821,7 +848,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/238117376",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "snakes"
   },
   {
     "id": "cobra",
@@ -852,7 +880,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/54611049",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "snakes"
   },
   {
     "id": "vine-snake",
@@ -884,7 +913,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/34983483",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "snakes"
   },
   {
     "id": "peacock",
@@ -917,7 +947,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/412602083",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "birds-forest"
   },
   {
     "id": "junglefowl",
@@ -948,7 +979,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/69707373",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "birds-forest"
   },
   {
     "id": "fish-owl",
@@ -971,7 +1003,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/303354757",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "birds-forest"
   },
   {
     "id": "paradise-flycatcher",
@@ -1002,7 +1035,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/26429257",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "birds-forest"
   },
   {
     "id": "blue-magpie",
@@ -1033,7 +1067,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/342432714",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "birds-forest"
   },
   {
     "id": "hornbill",
@@ -1065,7 +1100,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/106671833",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "birds-forest"
   },
   {
     "id": "kingfisher",
@@ -1097,7 +1133,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/127475395",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "birds-water"
   },
   {
     "id": "pelican",
@@ -1121,7 +1158,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/193356519",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "birds-water"
   },
   {
     "id": "painted-stork",
@@ -1153,7 +1191,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/266031943",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "birds-water"
   },
   {
     "id": "flamingo",
@@ -1184,7 +1223,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/198991178",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "birds-water"
   },
   {
     "id": "parakeet",
@@ -1216,7 +1256,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/150182689",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "birds-forest"
   },
   {
     "id": "eagle",
@@ -1248,7 +1289,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/303326339",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "birds-forest"
   },
   {
     "id": "reef-fish",
@@ -1273,7 +1315,8 @@
         "sourceUrl": "https://www.flickr.com/photos/125265709@N08/46091585414",
         "provider": "openverse"
       }
-    ]
+    ],
+    "family": "sea"
   },
   {
     "id": "sea-urchin",
@@ -1304,7 +1347,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/189471362",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "sea"
   },
   {
     "id": "dolphin",
@@ -1335,7 +1379,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/261503759",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "sea"
   },
   {
     "id": "reef-shark",
@@ -1358,7 +1403,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/145018504",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "sea"
   },
   {
     "id": "fireflies",
@@ -1389,7 +1435,8 @@
         "sourceUrl": "https://www.flickr.com/photos/131104726@N02/29964887062",
         "provider": "openverse"
       }
-    ]
+    ],
+    "family": "bugs"
   },
   {
     "id": "birdwing",
@@ -1421,7 +1468,8 @@
         "sourceUrl": "https://www.inaturalist.org/observations/39776558",
         "provider": "inaturalist"
       }
-    ]
+    ],
+    "family": "bugs"
   },
   {
     "id": "frog",
@@ -1452,6 +1500,1883 @@
         "sourceUrl": "https://www.inaturalist.org/observations/196675145",
         "provider": "inaturalist"
       }
+    ],
+    "family": "frogs"
+  },
+  {
+    "id": "flying-squirrel",
+    "name": "Большая летяга",
+    "latin": "Petaurista philippensis",
+    "emoji": "🪂",
+    "group": "mammals",
+    "family": "squirrels",
+    "where": [
+      "sinharaja",
+      "kandy"
+    ],
+    "chance": "low",
+    "note": "Планирует между деревьями в сумерках — размером с кошку",
+    "photos": [
+      {
+        "src": "photos/animals/flying-squirrel/1.webp",
+        "thumb": "photos/animals/flying-squirrel/1-thumb.webp",
+        "author": "Dan Vickers",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/345903119",
+        "provider": "inaturalist"
+      }
     ]
+  },
+  {
+    "id": "dusky-squirrel",
+    "name": "Тёмная полосатая белка",
+    "latin": "Funambulus sublineatus",
+    "emoji": "🐿️",
+    "group": "mammals",
+    "family": "squirrels",
+    "where": [
+      "sinharaja",
+      "horton-plains"
+    ],
+    "chance": "low",
+    "note": "Самая маленькая белка острова, живёт во влажных лесах",
+    "photos": [
+      {
+        "src": "photos/animals/dusky-squirrel/1.webp",
+        "thumb": "photos/animals/dusky-squirrel/1-thumb.webp",
+        "author": "Ashwin Viswanathan",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/29500924",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/dusky-squirrel/2.webp",
+        "thumb": "photos/animals/dusky-squirrel/2-thumb.webp",
+        "author": "Ashwin Srinivasan",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/378016409",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "layards-squirrel",
+    "name": "Белка Лейярда",
+    "latin": "Funambulus layardi",
+    "emoji": "🌰",
+    "group": "mammals",
+    "family": "squirrels",
+    "where": [
+      "sinharaja",
+      "kitulgala"
+    ],
+    "chance": "low",
+    "note": "Эндемик: яркая оранжевая полоса на спине",
+    "photos": [
+      {
+        "src": "photos/animals/layards-squirrel/1.webp",
+        "thumb": "photos/animals/layards-squirrel/1-thumb.webp",
+        "author": "Thomas Galewski",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/64619521",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/layards-squirrel/2.webp",
+        "thumb": "photos/animals/layards-squirrel/2-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/261100237",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "fulvous-bat",
+    "name": "Крылан Лешено",
+    "latin": "Rousettus leschenaultii",
+    "emoji": "🦇",
+    "group": "mammals",
+    "family": "bats",
+    "where": [
+      "dambulla",
+      "sigiriya",
+      "flying-foxes"
+    ],
+    "chance": "medium",
+    "note": "Фруктовая летучая мышь поменьше лисицы, живёт в пещерах",
+    "photos": [
+      {
+        "src": "photos/animals/fulvous-bat/2.webp",
+        "thumb": "photos/animals/fulvous-bat/2-thumb.webp",
+        "author": "Seema Merchant",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/101864201",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "short-nosed-bat",
+    "name": "Короткомордый крылан",
+    "latin": "Cynopterus sphinx",
+    "emoji": "🍌",
+    "group": "mammals",
+    "family": "bats",
+    "where": [
+      "hotel",
+      "mirissa-bays",
+      "peradeniya"
+    ],
+    "chance": "medium",
+    "note": "Ест бананы и манго — вечером у фруктовых деревьев",
+    "photos": [
+      {
+        "src": "photos/animals/short-nosed-bat/1.webp",
+        "thumb": "photos/animals/short-nosed-bat/1-thumb.webp",
+        "author": "Utain Pummarin",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/82967055",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/short-nosed-bat/2.webp",
+        "thumb": "photos/animals/short-nosed-bat/2-thumb.webp",
+        "author": "Ian Dugdale",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/54610640",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "flying-fox-colony",
+    "name": "Колония летучих лисиц днём",
+    "latin": "Pteropus medius",
+    "emoji": "🌳",
+    "group": "mammals",
+    "family": "bats",
+    "where": [
+      "peradeniya",
+      "flying-foxes",
+      "lagoon"
+    ],
+    "chance": "high",
+    "note": "Днём висят гроздьями на деревьях и громко переругиваются",
+    "photos": [
+      {
+        "src": "photos/animals/flying-fox-colony/1.webp",
+        "thumb": "photos/animals/flying-fox-colony/1-thumb.webp",
+        "author": "Tejas M",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/178523651",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/flying-fox-colony/2.webp",
+        "thumb": "photos/animals/flying-fox-colony/2-thumb.webp",
+        "author": "Ashwin Viswanathan",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/409908081",
+        "provider": "inaturalist"
+      }
+    ],
+    "photoQuery": "Pteropus medius roost"
+  },
+  {
+    "id": "slender-loris",
+    "name": "Тонкий лори",
+    "latin": "Loris tardigradus",
+    "emoji": "👀",
+    "group": "mammals",
+    "family": "primates",
+    "where": [
+      "sinharaja"
+    ],
+    "chance": "low",
+    "note": "Ночной, с огромными глазами — только на ночной прогулке с гидом",
+    "photos": [
+      {
+        "src": "photos/animals/slender-loris/2.webp",
+        "thumb": "photos/animals/slender-loris/2-thumb.webp",
+        "author": "shankar s.",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/77742560@N06/16257942547",
+        "provider": "openverse"
+      }
+    ],
+    "photoQuery": "slender loris|Loris tardigradus",
+    "photoSource": "openverse"
+  },
+  {
+    "id": "bear-monkey",
+    "name": "Медвежий лангур (горный)",
+    "latin": "Trachypithecus vetulus monticola",
+    "emoji": "🐻",
+    "group": "mammals",
+    "family": "primates",
+    "where": [
+      "horton-plains",
+      "nuwara-eliya"
+    ],
+    "chance": "low",
+    "note": "Лохматый горный подвид пурпурнолицего лангура",
+    "photos": [
+      {
+        "src": "photos/animals/bear-monkey/1.webp",
+        "thumb": "photos/animals/bear-monkey/1-thumb.webp",
+        "author": "Neil Strickland",
+        "license": "CC0",
+        "sourceUrl": "https://www.flickr.com/photos/36996580@N07/7980633920",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/animals/bear-monkey/2.webp",
+        "thumb": "photos/animals/bear-monkey/2-thumb.webp",
+        "author": "Dan Lundberg",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/9508280@N07/25743427196",
+        "provider": "openverse"
+      }
+    ],
+    "photoQuery": "Trachypithecus vetulus"
+  },
+  {
+    "id": "mouse-deer",
+    "name": "Пятнистый оленёк (канчиль)",
+    "latin": "Moschiola meminna",
+    "emoji": "🦌",
+    "group": "mammals",
+    "family": "hoofed",
+    "where": [
+      "sinharaja",
+      "udawalawe",
+      "wilpattu"
+    ],
+    "chance": "low",
+    "note": "Олень размером с зайца — крошечный и пугливый",
+    "photos": [
+      {
+        "src": "photos/animals/mouse-deer/1.webp",
+        "thumb": "photos/animals/mouse-deer/1-thumb.webp",
+        "author": "Jan Ebr &amp; Ivana Ebrová",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/267314739",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "barking-deer",
+    "name": "Индийский мунтжак",
+    "latin": "Muntiacus muntjak",
+    "emoji": "🦌",
+    "group": "mammals",
+    "family": "hoofed",
+    "where": [
+      "sinharaja",
+      "horton-plains"
+    ],
+    "chance": "low",
+    "note": "«Лающий олень» — кричит, когда видит хищника",
+    "photos": [
+      {
+        "src": "photos/animals/barking-deer/1.webp",
+        "thumb": "photos/animals/barking-deer/1-thumb.webp",
+        "author": "ꦥꦤ꧀ꦗꦶꦒꦸꦱ꧀ꦠꦶꦄꦏ꧀ꦧꦂ",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/50964329",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/barking-deer/2.webp",
+        "thumb": "photos/animals/barking-deer/2-thumb.webp",
+        "author": "Mark Bolnik",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/21980240",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "sloth-bear",
+    "name": "Губач (медведь-губач)",
+    "latin": "Melursus ursinus inornatus",
+    "emoji": "🐻",
+    "group": "mammals",
+    "family": "predators",
+    "where": [
+      "wilpattu",
+      "yala"
+    ],
+    "chance": "low",
+    "note": "Цейлонский подвид, ест термитов — на будущую поездку",
+    "photos": [
+      {
+        "src": "photos/animals/sloth-bear/1.webp",
+        "thumb": "photos/animals/sloth-bear/1-thumb.webp",
+        "author": "desertnaturalist",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/116613269",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/sloth-bear/2.webp",
+        "thumb": "photos/animals/sloth-bear/2-thumb.webp",
+        "author": "desertnaturalist",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/116613182",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "fishing-cat",
+    "name": "Кошка-рыболов",
+    "latin": "Prionailurus viverrinus",
+    "emoji": "🐈",
+    "group": "mammals",
+    "family": "predators",
+    "where": [
+      "lagoon",
+      "bundala"
+    ],
+    "chance": "low",
+    "note": "Ныряет за рыбой; ночная, увидеть — большая удача",
+    "photos": [
+      {
+        "src": "photos/animals/fishing-cat/1.webp",
+        "thumb": "photos/animals/fishing-cat/1-thumb.webp",
+        "author": "Tim",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/378753221",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/fishing-cat/2.webp",
+        "thumb": "photos/animals/fishing-cat/2-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/378204616",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "jackal",
+    "name": "Золотистый шакал",
+    "latin": "Canis aureus",
+    "emoji": "🐺",
+    "group": "mammals",
+    "family": "predators",
+    "where": [
+      "udawalawe",
+      "bundala",
+      "yala"
+    ],
+    "chance": "medium",
+    "note": "Бегают у дорог в нацпарках",
+    "photos": [
+      {
+        "src": "photos/animals/jackal/2.webp",
+        "thumb": "photos/animals/jackal/2-thumb.webp",
+        "author": "Blair Dudeck",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/44306294",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "otter",
+    "name": "Выдра",
+    "latin": "Lutra lutra",
+    "emoji": "🦦",
+    "group": "mammals",
+    "family": "predators",
+    "where": [
+      "lagoon",
+      "crocodiles",
+      "udawalawe"
+    ],
+    "chance": "low",
+    "note": "Иногда мелькает в реках и лагунах на рассвете",
+    "photos": [
+      {
+        "src": "photos/animals/otter/1.webp",
+        "thumb": "photos/animals/otter/1-thumb.webp",
+        "author": "Diego González Dopico",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/226887382",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/otter/2.webp",
+        "thumb": "photos/animals/otter/2-thumb.webp",
+        "author": "Diego González Dopico",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/333843911",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "rusty-cat",
+    "name": "Ржавая кошка",
+    "latin": "Prionailurus rubiginosus",
+    "emoji": "🐱",
+    "group": "mammals",
+    "family": "predators",
+    "where": [
+      "wilpattu",
+      "yala"
+    ],
+    "chance": "low",
+    "note": "Одна из самых маленьких диких кошек в мире",
+    "photos": [],
+    "photoQuery": "rusty-spotted cat|Prionailurus rubiginosus",
+    "photoSource": "openverse"
+  },
+  {
+    "id": "palm-civet",
+    "name": "Пальмовая циветта",
+    "latin": "Paradoxurus hermaphroditus",
+    "emoji": "🦝",
+    "group": "mammals",
+    "family": "predators",
+    "where": [
+      "hotel",
+      "galle-fort"
+    ],
+    "chance": "medium",
+    "note": "Ночью ходит по крышам и пальмам — иногда шумит над номером",
+    "photos": [
+      {
+        "src": "photos/animals/palm-civet/1.webp",
+        "thumb": "photos/animals/palm-civet/1-thumb.webp",
+        "author": "tontantravel",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/56881855@N06/8361491410",
+        "provider": "openverse"
+      }
+    ],
+    "photoQuery": "Asian palm civet|common palm civet",
+    "photoSource": "openverse"
+  },
+  {
+    "id": "pangolin",
+    "name": "Индийский панголин",
+    "latin": "Manis crassicaudata",
+    "emoji": "🦔",
+    "group": "mammals",
+    "family": "nocturnal",
+    "where": [
+      "sinharaja",
+      "wilpattu"
+    ],
+    "chance": "low",
+    "note": "Чешуйчатый муравьед — редчайшая встреча",
+    "photos": [
+      {
+        "src": "photos/animals/pangolin/1.webp",
+        "thumb": "photos/animals/pangolin/1-thumb.webp",
+        "author": "USFWS Headquarters",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/50838842@N06/29600051791",
+        "provider": "openverse"
+      }
+    ]
+  },
+  {
+    "id": "hare",
+    "name": "Чернозатылочный заяц",
+    "latin": "Lepus nigricollis",
+    "emoji": "🐇",
+    "group": "mammals",
+    "family": "nocturnal",
+    "where": [
+      "udawalawe",
+      "yala",
+      "bundala"
+    ],
+    "chance": "medium",
+    "note": "Выбегают на дорогу на вечернем сафари",
+    "photos": [
+      {
+        "src": "photos/animals/hare/1.webp",
+        "thumb": "photos/animals/hare/1-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/378216815",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "shrew",
+    "name": "Землеройка",
+    "latin": "Suncus murinus",
+    "emoji": "🐭",
+    "group": "mammals",
+    "family": "nocturnal",
+    "where": [
+      "hotel"
+    ],
+    "chance": "medium",
+    "note": "Пищит по вечерам у домов — безобидная",
+    "photos": [
+      {
+        "src": "photos/animals/shrew/2.webp",
+        "thumb": "photos/animals/shrew/2-thumb.webp",
+        "author": "Lon Brehmer",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/317603282",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "olive-ridley",
+    "name": "Оливковая черепаха",
+    "latin": "Lepidochelys olivacea",
+    "emoji": "🐢",
+    "group": "reptiles",
+    "family": "turtles",
+    "where": [
+      "turtle-beach",
+      "hikkaduwa"
+    ],
+    "chance": "low",
+    "note": "Самая маленькая морская черепаха",
+    "photos": [
+      {
+        "src": "photos/animals/olive-ridley/2.webp",
+        "thumb": "photos/animals/olive-ridley/2-thumb.webp",
+        "author": "Teja Yantrapalli",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/258655742",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "loggerhead",
+    "name": "Логгерхед",
+    "latin": "Caretta caretta",
+    "emoji": "🐢",
+    "group": "reptiles",
+    "family": "turtles",
+    "where": [
+      "thalaramba"
+    ],
+    "chance": "low",
+    "note": "Большеголовая морская черепаха",
+    "photos": [
+      {
+        "src": "photos/animals/loggerhead/2.webp",
+        "thumb": "photos/animals/loggerhead/2-thumb.webp",
+        "author": "Michael Bommerer",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/240748882",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "star-tortoise",
+    "name": "Звёздчатая черепаха",
+    "latin": "Geochelone elegans",
+    "emoji": "⭐",
+    "group": "reptiles",
+    "family": "turtles",
+    "where": [
+      "yala",
+      "wilpattu"
+    ],
+    "chance": "low",
+    "note": "Сухопутная, с узором-звёздами на панцире",
+    "photos": [
+      {
+        "src": "photos/animals/star-tortoise/1.webp",
+        "thumb": "photos/animals/star-tortoise/1-thumb.webp",
+        "author": "Shaan Aroeste",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/108714507",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/star-tortoise/2.webp",
+        "thumb": "photos/animals/star-tortoise/2-thumb.webp",
+        "author": "Ram Dayal Vaishnav",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/238640632",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "pond-turtle",
+    "name": "Индийская мягкотелая черепаха",
+    "latin": "Lissemys ceylonensis",
+    "emoji": "🟢",
+    "group": "reptiles",
+    "family": "turtles",
+    "where": [
+      "lagoon",
+      "udawalawe"
+    ],
+    "chance": "medium",
+    "note": "Пресноводная, высовывает нос из воды",
+    "photos": [
+      {
+        "src": "photos/animals/pond-turtle/1.webp",
+        "thumb": "photos/animals/pond-turtle/1-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/68688698",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/pond-turtle/2.webp",
+        "thumb": "photos/animals/pond-turtle/2-thumb.webp",
+        "author": "Chris Sampson",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/347293244",
+        "provider": "inaturalist"
+      }
+    ],
+    "photoQuery": "Lissemys punctata"
+  },
+  {
+    "id": "kangaroo-lizard",
+    "name": "Ящерица-кенгуру",
+    "latin": "Otocryptis wiegmanni",
+    "emoji": "🦘",
+    "group": "reptiles",
+    "family": "lizards",
+    "where": [
+      "sinharaja"
+    ],
+    "chance": "medium",
+    "note": "Бегает на задних лапах по лесной подстилке",
+    "photos": [
+      {
+        "src": "photos/animals/kangaroo-lizard/1.webp",
+        "thumb": "photos/animals/kangaroo-lizard/1-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/261100143",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/kangaroo-lizard/2.webp",
+        "thumb": "photos/animals/kangaroo-lizard/2-thumb.webp",
+        "author": "dhfischer",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/337264609",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "house-gecko",
+    "name": "Домовый геккон",
+    "latin": "Hemidactylus frenatus",
+    "emoji": "🦎",
+    "group": "reptiles",
+    "family": "lizards",
+    "where": [
+      "hotel"
+    ],
+    "chance": "high",
+    "note": "Вечером на стенах у ламп ловит мошек — «чик-чик-чик»",
+    "photos": [
+      {
+        "src": "photos/animals/house-gecko/1.webp",
+        "thumb": "photos/animals/house-gecko/1-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/351794125",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "skink",
+    "name": "Сцинк",
+    "latin": "Eutropis carinata",
+    "emoji": "✨",
+    "group": "reptiles",
+    "family": "lizards",
+    "where": [
+      "hotel",
+      "mirissa-bays",
+      "udawalawe"
+    ],
+    "chance": "high",
+    "note": "Блестящая ящерка в траве",
+    "photos": [
+      {
+        "src": "photos/animals/skink/1.webp",
+        "thumb": "photos/animals/skink/1-thumb.webp",
+        "author": "Devika M B",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/176603330",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/skink/2.webp",
+        "thumb": "photos/animals/skink/2-thumb.webp",
+        "author": "Divya Subramanian",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/287588445",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "rough-horn-lizard",
+    "name": "Шероховатая рогатая ящерица",
+    "latin": "Ceratophora aspera",
+    "emoji": "🦄",
+    "group": "reptiles",
+    "family": "lizards",
+    "where": [
+      "sinharaja"
+    ],
+    "chance": "low",
+    "note": "Эндемик с крошечным «рогом» на носу",
+    "photos": [
+      {
+        "src": "photos/animals/rough-horn-lizard/1.webp",
+        "thumb": "photos/animals/rough-horn-lizard/1-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/406279253",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "rat-snake",
+    "name": "Крысиный полоз",
+    "latin": "Ptyas mucosa",
+    "emoji": "🐍",
+    "group": "reptiles",
+    "family": "snakes",
+    "where": [
+      "udawalawe",
+      "hotel",
+      "snake-farm"
+    ],
+    "chance": "medium",
+    "note": "Длинный, неядовитый, быстрый",
+    "photos": [
+      {
+        "src": "photos/animals/rat-snake/2.webp",
+        "thumb": "photos/animals/rat-snake/2-thumb.webp",
+        "author": "Utain Pummarin",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/254592268",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "russells-viper",
+    "name": "Цепочная гадюка",
+    "latin": "Daboia russelii",
+    "emoji": "⚠️",
+    "group": "reptiles",
+    "family": "snakes",
+    "where": [
+      "snake-farm"
+    ],
+    "chance": "medium",
+    "note": "Очень ядовитая — только на ферме и издалека",
+    "photos": [
+      {
+        "src": "photos/animals/russells-viper/1.webp",
+        "thumb": "photos/animals/russells-viper/1-thumb.webp",
+        "author": "Mittal Gala",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/33744257",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/russells-viper/2.webp",
+        "thumb": "photos/animals/russells-viper/2-thumb.webp",
+        "author": "Ashwin Viswanathan",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/99454993",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "flying-snake",
+    "name": "Украшенная древесная змея",
+    "latin": "Chrysopelea ornata",
+    "emoji": "🪽",
+    "group": "reptiles",
+    "family": "snakes",
+    "where": [
+      "sinharaja",
+      "snake-farm"
+    ],
+    "chance": "low",
+    "note": "Умеет «планировать» с дерева на дерево",
+    "photos": [
+      {
+        "src": "photos/animals/flying-snake/1.webp",
+        "thumb": "photos/animals/flying-snake/1-thumb.webp",
+        "author": "Ian Dugdale",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/54611044",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/flying-snake/2.webp",
+        "thumb": "photos/animals/flying-snake/2-thumb.webp",
+        "author": "Navapol Komanasin",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/163982971",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "sea-snake",
+    "name": "Морская змея",
+    "latin": "Hydrophis",
+    "emoji": "🌊",
+    "group": "reptiles",
+    "family": "snakes",
+    "where": [
+      "crocodiles",
+      "tangalle"
+    ],
+    "chance": "low",
+    "note": "Иногда выносит к берегу — не трогать, ядовита",
+    "photos": [
+      {
+        "src": "photos/animals/sea-snake/1.webp",
+        "thumb": "photos/animals/sea-snake/1-thumb.webp",
+        "author": "Franco Colnago",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/40087854",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/sea-snake/2.webp",
+        "thumb": "photos/animals/sea-snake/2-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/263548707",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "green-bee-eater",
+    "name": "Малая зелёная щурка",
+    "latin": "Merops orientalis",
+    "emoji": "💚",
+    "group": "birds",
+    "family": "birds-forest",
+    "where": [
+      "udawalawe",
+      "mirissa-bays",
+      "bundala"
+    ],
+    "chance": "high",
+    "note": "Изумрудная птичка на проводах",
+    "photos": [
+      {
+        "src": "photos/animals/green-bee-eater/1.webp",
+        "thumb": "photos/animals/green-bee-eater/1-thumb.webp",
+        "author": "Donald Davesne",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/143953963",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/green-bee-eater/2.webp",
+        "thumb": "photos/animals/green-bee-eater/2-thumb.webp",
+        "author": "Tim",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/337217262",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "indian-roller",
+    "name": "Индийская сизоворонка",
+    "latin": "Coracias benghalensis",
+    "emoji": "💙",
+    "group": "birds",
+    "family": "birds-forest",
+    "where": [
+      "udawalawe",
+      "bundala"
+    ],
+    "chance": "high",
+    "note": "В полёте вспыхивает ярко-синим",
+    "photos": [
+      {
+        "src": "photos/animals/indian-roller/1.webp",
+        "thumb": "photos/animals/indian-roller/1-thumb.webp",
+        "author": "Christoph Moning",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/57630885",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/indian-roller/2.webp",
+        "thumb": "photos/animals/indian-roller/2-thumb.webp",
+        "author": "Tejas M",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/326479882",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "hanging-parrot",
+    "name": "Цейлонский висячий попугайчик",
+    "latin": "Loriculus beryllinus",
+    "emoji": "🦜",
+    "group": "birds",
+    "family": "birds-forest",
+    "where": [
+      "sinharaja",
+      "kandy",
+      "hotel"
+    ],
+    "chance": "medium",
+    "note": "Спит вниз головой, как летучая мышь!",
+    "photos": [
+      {
+        "src": "photos/animals/hanging-parrot/1.webp",
+        "thumb": "photos/animals/hanging-parrot/1-thumb.webp",
+        "author": "dhfischer",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/337725721",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/hanging-parrot/2.webp",
+        "thumb": "photos/animals/hanging-parrot/2-thumb.webp",
+        "author": "avocat",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/149527607",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "barbet",
+    "name": "Желтолобый бородастик",
+    "latin": "Psilopogon flavifrons",
+    "emoji": "💛",
+    "group": "birds",
+    "family": "birds-forest",
+    "where": [
+      "sinharaja",
+      "kandy"
+    ],
+    "chance": "medium",
+    "note": "Эндемик, слышно чаще, чем видно",
+    "photos": [
+      {
+        "src": "photos/animals/barbet/1.webp",
+        "thumb": "photos/animals/barbet/1-thumb.webp",
+        "author": "Chris Oldnall",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/338869473",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/barbet/2.webp",
+        "thumb": "photos/animals/barbet/2-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/217990716",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "sunbird",
+    "name": "Пурпурная нектарница",
+    "latin": "Cinnyris asiaticus",
+    "emoji": "🌺",
+    "group": "birds",
+    "family": "birds-forest",
+    "where": [
+      "hotel",
+      "galle-fort"
+    ],
+    "chance": "high",
+    "note": "Крошечная, пьёт нектар из цветов у отеля",
+    "photos": [
+      {
+        "src": "photos/animals/sunbird/1.webp",
+        "thumb": "photos/animals/sunbird/1-thumb.webp",
+        "author": "Len Worthington",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/29615301",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/sunbird/2.webp",
+        "thumb": "photos/animals/sunbird/2-thumb.webp",
+        "author": "Sevin Dee",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/73282494",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "frogmouth",
+    "name": "Цейлонский лягушкорот",
+    "latin": "Batrachostomus moniliger",
+    "emoji": "🐸",
+    "group": "birds",
+    "family": "birds-forest",
+    "where": [
+      "sinharaja"
+    ],
+    "chance": "low",
+    "note": "Притворяется сухой веткой — гиды знают, где он сидит",
+    "photos": [
+      {
+        "src": "photos/animals/frogmouth/1.webp",
+        "thumb": "photos/animals/frogmouth/1-thumb.webp",
+        "author": "madhavan a.p",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/147383126",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/frogmouth/2.webp",
+        "thumb": "photos/animals/frogmouth/2-thumb.webp",
+        "author": "Tom Heijnen",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/227720931",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "brahminy-kite",
+    "name": "Браминский коршун",
+    "latin": "Haliastur indus",
+    "emoji": "🦅",
+    "group": "birds",
+    "family": "birds-forest",
+    "where": [
+      "mirissa-bays",
+      "lagoon",
+      "crocodiles"
+    ],
+    "chance": "high",
+    "note": "Рыжий с белой головой — парит над пляжем",
+    "photos": [
+      {
+        "src": "photos/animals/brahminy-kite/1.webp",
+        "thumb": "photos/animals/brahminy-kite/1-thumb.webp",
+        "author": "scaup",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/74014305",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/brahminy-kite/2.webp",
+        "thumb": "photos/animals/brahminy-kite/2-thumb.webp",
+        "author": "Jan Ebr &amp; Ivana Ebrová",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/235172860",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "sea-eagle",
+    "name": "Белобрюхий орлан",
+    "latin": "Haliaeetus leucogaster",
+    "emoji": "🦅",
+    "group": "birds",
+    "family": "birds-forest",
+    "where": [
+      "lagoon",
+      "crocodiles",
+      "tangalle"
+    ],
+    "chance": "medium",
+    "note": "Огромный, сидит на высоких деревьях у воды",
+    "photos": [
+      {
+        "src": "photos/animals/sea-eagle/1.webp",
+        "thumb": "photos/animals/sea-eagle/1-thumb.webp",
+        "author": "judhi",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/17099096@N00/369112932",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/animals/sea-eagle/2.webp",
+        "thumb": "photos/animals/sea-eagle/2-thumb.webp",
+        "author": "sussexbirder",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/9919745@N03/8074679755",
+        "provider": "openverse"
+      }
+    ]
+  },
+  {
+    "id": "malabar-hornbill",
+    "name": "Малабарский птица-носорог",
+    "latin": "Anthracoceros coronatus",
+    "emoji": "🦤",
+    "group": "birds",
+    "family": "birds-forest",
+    "where": [
+      "udawalawe",
+      "yala"
+    ],
+    "chance": "low",
+    "note": "Чёрно-белый с огромным клювом",
+    "photos": [
+      {
+        "src": "photos/animals/malabar-hornbill/1.webp",
+        "thumb": "photos/animals/malabar-hornbill/1-thumb.webp",
+        "author": "Tom Heijnen",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/230717952",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/malabar-hornbill/2.webp",
+        "thumb": "photos/animals/malabar-hornbill/2-thumb.webp",
+        "author": "Rohit Naniwadekar",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/29623649",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "spurfowl",
+    "name": "Цейлонская шпорцевая курица",
+    "latin": "Galloperdix bicalcarata",
+    "emoji": "🐔",
+    "group": "birds",
+    "family": "birds-forest",
+    "where": [
+      "sinharaja"
+    ],
+    "chance": "low",
+    "note": "Эндемик, очень скрытная",
+    "photos": [
+      {
+        "src": "photos/animals/spurfowl/2.webp",
+        "thumb": "photos/animals/spurfowl/2-thumb.webp",
+        "author": "Mickey Wu",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/342423991",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "crow-pheasant",
+    "name": "Большая кукаль",
+    "latin": "Centropus sinensis",
+    "emoji": "🐦‍⬛",
+    "group": "birds",
+    "family": "birds-forest",
+    "where": [
+      "hotel",
+      "lagoon"
+    ],
+    "chance": "high",
+    "note": "Чёрная с рыжими крыльями, ухает «ууп-ууп»",
+    "photos": [
+      {
+        "src": "photos/animals/crow-pheasant/1.webp",
+        "thumb": "photos/animals/crow-pheasant/1-thumb.webp",
+        "author": "Jody Shugart",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/65417731",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/crow-pheasant/2.webp",
+        "thumb": "photos/animals/crow-pheasant/2-thumb.webp",
+        "author": "Валерия Ковалева",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/260908453",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "egret",
+    "name": "Большая белая цапля",
+    "latin": "Ardea alba",
+    "emoji": "🤍",
+    "group": "birds",
+    "family": "birds-water",
+    "where": [
+      "lagoon",
+      "crocodiles",
+      "udawalawe"
+    ],
+    "chance": "high",
+    "note": "На мелководье и рисовых полях",
+    "photos": [
+      {
+        "src": "photos/animals/egret/1.webp",
+        "thumb": "photos/animals/egret/1-thumb.webp",
+        "author": "Jan Ebr &amp; Ivana Ebrová",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/143891894",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/egret/2.webp",
+        "thumb": "photos/animals/egret/2-thumb.webp",
+        "author": "Dan Vickers",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/341513556",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "cattle-egret",
+    "name": "Египетская цапля",
+    "latin": "Bubulcus ibis",
+    "emoji": "🐄",
+    "group": "birds",
+    "family": "birds-water",
+    "where": [
+      "udawalawe",
+      "weligama"
+    ],
+    "chance": "high",
+    "note": "Ходит рядом с буйволами и коровами",
+    "photos": [
+      {
+        "src": "photos/animals/cattle-egret/1.webp",
+        "thumb": "photos/animals/cattle-egret/1-thumb.webp",
+        "author": "ferran pestaña",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/57956171@N00/1713394405",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/animals/cattle-egret/2.webp",
+        "thumb": "photos/animals/cattle-egret/2-thumb.webp",
+        "author": "katunchik",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/12090392@N02/44294355451",
+        "provider": "openverse"
+      }
+    ]
+  },
+  {
+    "id": "ibis",
+    "name": "Черноголовый ибис",
+    "latin": "Threskiornis melanocephalus",
+    "emoji": "🪶",
+    "group": "birds",
+    "family": "birds-water",
+    "where": [
+      "lagoon",
+      "bundala"
+    ],
+    "chance": "medium",
+    "note": "Длинный изогнутый клюв",
+    "photos": [
+      {
+        "src": "photos/animals/ibis/1.webp",
+        "thumb": "photos/animals/ibis/1-thumb.webp",
+        "author": "Ian Dugdale",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/303667582",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "openbill",
+    "name": "Азиатский аист-разиня",
+    "latin": "Anastomus oscitans",
+    "emoji": "🐦",
+    "group": "birds",
+    "family": "birds-water",
+    "where": [
+      "udawalawe",
+      "bundala",
+      "lagoon"
+    ],
+    "chance": "high",
+    "note": "Между половинками клюва — щель",
+    "photos": [
+      {
+        "src": "photos/animals/openbill/1.webp",
+        "thumb": "photos/animals/openbill/1-thumb.webp",
+        "author": "Ian Dugdale",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/303338886",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/openbill/2.webp",
+        "thumb": "photos/animals/openbill/2-thumb.webp",
+        "author": "Apichart Songsangchun",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/105595606",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "lapwing",
+    "name": "Красноколая чибис",
+    "latin": "Vanellus indicus",
+    "emoji": "🔴",
+    "group": "birds",
+    "family": "birds-water",
+    "where": [
+      "udawalawe",
+      "lagoon",
+      "hotel"
+    ],
+    "chance": "high",
+    "note": "Кричит «did-he-do-it?» если подойти близко",
+    "photos": [
+      {
+        "src": "photos/animals/lapwing/1.webp",
+        "thumb": "photos/animals/lapwing/1-thumb.webp",
+        "author": "Marco Mussita",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/18114851",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "cormorant",
+    "name": "Малый баклан",
+    "latin": "Microcarbo niger",
+    "emoji": "🖤",
+    "group": "birds",
+    "family": "birds-water",
+    "where": [
+      "lagoon",
+      "crocodiles"
+    ],
+    "chance": "high",
+    "note": "Сушит крылья, расправив их на ветке",
+    "photos": [
+      {
+        "src": "photos/animals/cormorant/1.webp",
+        "thumb": "photos/animals/cormorant/1-thumb.webp",
+        "author": "Jacek Pietruszewski",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/37296095",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/cormorant/2.webp",
+        "thumb": "photos/animals/cormorant/2-thumb.webp",
+        "author": "scaup",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/41845538",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "darter",
+    "name": "Змеешейка",
+    "latin": "Anhinga melanogaster",
+    "emoji": "〰️",
+    "group": "birds",
+    "family": "birds-water",
+    "where": [
+      "lagoon",
+      "crocodiles",
+      "udawalawe"
+    ],
+    "chance": "medium",
+    "note": "Плывёт, выставив из воды только тонкую шею",
+    "photos": [
+      {
+        "src": "photos/animals/darter/1.webp",
+        "thumb": "photos/animals/darter/1-thumb.webp",
+        "author": "Ian Dugdale",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/303423105",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/darter/2.webp",
+        "thumb": "photos/animals/darter/2-thumb.webp",
+        "author": "林孫鋒(Lin Sun Fong)",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/343049765",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "blue-whale",
+    "name": "Синий кит",
+    "latin": "Balaenoptera musculus",
+    "emoji": "🐋",
+    "group": "sea",
+    "family": "sea",
+    "where": [
+      "mirissa-bays"
+    ],
+    "chance": "low",
+    "note": "Иногда виден с берега у Мириссы; на большие катера не едем",
+    "photos": [
+      {
+        "src": "photos/animals/blue-whale/1.webp",
+        "thumb": "photos/animals/blue-whale/1-thumb.webp",
+        "author": "Arian Zwegers",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/67769030@N07/6917912897",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/animals/blue-whale/2.webp",
+        "thumb": "photos/animals/blue-whale/2-thumb.webp",
+        "author": "Arian Zwegers",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/67769030@N07/6918166357",
+        "provider": "openverse"
+      }
+    ],
+    "photoQuery": "blue whale Mirissa|blue whale Sri Lanka",
+    "photoSource": "openverse"
+  },
+  {
+    "id": "parrotfish",
+    "name": "Рыба-попугай",
+    "latin": "Scaridae",
+    "emoji": "🐟",
+    "group": "sea",
+    "family": "sea",
+    "where": [
+      "turtle-beach",
+      "unawatuna",
+      "hikkaduwa"
+    ],
+    "chance": "medium",
+    "note": "Хрустит кораллами — слышно под водой",
+    "photos": [
+      {
+        "src": "photos/animals/parrotfish/1.webp",
+        "thumb": "photos/animals/parrotfish/1-thumb.webp",
+        "author": "krokodiver",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/125265709@N08/46918821724",
+        "provider": "openverse"
+      },
+      {
+        "src": "photos/animals/parrotfish/2.webp",
+        "thumb": "photos/animals/parrotfish/2-thumb.webp",
+        "author": "timsackton",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://www.flickr.com/photos/43581314@N08/5764018006",
+        "provider": "openverse"
+      }
+    ]
+  },
+  {
+    "id": "moray",
+    "name": "Мурена",
+    "latin": "Gymnothorax",
+    "emoji": "🐍",
+    "group": "sea",
+    "family": "sea",
+    "where": [
+      "thalaramba",
+      "unawatuna"
+    ],
+    "chance": "low",
+    "note": "Выглядывает из щели в рифе — руками не лезть",
+    "photos": [],
+    "photoQuery": "Gymnothorax javanicus|Gymnothorax"
+  },
+  {
+    "id": "octopus",
+    "name": "Осьминог",
+    "latin": "Octopus cyanea",
+    "emoji": "🐙",
+    "group": "sea",
+    "family": "sea",
+    "where": [
+      "turtle-beach",
+      "thalaramba"
+    ],
+    "chance": "low",
+    "note": "Меняет цвет и прячется в камнях",
+    "photos": [
+      {
+        "src": "photos/animals/octopus/2.webp",
+        "thumb": "photos/animals/octopus/2-thumb.webp",
+        "author": "Ben Costamagna",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/333726451",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "ghost-crab",
+    "name": "Крабы-призраки",
+    "latin": "Ocypode",
+    "emoji": "🦀",
+    "group": "sea",
+    "family": "sea",
+    "where": [
+      "mirissa-bays",
+      "turtle-beach",
+      "tangalle"
+    ],
+    "chance": "high",
+    "note": "Вечером носятся по песку и прячутся в норки",
+    "photos": [
+      {
+        "src": "photos/animals/ghost-crab/1.webp",
+        "thumb": "photos/animals/ghost-crab/1-thumb.webp",
+        "author": "John Witton",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/145465701",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/ghost-crab/2.webp",
+        "thumb": "photos/animals/ghost-crab/2-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/342094683",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "hermit-crab",
+    "name": "Рак-отшельник",
+    "latin": "Coenobita",
+    "emoji": "🐚",
+    "group": "sea",
+    "family": "sea",
+    "where": [
+      "turtle-beach",
+      "hiriketiya"
+    ],
+    "chance": "high",
+    "note": "Ходит в чужой ракушке по камням",
+    "photos": [
+      {
+        "src": "photos/animals/hermit-crab/2.webp",
+        "thumb": "photos/animals/hermit-crab/2-thumb.webp",
+        "author": "Toby Y",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/127336339",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "atlas-moth",
+    "name": "Павлиноглазка атлас",
+    "latin": "Attacus atlas",
+    "emoji": "🦋",
+    "group": "other",
+    "family": "bugs",
+    "where": [
+      "sinharaja",
+      "kitulgala"
+    ],
+    "chance": "low",
+    "note": "Одна из самых больших бабочек в мире",
+    "photos": [
+      {
+        "src": "photos/animals/atlas-moth/1.webp",
+        "thumb": "photos/animals/atlas-moth/1-thumb.webp",
+        "author": "Cheryl Stinchcomb",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/136439781",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/atlas-moth/2.webp",
+        "thumb": "photos/animals/atlas-moth/2-thumb.webp",
+        "author": "Cheryl Stinchcomb",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/250413365",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "tree-nymph",
+    "name": "Цейлонская древесная нимфа",
+    "latin": "Idea iasonia",
+    "emoji": "🤍",
+    "group": "other",
+    "family": "bugs",
+    "where": [
+      "sinharaja",
+      "peradeniya"
+    ],
+    "chance": "medium",
+    "note": "Огромная бумажно-белая бабочка, медленно парит",
+    "photos": [
+      {
+        "src": "photos/animals/tree-nymph/1.webp",
+        "thumb": "photos/animals/tree-nymph/1-thumb.webp",
+        "author": "Christoph Moning",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/37841911",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/tree-nymph/2.webp",
+        "thumb": "photos/animals/tree-nymph/2-thumb.webp",
+        "author": "Eamon Corbett",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/69707356",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "dragonfly",
+    "name": "Стрекоза",
+    "latin": "Odonata",
+    "emoji": "🪰",
+    "group": "other",
+    "family": "bugs",
+    "where": [
+      "lagoon",
+      "udawalawe"
+    ],
+    "chance": "high",
+    "note": "Красные и синие стрекозы у воды",
+    "photos": [
+      {
+        "src": "photos/animals/dragonfly/1.webp",
+        "thumb": "photos/animals/dragonfly/1-thumb.webp",
+        "author": "Oleg Kosterin",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/67755178",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/dragonfly/2.webp",
+        "thumb": "photos/animals/dragonfly/2-thumb.webp",
+        "author": "Cheryl Stinchcomb",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/63231479",
+        "provider": "inaturalist"
+      }
+    ],
+    "photoQuery": "Trithemis aurora"
+  },
+  {
+    "id": "giant-wood-spider",
+    "name": "Гигантский древесный паук",
+    "latin": "Nephila pilipes",
+    "emoji": "🕷️",
+    "group": "other",
+    "family": "bugs",
+    "where": [
+      "sinharaja",
+      "hotel"
+    ],
+    "chance": "high",
+    "note": "Золотая паутина между деревьями — смотреть, не трогать",
+    "photos": [
+      {
+        "src": "photos/animals/giant-wood-spider/1.webp",
+        "thumb": "photos/animals/giant-wood-spider/1-thumb.webp",
+        "author": "portioid",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/147108220",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/giant-wood-spider/2.webp",
+        "thumb": "photos/animals/giant-wood-spider/2-thumb.webp",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "sourceUrl": "https://www.inaturalist.org/observations/254202227",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "mantis",
+    "name": "Богомол",
+    "latin": "Mantodea",
+    "emoji": "🦗",
+    "group": "other",
+    "family": "bugs",
+    "where": [
+      "hotel",
+      "sinharaja"
+    ],
+    "chance": "medium",
+    "note": "Иногда прилетает на свет вечером",
+    "photos": [
+      {
+        "src": "photos/animals/mantis/1.webp",
+        "thumb": "photos/animals/mantis/1-thumb.webp",
+        "author": "Cheryl Stinchcomb",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/143049752",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/mantis/2.webp",
+        "thumb": "photos/animals/mantis/2-thumb.webp",
+        "author": "bernhard_hiller",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/106127097",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "leech",
+    "name": "Пиявка Синхараджи",
+    "latin": "Haemadipsa",
+    "emoji": "🩸",
+    "group": "other",
+    "family": "bugs",
+    "where": [
+      "sinharaja"
+    ],
+    "chance": "high",
+    "note": "Ради них носки от пиявок! Безвредные, но противные",
+    "photos": [
+      {
+        "src": "photos/animals/leech/1.webp",
+        "thumb": "photos/animals/leech/1-thumb.webp",
+        "author": "Cheryl Stinchcomb",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/412975820",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/leech/2.webp",
+        "thumb": "photos/animals/leech/2-thumb.webp",
+        "author": "portioid",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/149640467",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "asian-toad",
+    "name": "Чернопятнистая жаба",
+    "latin": "Duttaphrynus melanostictus",
+    "emoji": "🐸",
+    "group": "other",
+    "family": "frogs",
+    "where": [
+      "hotel",
+      "mirissa-bays"
+    ],
+    "chance": "high",
+    "note": "Сидят у фонарей после дождя",
+    "photos": [
+      {
+        "src": "photos/animals/asian-toad/2.webp",
+        "thumb": "photos/animals/asian-toad/2-thumb.webp",
+        "author": "Andre Hosper",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/15614159",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "tree-frog",
+    "name": "Веслоногая квакша",
+    "latin": "Polypedates cruciger",
+    "emoji": "🐸",
+    "group": "other",
+    "family": "frogs",
+    "where": [
+      "sinharaja",
+      "hotel"
+    ],
+    "chance": "medium",
+    "note": "Цепляется лапками-присосками за стены и листья",
+    "photos": [
+      {
+        "src": "photos/animals/tree-frog/1.webp",
+        "thumb": "photos/animals/tree-frog/1-thumb.webp",
+        "author": "Emanuele Santarelli",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/312759483",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/tree-frog/2.webp",
+        "thumb": "photos/animals/tree-frog/2-thumb.webp",
+        "author": "Achintha de Zoysa",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/172115642",
+        "provider": "inaturalist"
+      }
+    ]
+  },
+  {
+    "id": "bronze-frog",
+    "name": "Бронзовая лягушка",
+    "latin": "Indosylvirana temporalis",
+    "emoji": "🟤",
+    "group": "other",
+    "family": "frogs",
+    "where": [
+      "sinharaja",
+      "kitulgala"
+    ],
+    "chance": "medium",
+    "note": "У ручьёв в лесу",
+    "photos": [
+      {
+        "src": "photos/animals/bronze-frog/1.webp",
+        "thumb": "photos/animals/bronze-frog/1-thumb.webp",
+        "author": "Edmundas Greimas",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/222809279",
+        "provider": "inaturalist"
+      },
+      {
+        "src": "photos/animals/bronze-frog/2.webp",
+        "thumb": "photos/animals/bronze-frog/2-thumb.webp",
+        "author": "Ioannis Magouras",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/observations/244665590",
+        "provider": "inaturalist"
+      }
+    ],
+    "photoQuery": "Hylarana temporalis|Indosylvirana"
   }
 ]

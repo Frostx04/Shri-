@@ -140,3 +140,36 @@
   .leaflet-control-attribution { background: rgb(0 0 0 / .5) !important; color: #ccc; }
   .leaflet-control-attribution a { color: #9fd; }
 }
+
+/* ——— Звериное оформление ——— */
+.jungle-bg {
+  background-color: #0b6e70;
+  background-image:
+    radial-gradient(ellipse 14px 6px at 20% 30%, #ffffff18 60%, transparent 62%),
+    radial-gradient(ellipse 10px 4px at 65% 70%, #ffffff14 60%, transparent 62%),
+    radial-gradient(120% 80% at 100% 0%, #5fd0c466, transparent 60%),
+    radial-gradient(90% 70% at 0% 100%, #2f7d4a66, transparent 60%),
+    linear-gradient(160deg, #0b6e70, #2f7d4a 70%, #3f8f3f);
+  background-size: 70px 60px, 90px 70px, auto, auto, auto;
+}
+.leaf-pattern { /* узор листьев уже в .jungle-bg */ }
+/* летучая лисица на «лиане» качается */
+.hang {
+  position: absolute; display: flex; flex-direction: column; align-items: center; pointer-events: none;
+  transform-origin: top center; animation: swing 3.6s ease-in-out infinite;
+}
+.hang::before { content: ''; width: 2px; background: #2f7d4a; height: var(--vine, 26px); border-radius: 2px; }
+.hang > span { transform: rotate(180deg); line-height: 1; }
+@keyframes swing { 0%, 100% { transform: rotate(-7deg); } 50% { transform: rotate(7deg); } }
+/* белка выглядывает */
+.peek { position: absolute; animation: peek 5s ease-in-out infinite; pointer-events: none; }
+@keyframes peek { 0%, 60%, 100% { transform: translateY(40%); } 70%, 90% { transform: translateY(0); } }
+/* наклейки альбома */
+.sticker { transition: transform .25s ease, box-shadow .25s ease; }
+.sticker.is-seen { box-shadow: 0 2px 0 #fff, 0 8px 22px rgb(40 30 10 / .18); }
+.sticker.is-new { filter: saturate(.45) brightness(1.04); opacity: .92; }
+.stamp {
+  font-family: var(--font-display); transform: rotate(-12deg);
+  border: 2.5px solid currentColor; border-radius: 10px; padding: 1px 7px; letter-spacing: .02em;
+}
+.paw-btn { box-shadow: 0 6px 18px rgb(232 104 74 / .45), 0 0 0 5px var(--bg); }

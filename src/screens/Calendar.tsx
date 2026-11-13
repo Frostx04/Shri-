@@ -37,6 +37,7 @@ function Countdown() {
         {cell(c.minutes, ['минута', 'минуты', 'минут'])}
       </div>
       <p className="relative mt-3 flex items-center gap-1.5 text-sm opacity-90"><Plane size={16} /> {info.trip.flights[0]}</p>
+      <span className="peek -bottom-1 right-4 text-4xl" aria-hidden>🐿️</span>
     </div>
   );
 }
@@ -132,7 +133,8 @@ export default function Calendar() {
 
   return (
     <div className="px-4">
-      <header className="safe-top pb-3 pt-5">
+      <header className="safe-top relative pb-3 pt-5">
+        <div className="hang right-1 top-0" style={{ ['--vine' as string]: '22px' }} aria-hidden><span className="text-3xl">🦇</span></div>
         <p className="text-sm font-semibold uppercase tracking-wider text-accent">Мирисса · 13–24 марта 2027</p>
         <h1 className="text-[2.1rem] leading-tight">Шри-Ланка {info.trip.travelers.join(' и ')}</h1>
       </header>
@@ -149,9 +151,9 @@ export default function Calendar() {
         </div>
       )}
 
-      <Link to="/animals" className="card mt-3 block p-4" aria-label="Зверушки: шкала">
-        <p className="mb-1 flex items-center justify-between font-bold"><span>🐾 Зверушки</span><span className="text-sm text-accent">отметить →</span></p>
-        <AnimalScale seen={seenCount(tripAnimals())} total={tripAnimals().length} compact />
+      <Link to="/animals" className="jungle-bg leaf-pattern relative mt-3 block overflow-hidden rounded-[22px] p-4 text-white shadow-md" aria-label="Зверушки: шкала">
+        <p className="mb-1 flex items-center justify-between font-bold"><span className="font-display text-xl">🐾 Зверушки</span><span className="text-sm">альбом →</span></p>
+        <div className="rounded-2xl bg-surface p-3 text-[var(--fg)]"><AnimalScale seen={seenCount(tripAnimals())} total={tripAnimals().length} compact /></div>
       </Link>
 
       <div className="mt-4 grid grid-cols-3 gap-2.5">

@@ -117,6 +117,7 @@ export const Animal = z.object({
   latin: z.string(),
   emoji: z.string(),
   group: z.enum(['mammals', 'reptiles', 'birds', 'sea', 'other']),
+  family: z.enum(['squirrels', 'bats', 'primates', 'elephants', 'hoofed', 'predators', 'nocturnal', 'friends', 'turtles', 'lizards', 'crocs', 'snakes', 'birds-forest', 'birds-water', 'sea', 'bugs', 'frogs']),
   where: z.array(z.string()),                 // id мест, где можно встретить
   chance: z.enum(['high', 'medium', 'low']),  // шанс увидеть в нашей поездке
   note: z.string(),

@@ -9,7 +9,7 @@ import PlaceCard from './screens/PlaceCard';
 import More from './screens/More';
 import Itinerary from './screens/Itinerary';
 import ImportScreen from './screens/ImportScreen';
-import Animals from './screens/Animals';
+import { AnimalsHub, AnimalFamily } from './screens/Animals';
 import { useEffect } from 'react';
 import { useSettings } from './lib/settings';
 import { startSync } from './lib/sync';
@@ -31,7 +31,8 @@ export default function App() {
         <Route path="food" element={<Navigate to="/places?view=food" replace />} />
         <Route path="itinerary/:id" element={<Itinerary />} />
         <Route path="import" element={<ImportScreen />} />
-        <Route path="animals" element={<Animals />} />
+        <Route path="animals" element={<AnimalsHub />} />
+        <Route path="animals/:family" element={<AnimalFamily />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>

@@ -30,10 +30,23 @@ const SRI_LANKA_INAT = 6967;
 
 /* ——— iNaturalist ——— */
 const INAT_LIC: Record<string, string> = { cc0: 'CC0', 'cc-by': 'CC BY 4.0', 'cc-by-sa': 'CC BY-SA 4.0' };
+/** Точный таксон по названию: если taxon_name не распознан, API игнорирует фильтр и отдаёт что попало. */
+async function inatTaxon(q: string): Promise<{ id: number; name: string } | null> {
+  const res = await politeFetch(`https://api.inaturalist.org/v1/taxa?${new URLSearchParams({ q, per_page: '5' })}`);
+  if (!res.ok) throw new Error(`iNaturalist taxa ${res.status}`);
+  const j = await res.json();
+  const norm = (s: string) => s.toLowerCase().trim();
+  const t = (j.results ?? []).find((r: any) => norm(r.name) === norm(q)) ?? (j.results ?? []).find((r: any) => norm(q).startsWith(norm(r.name)));
+  return t ? { id: t.id, name: t.name } : null;
+}
+
 async function inaturalist(q: string, max: number): Promise<Candidate[]> {
   const out: Candidate[] = [];
+  const taxon = await inatTaxon(q);
+  await sleep(1100);
+  if (!taxon) { console.log(`  iNaturalist: таксон «${q}» не найден`); return out; }
   for (const place of [SRI_LANKA_INAT, null]) {
-    const params = new URLSearchParams({ taxon_name: q, photo_license: 'cc0,cc-by,cc-by-sa', quality_grade: 'research', order_by: 'votes', per_page: '20', photos: 'true' });
+    const params = new URLSearchParams({ taxon_id: String(taxon.id), photo_license: 'cc0,cc-by,cc-by-sa', quality_grade: 'research', order_by: 'votes', per_page: '20', photos: 'true' });
     if (place) params.set('place_id', String(place));
     const res = await politeFetch(`https://api.inaturalist.org/v1/observations?${params}`);
     if (!res.ok) throw new Error(`iNaturalist ${res.status}`);
