@@ -4,7 +4,7 @@ import {
   Backpack, Sparkles, Route, BookOpen, CalendarDays, Star, ListChecks, Utensils, ChevronLeft,
 } from 'lucide-react';
 import type { ReactNode } from 'react';
-import type { Contact, Place } from '../data/schema';
+import type { Contact } from '../data/schema';
 import { getPlace, daysForPlace, templateById } from '../lib/data';
 import { gmapsLink, contactHref, gmapsSearch } from '../lib/links';
 import { transportMeta, tripTypeMeta } from '../lib/meta';
@@ -15,7 +15,8 @@ import { Gallery } from '../components/Gallery';
 import { TierBadge, CategoryBadge, StomachBadge, Cost } from '../components/Badges';
 import { MessageBox } from '../components/MessageBox';
 import { Empty } from '../components/ui';
-import { slotPlaceExtras } from './placeSlots';
+import { VisitedBlock, BringList } from '../components/VisitedBlock';
+import { PlaceMenuExtra } from '../components/MenuEditor';
 
 const contactIcon: Record<Contact['kind'], ReactNode> = {
   whatsapp: <MessageCircle size={18} />, phone: <Phone size={18} />, telegram: <Send size={18} />,
@@ -55,12 +56,11 @@ export default function PlaceCard() {
   const tpl = p.messageTemplateId ? templateById.get(p.messageTemplateId) : undefined;
   const planned = daysForPlace.get(p.id) ?? [];
   const why = clean(p.why), what = clean(p.whatToDo);
-  const extras = slotPlaceExtras;
 
   return (
     <article className="pb-6">
       <div className="relative">
-        <Gallery place={p} extra={extras.photos?.(p)} />
+        <Gallery place={p} />
         <button onClick={() => (window.history.length > 1 ? window.history.back() : (location.hash = '/places'))}
           className="safe-top absolute left-3 top-3 grid h-11 w-11 place-items-center rounded-full bg-black/40 text-white backdrop-blur" aria-label="Назад">
           <ChevronLeft size={26} />
@@ -93,7 +93,7 @@ export default function PlaceCard() {
         {!p.coordsVerified && p.coords && <p className="mt-1.5 text-xs text-soft">Координаты приблизительные — проверяем.</p>}
       </header>
 
-      {extras.visited?.(p)}
+      <VisitedBlock place={p} />
 
       {p.avoid && (
         <div className="mx-4 mt-3 rounded-2xl border-2 border-[#e05a5a] bg-[#e05a5a]/10 p-3 font-semibold text-[#c23a3a]">
@@ -138,11 +138,11 @@ export default function PlaceCard() {
           </ul>
         </Block>
       )}
-      {extras.menu?.(p)}
+      {p.category === 'food' && !p.avoid && <PlaceMenuExtra place={p} />}
 
       {p.bring.length > 0 && (
         <Block icon={<Backpack size={20} />} title="Что взять">
-          {extras.bring ? extras.bring(p) : <Bullets items={p.bring} />}
+          <BringList place={p} />
         </Block>
       )}
 
@@ -184,10 +184,3 @@ export default function PlaceCard() {
     </article>
   );
 }
-
-export type PlaceSlots = {
-  photos?: (p: Place) => import('../data/schema').Photo[];
-  visited?: (p: Place) => ReactNode;
-  bring?: (p: Place) => ReactNode;
-  menu?: (p: Place) => ReactNode;
-};

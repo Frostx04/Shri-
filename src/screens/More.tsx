@@ -3,6 +3,8 @@ import { Wallet, CalendarCheck, ShieldAlert, Siren, MessageSquareText, Settings 
 import { PageHeader } from '../components/ui';
 import Messages from './more/Messages';
 import Settings from './more/Settings';
+import Budget from './more/Budget';
+import Bookings from './more/Bookings';
 
 const items = [
   { to: 'budget', label: 'Бюджет', icon: Wallet, hint: 'план и факт, $2000 наличными' },
@@ -19,6 +21,8 @@ const items = [
 export const moreRoutes: { path: string; element: React.ReactNode }[] = [
   { path: 'messages', element: <Messages /> },
   { path: 'settings', element: <Settings /> },
+  { path: 'budget', element: <Budget /> },
+  { path: 'bookings', element: <Bookings /> },
 ];
 
 function Menu() {

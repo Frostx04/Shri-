@@ -13,6 +13,9 @@ import { dayProgress } from '../lib/progress';
 import { Cost } from '../components/Badges';
 import { VisitToggle } from '../components/VisitToggle';
 import { Empty } from '../components/ui';
+import { PhotoGrid } from '../components/OwnPhotos';
+import { useOwnPhotos } from '../lib/photos';
+import { dayPlaceIds } from '../lib/data';
 import { DayMapSlot } from './daySlots';
 
 const DEFAULT_WEATHER = 'Март в Мириссе: +29…31°, жарко и влажно, море тёплое. Возможен короткий ливень после обеда.';
@@ -174,10 +177,22 @@ export function DayView({ day, back = true }: { day: DayPlan; back?: boolean }) 
             className="mt-1 w-full rounded-xl border border-line bg-surface-2 p-3" />
         </label>
       </section>
+      <DayPhotos day={day} />
       <div className="mt-4 flex justify-center">
         <Link to={`/map?day=${day.date}`} className="btn"><MapPin size={18} /> Этот день на большой карте</Link>
       </div>
     </div>
+  );
+}
+
+function DayPhotos({ day }: { day: DayPlan }) {
+  const photos = useOwnPhotos(dayPlaceIds(day));
+  if (!photos.length) return null;
+  return (
+    <section className="mx-4 mt-4">
+      <h2 className="mb-2 text-lg">📸 Наши фото</h2>
+      <PhotoGrid photos={photos} />
+    </section>
   );
 }
 

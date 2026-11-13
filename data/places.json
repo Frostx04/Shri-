@@ -556,7 +556,12 @@
       0
     ],
     "region": "Мирисса",
-    "inPlan": true
+    "inPlan": true,
+    "messageTemplateId": "south-car",
+    "bookAhead": {
+      "daysBefore": 1,
+      "note": "Машину на день заказать вечером 18.03 на ресепшне, цену договорить заранее. Сам приют без брони — экскурсия в 10:30"
+    }
   },
   {
     "id": "handunugoda",
