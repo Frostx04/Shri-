@@ -44,7 +44,7 @@
       6.2845,
       81.124
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Mattala Rajapaksa International Airport, Sri Lanka",
     "why": [
       "Прилёт 13.03 в 16:35, вылет 24.03 в 18:45"
@@ -101,10 +101,10 @@
     "tier": "top",
     "emoji": "🌴",
     "coords": [
-      5.9407,
-      80.4699
+      5.94316,
+      80.4618
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Coconut Tree Hill Mirissa, Sri Lanka",
     "why": [
       "Скала Parrot Rock, бухты между ней и Coconut Tree Hill",
@@ -180,7 +180,7 @@
       5.93925,
       80.46828
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Turtle Beach Mirissa, Sri Lanka",
     "why": [
       "Черепахи у берега утром («застали в 8 утра», 20.03.2025)",
@@ -507,7 +507,7 @@
       5.938,
       80.525
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Polhena Beach Matara, Sri Lanka",
     "why": [
       "Спокойный пляж за рифом, черепахи в воде"
@@ -550,10 +550,10 @@
     "tier": "top",
     "emoji": "🐘",
     "coords": [
-      6.438,
-      80.888
+      6.43766,
+      80.88853
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Udawalawe National Park, Sri Lanka",
     "why": [
       "12:00 кормление слонят в Elephant Transit Home (без цепей, их выпускают в дикую природу)",
@@ -643,7 +643,7 @@
       6.42688,
       80.81711
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Elephant Transit Home Udawalawe, Sri Lanka",
     "why": [
       "Кормление слонят в 12:00"
@@ -754,7 +754,7 @@
       6.01364,
       80.36418
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Handunugoda Tea Estate, Sri Lanka",
     "why": [
       "Плантация и фабрика белого чая Virgin White Tea, дегустация, чай в подарок"
@@ -816,7 +816,7 @@
       5.98898,
       80.32749
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Martin Wickramasinghe Folk Museum Koggala, Sri Lanka",
     "why": [
       "Народный музей быта и культуры"
@@ -873,7 +873,7 @@
       6.026,
       80.217
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Galle Fort, Sri Lanka",
     "why": [
       "Прогулка по стенам, закат на бастионах",
@@ -934,7 +934,7 @@
       6.00707,
       80.24279
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Lemongrass cafe Unawatuna, Sri Lanka",
     "why": [
       "Около 20:00 персонал показывает диких дикобразов",
@@ -1074,7 +1074,7 @@
       5.92124,
       80.59403
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Dondra Head Lighthouse, Sri Lanka",
     "why": [
       "Маяк — в субботу можно подняться (вход бесплатный, просят чаевые)",
@@ -1179,7 +1179,7 @@
       6.12722,
       80.74733
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Mulkirigala Rock Temple, Sri Lanka",
     "why": [
       "Тысячи летучих лисиц на закате",
@@ -1287,7 +1287,7 @@
       5.94791,
       80.45827
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Shady Lane Mirissa, Sri Lanka",
     "why": [
       "Лучшие завтраки рядом с отелем, 1–2 мин"
@@ -1331,7 +1331,7 @@
       5.9472,
       80.46178
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "No.1 Dewmini Roti Shop Mirissa, Sri Lanka",
     "why": [
       "Местная кухня, недорого, роти — самое советуемое"
@@ -1375,7 +1375,7 @@
       5.94484,
       80.4639
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Secret Root Spa Mirissa, Sri Lanka",
     "why": [
       "Отдых после активных дней"
@@ -1533,7 +1533,7 @@
       5.95021,
       80.45831
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Hide Place Mirissa, Mirissa, Sri Lanka",
     "why": [
       "3 мин от отеля"
@@ -1574,7 +1574,7 @@
       5.94692,
       80.45828
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Mila Mirissa, Mirissa, Sri Lanka",
     "why": [
       "3 мин от отеля"
@@ -1615,7 +1615,7 @@
       5.96699,
       80.4509
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Fujisan Mirissa, Mirissa, Sri Lanka",
     "why": [
       "Огромные порции, дёшево — том ям и тунец"
@@ -1657,7 +1657,7 @@
       5.94576,
       80.45738
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Capybara Cafe Mirissa, Mirissa, Sri Lanka",
     "why": [
       "Бургеры, паста, живая музыка Вт/Чт/Пт/Сб (капибар там нет)"
@@ -1857,7 +1857,7 @@
       5.9717,
       80.42799
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Fish Point Weligama, Mirissa, Sri Lanka",
     "why": [
       "Морепродукты"
@@ -1902,7 +1902,7 @@
       5.94744,
       80.45825
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Cargills Food City Mirissa, Mirissa, Sri Lanka",
     "why": [
       "Вода, фрукты, снеки, сувенирный чай"
@@ -1943,7 +1943,7 @@
       5.94762,
       80.4612
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Garlic Mirissa, Mirissa, Sri Lanka",
     "why": [
       "В свежих отзывах мухи и сырой тартар"
@@ -2091,10 +2091,10 @@
     "tier": "good",
     "emoji": "🏄",
     "coords": [
-      5.972,
-      80.429
+      5.96884,
+      80.42516
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Weligama Beach, Sri Lanka",
     "why": [
       "Урок сёрфинга для новичков на мягкой волне"
@@ -2151,7 +2151,7 @@
       5.964,
       80.708
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Hiriketiya Beach, Sri Lanka",
     "why": [
       "Красивейшая бухта юга, кафе, спокойная вода с краю"
@@ -2201,10 +2201,10 @@
     "tier": "good",
     "emoji": "🌊",
     "coords": [
-      6.024,
-      80.794
+      6.03812,
+      80.79776
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Tangalle Beach, Sri Lanka",
     "why": [
       "Пустые длинные пляжи"
@@ -2260,8 +2260,8 @@
     "tier": "optional",
     "emoji": "🛕",
     "coords": [
-      5.955,
-      80.695
+      5.97928,
+      80.69746
     ],
     "coordsVerified": false,
     "gmapsQuery": "Wewurukannala Vihara, Sri Lanka",
@@ -2321,10 +2321,10 @@
     "tier": "optional",
     "emoji": "💨",
     "coords": [
-      5.993,
-      80.723
+      5.97762,
+      80.73873
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Hummanaya Blow Hole, Sri Lanka",
     "why": [
       "Морской гейзер"
@@ -2369,10 +2369,10 @@
     "tier": "good",
     "emoji": "🏖️",
     "coords": [
-      6.017,
-      80.243
+      6.01755,
+      80.23775
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Jungle Beach Unawatuna, Sri Lanka",
     "why": [
       "Пляж в бухте, снорклинг"
@@ -2440,7 +2440,7 @@
       6.139,
       80.1
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Hikkaduwa Beach, Sri Lanka",
     "why": [
       "Черепахи у берега, коралловый парк"
@@ -2505,10 +2505,10 @@
     "tier": "optional",
     "emoji": "🛥️",
     "coords": [
-      6.296,
-      80.045
+      6.28287,
+      80.05803
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Madu River Balapitiya, Sri Lanka",
     "why": [
       "Мангры, острова"
@@ -2553,10 +2553,10 @@
     "tier": "optional",
     "emoji": "🏖️",
     "coords": [
-      6.421,
-      79.996
+      6.42907,
+      79.99433
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Bentota Beach, Sri Lanka",
     "why": [
       "Курорт, река"
@@ -2620,10 +2620,10 @@
     "tier": "good",
     "emoji": "🦩",
     "coords": [
-      6.183,
-      81.233
+      6.20986,
+      81.22518
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Bundala National Park, Sri Lanka",
     "why": [
       "Фламинго и водоплавающие птицы, крокодилы",
@@ -2690,10 +2690,10 @@
     "tier": "optional",
     "emoji": "🐆",
     "coords": [
-      6.37,
-      81.52
+      6.27635,
+      81.40299
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Yala National Park, Sri Lanka",
     "why": [
       "Шанс увидеть леопарда"
@@ -2758,10 +2758,10 @@
     "tier": "optional",
     "emoji": "🛕",
     "coords": [
-      6.417,
-      81.333
+      6.41846,
+      81.33365
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Kataragama Temple, Sri Lanka",
     "why": [
       "Священный город трёх религий, вечерняя пуджа"
@@ -2822,7 +2822,7 @@
       6.8768,
       81.0608
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Nine Arch Bridge Ella, Sri Lanka",
     "why": [
       "Мост в джунглях с поездом",
@@ -2883,10 +2883,10 @@
     "tier": "top",
     "emoji": "🚞",
     "coords": [
-      6.9271,
-      80.8
+      6.87615,
+      81.04749
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Kandy to Ella train, Sri Lanka",
     "why": [
       "Самая красивая железная дорога: чайные холмы"
@@ -3086,10 +3086,10 @@
     "tier": "optional",
     "emoji": "🫖",
     "coords": [
-      6.79,
-      80.964
+      6.78066,
+      81.01551
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Lipton's Seat Haputale, Sri Lanka",
     "why": [
       "Вид на чайные холмы на рассвете"
@@ -3152,7 +3152,7 @@
       6.8096,
       80.4994
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Adam's Peak, Sri Lanka",
     "why": [
       "Ночной подъём к рассвету, 5500 ступеней"
@@ -3220,7 +3220,7 @@
       7.2936,
       80.6413
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Temple of the Sacred Tooth Relic Kandy, Sri Lanka",
     "why": [
       "Главная святыня страны, озеро",
@@ -3291,7 +3291,7 @@
       7.269,
       80.596
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Royal Botanical Gardens Peradeniya, Sri Lanka",
     "why": [
       "Огромный сад, летучие лисицы, орхидеи"
@@ -3351,7 +3351,7 @@
       7.957,
       80.7603
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Sigiriya Rock Fortress, Sri Lanka",
     "why": [
       "Крепость на скале, фрески, вид"
@@ -3420,7 +3420,7 @@
       7.966,
       80.76
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Pidurangala Rock, Sri Lanka",
     "why": [
       "Рассвет с видом на Сигирию, дешевле"
@@ -3489,7 +3489,7 @@
       7.8567,
       80.649
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Dambulla Cave Temple, Sri Lanka",
     "why": [
       "Пять пещер со статуями и росписями"
@@ -3609,10 +3609,10 @@
     "tier": "good",
     "emoji": "🏛️",
     "coords": [
-      7.9403,
-      81.0188
+      7.94876,
+      81.00249
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Polonnaruwa Ancient City, Sri Lanka",
     "why": [
       "Древняя столица, каменные Будды, на велосипеде"
@@ -3678,10 +3678,10 @@
     "tier": "optional",
     "emoji": "☸️",
     "coords": [
-      8.3114,
-      80.4037
+      8.35243,
+      80.39991
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Anuradhapura Sacred City, Sri Lanka",
     "why": [
       "Древнейшая столица, священное дерево Бодхи"
@@ -3747,10 +3747,10 @@
     "tier": "optional",
     "emoji": "🏙️",
     "coords": [
-      6.9271,
-      79.8612
+      6.92496,
+      79.84446
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Galle Face Green Colombo, Sri Lanka",
     "why": [
       "Galle Face на закате, рынок Петта, храм Гангарамая"
@@ -3876,7 +3876,7 @@
       8.721,
       81.205
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Pigeon Island National Park, Sri Lanka",
     "why": [
       "Рифовые акулы и черепахи"
@@ -3941,10 +3941,10 @@
     "tier": "optional",
     "emoji": "🏄",
     "coords": [
-      6.84,
-      81.836
+      6.84685,
+      81.8307
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Arugam Bay, Sri Lanka",
     "why": [
       "Сёрф-столица"
@@ -4007,8 +4007,8 @@
     "tier": "optional",
     "emoji": "🐆",
     "coords": [
-      8.456,
-      80.013
+      8.44965,
+      80.01673
     ],
     "coordsVerified": false,
     "gmapsQuery": "Wilpattu National Park, Sri Lanka",
@@ -4070,10 +4070,10 @@
     "tier": "optional",
     "emoji": "🐬",
     "coords": [
-      8.233,
-      79.759
+      8.23681,
+      79.76615
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Kalpitiya, Sri Lanka",
     "why": [
       "Стаи дельфинов-вертунов"
@@ -4138,10 +4138,10 @@
     "tier": "optional",
     "emoji": "🌶️",
     "coords": [
-      9.6615,
-      80.0255
+      9.66509,
+      80.0093
     ],
-    "coordsVerified": false,
+    "coordsVerified": true,
     "gmapsQuery": "Jaffna, Sri Lanka",
     "why": [
       "Тамильская культура, кухня"
