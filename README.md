@@ -82,8 +82,8 @@ git add data public && git commit -m "Фото и маршруты"
 
 ## Деплой (GitHub Pages)
 
-1. Settings → Pages → Source: **GitHub Actions**.
-2. Влить изменения в `main` — workflow `.github/workflows/deploy.yml` проверит данные, прогонит тесты, соберёт с `BASE_PATH=/<имя-репозитория>/` и опубликует.
+1. Settings → Pages → Source: **Deploy from a branch**, Branch: **gh-pages**, папка **/ (root)** → Save. Домен покупать не нужно — адрес на github.io бесплатный.
+2. Влить изменения в `main` — workflow `.github/workflows/deploy.yml` проверит данные, прогонит тесты, соберёт с `BASE_PATH=/<имя-репозитория>/` и выложит сборку в ветку `gh-pages`.
 3. Адрес: `https://<user>.github.io/<repo>/`. На телефоне: «Поделиться → На экран „Домой“» (iPhone) или «Установить приложение» (Android).
 
 Синк на Pages: добавьте в Settings → Secrets and variables → Actions → **Variables** переменные `VITE_SUPABASE_URL` и `VITE_SUPABASE_ANON_KEY` — workflow уже передаёт их в сборку (anon key публичный по своей природе, защита — RLS).
