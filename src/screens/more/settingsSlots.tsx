@@ -1,3 +1,4 @@
 import type { ComponentType } from 'react';
-/** Дополнительные секции настроек (синхронизация, экспорт, офлайн) — подключаются на следующих этапах. */
-export const settingsExtraSections: ComponentType[] = [];
+import { OfflineSection } from './OfflineSection';
+/** Дополнительные секции настроек. */
+export const settingsExtraSections: ComponentType[] = [OfflineSection];

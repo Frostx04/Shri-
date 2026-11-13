@@ -1,6 +1,7 @@
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import { CalendarHeart, Sun, Map, MapPin, Menu } from 'lucide-react';
 import { useEffect } from 'react';
+import { OfflineBanner } from './OfflineBanner';
 
 const tabs = [
   { to: '/', label: 'Календарь', icon: CalendarHeart, end: true },
@@ -17,6 +18,7 @@ export default function Layout() {
   }, [pathname]);
   return (
     <div className="mx-auto flex min-h-dvh max-w-xl flex-col">
+      <OfflineBanner />
       <main className="flex-1 pb-24">
         <Outlet />
       </main>
