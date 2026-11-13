@@ -33,6 +33,14 @@ jobs:
         run: npm run build
         env:
           BASE_PATH: /${{ github.event.repository.name }}/
+          VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ vars.VITE_SUPABASE_ANON_KEY }}
+      - name: Smoke tests (Playwright)
+        run: |
+          npx playwright install --with-deps chromium
+          npx vite build --base /Shri-/ --outDir dist-e2e
+          npx vite preview --outDir dist-e2e --port 4173 &
+          npx playwright test --trace off
       - uses: actions/upload-pages-artifact@v3
         if: github.ref == 'refs/heads/main'
         with:
